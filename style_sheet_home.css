@@ -131,7 +131,15 @@ text-decoration: none;
 }
 
 .resume{
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255)
+}
+
+.download {
+  background-color :none;
+  border: none;
+  color: rgb(255, 91, 41);
+  cursor: pointer;
+  font-size: 20px;
 }
 
   
