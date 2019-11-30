@@ -130,7 +130,9 @@ color: rgb(255, 165, 62);
 text-decoration: none;
 }
 
-
+.resume{
+  background-color: antiquewhite;
+}
 
   
   button {
