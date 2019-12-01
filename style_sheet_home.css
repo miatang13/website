@@ -33,6 +33,7 @@
     display:flex;
     padding:5%;
     justify-content: space-between;
+    align-content: stretch;
 }
 
 .container-1 div, .container-2 div, .container-3 div, .container-4 div{
