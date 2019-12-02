@@ -1,3 +1,8 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 .vertical-menu {
     width: 200px; /* Set a width if you like */
     font-size: 13px;
@@ -93,7 +98,7 @@ footer {
   }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(39, 39, 39);
     font-size: 40px;
     text-align: center;
     /* font-family: "Proxima Nova", sans serif; */
@@ -111,14 +116,14 @@ h2{
   }
   
 h3{
-    color: rgb(0, 0, 0);
+    color: rgb(39, 39, 39);
     font-size: 40px;
     font-family: "Helvetica", sans serif; 
 }
 
 h4{
     /* font-family: "Proxima Nova", sans serif;*/
-    font-size: 15px;
+    font-size: 18px;
     color:rgb(146, 146, 146)
 }
 
