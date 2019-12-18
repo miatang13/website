@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<head> <!--head contains meta information about the document-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My own CSS -->
+    <link rel="stylesheet" href="style_sheet_home.css">
+    <link rel="stylesheet" href="page_transition.css">
+    <title> Mia.T  </title>
+</head>
+
+
+<header>
+    <h1> MIA TANG </h1>
+</header>
+
+<body>
+    <div class = "container-1">
+        <div class = "box-1">
+                <div class="vertical-menu">
+                        <a href="projects.html" class = "active">Projects</a>
+                        <a href="visuals.html" >Visuals </a>
+                        <a href="analog.html" >Analog</a>
+                        <a href="index.html" >About</a>
+                </div>       
+        </div>
+
+        <div class = "box-3">
+            <div class = "transition_container">
+            <p> SkyGlow is a constellation recognition app written in Python. 
+                This project inspired me to take more computer science classes
+                and further explore into the field of Computational Design. </p>
+        </div>
+        </div>
+    </div>
+
+
+    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)"  >
+            <div class = "box-2">
+            </div>
+    
+            <div class = "box-3">
+                <h4> Programming | CMU School of Computer Science Summer 2019 </h4>
+                <p>  Duration: 1 Week <br>
+                    Skills: Python / MATLAB / Computational Design / Creative Programming </p> 
+            </div>
+    </div>
+
+    <div class = "container-1">
+        <div class = "box-2">
+            <h3 style = "font-size: 20px"> Part A / <br> Constellation Recognition</h3> 
+         </div>
+        <div class = "box-3">
+        </div>
+    </div>
+
+    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)" >
+        <div class = "box-2">
+            <video width="400" playsinline autoplay muted loop>
+                <source src="images/SkyGlow/process_input/datainput/clickstars_short.mov" type="video/mp4">
+            </video>
+        </div>
+        <div class = "box-3">
+           <p>Upload image to identify the constellation points you see. The input 
+               data will then be processed and stored.  </p>
+        </div>
+    </div>
+
+
+    <div class = "container-1">
+        <div class = "box-2" style = "text-align: center">
+            <img src = "images/SkyGlow/process_input/process_input.png"height = "50%" width = "100%">
+         </div>
+        <div class = "box-3">
+            <img src = "images/SkyGlow/process_input/interface.png"height = "100%" width = "100%">
+        </div>
+    </div>
+
+    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)" >
+        <div class = "box-2">
+            <video width="400" playsinline autoplay muted loop>
+                <source src="images/SkyGlow/process_input/datainput/getstar.mov" type="video/mp4">
+            </video>
+        </div>
+        <div class = "box-3">
+           <p> The input coordinates will be translated onto the x-axis for easier
+               comparison with the correct constellation coordinates. After rotation,
+               the furthest two points will be calculated and chosen as the anchors
+               to compare the remaining points. Scores will be calculated comparing 
+               the given input with the set of correct constellation coordinates 
+               for the highest scores as potential solutions.
+           </p>
+        </div>  
+    </div>
+
+    <div class = "container-1">
+        <div class = "box-2" style = "text-align: center">
+            <img src = "images/SkyGlow/process_input/constellation_points.png"height = "100%" width = "100%">
+            </div>
+        <div class = "box-3">
+            <p> The constellation coordinates were manually entered and recorded.</p>
+        </div>
+     </div>
+    
+
+    <div class = "container-1">
+            <div class = "box-2">
+            <h3 style = "font-size: 20px"> Part B / <br> Computational Graphics </h3> 
+            </div>
+            <div class = "box-3">
+            </div>
+    </div>
+
+    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)"  >
+            <div class = "box-2">
+                <video width="400" playsinline autoplay muted loop>
+                        <source src="images/SkyGlow/Graphics/bounce.mov" type="video/mp4">
+                </video>
+            </div>
+    
+            <div class = "box-3">
+                <p> Interactive bouncy ball built using <b>geometry</b>, <b>vectors</b>, and simple
+                    <b>kinematics</b>. <br><br>
+                    The hardest part of this was to consider some special cases 
+                    that will only occur in a computer simulated world where the 
+                    time is not continuous but discrete. This led me to realize 
+                    how sometimes some approximation should be creatively used in 
+                    order to avoid solving complicated equations and to improve performance.  </p>
+            </div>
+    </div>
+
+    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)"  >
+            <div class = "box-2">
+                <video width="400" playsinline autoplay muted loop>
+                        <source src="images/SkyGlow/Graphics/newEvaluate.mov" type="video/mp4" >
+                </video>
+            </div>
+    
+            <div class = "box-3">
+            </div>
+    </div>
+
+    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)"  >
+            <div class = "box-2">
+                <video width="400" playsinline autoplay muted loop>
+                        <source src="images/SkyGlow/Graphics/3Drotate.mov" type="video/mp4" >
+                </video>
+            </div>
+    
+            <div class = "box-3">
+            </div>
+    </div>
+
+    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)"  >
+            <div class = "box-2">
+                <video width="400" playsinline autoplay muted loop>
+                        <source src="images/SkyGlow/Graphics/rotateGraphic.mov" type="video/mp4" >
+                </video>
+            </div>
+    
+            <div class = "box-3">
+            </div>
+    </div>
+    
+    
+
+</body>
+
+<footer> Designed & Developed by Mia  </footer>
+
+</html>
