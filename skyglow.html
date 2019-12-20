@@ -55,7 +55,7 @@
             <b style = "color:rgb(0, 0, 0); font-size: 2rem">Big Ideas / </b><br><br>
             I've always been fascinated by the stars, the outer space. <br><br>
             Hence, I decided to create a constellation recognition software aimed 
-            to let everyone <b style = "color:rgb(105, 196, 219)">see the hidden constellation patterns in the ordinary
+            to let everyone <b style = "color:rgb(116, 215, 240)">see the hidden constellation patterns in the ordinary
             environments</b>, thus finding the hidden stars around them.  </h3>
         </div>
         <div class = "box-3">
@@ -87,14 +87,27 @@
         </div>
     
 
+    <!--TECH -->
+
     <div class = "container-1" style = "background-color: rgb(252, 252, 252)" >
         <div class = "box-2">
-            <h3 style = "font-size: 20px"> Part A / <br> Constellation Recognition</h3> 
+            <h3 style = "font-size: 2rem"> <b>How are the constellations recognized?</b> <br> </h3> 
          </div>
         <div class = "box-3">
         </div>
     </div>
 
+
+    <div class = "container-1">
+            <div class = "box-2" style = "text-align: center">
+                <img src = "images/SkyGlow/process_input/constellation_points.png"height = "100%" width = "100%">
+                </div>
+            <div class = "box-3">
+                <p> First, the correct constellation coordinates were manually entered and recorded
+                    because of the lack of open-source data on constellation coordinates.</p>
+            </div>
+         </div>
+        
     <div class = "container-1"  >
         <div class = "box-2">
             <video width="400" playsinline autoplay muted loop>
@@ -102,51 +115,43 @@
             </video>
         </div>
         <div class = "box-3">
-           <p>Upload image to identify the constellation points you see. The input 
-               data will then be processed and stored.  </p>
+           <p> Users would upload a single image to identify the constellation points they see. The input 
+               data will then be stored to be processed.  </p>
         </div>
-    </div>
-
-
-    <div class = "container-1">
-        <div class = "box-2" style = "text-align: center">
-            <img src = "images/SkyGlow/process_input/process_input.png"height = "50%" width = "100%">
-         </div>
-        <div class = "box-3">
-            <img src = "images/SkyGlow/process_input/interface.png"height = "100%" width = "100%">
-        </div>
-    </div>
-
-    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)" >
-        <div class = "box-2">
-            <video width="400" playsinline autoplay muted loop>
-                <source src="images/SkyGlow/process_input/datainput/getstar.mov" type="video/mp4">
-            </video>
-        </div>
-        <div class = "box-3">
-           <p> The input coordinates will be translated onto the x-axis for easier
-               comparison with the correct constellation coordinates. After rotation,
-               the furthest two points will be calculated and chosen as the anchors
-               to compare the remaining points. Scores will be calculated comparing 
-               the given input with the set of correct constellation coordinates 
-               for the highest scores as potential solutions.
-           </p>
-        </div>  
     </div>
 
     <div class = "container-1">
         <div class = "box-2" style = "text-align: center">
-            <img src = "images/SkyGlow/process_input/constellation_points.png"height = "100%" width = "100%">
+            <img src = "images/SkyGlow/process_input/process_input.png"height = "100%" width = "100%">
+            <p>Left: Processed Coordinates v.s. Right: Raw Input Coordinates</p>
             </div>
         <div class = "box-3">
-            <p> The constellation coordinates were manually entered and recorded.</p>
+            <p> The input coordinates will be translated onto the x-axis for easier
+                comparison with the correct constellation coordinates. After rotation,
+                the furthest two points will be calculated and chosen as the anchors
+                to compare the remaining points. 
+            </p>
         </div>
-     </div>
+    </div>    
+
+
+    <div class = "container-1">
+        <div class = "box-2" style = "text-align: center">
+            <img src = "images/SkyGlow/process_input/interface.png"height = "100%" width = "100%">
+        </div>
+        <div class = "box-3">
+            <p>Scores will be calculated comparing 
+                    the given input with the set of correct constellation coordinates 
+                    for the highest scores as potential solutions.</p>
+        </div>
+    </div>
     
+    <!--TECH END -->
+
 
     <div class = "container-1">
             <div class = "box-2">
-            <h3 style = "font-size: 20px"> Part B / <br> Computational Graphics </h3> 
+            <h3 style = "font-size: 2 rem"> Computational Graphics </h3> 
             </div>
             <div class = "box-3">
             </div>
