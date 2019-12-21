@@ -62,7 +62,6 @@
 p {
     font-family: "Helvetica", sans serif;
     font-size: 15px;
-    padding-top: 10px;
 	  font-weight: 300;
     line-height: 1.875;
     color:rgb(43, 43, 43);
@@ -186,4 +185,19 @@ text-decoration: none;
 
 .navigation a.active{
   color:grey;
+}
+
+pre, code {
+  font-family: monospace, monospace;
+  font-size:13px;
+  color:white;
+}
+pre {
+  overflow: auto;
+}
+pre > code {
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+  background-color: grey;
 }

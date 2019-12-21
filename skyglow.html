@@ -20,31 +20,31 @@
         <a href = "about.html" style = "padding:5px"> About Me</a>
     </div>
 
-    <div class = "container-1" >
-            <div class = "box-2">
-            </div>
-    
-            <div class = "box-3">
-                <h4> Programming | CMU School of Computer Science Summer 2019 </h4>
-                <p>  Duration: 1 Week <br>
-                    Skills: Python / MATLAB / Computational Design / Creative Programming </p> 
-                <p> SkyGlow is a constellation recognition app written in Python. 
-                        This project inspired me to take more computer science classes
-                        and further explore into the field of Computational Design. </p>
-            </div>
+<div class = "transition_container">
+
+    <div class = "container-1" style = "margin-right: 5%">
+        <div class = "box-1">
+            <h4> SkyGlow </h4>
+        </div>
+
+        <div class = "box-2">
+            <p> <b>SOLO Project</b> <br> 
+                <b>Skills:</b> Python / MATLAB / Computational Design  </p> 
+        </div>
+
+        <div class = "box-3">
+            <p> A constellation recognition app written in Python.</p>
+        </div>          
     </div>
+    
 
     <div class = "container-1" >
-        <div class = "box-2">
-            <h3 style = "font-size: 1.3rem; color: rgb(0, 0, 0)"> 
-            <b style = "color:rgb(0, 0, 0); font-size: 2rem">Big Ideas / </b><br><br>
-            I've always been fascinated by the stars, the outer space. <br><br>
+            <p style = "font-size: 1.3rem; color: rgb(0, 0, 0)"> 
+            <b style = "color:rgb(0, 0, 0); font-size: 2rem; line-height: 1;">Big Ideas / </b><br><br>
+            I've always been fascinated by the stars, the outer space. <br>
             Hence, I decided to create a constellation recognition software aimed 
-            to let everyone <b style = "color:rgb(116, 215, 240)">see the hidden constellation patterns in the ordinary
-            environments</b>, thus finding the hidden stars around them.  </h3>
-        </div>
-        <div class = "box-3">
-        </div>
+            to let everyone <b style = "color: rgb(0, 179, 202)">see the hidden constellation patterns in the ordinary
+            environments</b>, thus finding the hidden stars around them.  </p>
     </div>
 
     <div class = "container-1">
@@ -55,18 +55,53 @@
             <h4>Design Process 1 / Personas</h4>
             <p>I created personas to have a better idea of my target audience 
                and how I can design a program to inspire their curiosity and appreciation of the stars.
+               As a conclusion, I want to focus on educating basic astronomical knowledge with 
+               a heavy emphasis on motivating appreciation of stars.
             </p>
         </div>
     </div>
 
     <div class = "container-1">
+        <h4>Design Process 2 / <br> Story-Boarding </h4>
+        <p> Before diving into the technical implementation part, I visualized
+            what I want to achieve using illustrations and Photoshop.
+        </p>
+    </div>
+
+    <div class = "container-1">
+        <img src = "images/SkyGlow/design_process/idea/storyboard1.png"height = "100%" width = "100%">
+    </div>
+
+    <div class = "container-1">
+        <p> Users take a photo in their everyday environment to identify the constellation (star)
+                patterns they see, then the program will evaluate the given coordinates. </p>
+    </div>
+
+    <div class = "container-1">
+            <div class = "box-1">
+                <img src = "images/SkyGlow/design_process/idea/mock1.png"height = "100%" width = "100%">
+            </div>
+
             <div class = "box-2">
-                <img src = "images/SkyGlow/design_process/userflow.png"height = "100%" width = "100%">
+                <img src = "images/SkyGlow/design_process/idea/Untitled_Artwork 7.png"height = "100%" width = "100%">
+            </div>
+
+            <div class = "box-3">
+                <img src = "images/SkyGlow/design_process/idea/mock.png"height = "100%" width = "100%">
+            </div>
+        </div>
+
+    <img src = "images/SkyGlow/design_process/userflow.png"height = "80%" width = "80%" style = "margin-left: 10%">
+
+    <div class = "container-1">
+            <div class = "box-2">
+                
             </div>
             <div class = "box-3">
-                <h4>Design Process 2 / User Flow</h4>
-                <p> Due to my <b>1 week time constraint</b>, I had to settle with a rather 
-                    simple user flow that is short but still effective.
+                <h4>Design Process 3 / User Flow</h4>
+                <p> I wanted a rather simple user flow that is short but still effective.
+                    The app is targeted at learning and inspiring, hence it also
+                    motivates frequent usage by having the "constellation collection" storage feature.
                 </p>
             </div>
         </div>
@@ -74,12 +109,12 @@
 
     <!--TECH -->
 
-    <div class = "container-1" style = "background-color: rgb(252, 252, 252)" >
-        <div class = "box-2">
-            <h3 style = "font-size: 2rem"> <b>How are the constellations recognized?</b> <br> </h3> 
-         </div>
-        <div class = "box-3">
-        </div>
+    <div class = "container-1" >
+            <p style = "font-size: 1.3rem; color: rgb(0, 0, 0)"> 
+            <b style = "color:rgb(0, 0, 0); font-size: 2rem; line-height: 1;">
+            Algorithm / <br> How do I recognize constellation patterns without AI or ML? </b><br><br>
+            My first few ideas were all related to either Artificial Intelligence or Machine Learning, but I wanted to challenge myself and 
+            come up with an efficient <b style = "color: rgb(0, 179, 202)">Algorithm that recognizes constellation patterns by basic arithmetics</b>.</p>
     </div>
 
 
@@ -107,7 +142,7 @@
 
     <div class = "container-1">
         <div class = "box-2" style = "text-align: center">
-            <img src = "images/SkyGlow/process_input/process_input.png"height = "100%" width = "100%">
+            <img src = "images/SkyGlow/process_input/process_input.png"height = "50%" width = "100%">
             <p>Left: Processed Coordinates v.s. Right: Raw Input Coordinates</p>
             </div>
         <div class = "box-3">
@@ -116,8 +151,10 @@
                 the furthest two points will be calculated and chosen as the anchors
                 to compare the remaining points. 
             </p>
+            <img src = "images/SkyGlow/code.png" height = "30%">
         </div>
     </div>    
+
 
 
     <div class = "container-1">
@@ -133,31 +170,34 @@
 
     <!--TECH END -->
 
-
-    <div class = "container-1">
-            <div class = "box-2">
-            <h3 style = "font-size: 2 rem"> Computational Graphics </h3> 
-            </div>
-            <div class = "box-3">
-            </div>
+    <div class = "container-1" >
+            <p style = "font-size: 1.3rem; color: rgb(0, 0, 0)"> 
+            <b style = "color:rgb(0, 0, 0); font-size: 2rem; line-height: 1;">
+            Computational Graphics / </b><br><br>
+            Creating animations through code gives enourmous freedom, and I 
+            enjoyed creating animations that either represents <b style = "color: rgb(0, 179, 202)">real-world 
+            occurrences</b> or  allows <b style = "color: rgb(0, 179, 202)">perfect mechanical geometries</b> that we will 
+            never see in the world.</p>
     </div>
 
-    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)"  >
-            <div class = "box-2">
-                <video width="400" playsinline autoplay muted loop>
-                        <source src="images/SkyGlow/Graphics/bounce.mov" type="video/mp4">
-                </video>
-            </div>
+
+    <div class = "container-1">
+        <video width="80%" playsinline autoplay muted loop>
+                <source src="images/SkyGlow/Graphics/bounce.mov" type="video/mp4">
+        </video>
+    </div>
+
     
-            <div class = "box-3">
-                <p> Interactive bouncy ball built using <b>geometry</b>, <b>vectors</b>, and simple
-                    <b>kinematics</b>. <br><br>
-                    The hardest part of this was to consider some special cases 
-                    that will only occur in a computer simulated world where the 
-                    time is not continuous but discrete. This led me to realize 
-                    how sometimes some approximation should be creatively used in 
-                    order to avoid solving complicated equations and to improve performance.  </p>
-            </div>
+
+
+    <div class = "container-1"  style = "background-color: rgb(252, 252, 252)"  >
+        <p> Interactive bouncy ball built using <b>geometry</b>, <b>vectors</b>, and simple
+            <b>kinematics</b>. <br><br>
+            The hardest part of this was to consider some special cases 
+            that will only occur in a computer simulated world where the 
+            time is not continuous but discrete. This led me to realize 
+            how sometimes some approximation should be creatively used in 
+            order to avoid solving complicated equations and to improve performance.  </p>
     </div>
 
     <div class = "container-1"  style = "background-color: rgb(252, 252, 252)"  >
@@ -166,8 +206,7 @@
         </video>
     </div>
 
-    
-    
+</div>
 
 </body>
 
