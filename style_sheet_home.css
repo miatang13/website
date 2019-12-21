@@ -12,22 +12,22 @@
 	line-height: 1.875;
   }
   
-  .vertical-menu a {
-    /* background-color: #eee; /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 16px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
-  }
-  
-  /* .vertical-menu a:hover {
-   background-color: #ccc; /* Dark grey background on mouse-over 
-  }*/
-  
-  .vertical-menu a.active {
-    /* background-color: #4CAF50; Add a green color to the "active/current" link */
-    color: rgb(194, 194, 194);
-  }
+.vertical-menu a {
+  /* background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 16px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* .vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over 
+}*/
+
+.vertical-menu a.active {
+  /* background-color: #4CAF50; Add a green color to the "active/current" link */
+  color: rgb(194, 194, 194);
+}
 
 
 .imageContainer > img:hover {
@@ -39,6 +39,8 @@
     padding:5%;
     justify-content: space-between;
     align-content: stretch;
+    margin-left:4%;
+    margin-right:4%;
 }
 
 .container-1 div, .container-2 div, .container-3 div, .container-4 div{
@@ -46,7 +48,7 @@
 }
 
 .box-1{
-    flex:.5;
+    flex:1;
 }
 
 .box-2{
@@ -121,16 +123,16 @@ h3{
 
 h4{
     /* font-family: "Proxima Nova", sans serif;*/
-    font-size: 18px;
+    font-size: 22px;
     color:rgb(146, 146, 146)
 }
 
 a{
-color: rgb(151, 151, 151);
+color: rgb(0, 179, 202);
 }
 
 a:hover {
-color: rgb(255, 165, 62);
+color: rgb(134, 134, 134);
 text-decoration: none;
 }
 
@@ -158,11 +160,30 @@ text-decoration: none;
     transition-duration: 500ms;
     transition-property: background;
     border-radius: 3px;
-    padding: 12px;
-    font-family: 'Courier New';font-size: 20px;
   }
 
-  button:hover{
-    background: rgb(255, 102, 14);
-    color: rgb(255, 255, 255)
+button:hover{
+  background: rgb(255, 102, 14);
+  color: rgb(255, 255, 255)
+}
+
+li {
+  display: inline;
+}
+
+a.navigation{
+  font-family: "Helvetica", sans serif;
+  font-size: 15px;
+  padding-top: 10px;
+  font-weight: 300;
+  line-height: 1.875;
   }
+
+a.navigation:hover {
+color: rgb(72, 175, 179);
+text-decoration: none;
+}
+
+.navigation a.active{
+  color:grey;
+}
