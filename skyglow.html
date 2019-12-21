@@ -100,56 +100,215 @@
             come up with an efficient <b style = "color: rgb(0, 179, 202)">Algorithm that recognizes constellation patterns by basic arithmetics</b>.</p>
     </div>
 
-    <img src = "images/SkyGlow/design_process/explain.png"height = "80%" width = "80%"style = "margin-left: 10%">
-
+    <img src = "images/SkyGlow/design_process/explainall.png"height = "80%" width = "80%"style = "margin-left: 10%">
 
     <div class = "container-1">
-            <div class = "box-2" style = "text-align: center">
-                <img src = "images/SkyGlow/process_input/constellation_points.png"height = "100%" width = "100%">
-                </div>
-            <div class = "box-3">
-                <p> First, the correct constellation coordinates were manually entered and recorded
-                    because of the lack of open-source data on constellation coordinates.</p>
-            </div>
-         </div>
-        
-    <div class = "container-1"  >
         <div class = "box-2">
             <video width="400" playsinline autoplay muted loop>
                 <source src="images/SkyGlow/process_input/datainput/clickstars_short.mov" type="video/mp4">
             </video>
         </div>
         <div class = "box-3">
-           <p> Users would upload a single image to identify the constellation points they see. The input 
-               data will then be stored to be processed.  </p>
+            <h4>Step 1 / User Input </h4>
+            <p> Users would upload a single image to identify the constellation points they see. The input 
+                data will then be stored to be processed.  </p>
         </div>
     </div>
 
+    <div class = "container-1"  style = "padding:0">
+        <div class = "box-2">
+            <img src = "images/SkyGlow/design_process/step2.png"height = "93%" width = "100%">
+        </div>
+        <div class = "box-3">
+            <img src = "images/SkyGlow/design_process/step3.png"height = "100%" width = "100%">
+        </div>
+    </div>
+
+    <div class = "container-1" style = "padding-bottom:0">
+        <div class = "box-3">
+                <h4>Step 2 & 3 / Determine Anchors </h4> 
+                <p>two input coordinates are chosen to be anchors if they are the furthest 
+                    points apart in the set of given user input. Then, the entire set of 
+                    points will be translated horizontally and vertically with Anchor 1, which 
+                    will be translated to the origin, (0,0).        </p>
+        </div>
+    </div>
+
+    <div class = "container-1" style = "padding:0; margin-left:9%; margin-right:10%">
+        <div class = "box-2">
+    <pre><code>
+            import math
+            import numpy as np
+            import matplotlib.pyplot as plt
+            import copy
+
+            def distance(x1, y1, x2, y2):
+                return math.sqrt( (x2 - x1)**2 + (y2 - y1)**2 )
+            
+            def coordToPolar(x, y):
+                r = distance(x, y, 0, 0)
+                theta = np.arctan2([y], [x])[0]
+                return r, theta
+            
+            def polarToCoord(r, theta):
+                x = r * np.cos(theta)
+                y = r * np.sin(theta)
+                return x, y
+            </code></pre>
+
+        </div>
+        <div class = "box-3">
+            <pre><code>
+            #Input: data as a 1D list of coordinates (tuples)
+            #Return: the most distant two points, or None otherwise
+            def comparePoints(points):
+                if points == [] or len(points) == 1:
+                    return None  
+                #the farthest distance between one point and rest
+                longestDistance = -1 
+                farthestPoint1 = ()
+                farthestPoint2 = ()
+                for i in range(len(points)-1): 
+                    x1 = points[i][0]
+                    y1 = points[i][1]   
+                    for j in range(i + 1, len(points)):
+                        x2 = points[j][0]
+                        y2 = points[j][1]          
+                        curDistance = distance(x1, y1, x2, y2)
+                        if curDistance > longestDistance:
+                            longestDistance = curDistance
+                            farthestPoint1 = (x1, y1)
+                            farthestPoint2 = (x2, y2)
+                return (farthestPoint1, farthestPoint2)
+            </code></pre>
+        </div>
+    </div>
+
+    <div class = "container-1"  style = "padding:0">
+            <div class = "box-2">
+                <img src = "images/SkyGlow/design_process/step4.png"height = "100%" width = "100%">
+            </div>
+            <div class = "box-3">
+                <img src = "images/SkyGlow/design_process/step5.png"height = "97%" width = "100%">
+            </div>
+    </div>
+
+
+    <div class = "container-1" style = "padding-bottom:0">
+            <div class = "box-3">
+                    <h4>Step 4 & 5 / Rotate Points </h4> 
+                    <p> The delta theta &#x3B8; is calculated by the &#x3B8; formed
+                        by rotating Anchor 2 onto the horizontal x-axis. Then, the rotation
+                        with the same &#x3B8; will be applied to each and every coordinate. </p>
+            </div>
+    </div>
+
+    <div class = "container-1" style = "padding:0; margin-left:9%; margin-right:10%">
+            <div class = "box-2">
+        <pre><code>
+        #This function outputs the shifted points with one anchor on (0, 0)
+        #input: anchor(tuple), the other farthest point, rest of the points
+        #output: anchor, farCord, remainingPoints
+        def centerPoints(anchor, farCord, remainingPoints):
+            offsetX = anchor[0] - 0
+            offsetY = anchor[1] - 0
+            shiftedAnchor = (anchor[0] - offsetX, anchor[1] - offsetY)
+            shiftedFarCord = (farCord[0] - offsetX, farCord[1] - offsetY)
+            newRemainPoints = []
+            for i in range(len(remainingPoints)):
+                theX = remainingPoints[i][0]
+                theY = remainingPoints[i][1]
+                newRemainPoints.append((theX - offsetX, theY - offsetY))
+            return (shiftedAnchor, shiftedFarCord, newRemainPoints)
+
+        def rotateRemain(newRemainPoints, shiftTheta):
+            rotatedList = []
+            for i in range(len(newRemainPoints)):
+                r, theta = coordToPolar(newRemainPoints[i][0], newRemainPoints[i][1])
+                newTheta = theta - shiftTheta
+                newX, newY = polarToCoord(r, newTheta)
+                rotatedList.append((newX, newY))
+            return rotatedList
+                </code></pre>
+    
+            </div>
+            <div class = "box-3">
+                <pre><code>
+        def rotateFarCord(shiftedFarCord, shiftTheta):
+            r, theta = coordToPolar(shiftedFarCord[0], shiftedFarCord[1])
+            newTheta = theta - shiftTheta
+            newX, newY = polarToCoord(r, newTheta)
+            rotatedFarCord = (newX, newY)
+        return rotatedFarCord
+        
+        #Input: Anchored coordinates 
+        #Return: Rotate coordinates
+        def rotateFlat(shiftedAnchor, shiftedFarCord, newRemainPoints):
+            farX = shiftedFarCord[0]
+            farY = shiftedFarCord[1]
+            shiftTheta = math.atan(farY / farX)
+            rotatedFarCord = rotateFarCord(shiftedFarCord, shiftTheta)
+            rotatedRemain = rotateRemain(newRemainPoints, shiftTheta)
+        return (shiftedAnchor, rotatedFarCord, rotatedRemain)
+
+        #Return: scaled user input coordinates
+        def scale(starFarthest, shiftedFarCord, newRemainPoints):
+        ratio  = starFarthest / shiftedFarCord[0]
+        scaledPoints = []
+        finalFarCord = starFarthest
+        for i in range(len(newRemainPoints)): #all the other points
+            newX = newRemainPoints[i][0] * ratio
+            newY = newRemainPoints[i][1] * ratio
+            scaledPoints.append((newX, newY))
+        return finalFarCord, scaledPoints
+                </code></pre>
+            </div>
+        </div>
+
     <div class = "container-1">
-        <div class = "box-2" style = "text-align: center">
-            <img src = "images/SkyGlow/process_input/process_input.png"height = "50%" width = "100%">
+        <div class = "box-3" style = "text-align: center">
+            <img src = "images/SkyGlow/process_input/process_input.png"height = "100%" width = "50%">
             <p>Left: Processed Coordinates v.s. Right: Raw Input Coordinates</p>
             </div>
-        <div class = "box-3">
-            <p> The input coordinates will be translated onto the x-axis for easier
-                comparison with the correct constellation coordinates. After rotation,
-                the furthest two points will be calculated and chosen as the anchors
-                to compare the remaining points. 
-            </p>
-            <img src = "images/SkyGlow/code.png" height = "30%">
-        </div>
     </div>    
 
 
 
     <div class = "container-1">
         <div class = "box-2" style = "text-align: center">
-            <img src = "images/SkyGlow/process_input/interface.png"height = "100%" width = "100%">
+            <img src = "images/SkyGlow/process_input/interface.png"height = "73%" width = "100%">
         </div>
         <div class = "box-3">
+            <h4>Step 6 / Evaluate Input  </h4> 
             <p>Scores will be calculated comparing 
                     the given input with the set of correct constellation coordinates 
                     for the highest scores as potential solutions.</p>
+            <pre><code>
+            def totalDifference (drawnPoints, constellationPoints):
+            differences = abs(len(drawnPoints) - len(constellationPoints)) * 5
+            starPoints = copy.deepcopy(constellationPoints)
+            for i in range(len(drawnPoints) -1 ):
+                drawnX = drawnPoints[i][0]
+                drawnY = drawnPoints[i][1]
+                closestDist = 100000
+                closestPoint = 0
+                for j in range(len(starPoints) - 1): #find the closest one
+                    pointX = starPoints[j][0]
+                    pointY = starPoints[j][1]
+                    curDistance = distance(drawnX, drawnY, pointX, pointY)
+                    #print(curDistance)
+                    if curDistance < closestDist:
+                        closestDist = curDistance
+                        closestPoint = j #index int
+                        theX = pointX
+                        theY = pointY
+                        #print(type(closestPoint))
+                differences += (distance(drawnX, drawnY, theX, theY))
+                #print(closestPoint)
+                if len(starPoints) >= 1:
+                    starPoints.pop(closestPoint) 
+            return differences
+            </code></pre>
         </div>
     </div>
 
