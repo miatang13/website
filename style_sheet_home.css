@@ -218,4 +218,10 @@ pre code {
   #index_projects{
     font-size:20px;
   }
+  .container-1{
+    padding:3%;
+  }
+  .container-1 div, .container-2 div, .container-3 div, .container-4 div{
+    padding:8px;
+  }
 }
