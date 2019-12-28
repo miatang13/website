@@ -3,33 +3,6 @@
   zoom: 1.0 ;
 }
 
-.vertical-menu {
-    width: 200px; /* Set a width if you like */
-    font-size: 13px;
-    padding-top: 10px;
-    font-size: 1.2rem;
-	font-weight: 300;
-	line-height: 1.875;
-  }
-  
-.vertical-menu a {
-  /* background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 16px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-}
-
-/* .vertical-menu a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over 
-}*/
-
-.vertical-menu a.active {
-  /* background-color: #4CAF50; Add a green color to the "active/current" link */
-  color: rgb(194, 194, 194);
-}
-
-
 .imageContainer > img:hover {
     transition-duration: 00ms;
 }
@@ -39,8 +12,8 @@
     padding:5%;
     justify-content: space-between;
     align-content: stretch;
-    margin-left:4%;
-    margin-right:4%;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 .container-1 div, .container-2 div, .container-3 div, .container-4 div{
@@ -106,7 +79,6 @@ h1 {
 
 h2{
     font-size: 15px;
-    padding: 10px;
     color: rgb(255, 102, 14);
     letter-spacing: 5px;
     line-height: 150%;
@@ -147,7 +119,6 @@ text-decoration: none;
   font-size: 20px;
 }
 
-  
   button {
     padding: 5px;
     position:relative;
@@ -188,7 +159,6 @@ text-decoration: none;
 }
 
 /*
-
 pre, code {
   font-family: monospace, monospace;
   font-size:13px;
@@ -210,7 +180,42 @@ pre code {
   background-color: #eee;
   border: 1.5px solid #999;
   display: block;
-  padding: 3px;
+  padding: 1rem;
   font-size:10px;
   font-family: monospace, monospace;
+  overflow:auto;
+  word-wrap:normal;
+}
+
+.navigation{
+  margin-left:75%; 
+  margin-top:5%;
+  font-family: Helvetica, sans serif;
+  font-size:15
+}
+
+#index_text{
+  font-size: 45px;
+  line-height: 1.2; 
+  color:rgb(99,99,99);
+}
+
+@media screen and (max-width: 575px) {
+  .container-1 {
+    flex-direction: column;
+  }
+  .navigation {
+    margin-left:50%; 
+    margin-top:5%;
+  }
+  #index_text{
+    font-size:28px;
+    line-height:1.5;
+  }
+  #index_interest{
+    font-size:25px;
+  }
+  #index_projects{
+    font-size:20px;
+  }
 }
