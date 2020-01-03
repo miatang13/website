@@ -162,7 +162,7 @@
         </div>
     </div>
 
-    <div class = "container-1" style = "padding:0; margin-left:9%; margin-right:10%">
+    <div class = "container-1">
         <div class = "box-2">
     <pre><code>
             import math
@@ -228,7 +228,7 @@
             </div>
     </div>
 
-    <div class = "container-1" style = "padding:0; margin-left:9%; margin-right:10%">
+    <div class = "container-1">
             <div class = "box-2">
         <pre><code>
         #This function outputs the shifted points with one anchor on (0, 0)
@@ -249,14 +249,14 @@
         def rotateRemain(newRemainPoints, shiftTheta):
             rotatedList = []
             for i in range(len(newRemainPoints)):
-                r, theta = coordToPolar(newRemainPoints[i][0], newRemainPoints[i][1])
-                newTheta = theta - shiftTheta
-                newX, newY = polarToCoord(r, newTheta)
-                rotatedList.append((newX, newY))
-            return rotatedList
+            r, theta = coordToPolar(newRemainPoints[i][0], newRemainPoints[i][1])
+            newTheta = theta - shiftTheta
+            newX, newY = polarToCoord(r, newTheta)
+            rotatedList.append((newX, newY))
+        return rotatedList
                 </code></pre>
-    
             </div>
+
             <div class = "box-3">
                 <pre><code>
         def rotateFarCord(shiftedFarCord, shiftTheta):
