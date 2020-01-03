@@ -168,7 +168,7 @@ h4{
     font-weight: bold; 
     letter-spacing:0px; 
     line-height: 1;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Lato', sans-serif;
     /*font-family: "Helvetica", sans serif;*/
 }
 
@@ -181,7 +181,7 @@ h4{
   color:rgb(146, 146, 146);
   font-weight: bold; 
   letter-spacing:-1px; 
-  line-height: 1;
+  line-height: 1.2;
   font-family: 'Lato', sans-serif;
   color: #00B4F1;
   letter-spacing: .05rem;
@@ -205,6 +205,16 @@ h4{
 
 #project_title_lighter{
   font-weight:normal;
+  font-size:15px;
+  color:gray;
+  line-height:1.2;
+}
+
+#project_paragraph_fewlines{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-variant: normal;
+  line-height:1.2;
+  font-size:20px;
 }
 
 a{
@@ -339,7 +349,7 @@ pre code {
   }
 
   h3{
-    font-size: 25px;
+    font-size: 20px;
   }
 
   h4{
