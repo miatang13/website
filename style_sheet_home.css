@@ -190,7 +190,6 @@ h4{
 #index_project-heading{
   font-weight: normal;
   font-family: 'Lato', sans-serif;
-  font-weight:100;
   letter-spacing: .01rem;
 }
 
@@ -198,7 +197,6 @@ h4{
 #index_text{
   font-size: 30px;
   font-family: 'Lato', sans-serif;
-  font-weight: 200;
   color: rgb(102, 102, 102);
   font-variant: normal;
   line-height:1.2;
