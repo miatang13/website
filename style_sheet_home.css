@@ -105,7 +105,7 @@ div.foo{
 }
 
 p {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 	  font-weight: 300;
     line-height: 1.875;
@@ -255,10 +255,6 @@ text-decoration: none;
 button:hover{
   background: rgb(255, 102, 14);
   color: rgb(255, 255, 255)
-}
-
-li {
-  display: inline;
 }
 
 a.navigation{
