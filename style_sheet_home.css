@@ -18,7 +18,7 @@ div.foo{
 .letter{
   display: inline-block;
   font-weight: 900;
-  font-size: 5em;
+  font-size: 4em;
   position: relative;
   color: #00B4F1;
   transform-style: preserve-3d;
@@ -188,7 +188,7 @@ h4{
 }
 
 #index_project-heading{
-  font-weight: normal;
+  font-weight: thin;
   font-family: 'Lato', sans-serif;
   letter-spacing: .01rem;
 }
