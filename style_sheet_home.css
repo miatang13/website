@@ -335,7 +335,8 @@ pre code {
   }
 
   footer{
-    padding-block: 15px;
+    padding-top: 20%;
+    padding-bottom:5%;
   }
 
 }
