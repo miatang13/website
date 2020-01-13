@@ -243,6 +243,11 @@ text-decoration: none;
   font-size:20px;
 }
 
+.navigation{
+  margin-left:14%; 
+  margin-top:5%;
+  font-size:15px;
+}
 
 #index_projects{
   font-family: 'Open Sans', sans-serif;
@@ -277,11 +282,6 @@ pre code {
   word-wrap:normal;
 }
 
-.navigation{
-  margin-left:14%; 
-  margin-top:5%;
-  font-size:15px;
-}
 
 
 @media screen and (max-width: 575px) {
@@ -289,8 +289,8 @@ pre code {
     flex-direction: column;
   }
   .navigation {
-    margin-left:50%; 
-    margin-top:5%;
+    margin-left:12%;
+    margin-top:8%;
   }
   #index_text{
     font-size:25px;
