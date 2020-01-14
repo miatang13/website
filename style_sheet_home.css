@@ -107,9 +107,9 @@ div.foo{
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-	  font-weight: 300;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-size: 18px;
     line-height: 1.875;
     color: rgb(102, 102, 102);
 }
@@ -120,7 +120,7 @@ header{
     padding: 12px;
     letter-spacing: 10px;
     color: rgb(102, 102, 102);
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', 'Roboto', sans-serif;
     font-size: 13px;
     padding-top: 10px;
 	  font-weight: 300;
@@ -136,7 +136,7 @@ footer {
     bottom: 50px;
     width: 100%;
     color: gray;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Roboto',sans-serif;
     font-size: 13px;
     padding-top: 10%;
 	  font-weight: 300;
@@ -146,37 +146,35 @@ footer {
 h1 {
   color: rgb(102, 102, 102);
     font-size: 25px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Roboto',sans-serif;
 }
 
 
 h2{
     font-size: 2rem;
     color: rgb(102, 102, 102);
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Roboto',sans-serif;
+    line-height:1.5em;
   }
 
 /* 2D graphics header */
 h3{
   color: rgb(102, 102, 102);
     font-size: 40px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Roboto',sans-serif;
 }
 
 /* Section Header */
 h4{
     font-size: 30px;
     color: rgb(102, 102, 102);
-    font-weight: bold; 
+    font-weight: bold;
     letter-spacing:0px; 
     line-height: 1.2;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Roboto',sans-serif;
     /*font-family: "Helvetica", sans serif;*/
 }
 
-#big_ideas{
-
-}
 
 #big_titles{
   font-size: 50px;
@@ -184,7 +182,7 @@ h4{
   font-weight: bold; 
   letter-spacing:-1px; 
   line-height: 1.2;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Roboto',sans-serif;
   color: #00B4F1;
   letter-spacing: .05rem;
 }
@@ -192,7 +190,7 @@ h4{
 
 a{
   color: #00B4F1;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto',sans-serif;
   font-size:20px;
 }
 
@@ -240,7 +238,7 @@ text-decoration: none;
 }
 
 #navigation_text{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Roboto',sans-serif;
   font-size:20px;
 }
 
@@ -251,7 +249,7 @@ text-decoration: none;
 }
 
 #index_projects{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans','Roboto', sans-serif;
   font-size:30px;
 }
 
@@ -264,7 +262,7 @@ text-decoration: none;
 }
 
 #project_title_lighter{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Roboto',sans-serif;
   font-weight:normal;
   font-size:15px;
   color:gray;
