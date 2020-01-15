@@ -152,7 +152,7 @@ h1 {
 
 h2{
     font-size: 2rem;
-    color: rgb(102, 102, 102);
+    color: rgb(43, 43, 43);
     font-family: 'Open Sans', 'Roboto',sans-serif;
     line-height:1.5em;
   }
@@ -314,6 +314,10 @@ pre code {
 
   #big_titles{
     font-size:30px;
+  }
+
+  h2{
+    font-size:20px;
   }
 
   h3{
