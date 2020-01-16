@@ -80,7 +80,7 @@ div.foo{
     transition-duration: 00ms;
 }
 
-.container-1, .container-2, .container-3, .container-4{
+.container-1{
     display:flex;
     padding:5%;
     justify-content: space-between;
@@ -90,7 +90,7 @@ div.foo{
     padding-bottom: 0%;
 }
 
-.container-1 div, .container-2 div, .container-3 div, .container-4 div{
+.container-1 div{
     padding:15px;
 }
 
@@ -271,14 +271,15 @@ text-decoration: none;
 
 
 pre code {
-  background-color: #eee;
-  border: 1.5px solid #999;
+  background-color: rgb(224, 224, 224);
+  border:2px solid #00B4F1;;
   display: block;
-  padding: 1rem;
   font-size:10px;
+  color:rgb(124, 124, 124);
+  line-height:1.2em;
   font-family: monospace, monospace;
   overflow:auto;
-  word-wrap:normal;
+  word-wrap:break-word;
 }
 
 
