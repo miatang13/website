@@ -44,8 +44,13 @@
         </div>
     </div>
         
-    </div>
+
     
+    <div class = "container-1" >
+        <div class = "container-1">
+            <img src = "images/SkyGlow/explain/2parts.png" width = "100%">
+        </div>
+    </div>
 
     <div class = "container-1" >
         <div class = "box-3">
@@ -64,12 +69,12 @@
             <img src = "images/SkyGlow/design_process/skyglow_stakeholder-01.png"width = "100%">
         </div>
     </div>
-    
+    </div>  <!--Transition Container-->
     <div class = "container-1">
         <div class = "box-2">
             <h4>Design Process / Personas</h4>
         </div>
-        <div class = "box-3">
+        <div class = "box-3" style = "text-anchor: middle; margin:auto;">
             <p>I want to focus on educating basic astronomical knowledge with 
                a heavy emphasis on motivating appreciation of stars.
             </p>
@@ -127,34 +132,38 @@
     <div class = "container-1">
         <div class = "box-3">
             <img src = "images/SkyGlow/design_process/explainall.png" width = "100%">
+            <p>There are 5 steps at the core of my detection algorithm from users 
+                first enter data to how the final constellation is being identified. </p>
         </div>
     </div>
-    
 
     <div class = "container-1">
         <div class = "box-2">
-            <video width="100%" playsinline autoplay muted loop>
-                <source src="images/SkyGlow/process_input/datainput/clickstars_short.mov" type="video/mp4">
+            <video width="90%" playsinline autoplay muted loop>
+                <source src="images/SkyGlow/demo_vids/start.mov" type="video/mp4">
             </video>
         </div>
-        <div class = "box-3">
+        <div class = "box-3" style = "text-anchor: middle; margin:auto;">
             <h4>Step 1 / User Input </h4>
-            <p> Users would upload a single image to identify the constellation points they see. The input 
+            <h4 id = "project_title_lighter"> <br>Learn & See </h4>
+            <p> <br>
+                After entering the app, users can first learn about constellations, then 
+                upload a single image to identify the constellation points they see. The input 
                 data will then be stored to be processed.  </p>
         </div>
     </div>
 
 
     <div class = "container-1">
-            <div class = "box-3">
-                <img src = "images/SkyGlow/design_process/step2&3.png" width = "100%">
-            </div>
+        <div class = "box-3">
+            <img src = "images/SkyGlow/design_process/step2&3.png" width = "100%">
+        </div>
     </div>
 
     <div class = "container-1" style = "padding-bottom:0">
         <div class = "box-3">
                 <h4>Step 2 & 3 / Determine Anchors </h4> 
-                <p>two input coordinates are chosen to be anchors if they are the furthest 
+                <p><br>Two input coordinates are chosen to be anchors if they are the furthest 
                     points apart in the set of given user input. Then, the entire set of 
                     points will be translated horizontally and vertically with Anchor 1, which 
                     will be translated to the origin, (0,0).        </p>
@@ -221,7 +230,7 @@
     <div class = "container-1" style = "padding-bottom:0">
         <div class = "box-3">
             <h4>Step 4 & 5 / Rotate Points </h4> 
-            <p> The delta theta &#x3B8; is calculated by the &#x3B8; formed
+            <p> <br>The delta theta &#x3B8; is calculated by the &#x3B8; formed
                 by rotating Anchor 2 onto the horizontal x-axis. Then, the rotation
                 with the same &#x3B8; will be applied to each and every coordinate. </p>
         </div>
@@ -291,23 +300,19 @@
         </div>
 
     <div class = "container-1">
-        <div class = "box-3" style = "text-align: center">
+        <div class = "box-2">
             <img src = "images/SkyGlow/process_input/process_input.png" width = "100%">
             <p>Left: Processed Coordinates v.s. Right: Raw Input Coordinates</p>
-            </div>
-    </div>    
-
-
-
-    <div class = "container-1">
-        <div class = "box-2" style = "text-align: center">
-            <img src = "images/SkyGlow/process_input/interface.png" width = "100%">
         </div>
-        <div class = "box-3">
+        <div class = "box-3"style = "text-anchor: middle; margin:auto;">
             <h4>Step 6 / Evaluate Input  </h4> 
-            <p>Scores will be calculated comparing 
+            <p><br>Scores will be calculated comparing 
                     the given input with the set of correct constellation coordinates 
                     for the highest scores as potential solutions.</p>
+        </div>
+    </div>    
+
+            <!--
             <pre><code>
             def totalDifference (drawnPoints, constellationPoints):
             differences = abs(len(drawnPoints) - len(constellationPoints)) * 5
@@ -333,7 +338,21 @@
                 if len(starPoints) >= 1:
                     starPoints.pop(closestPoint) 
             return differences
-            </code></pre>
+            </code></pre>-->
+
+    <div class = "container-1">
+        <div class = "box-2">
+            <video width="90%" playsinline autoplay muted loop>
+                <source src="images/SkyGlow/demo_vids/get_star.mov" type="video/mp4">
+            </video>
+        </div>
+        <div class = "box-3" style = "text-anchor: middle; margin:auto;">
+            <h4>Get the Star</h4>
+            <p> <br>After the input data has been processed in the back, users will be 
+                given 3 potential constellation as possible right answers. If their 
+                desired constellation is not one of the three, they can redo the 
+                process from the beginning. 
+            </p>
         </div>
     </div>
 
