@@ -1,4 +1,8 @@
 @import "reset.css";
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
 
 @font-face {
     font-family: 'voyageregular';
@@ -17,9 +21,19 @@ html * {
 
 main {
     margin: 5% auto;
+    padding: 5%;
 }
 
 h1 {
     color: white;
     font-size:7em;
+    word-wrap: break-word;
+}
+
+
+@media screen and (max-width: 575px) {
+    h1{
+        font-size:4em;
+    }
+
 }
