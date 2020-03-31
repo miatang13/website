@@ -1,0 +1,25 @@
+@import "reset.css";
+
+@font-face {
+    font-family: 'voyageregular';
+    src: url('voyage-regular-webfont.woff2') format('woff2'),
+         url('voyage-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html * {
+    background: black;
+    font-family: 'voyageregular';
+}
+
+main {
+    margin: 5% auto;
+}
+
+h1 {
+    color: white;
+    font-size:7em;
+}
