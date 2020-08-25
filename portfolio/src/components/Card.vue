@@ -10,7 +10,13 @@
         </div>
 
         <div v-else-if='is_BC_vid'>
-            <iframe src="https://player.vimeo.com/video/419170346" width="900" height="500" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+            <div class="resp-container">
+                    <iframe src="https://player.vimeo.com/video/419170346" 
+                            frameborder="0" 
+                            allow="fullscreen" 
+                            class="resp-iframe"
+                            allowfullscreen></iframe>
+            </div>
         </div>
 
         <div v-else class = "img-wrapper">
@@ -168,4 +174,18 @@ export default {
     font-size: 1.2em;
 }
 
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 </style>

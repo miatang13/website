@@ -7,18 +7,18 @@
             </h1>
             <h1 class = "Bold-Text"> 
                   Studies: <br>
-                  <a href = "https://design.cmu.edu/">-></a> Communications  Design  <br>            
-                  <a href = "https://www.cmu.edu/dietrich/philosophy/undergraduate/logic-and-computation/index.html"> -> </a>
+                  <a href = "https://design.cmu.edu/">></a> Communications  Design  <br>            
+                  <a href = "https://www.cmu.edu/dietrich/philosophy/undergraduate/logic-and-computation/index.html"> > </a>
                   Logic & Computation  <br>
-                  <a href = "https://www.cs.cmu.edu/">-> </a>  Computer Science (minor)  
+                  <a href = "https://www.cs.cmu.edu/">> </a>  Computer Science (minor)  
             </h1>
           
 
             <h1 class = "Bold-Text"> 
                   Interest: <br>
-                  -> Interaction Design <br>
-                  -> Creative Prototyping <br>
-                  -> UX / Front-End Engineering
+                  > Interaction Design <br>
+                  > Creative Prototyping <br>
+                  > UX / Front-End Engineering
                   </h1>
                     <div class="about-card1">
                   <div class = 'email-wrapper'>

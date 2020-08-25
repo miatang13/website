@@ -3,7 +3,9 @@
  
 
     <div class = "header-container"> 
-      <h1> Mia Tang </h1>
+      <div class = "name-container">
+          <h1> Mia Tang </h1>
+      </div>
 
       <nav class="breadcrumb has-arrow-separator is-large" aria-label="breadcrumbs">
         <ul>
@@ -145,6 +147,10 @@ section {
 
 .Bold-Text{
   padding-bottom: 1em;
+}
+
+.name-container{
+  padding-bottom: .3em;
 }
 
 .header-container{

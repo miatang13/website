@@ -2,7 +2,7 @@
   <div class="Work">
 
       <div class = "columns is-multiline ">
-        <div class = "column is-7">
+        <div class = "column is-half">
               <workCard :imgsrc = this.Iris.imgsrc 
                         :title= this.Iris.title 
                         :subtitle = this.Iris.subtitle
@@ -21,11 +21,13 @@
                         />
         </div>
 
+<!--
         <div class = "column">
           <img src="https://img.icons8.com/nolan/64/gears.png"/>
         </div>
+-->
 
-        <div class = "column is-offset-11"
+        <div class = "column is-full"
              id = "SGAnchor"
              ref = "SGAnchor">
                       <img src="https://img.icons8.com/nolan/64/module.png"/>
@@ -81,8 +83,11 @@
                     
         </div>
 
-        <div v-if=!this.PosterIsOpen class = "column is-three-fifths is-offset-one-fifth">
-             <workCard  :imgsrc = this.BC_Poster.imgsrc 
+        <div  v-if=!this.PosterIsOpen class = "column is-half">
+        </div>
+
+        <div  v-if=!this.PosterIsOpen  class = "column is-half">
+            <workCard  :imgsrc = this.BC_Poster.imgsrc 
                         :tags= this.BC_Poster.tags
                         :hasMore = this.YES
                         :hasCarousel = this.BC_Poster.hasComponent
@@ -95,13 +100,13 @@
                         />
         </div>
 
-        <div class = "column is-half is-offset-3"
+        <div class = "column is-full"
              id = "ZineAnchor"
              ref = "ZineAnchor">
                       <img src="https://img.icons8.com/nolan/64/linux-client.png"/>
         </div>
 
-        <div class = "column is-half">
+        <div v-if=!this.ZineIsOpen class = "column is-half">
             <workCard :imgsrc = this.BC_Web.imgsrc 
                       :title= this.BC_Web.title 
                       :subtitle = this.BC_Web.subtitle
@@ -148,13 +153,13 @@
                       />
         </div>
 
-
-        <div class = "column if-half is-offset-6">
+<!--
+        <div class = "column is-full">
             <img src="https://img.icons8.com/nolan/64/create-new.png"/>
         </div>
+-->
 
-
-        <div class = "column is-10">
+        <div class = "column is-half">
             <workCard :title = this.BC_Animation.title
                       :blurb = this.BC_Animation.blurb
                       :tags= this.BC_Animation.tags
