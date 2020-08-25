@@ -147,7 +147,13 @@
                       :linkMsg = this.BC_Web.linkMsg1
                       />
         </div>
-<!--
+
+
+        <div class = "column if-half is-offset-6">
+            <img src="https://img.icons8.com/nolan/64/create-new.png"/>
+        </div>
+
+
         <div class = "column is-10">
             <workCard :title = this.BC_Animation.title
                       :blurb = this.BC_Animation.blurb
@@ -155,13 +161,7 @@
                       :is_BC_vid = this.YES
                       :hasMore = this.NO
                       />
-        </div> -->
-
-        <div class = "column">
-            <img src="https://img.icons8.com/nolan/64/create-new.png"/>
-            <img src="https://img.icons8.com/nolan/64/create-new.png"/>
-            <img src="https://img.icons8.com/nolan/64/create-new.png"/>
-        </div>
+        </div> 
 
        
       </div>
@@ -324,7 +324,7 @@ export default {
             codeRepo: "https://github.com/miatang13/brian-collins",
             siteLink: "https://www.designhero-briancollins.info/#/",
             linkMsg0: "GIT REPO",
-            linkMsg1: "SITE ALIVE"
+            linkMsg1: "SITE LIVE"
         },
 
         BC_Animation: {
