@@ -46,7 +46,7 @@
                                     <workTag :content = this.tags[0] />
                                 </div>
 
-                                <div class = "indiv-tag-wrapper">
+                                <div v-if="hasTwoTags" class = "indiv-tag-wrapper">
                                     <workTag :content = this.tags[1] />
                                 </div>
                             </div>
@@ -94,6 +94,7 @@ export default {
         hasTitle: { type: Boolean, default: true,},
         hasBlurb: { type: Boolean, default: true, },
         hasMore: { type: Boolean, default: true, },
+        hasTwoTags: {type: Boolean, default: true, },
         expandMsg: { type: String, default: "Read More" },
         hasProcessLink: { type: Boolean, default: false,},
         processLink: { type: String,},

@@ -96,6 +96,7 @@
                         :codeRepo = this.BC_Poster.codeRepo 
                         :linkMsg = this.BC_Poster.linkMsg
                         :expandMsg = this.BC_Poster.expandMsg
+                        :hasTwoTags = this.NO
                         @clicked ="handlePosterClick"
                         />
         </div>
@@ -153,11 +154,10 @@
                       />
         </div>
 
-<!--
+
         <div class = "column is-full">
-            <img src="https://img.icons8.com/nolan/64/create-new.png"/>
+            <img src="https://img.icons8.com/nolan/64/start.png"/>
         </div>
--->
 
         <div class = "column is-half">
             <workCard :title = this.BC_Animation.title

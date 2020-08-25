@@ -150,7 +150,7 @@ section {
 }
 
 .name-container{
-  padding-bottom: .3em;
+  padding-bottom: .5em;
 }
 
 .header-container{
