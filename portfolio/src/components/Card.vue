@@ -121,6 +121,7 @@ export default {
     border-color:$color-tag-outline; 
     width: fit-content;
     max-width: 100%;
+    height: 100%;
     padding: 1em;
 }
 
