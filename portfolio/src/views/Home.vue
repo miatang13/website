@@ -86,8 +86,8 @@
                       :blurb = this.BC_Web.blurb
                       :tags= this.BC_Web.tags
                       :hasCodeRepo = this.BC_Web.hasCodeRepo
-                      :codeRepo = this.BC_Web.codeRepo
-                      :linkMsg = this.BC_Web.linkMsg0
+                      :codeRepo = this.BC_Web.siteLink
+                      :linkMsg = this.BC_Web.linkMsg1
                       :hasMore = this.YES
                       @clicked ="handleWebClick"
                       />

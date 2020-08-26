@@ -305,6 +305,7 @@
 
         <div class = "column is-half is-offset-one-quarter">
                  <p>  <a href="https://www.designhero-briancollins.info/"> &#9758; SITE LIVE  </a>  </p> 
+                 <p>  <a href="https://github.com/miatang13/brian-collins"> &#9758; CODE REPO  </a>  </p> 
         </div>
 
         <div class = "column is-offset-11">
