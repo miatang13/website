@@ -9,15 +9,40 @@
     <div v-if="isSkyGlow" class = "process-content">
 
         <div class= "columns is-multiline ">
-             <div class = "column is-three-fifths is-offset-one-fifth">
-               <h2> 1. Constellation Detection </h2> 
+
+             <div class = "column is-three-fifths is-offset-one-fifth" style="padding-top:3em;">
+                    <h2> 1. Computational Design </h2> 
             </div>
 
-             <div class = "column is-half is-offset-one-quarter">
-                    <p> I've always been fascinated by the stars, the outer space.
-                        Hence, I decided to create a constellation recognition software aimed 
-                        to let everyone see the hidden constellation patterns in the ordinary 
-                        environments, thus finding the hidden stars around them. </p>
+            <div class = "column is-three-fifths is-offset-one-fifth">
+                     <img src = "@/assets/img/skyglow/skyglow.gif" width=100% >
+                     <p> * Used as the landing page of the application </p> 
+                     <p> &#9758; <a href = "https://raw.githubusercontent.com/miatang13/15112TP/master/MAIN/openingCircle.py"> 
+                    CODE SNIPPET </a> </p>
+            </div> 
+
+             <div class = "column is-three-fifths is-offset-one-fifth">
+                    <p> Creating animations through code gives enormous freedom, 
+                        and I enjoyed creating animations that either represents 
+                        real-world occurrences or allows perfect mechanical 
+                        geometries that we will never see in the world. </p>
+            </div>
+                         
+            <div class = "column is-full" style="padding-bottom:3em;">
+                     <img src = "@/assets/img/skyglow/skyglow2.gif" width=100% >
+            </div> 
+              
+   
+             <div class = "column is-three-fifths is-offset-one-fifth">
+               <h2> 2. Constellation Detection </h2> 
+            </div>
+
+            <div class = "column is-three-fifths is-offset-one-fifth">
+                    <p> I've always been fascinated by the stars, the outer space. 
+                        Hence, I decided to create a constellation recognition 
+                        software aimed to let everyone see the hidden constellation 
+                        patterns in the ordinary environments, thus finding the 
+                        hidden stars around them. </p>
             </div>
 
             <div class = "column is-full is-offset-1">
@@ -73,37 +98,6 @@
 
             <div class = "column is-half is-offset-one-quarter" >
                     <p> &#9758; <a href = "https://github.com/miatang13/SkyGlow"> GITHUB </a>,  Feel free to download and play! No external modules needed. </p>
-            </div>
-
-            <div class = "column is-full" style="border-bottom: solid 1px;">
-            </div> 
-
-             <div class = "column is-three-fifths is-offset-one-fifth" style="padding-top:3em;">
-                    <h2> 2. Computational Design </h2> 
-            </div>
-
-            <div class = "column is-full">
-                     <img src = "@/assets/img/skyglow/skyglow2.gif" width=100% >
-            </div> 
-            
-            <div class = "column is-half is-offset-one-quarter">
-                    <p>To add interactivity to the app, I explored creative 
-                        computing using Python with no external libraries. </p> 
-            </div>
-           
-            <div class = "column is-three-fifths is-offset-one-fifth img-wrapper">
-                     <img src = "@/assets/img/skyglow/skyglow.gif" width=100% >
-            </div> 
-            
-
-            <div class = "column is-three-fifths is-offset-one-fifth">
-                    <p> Creating animations through code gives enormous freedom, 
-                        and I enjoyed creating animations that either represents 
-                        real-world occurrences or allows perfect mechanical 
-                        geometries that we will never see in the world. </p>
-                    <p> &#9758; <a href = "https://raw.githubusercontent.com/miatang13/15112TP/master/MAIN/openingCircle.py"> 
-                    CODE SNIPPET </a> </p>
-                        
             </div>
 
             <div class = "column is-11">
@@ -222,15 +216,28 @@
 <!----- BC_WEB ------------------------------------------------------->
 
     <div v-if="isBC_Web" class = "columns is-multiline">
-        <div class = "column is-full carousel-wrapper">
+        <div class = "column is-full">
+        </div> 
+
+        <div class = "column is-half is-offset-one-quarter">
+                <p> This website is dedicated to showcase the designer Brian Collins.
+                </p>
+        </div>
+
+        <div class = "column is-full carousel-wrapper" >
                 <DigitalCarousel />
         </div>
 
-        <div class = "column is-full">
-                <h3> Design Highlights </h3>
+        <div class = "column is-half is-offset-one-quarter" >
+                <p> These are the design features of the website. <br> Below
+                    are the detail explainations. 
+                </p>
+        </div>
+
+         <div class = "column is-full" style="border-bottom:solid 1px; padding-bottom:1em;">
         </div> 
 
-        <div class = "column is-three-fifths is-offset-one-fifth">
+        <div class = "column is-three-fifths is-offset-one-fifth" style="padding-top: 3em;">
                <h2> 1. Interactive Map </h2> 
         </div>
 
@@ -243,15 +250,14 @@
         </div>
 
         <div class = "column is-half is-offset-one-quarter">
-                <p> While being an excellent designer and director, Brian
-                    Collins is a diligent educator who has given talks
-                    around the globe. Due to the project's time limit, 
-                    I decided to only showcases the states where he has visited
-                    and given speeches inside U.S. . 
+                <p> This map displays the places in the United States where Brian Collins
+                    has led design firms or given talks. When hovering over a state 
+                    which he has visited, information of who, where, when, why 
+                    and the exact location where are shown. 
                 </p>
         </div>
 
-        <div class = "column is-three-fifths is-offset-one-fifth">
+        <div class = "column is-three-fifths is-offset-one-fifth" style="padding-top: 3em;">
                <h2> 2. Gradience & Motion </h2> 
         </div>
 
@@ -279,7 +285,7 @@
                 </p>
         </div>
 
-        <div class = "column is-three-fifths is-offset-one-fifth">
+        <div class = "column is-three-fifths is-offset-one-fifth" style="padding-top: 3em;">
                <h2> 3. Depth </h2> 
         </div>
 
@@ -314,7 +320,7 @@
 <!----- Iris --------------------------------------------------------->
     <div v-if="isIris" class = "columns is-multiline">
 
-        <div class = "column is-three-fifths is-offset-one-fifth " 
+        <div class = "column is-three-fifths is-offset-one-fifth carousel-wrapper" 
              style = "padding-bottom: 2em;">
                 <IrisCarousel />
         </div>
@@ -323,7 +329,8 @@
                 <p style="padding-bottom: .5em;"> 
                     IrisRover (previously CubeRover) is the 
                     <span class = 'highlight-text'> World’s first </span>  
-                    student-built lunar rover scheduled to land on the Moon in 2021. 
+                    student-built lunar rover scheduled to land on the Moon in 
+                    2021 with $79.5 million NASA funding. 
                 </p>
 
                 <p>
@@ -333,7 +340,7 @@
                 </p>
         </div>
 
-        <div class = "column is-three-fifths is-offset-one-fifth img-wrapper">
+        <div class = "column is-full">
                 <img src = "@/assets/img/Iris/Ground-Software-Architecture.jpg" width=100% >
         </div> 
 
@@ -342,12 +349,12 @@
                     For IrisRover, UI Dev is at the center of Database, 
                     Render processes, Ground Commands, and Rover Data. 
                     Essentially, after we launch the rover, 
-                    a smoothly working interface determines if we can achieve 
+                    a working interface determines if we can achieve 
                     our end goal, taking photos of the moon. 
                 </p>
         </div>
 
-        <div class = "column is-three-fifths is-offset-one-fifth img-wrapper">
+        <div class = "column is-three-fifths is-offset-one-fifth">
                  <img src = "@/assets/img/Iris/dashboard-design-spec-bg.png" width=100% >
         </div> 
         
@@ -359,12 +366,66 @@
                 </p>
         </div>
 
+        <!-- 
+        <div class = "column is-3" style="background-color:black;">
+                <img src = "@/assets/img/Iris/brush.gif" width=100% >
+        </div> 
+        --> 
+        <div class = "column is-full">
+        </div> 
+
+        <div class = "column is-3 is-offset-3" style="background-color:black;">
+                <img src = "https://media1.giphy.com/media/hX1837OBH78zSCjfbl/giphy.gif" width=100% >
+        </div> 
+
+        <div class = "column is-3" style="background-color:black;">
+                <img src = "@/assets/img/Iris/dropdown.gif" width=100% >
+        </div> 
+
+        <div class = "column is-half is-offset-one-quarter">
+                <p> 
+                    * Selected merged components 
+                </p>
+        </div>
+
+        <div class = "column is-full">
+        </div> 
+
+         <div class = "column is-2 is-offset-2">
+                 <img src = "@/assets/img/Iris/ErrorLog-Card-Opened.png" width=100% >
+        </div>
+
+        <div class = "column is-2 ">
+                 <img src = "@/assets/img/Iris/ErrorLog-Card-Search.png" width=100% >
+        </div>
+
+        <div class = "column is-2 ">
+                 <img src = "@/assets/img/Iris/ErrorLog-Card-Sort.png" width=100% >
+        </div>
+
+        <div class = "column is-2 ">
+                 <img src = "@/assets/img/Iris/ErrorLog-Card-SortResults.png" width=100% >
+        </div>
+
+
+        <div class = "column is-half is-offset-one-quarter">
+                <p> Currently I am busy building this component, the Error Log Filter, where
+                    the user can search by key words such as Error Tag, Sensor Name,
+                    Mission Time Frame, etc. Furthermore, user can sort the results 
+                    by different categories for easier access. 
+                </p>
+        </div> 
+
+        <div class = "column is-half is-offset-one-quarter pullQuote">
+                <p> We are busy merging and will be releasing an interface package 
+                    around September. Stay tuned. </p>
+        </div>
+
         <div class = "column is-offset-11">
                 <div class = "button-wrapper" v-on:click="handleClick">
                     <atomicButton  :content = this.closeMsg />
                 </div>
         </div>
-
 
     </div>
 <!----- Iris --------------------------------------------------------->
@@ -434,8 +495,10 @@ export default {
 @import '@/assets/styles/_colors.scss';
 
 .carousel-wrapper{
-    padding-bottom: 2em;
+    //padding-bottom: 2em;
     border-bottom: solid 1px;
+    padding: 3em;
+    background-color: black;
 }
 
 .processCard{

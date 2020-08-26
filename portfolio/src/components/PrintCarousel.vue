@@ -43,8 +43,8 @@ export default {
   data() {
       return {
         settings: {
-          arrows: false,
-          dots: true,
+          arrows: true,
+          dots: false,
           slidesToScroll: 2,
           slidesToShow: 2,
           dotsClass: "slick-dots custom-dot-class",

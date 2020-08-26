@@ -31,7 +31,7 @@ export default {
    data() {
       return {
         settings: {
-          arrows: false,
+          arrows: true,
           dots: true,
           slidesToScroll: 1,
           slidesToShow: 2,

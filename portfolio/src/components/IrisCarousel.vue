@@ -22,8 +22,7 @@ export default {
   data() {
       return {
         settings: {
-          arrows: false,
-          dots: true,
+          dots: false,
           slidesToScroll: 1,
           slidesToShow: 1,
           dotsClass: "slick-dots custom-dot-class",
@@ -43,11 +42,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-@import '@/assets/styles/_colors.scss';
-
-.VueCarousel-slide {
-   
-}
-</style>

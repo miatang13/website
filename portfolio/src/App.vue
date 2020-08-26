@@ -7,11 +7,11 @@
            <h1>  <a href = "/" style="color:black;">Mia Tang </a>  </h1> 
       </div>
 
-      <nav class="breadcrumb is-large" aria-label="breadcrumbs">
+      <nav class="breadcrumb is-large has-dot-separator" aria-label="breadcrumbs">
         <ul>
-          <li><router-link to="/" aria-current="page">:D</router-link>  </li>
-          <li><router-link to="/work">Work</router-link> </li>
-          <li><a href = '/'> Resume </a> </li>
+          <li><router-link to="/" aria-current="page">Work</router-link>  </li>
+          <li><router-link to="/about">About</router-link> </li>
+          <li><a href = 'https://drive.google.com/file/d/1kakJQoEJaf2KhsPd_9RcpvqPT8eFsbhw/view?usp=sharing'> Resume </a> </li>
         </ul>
       </nav>
     </div>
@@ -20,7 +20,7 @@
       <router-view />
     </div> 
 
-    <footer> © M.T. 2020 </footer>
+    <footer> © Mia Tang 2020 </footer>
 
   </div> 
 </template>
@@ -109,7 +109,7 @@ html {
 /* structure */
 footer {
   color: $color-near-black;
-  padding-top: 2em;
+  padding-top: 5em;
 }
 
 body {
