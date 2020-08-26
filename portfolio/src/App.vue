@@ -174,4 +174,27 @@ section {
   font-family: Voyage;
 }
 
+@media screen and (max-width: 600px) {
+  .header-container{
+      padding-bottom: .5em;
+      padding-top:.1em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em,
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  footer{
+    padding-top: 2em;
+  }
+}
+
 </style>

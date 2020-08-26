@@ -36,13 +36,13 @@
       <div class = "column is-4">
             <img class = 'img-outline' src = "@/assets/img/me/miatang.png" width=100%>
             <div class = "same-line">
-                <img src="https://img.icons8.com/nolan/64/ok-hand.png"/>
+                <img class = "small-icon" src="https://img.icons8.com/nolan/64/ok-hand.png"/>
             </div>
       </div>
 
       <div class = "columns is-vcentered">
         <div class = "column is-8 same-line ">
-              <img src="https://img.icons8.com/nolan/64/email.png" width=45em/>
+                  <img class = "small-icon" src="https://img.icons8.com/nolan/64/email.png" width=45em/>
               <h1 class = "email"> miatang13@gmail.com </h1> 
         </div>
       </div>
@@ -131,4 +131,14 @@ export default {
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .small-icon{
+    display: none;
+  }
+  .email{
+    padding-left:.5em;
+  }
+}
+
 </style>
