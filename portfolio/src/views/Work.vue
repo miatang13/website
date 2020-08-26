@@ -1,23 +1,34 @@
 <template>
   <div class="Work">
-
+      
       <div class = "columns is-multiline ">
-        <div class = "column is-half">
+
+        <div class = "column is-full"
+              id = "topAnchor"
+              ref = "topAnchor">
+        </div>
+
+         <div v-if="IrisIsOpen" class = "column is-full">
+              <processCard :title = this.Iris.title 
+                                   :content = this.Iris.process
+                                   @clicked ="handleIrisClick"
+                          />
+        </div>
+
+        <div v-if="IrisDivOn" class = "column is-half">
               <workCard :imgsrc = this.Iris.imgsrc 
                         :title= this.Iris.title 
                         :subtitle = this.Iris.subtitle
                         :blurb = this.Iris.blurb
                         :tags= this.Iris.tags
-                        :hasCarousel = this.Iris.hasComponent
+                        :hasCarousel = this.NO
                         :carouselComponent = this.Iris.carouselComponent
-                        :hasMore = this.Iris.hasMore
-                        :expandMsg = this.Iris.expandMsg 
+                        :hasMore = this.YES
                         :callBack = this.Iris.callBack
-                        :hasPQ = this.Iris.hasPQ
-                        :pullQuote = this.Iris.pullQuote
                         :hasCodeRepo = this.YES 
                         :codeRepo = this.Iris.codeRepo
                         :linkMsg = this.Iris.linkMsg
+                        @clicked ="handleIrisClick"
                         />
         </div>
 
@@ -25,13 +36,14 @@
         <div class = "column">
           <img src="https://img.icons8.com/nolan/64/gears.png"/>
         </div>
--->
+
 
         <div class = "column is-full"
              id = "SGAnchor"
              ref = "SGAnchor">
                       <img src="https://img.icons8.com/nolan/64/module.png"/>
         </div>
+-->
 
         <div v-if=this.SGIsOpen class = "column is-full">
                       <processCard :title = this.SkyGlow0.title 
@@ -43,7 +55,7 @@
 
         <div v-if=!this.SGIsOpen 
               class = "column is-half" >
-                       <workCard  :imgsrc = this.SkyGlow0.imgsrc
+                       <workCard  :imgsrc = this.SkyGlow.imgsrc
                                   :title = this.SkyGlow0.title
                                   :blurb = this.SkyGlow0.blurb
                                   :tags= this.SkyGlow0.tags
@@ -55,24 +67,31 @@
                       />
         </div>  
 
-        <div class = "column is-half">
-
-            <workCard :imgsrc = this.SkyGlow.imgsrc 
-                      :title= this.SkyGlow.title 
-                      :subtitle = this.SkyGlow.subtitle
-                      :blurb = this.SkyGlow.blurb
-                      :tags= this.SkyGlow.tags
-                      :hasMore= this.NO
-                      :hasCodeRepo = this.SkyGlow.hasCodeRepo
-                      :codeRepo = this.SkyGlow.codeRepo
-                      :linkMsg = this.SkyGlow.linkMsg
-                      />      
-        </div>
 
         <div class = "column is-full"
-             id = "PosterAnchor"
-             ref = "PosterAnchor">
-                      <img src="https://img.icons8.com/nolan/64/printed-ocr.png"/>
+              id = "secondAnchor"
+              ref = "secondAnchor">
+        </div>
+
+        <div v-if=this.WebIsOpen class = "column is-full">
+            <processCard :title= this.BC_Web.title 
+                         :content = this.BC_Web.process 
+                         @clicked ="handleWebClick" 
+                         />
+        </div>
+
+        <div v-if="BCWebDivOn" class = "column is-half">
+            <workCard :imgsrc = this.BC_Web.imgsrc 
+                      :title= this.BC_Web.title 
+                      :subtitle = this.BC_Web.subtitle
+                      :blurb = this.BC_Web.blurb
+                      :tags= this.BC_Web.tags
+                      :hasCodeRepo = this.BC_Web.hasCodeRepo
+                      :codeRepo = this.BC_Web.codeRepo
+                      :linkMsg = this.BC_Web.linkMsg0
+                      :hasMore = this.YES
+                      @clicked ="handleWebClick"
+                      />
         </div>
 
         <div v-if=this.PosterIsOpen class = "column is-full">
@@ -83,50 +102,29 @@
                     
         </div>
 
-        <div  v-if=!this.PosterIsOpen class = "column is-half">
-        </div>
-
         <div  v-if=!this.PosterIsOpen  class = "column is-half">
             <workCard  :imgsrc = this.BC_Poster.imgsrc 
                         :tags= this.BC_Poster.tags
                         :hasMore = this.YES
-                        :hasCarousel = this.BC_Poster.hasComponent
-                        :carouselComponent = this.BC_Poster.carouselComponent
                         :hasCodeRepo = this.YES 
                         :codeRepo = this.BC_Poster.codeRepo 
                         :linkMsg = this.BC_Poster.linkMsg
-                        :expandMsg = this.BC_Poster.expandMsg
-                        :hasTwoTags = this.NO
+                        :title = this.BC_Poster.title 
                         @clicked ="handlePosterClick"
                         />
         </div>
 
         <div class = "column is-full"
-             id = "ZineAnchor"
-             ref = "ZineAnchor">
-                      <img src="https://img.icons8.com/nolan/64/linux-client.png"/>
+             id = "thirdAnchor"
+             ref = "thirdAnchor">
         </div>
 
-        <div v-if=!this.ZineIsOpen class = "column is-half">
-            <workCard :imgsrc = this.BC_Web.imgsrc 
-                      :title= this.BC_Web.title 
-                      :subtitle = this.BC_Web.subtitle
-                      :blurb = this.BC_Web.blurb
-                      :tags= this.BC_Web.tags
-                      :hasCodeRepo = this.BC_Web.hasCodeRepo
-                      :codeRepo = this.BC_Web.codeRepo
-                      :linkMsg = this.BC_Web.linkMsg0
-                      :hasMore = this.NO
-                      />
-        </div>
-  
         <div v-if=!this.ZineIsOpen class = "column is-half">
             <workCard :imgsrc = this.BC_Zine.imgsrc 
                       :title= this.BC_Zine.title 
                       :subtitle = this.BC_Zine.subtitle
                       :blurb = this.BC_Zine.blurb
                       :tags= this.BC_Zine.tags
-                      :expandMsg = this.BC_Zine.expandMsg
                       :hasCodeRepo= this.BC_Zine.hasProcessLink
                       :codeRepo = this.BC_Zine.processLink
                       :linkMsg = this.BC_Zine.linkMsg
@@ -141,32 +139,24 @@
                           @clicked ="handleZineClick" />
         </div>
 
-        <div class = "column is-full">
-            <workCard :carouselComponent = this.BC_Web.carouselComponent
-                      :hasCarousel = this.BC_Web.hasComponent
-                      :title = this.BC_Web.title
-                      :hasBlurb = this.NO 
-                      :tags= this.BC_Web.tags
-                      :hasMore = this.NO
-                      :hasCodeRepo = this.BC_Web.hasCodeRepo
-                      :codeRepo = this.BC_Web.siteLink
-                      :linkMsg = this.BC_Web.linkMsg1
-                      />
-        </div>
-
-
-        <div class = "column is-full">
-            <img src="https://img.icons8.com/nolan/64/start.png"/>
-        </div>
-
         <div class = "column is-half">
             <workCard :title = this.BC_Animation.title
                       :blurb = this.BC_Animation.blurb
                       :tags= this.BC_Animation.tags
                       :is_BC_vid = this.YES
                       :hasMore = this.NO
+                      :hasCodeRepo = this.YES 
+                      :codeRepo = this.BC_Animation.vimeo_link
+                      :linkMsg = this.BC_Animation.linkMsg
                       />
         </div> 
+        
+<!--
+        <div class = "column is-full">
+            <img src="https://img.icons8.com/nolan/64/start.png"/>
+        </div>
+-->
+
 
        
       </div>
@@ -196,7 +186,7 @@ export default {
         this.SGIsOpen = !cur;
 
         if (this.SGIsOpen == false) {
-          this.scrollToElement("SG");
+          this.scrollToElement("TOP");
         }
     },
     handleZineClick(event){
@@ -205,7 +195,7 @@ export default {
         this.ZineIsOpen = !cur;
 
         if (this.ZineIsOpen == false) {
-          this.scrollToElement("Zine");
+          this.scrollToElement("2");
         }
     },
     handlePosterClick(event){
@@ -214,30 +204,67 @@ export default {
         this.PosterIsOpen = !cur;
 
         if (this.PosterIsOpen == false) {
-          this.scrollToElement("Poster");
+          this.scrollToElement("2");
+        }
+    },
+    handleWebClick(event){
+        console.log(event, "Web is clicked and handled!");
+        let cur = this.WebIsOpen;
+        this.WebIsOpen = !cur;
+
+        if (this.WebIsOpen == false) {
+          this.scrollToElement("2");
+        }
+    },
+    handleIrisClick(event){
+        console.log(event, "Iris is clicked and handled!");
+        let cur = this.IrisIsOpen;
+        this.IrisIsOpen = !cur;
+
+        if (this.WebIsOpen == false) {
+          this.scrollToElement("TOP");
         }
     },
     scrollToElement(elemName) {
-        if (elemName == "SG"){
-          const el = document.getElementById('SGAnchor');
+        if (elemName == "TOP"){
+          const el = document.getElementById('topAnchor');
           if (document.body.contains(el)){
-             el.scrollIntoView();
+             el.scrollIntoView({behavior: "smooth"});
              console.log("I'm scrolling")
           }        
-        } else if (elemName == "Zine"){
-          const el = document.getElementById('ZineAnchor');
+        } 
+        else if (elemName == "2"){
+          const el = document.getElementById('secondAnchor');
           if (document.body.contains(el)){
-             el.scrollIntoView();
+             el.scrollIntoView({behavior: "smooth"});
              console.log("I'm scrolling")
           }
-        } else if (elemName == "Poster"){
-          const el = document.getElementById('PosterAnchor');
+        } 
+        else if (elemName == "3"){
+          const el = document.getElementById('thirdAnchor');
           if (document.body.contains(el)){
-             el.scrollIntoView();
+             el.scrollIntoView({behavior: "smooth"});
              console.log("I'm scrolling")
           }
-        }
+        } 
+        else if (elemName == "4"){
+          const el = document.getElementById('fourthAnchor');
+          if (document.body.contains(el)){
+             el.scrollIntoView({behavior: "smooth"});
+             console.log("I'm scrolling")
+          }
+        } 
+        
     }
+  },
+
+  computed: {
+    IrisDivOn: function(){
+          return (!this.IrisIsOpen) && (!this.SGIsOpen);
+    },
+    BCWebDivOn: function(){
+          return (!this.WebIsOpen) && (!this.PosterIsOpen);
+    },
   },
 
   data() {
@@ -247,6 +274,8 @@ export default {
         SGIsOpen: false,
         ZineIsOpen: false,
         PosterIsOpen: false,
+        WebIsOpen: false,
+        IrisIsOpen: false,
         Iris: {
             imgsrc: "https://www.astrobotic.com/system/news/cuberover-2019.jpg",
             hasComponent: true,
@@ -254,13 +283,13 @@ export default {
             title: "IrisRover",
             subtitle: "(CMU x Astrobotics)",
             tags: ["Front-End Engineering",  "On-Going (8 months +)"], 
-            blurb: "I work as 1 of the 4 frontend developers on the entire team, developing working interfaces for the land operators to utilize. Interface package developed using Vue will be released soon on Github.",
+            blurb: "IrisRover (originally CubeRover) is the first lightweight lunar rover launching to the Moon in 2021 with $79.5 million NASA funding.",
             hasMore: false,
-            expandMsg: "More Details",
             hasPQ: true,
             pullQuote: "IrisRover (originally CubeRover) is the first lightweight lunar rover launching to the Moon in 2021 with $79.5 million NASA funding.",
             codeRepo: "https://www.astrobotic.com/2019/10/2/astrobotic-s-cuberover-program-awarded-2-million-contract-by-nasa",
-            linkMsg: "NEWS ARTICLE"
+            linkMsg: "NEWS ARTICLE",
+            process: "IrisRover",
         },
 
         SkyGlow0: {
@@ -268,7 +297,7 @@ export default {
             title: "SkyGlow",
             subtitle: "",
             tags: ["Creative Computing", "Python"],
-            blurb: "These animations are created for a constellation detecting application, SkyGlow,  I created to enhance interactivity and merge my interest of design and coding.",
+            blurb: "A constellation detection application with computational graphics.",
             hasMore: true,
             hasCodeRepo: true,
             codeRepo: "https://github.com/miatang13/SkyGlow",
@@ -293,9 +322,8 @@ export default {
             imgsrc: "https://www.designhero-briancollins.info/img/booklet.d935bae1.gif",
             title: "Zine Design",
             subtitle: "",
-            tags: ["Print Design", "2 weeks"], 
-            blurb: "A 14 page A4-sized zine telling the stories of the designer Brian Collins. The difficulty lies in balancing between his style and my own.",
-            expandMsg: "Pages in Detail",
+            tags: ["Print Design", "8.5(w) x 11(h)"], 
+            blurb: "A 14 page letter-sized zine telling the stories of the designer Brian Collins. The difficulty lies in balancing between his style and my own.",
             hasProcessLink: true,
             processLink: "https://medium.com/@xinrant/c-studio-project-2-7368c0b96024?source=friends_link&sk=4d38f420b0494596a288fd85ddc4e13c",
             linkMsg: "MEDIUM PROCESS",
@@ -311,7 +339,6 @@ export default {
             hasBlurb: false,
             hasMore: true,
             title: "Poster Design",
-            expandMsg: "Process Snippets",
             codeRepo: "https://medium.com/@xinrant/c-studio-project-1-372ed1a5fdd0",
             linkMsg: "MEDIUM PROCESS",
             process:"BC_Poster",
@@ -329,13 +356,16 @@ export default {
             codeRepo: "https://github.com/miatang13/brian-collins",
             siteLink: "https://www.designhero-briancollins.info/#/",
             linkMsg0: "GIT REPO",
-            linkMsg1: "SITE LIVE"
+            linkMsg1: "SITE LIVE",
+            process: "BC_Web",
         },
 
         BC_Animation: {
             title: "Motion Graphics",
             tags: ["Digital Design", "After Effects"],
-            blurb: "A 1 minute video showing what I find most interesting and compelling about Brian Collins."
+            blurb: "A 1 minute video showing what I find most interesting and compelling about Brian Collins.",
+            vimeo_link: "https://vimeo.com/419170346",
+            linkMsg: "VIDEO ON VIMEO",
         }
     }
   },

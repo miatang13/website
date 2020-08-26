@@ -4,10 +4,10 @@
 
     <div class = "header-container"> 
       <div class = "name-container">
-          <h1> Mia Tang </h1>
+           <h1>  <a href = "/" style="color:black;">Mia Tang </a>  </h1> 
       </div>
 
-      <nav class="breadcrumb has-arrow-separator is-large" aria-label="breadcrumbs">
+      <nav class="breadcrumb is-large" aria-label="breadcrumbs">
         <ul>
           <li><router-link to="/" aria-current="page">:D</router-link>  </li>
           <li><router-link to="/work">Work</router-link> </li>
@@ -158,7 +158,7 @@ section {
   //justify-content: space-between;  
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  padding-bottom: .5em;
+  padding-bottom: 1em;
   padding-top:.2em;
   top: 0em;
   background-color: $color-near-white;

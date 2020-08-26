@@ -27,14 +27,17 @@ export default {
 .button-wrapper{
     border:1.5px; 
     border-style:solid; 
-    border-color:$color-tag-outline; 
+    border-color:$color-near-black; 
+    background-color: $color-primary;
+    color: $color-near-white;
     padding: .5em;
     width: fit-content;
+    border-style: dashed;
 
     &:hover {
-        border-style: dashed;
-        background-color:$color-primary;
-        color:white;
+        background-color:$color-near-black;
+        border-color: $color-primary;
+        color:$color-near-white;
         cursor:pointer;
       }
 }

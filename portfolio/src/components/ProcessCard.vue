@@ -9,6 +9,10 @@
     <div v-if="isSkyGlow" class = "process-content">
 
         <div class= "columns is-multiline ">
+             <div class = "column is-three-fifths is-offset-one-fifth">
+               <h2> 1. Constellation Detection </h2> 
+            </div>
+
              <div class = "column is-half is-offset-one-quarter">
                     <p> I've always been fascinated by the stars, the outer space.
                         Hence, I decided to create a constellation recognition software aimed 
@@ -67,14 +71,45 @@
                     <img src = "@/assets/img/skyglow/getstar.gif" width=100% >
             </div>
 
-            <div class = "column is-half is-offset-one-quarter">
+            <div class = "column is-half is-offset-one-quarter" >
                     <p> &#9758; <a href = "https://github.com/miatang13/SkyGlow"> GITHUB </a>,  Feel free to download and play! No external modules needed. </p>
             </div>
 
-            <div class = "column is-11">
+            <div class = "column is-full" style="border-bottom: solid 1px;">
+            </div> 
+
+             <div class = "column is-three-fifths is-offset-one-fifth" style="padding-top:3em;">
+                    <h2> 2. Computational Design </h2> 
             </div>
 
-            <div class = "column">
+            <div class = "column is-full">
+                     <img src = "@/assets/img/skyglow/skyglow2.gif" width=100% >
+            </div> 
+            
+            <div class = "column is-half is-offset-one-quarter">
+                    <p>To add interactivity to the app, I explored creative 
+                        computing using Python with no external libraries. </p> 
+            </div>
+           
+            <div class = "column is-three-fifths is-offset-one-fifth img-wrapper">
+                     <img src = "@/assets/img/skyglow/skyglow.gif" width=100% >
+            </div> 
+            
+
+            <div class = "column is-three-fifths is-offset-one-fifth">
+                    <p> Creating animations through code gives enormous freedom, 
+                        and I enjoyed creating animations that either represents 
+                        real-world occurrences or allows perfect mechanical 
+                        geometries that we will never see in the world. </p>
+                    <p> &#9758; <a href = "https://raw.githubusercontent.com/miatang13/15112TP/master/MAIN/openingCircle.py"> 
+                    CODE SNIPPET </a> </p>
+                        
+            </div>
+
+            <div class = "column is-11">
+            </div> 
+
+            <div class = "column ">
                 <div class = "button-wrapper" v-on:click="handleClick">
                     <atomicButton  :content = this.closeMsg />
                 </div>
@@ -184,6 +219,155 @@
     </div>
 <!----- POSTER ------------------------------------------------------->
 
+<!----- BC_WEB ------------------------------------------------------->
+
+    <div v-if="isBC_Web" class = "columns is-multiline">
+        <div class = "column is-full carousel-wrapper">
+                <DigitalCarousel />
+        </div>
+
+        <div class = "column is-full">
+                <h3> Design Highlights </h3>
+        </div> 
+
+        <div class = "column is-three-fifths is-offset-one-fifth">
+               <h2> 1. Interactive Map </h2> 
+        </div>
+
+        <div class = "column is-8 gif-container">
+                <img src = "@/assets/img/website/map.gif" width=100% >
+        </div>
+
+        <div class = "column is-4 gif-container">
+                <img src = "@/assets/img/website/cursor-over-map.gif" width=100% >
+        </div>
+
+        <div class = "column is-half is-offset-one-quarter">
+                <p> While being an excellent designer and director, Brian
+                    Collins is a diligent educator who has given talks
+                    around the globe. Due to the project's time limit, 
+                    I decided to only showcases the states where he has visited
+                    and given speeches inside U.S. . 
+                </p>
+        </div>
+
+        <div class = "column is-three-fifths is-offset-one-fifth">
+               <h2> 2. Gradience & Motion </h2> 
+        </div>
+
+        <div class = "column is-half">
+                <img src = "@/assets/img/website/history.gif" width=100% >
+        </div>
+
+        <div class = "column is-half">
+                <img src = "@/assets/img/website/why.gif" width=100% >
+        </div>
+
+        <div class = "column is-half is-offset-one-quarter">
+                <img src = "@/assets/img/website/motion-order.gif" width=100% >
+        </div>
+
+        <div class = "column is-half is-offset-one-quarter">
+                <p> Presenting information through websites provides us
+                    freedom of RGB colors, and more importantly, motion. 
+                    My design represents my impression on his work, which is 
+                    bold but also detail-oriented. <br> 
+                    I want to make sure that my layout is extremely simple, with 
+                    the big type delivering his design theories. Furthermore,
+                    the layers of motion delivers the clean layout in a way 
+                    that adds complexity and intricacy. 
+                </p>
+        </div>
+
+        <div class = "column is-three-fifths is-offset-one-fifth">
+               <h2> 3. Depth </h2> 
+        </div>
+
+        <div class = "column is-three-fifths is-offset-one-fifth">
+                <img src = "@/assets/img/website/work.gif" width=100% >
+        </div>
+
+        <div class = "column is-half is-offset-one-quarter">
+                <p> I struggle the most with the page presenting his work. 
+                    He has so much beautiful work that I wanted to showcase, but 
+                    just like print mediums, we have limited space and time 
+                    before the reader loses attention. Hence, I needed to have
+                    layers of information that allows both skimming through or 
+                    reading closely. 
+                </p>
+        </div>
+
+        <div class = "column is-half is-offset-one-quarter">
+                 <p>  <a href="https://www.designhero-briancollins.info/"> &#9758; SITE LIVE  </a>  </p> 
+        </div>
+
+        <div class = "column is-offset-11">
+                <div class = "button-wrapper" v-on:click="handleClick">
+                    <atomicButton  :content = this.closeMsg />
+                </div>
+        </div>
+
+    </div> 
+
+<!----- BC_WEB ------------------------------------------------------->
+
+<!----- Iris --------------------------------------------------------->
+    <div v-if="isIris" class = "columns is-multiline">
+
+        <div class = "column is-three-fifths is-offset-one-fifth " 
+             style = "padding-bottom: 2em;">
+                <IrisCarousel />
+        </div>
+        
+         <div class = "column is-half is-offset-one-quarter pullQuote">
+                <p style="padding-bottom: .5em;"> 
+                    IrisRover (previously CubeRover) is the 
+                    <span class = 'highlight-text'> World’s first </span>  
+                    student-built lunar rover scheduled to land on the Moon in 2021. 
+                </p>
+
+                <p>
+                    I am <span class = "highlight-text">1 of the 4 </span> frontend developers on the UI-development team, 
+                    creating usable interfaces for mission officers to utilize when
+                    our rover lands on the moon. 
+                </p>
+        </div>
+
+        <div class = "column is-three-fifths is-offset-one-fifth img-wrapper">
+                <img src = "@/assets/img/Iris/Ground-Software-Architecture.jpg" width=100% >
+        </div> 
+
+         <div class = "column is-half is-offset-one-quarter">
+                <p> 
+                    For IrisRover, UI Dev is at the center of Database, 
+                    Render processes, Ground Commands, and Rover Data. 
+                    Essentially, after we launch the rover, 
+                    a smoothly working interface determines if we can achieve 
+                    our end goal, taking photos of the moon. 
+                </p>
+        </div>
+
+        <div class = "column is-three-fifths is-offset-one-fifth img-wrapper">
+                 <img src = "@/assets/img/Iris/dashboard-design-spec-bg.png" width=100% >
+        </div> 
+        
+        <div class = "column is-half is-offset-one-quarter">
+                <p> 
+                    The specific interface I have been working on is the Telemetry 
+                    interface, where the data we receive from the rover are analyzed
+                    and displayed. 
+                </p>
+        </div>
+
+        <div class = "column is-offset-11">
+                <div class = "button-wrapper" v-on:click="handleClick">
+                    <atomicButton  :content = this.closeMsg />
+                </div>
+        </div>
+
+
+    </div>
+<!----- Iris --------------------------------------------------------->
 
 </div>
 </template>
@@ -191,12 +375,16 @@
 <script>
 import atomicButton from './Button.vue'
 import PrintCarousel from './PrintCarousel.vue'
+import DigitalCarousel from './DigitalCarousel.vue'
+import IrisCarousel from './IrisCarousel.vue'
 
 export default {
     name: 'processCard',
     components: {
         atomicButton,
         PrintCarousel,
+        DigitalCarousel,
+        IrisCarousel
     },
     data: function(){
         return {
@@ -226,6 +414,12 @@ export default {
         },
         isBC_Poster: function(){
             return this.content == "BC_Poster";
+        },
+        isBC_Web: function(){
+            return this.content == "BC_Web";
+        },
+        isIris: function(){
+            return this.content == "IrisRover";
         }
     },
     methods: {
@@ -273,4 +467,20 @@ export default {
     font-family: Uxum-Regular-Italic;
     font-size: 1.2em;
 }
+
+.gif-container{
+    background-color: black;
+}
+
+.img-wrapper{
+    display:flex;
+    border:3px; 
+    border-style:solid; 
+    border-color: $color-primary; 
+}
+
+.highlight-text{
+    color: $color-primary;
+}
+
 </style>

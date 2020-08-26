@@ -1,15 +1,6 @@
 <template>
   <div class="DigitalCarousel">
-    <!--
-    <carousel :perPage=2 >
-      <div>
-        <img src = "@/assets/img/website/where.png" width=100% >
-      </div>
-      <div>
-        <img src = "@/assets/img/website/mobile_1.gif" width=100% >
-      </div>
-    </carousel> -->
-      
+
     <VueSlickCarousel v-bind="settings">
       <div>
         <img src = "@/assets/img/website/map.gif" width=100% >
