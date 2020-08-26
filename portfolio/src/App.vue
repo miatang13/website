@@ -11,7 +11,7 @@
         <ul>
           <li><router-link to="/" aria-current="page">Work</router-link>  </li>
           <li><router-link to="/about">About</router-link> </li>
-          <li><a href = 'https://drive.google.com/file/d/1kakJQoEJaf2KhsPd_9RcpvqPT8eFsbhw/view?usp=sharing'> Resume </a> </li>
+          <li><a href = 'https://drive.google.com/file/d/1qo7ranvU0utZsP4bE3ql9Gtt0Gv5aqQ9/view?usp=sharing'> Resume </a> </li>
         </ul>
       </nav>
     </div>
