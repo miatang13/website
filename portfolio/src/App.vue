@@ -124,7 +124,7 @@ a {
 /* specific element */
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h2 {
