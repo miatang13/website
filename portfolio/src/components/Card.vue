@@ -55,7 +55,7 @@
                 <span class = "point-finger"> &#9758;  </span> <a v-bind:href=this.codeRepo> {{ this.linkMsg }} </a>
         </div>
 
-        <div class = "column is-offset-10" id = "last-column">
+        <div class = "column " id = "last-column">
                 <div v-if='hasMore' v-on:click="handleclick" class = "more-button-wrapper">
                     <atomicButton :content = this.expandMsg />
                 </div>
