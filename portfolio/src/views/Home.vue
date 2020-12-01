@@ -1,6 +1,8 @@
 <template>
   <div class="Work">
+    <h3> ~Putting some new stuff here~</h3>
       
+      <!--
       <div class = "columns is-multiline ">
 
         <div class = "column is-full"
@@ -31,7 +33,7 @@
                         />
         </div>
 
-<!--
+
         <div class = "column">
           <img src="https://img.icons8.com/nolan/64/gears.png"/>
         </div>
@@ -42,7 +44,7 @@
              ref = "SGAnchor">
                       <img src="https://img.icons8.com/nolan/64/module.png"/>
         </div>
--->
+
 
         <div v-if=this.SGIsOpen class = "column is-full">
                       <processCard :title = this.SkyGlow0.title 
@@ -151,16 +153,16 @@
                       />
         </div> 
         
-<!--
+
         <div class = "column is-full">
             <img src="https://img.icons8.com/nolan/64/start.png"/>
         </div>
--->
+
 
 
        
       </div>
-
+-->
 
 
   </div>

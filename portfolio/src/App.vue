@@ -9,7 +9,7 @@
 
       <nav class="breadcrumb is-large has-dot-separator" aria-label="breadcrumbs">
         <ul>
-          <li><router-link to="/" aria-current="page">Work</router-link>  </li>
+          <!--<li><router-link to="/" aria-current="page">Work</router-link>  </li>-->
           <li><router-link to="/about">About</router-link> </li>
           <li><a href = 'https://drive.google.com/file/d/1-EkAF0L7Xdy8c21eWFCr66rPUcsfRHoS/view?usp=sharing'> Resume </a> </li>
         </ul>
