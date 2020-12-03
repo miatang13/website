@@ -3,7 +3,7 @@
  
 
     <div class = "header-container"> 
-          <!--
+
       <div class = "name-container">
            <h1>  <a href = "/" style="color:black;">Mia Tang </a>  </h1> 
       </div>
@@ -16,7 +16,7 @@
           <li><a href = 'https://drive.google.com/file/d/1-EkAF0L7Xdy8c21eWFCr66rPUcsfRHoS/view?usp=sharing'> Resume </a> </li>
         </ul>
       </nav>
-      -->
+
     </div>
 
     <div id = "router-view-container">

@@ -10,9 +10,9 @@
           <div class = "little-section">
                 <h1 class = "section-title">  Studies: </h1> 
                 <h1>
-                  <span class = "caret"> > </span> Communications  Design  <br>  
-                  <span class = "caret"> > </span>  Logic & Computation  <br>       
-                  <span class = "caret"> > </span>  Computer Science (minor)  
+                  <span class = "caret"> > </span> Computer Science <br>     
+                  <span class = "caret"> > </span> Communications  Design    
+           
 
                    <!-- 
                         <a href = "https://design.cmu.edu/">></a>   
