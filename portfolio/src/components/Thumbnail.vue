@@ -51,11 +51,11 @@ export default {
   methods: {
     mouseEnter() {
       this.isOpen = true;
-      //console.log("enter");
+      console.log("enter");
     },
     mouseLeft() {
       this.isOpen = false;
-      //console.log("leave");
+      console.log("leave");
     },
     getImgUrl() {
       return require("../assets/img/" + this.thumbnailData.imgPath);
