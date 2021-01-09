@@ -1,30 +1,19 @@
 <template>
-  <div id="Thumbnail">
-    <div
-      class="thumbnail unselectable"
-      @mouseover="mouseEnter()"
-      @mouseleave="mouseLeft()"
-      @click="redirect()"
-    >
+  <div id="Thumbnail" class="list-complete-item">
+    <!--  @mouseover="mouseEnter()"
+      @mouseleave="mouseLeft()"-->
+    <div class="thumbnail unselectable" @click="redirect()">
       <figure class="image is-5by3">
-        <img class="img__img" :src="getImgUrl()" />
+        <img class="list-complete-img" :src="getImgUrl()" />
       </figure>
 
-      <div class="overlay">
+      <div class="overlay" id="overlay">
         <div class="overlay__text">
-          <div class="img__description">
-            <!-- :class="{ on: isOpen }" v-show="isOpen"-->
-            <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
-
-            <p class="thumbnail__category">
-              {{ thumbnailData.category }}
-            </p>
-
-            <!--
-        <p class="thumbnail__software">
-          {{ thumbnailData.software }}
-        </p>-->
-          </div>
+          <!-- :class="{ on: isOpen }" v-show="isOpen"-->
+          <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
+          <p class="thumbnail__category">
+            {{ thumbnailData.category }}
+          </p>
         </div>
       </div>
     </div>
@@ -53,7 +42,6 @@ export default {
   methods: {
     mouseEnter() {
       this.isOpen = true;
-      // console.log("enter");
     },
     mouseLeft() {
       this.isOpen = false;
@@ -111,8 +99,8 @@ export default {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 50%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -138,6 +126,7 @@ export default {
   color: $text-color;
 }
 
+/*
 .overlay {
   position: absolute;
   bottom: 0;
@@ -146,19 +135,51 @@ export default {
   background-color: $thumbnail-color;
   overflow: hidden;
   width: 100%;
-  /*height: 0; */
+  /*height: 0; 
   opacity: 0;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-}
+} */
 
 .on {
   height: 100%;
   opacity: 100%;
   visibility: visible;
   /*border: 1px solid rgb(0, 0, 0); */
+}
+
+.list-complete-item .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.list-complete-item .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: $thumbnail-color;
+}
+.list-complete-item:hover .overlay {
+  opacity: 1;
+}
+.list-complete-item .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 </style>
