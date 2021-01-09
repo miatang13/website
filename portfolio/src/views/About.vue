@@ -45,7 +45,7 @@
 
       <div class="column if-full">
         <figure class="image">
-          <img src="./../assets/img/Me/mango+leeze.jpg" />
+          <img src="./../assets/img/Me/mango_leeze.jpg" />
         </figure>
         <span class="image__text ibm__typeface">
           My doggos: Mango & Leeze
