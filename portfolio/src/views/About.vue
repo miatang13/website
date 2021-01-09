@@ -45,7 +45,7 @@
 
       <div class="column if-full">
         <figure class="image">
-          <img src="./../assets/img/Me/mango_leeze.jpg" />
+          <!--   <img src="/../img/personal/mango_leeze.jpg" />-->
         </figure>
         <span class="image__text ibm__typeface">
           My doggos: Mango & Leeze
@@ -58,7 +58,7 @@
         <div class="columns">
           <div class="column is-one-third">
             <figure class="image is-box bio__image">
-              <img src="./../assets/img/Me/miatang.png" />
+              <!--   <img src="/../assets/img/personal/miatang.png" />-->
             </figure>
           </div>
 
