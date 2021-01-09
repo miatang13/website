@@ -11,7 +11,7 @@
       </figure>
 
       <div class="overlay" :class="{ on: isOpen }">
-        <div class="img__description overlay__text">
+        <div class="img__description overlay__text" :class="{ on: isOpen }">
           <!-- :class="{ on: isOpen }" v-show="isOpen"-->
           <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
 
@@ -156,6 +156,7 @@ export default {
 .on {
   height: 100%;
   opacity: 100%;
-  border: 1px solid rgb(0, 0, 0);
+  visibility: visible;
+  /*border: 1px solid rgb(0, 0, 0); */
 }
 </style>
