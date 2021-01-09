@@ -45,7 +45,9 @@
 
       <div class="column if-full">
         <figure class="image">
-          <!--   <img src="/../img/personal/mango_leeze.jpg" />-->
+          <img
+            src="https://miro.medium.com/max/2000/1*VMxrVbUgJ0oiBl4BFjIIKw.jpeg"
+          />
         </figure>
         <span class="image__text ibm__typeface">
           My doggos: Mango & Leeze
@@ -58,7 +60,9 @@
         <div class="columns">
           <div class="column is-one-third">
             <figure class="image is-box bio__image">
-              <!--   <img src="/../assets/img/personal/miatang.png" />-->
+              <img
+                src="https://miro.medium.com/max/2000/1*543bRfXoHGkNnrA8y2N4YA.png"
+              />
             </figure>
           </div>
 

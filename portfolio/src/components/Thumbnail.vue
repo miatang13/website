@@ -10,19 +10,21 @@
         <img class="img__img" :src="getImgUrl()" />
       </figure>
 
-      <div class="overlay" :class="{ on: isOpen }">
-        <div class="img__description overlay__text" :class="{ on: isOpen }">
-          <!-- :class="{ on: isOpen }" v-show="isOpen"-->
-          <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
+      <div class="overlay">
+        <div class="overlay__text">
+          <div class="img__description">
+            <!-- :class="{ on: isOpen }" v-show="isOpen"-->
+            <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
 
-          <p class="thumbnail__category">
-            {{ thumbnailData.category }}
-          </p>
+            <p class="thumbnail__category">
+              {{ thumbnailData.category }}
+            </p>
 
-          <!--
+            <!--
         <p class="thumbnail__software">
           {{ thumbnailData.software }}
         </p>-->
+          </div>
         </div>
       </div>
     </div>
@@ -51,11 +53,11 @@ export default {
   methods: {
     mouseEnter() {
       this.isOpen = true;
-      console.log("enter");
+      // console.log("enter");
     },
     mouseLeft() {
       this.isOpen = false;
-      console.log("leave");
+      //   console.log("leave");
     },
     getImgUrl() {
       return require("../assets/img/" + this.thumbnailData.imgPath);
@@ -109,8 +111,8 @@ export default {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 25%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
