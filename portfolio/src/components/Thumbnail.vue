@@ -10,11 +10,10 @@
         <img class="img__img" :src="getImgUrl()" />
       </figure>
 
-      <!--:class="{ on: isOpen }" v-show="isOpen"-->
-
       <div class="overlay">
         <div class="overlay__text">
           <div class="img__description">
+            <!-- :class="{ on: isOpen }" v-show="isOpen"-->
             <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
 
             <p class="thumbnail__category">
@@ -161,10 +160,12 @@ export default {
   transition: 0.25s ease-in-out;
 }
 
-.overlay__container:hover .overlay {
-  height: 100%;
-  opacity: 100%;
-  border: 1px solid rgb(0, 0, 0);
+.overlay__container:hover {
+  .overlay {
+    height: 100%;
+    opacity: 100%;
+    border: 1px solid rgb(0, 0, 0);
+  }
 }
 
 .overlay__text {
