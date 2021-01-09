@@ -57,10 +57,90 @@
             ></iframe>
           </div>
         </div>
-        <span class="section__title"> Key Interactions </span>
       </div>
 
       <div class="column is-full"><hr /></div>
+
+      <div class="column is-full">
+        <span class="section__title"> Key Interactions <br /> </span>
+
+        <span class="image__caption ibm__typeface">
+          1. Rest State
+        </span>
+
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-half">
+            <figure class="image">
+              <img
+                src="../../../assets/img/PetSimulation/rest.gif"
+                width="100%"
+              />
+            </figure>
+          </div>
+
+          <div class="column is-half">
+            <figure class="image left__padding">
+              <img src="../../../assets/img/PetSimulation/screen_rest.gif" />
+            </figure>
+          </div>
+        </div>
+
+        <span class="image__caption ibm__typeface">
+          2. Petting Interaction
+        </span>
+
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-half">
+            <figure class="image">
+              <img
+                src="../../../assets/img/PetSimulation/pet.gif"
+                width="100%"
+              />
+            </figure>
+          </div>
+
+          <div class="column is-half">
+            <figure class="image left__padding">
+              <img src="../../../assets/img/PetSimulation/screen_pet.gif" />
+            </figure>
+          </div>
+        </div>
+
+        <span class="image__caption ibm__typeface">
+          3. Walk (Wiggle for attention)
+        </span>
+
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-half">
+            <figure class="image">
+              <img
+                src="../../../assets/img/PetSimulation/walk.gif"
+                width="100%"
+              />
+            </figure>
+          </div>
+
+          <div class="column is-half">
+            <figure class="image left__padding">
+              <img
+                src="../../../assets/img/PetSimulation/screen_wiggleNRun.gif"
+                width="100%"
+              />
+            </figure>
+          </div>
+        </div>
+
+        <span class="image__caption ibm__typeface">
+          5. Daily log & Weekly log on contribution
+        </span>
+
+        <div class="column is-full">
+          <figure class="image">
+            <img src="../../../assets/img/PetSimulation/log.gif" width="100%" />
+          </figure>
+        </div>
+      </div>
+
       <div class="column is-two-thirds">
         <span class="section__title"> Process </span>
 

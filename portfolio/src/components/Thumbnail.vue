@@ -126,24 +126,6 @@ export default {
   color: $text-color;
 }
 
-/*
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: $thumbnail-color;
-  overflow: hidden;
-  width: 100%;
-  /*height: 0; 
-  opacity: 0;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -ms-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-} */
-
 .on {
   height: 100%;
   opacity: 100%;
