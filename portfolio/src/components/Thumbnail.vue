@@ -10,9 +10,11 @@
         <img class="img__img" :src="getImgUrl()" />
       </figure>
 
+      <!--:class="{ on: isOpen }" v-show="isOpen"-->
+
       <div class="overlay">
         <div class="overlay__text">
-          <div class="img__description" :class="{ on: isOpen }" v-show="isOpen">
+          <div class="img__description">
             <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
 
             <p class="thumbnail__category">
@@ -131,6 +133,10 @@ export default {
   padding: 1.2vh;
   transform: translate(-50%, -50%);
   /* transitioneffect. not necessary */
+  -webkit-transition: opacity 0.2s, visibility 0.2s;
+  -moz-transition: opacity 0.2s, visibility 0.2s;
+  -ms-transition: opacity 0.2s, visibility 0.2s;
+  -o-transition: opacity 0.2s, visibility 0.2s;
   transition: opacity 0.2s, visibility 0.2s;
 }
 
@@ -148,6 +154,10 @@ export default {
   width: 100%;
   /*height: 0; */
   opacity: 0;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
 
@@ -165,6 +175,8 @@ export default {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
