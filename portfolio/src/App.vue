@@ -1,210 +1,161 @@
 <template>
   <div id="app">
-    <div class="header-container">
-      <!--
-      <div class="name-container">
-        <h1><a href="/" style="color:black;">Mia Tang </a></h1>
+    <nav class="sidenav unselectable" id="navBar">
+      <div class="">
+        <router-link to="/" class="nav__text">Tech</router-link>
+        <router-link to="/visual" class="nav__text">Visual</router-link>
+        <router-link to="/about" class="nav__text"
+          >& Me <br />
+          <!-- &#x295;&bull;&#x32b;&#x361;&bull;&#x294;&#x266c;&#x2727;&#x20; -->
+        </router-link>
       </div>
-      -->
-
-      <h1 style="color: magenta;">Come back 2/1/2021 :)</h1>
-
-      <h2 style="padding-top: 5rem; color: magenta; line-height: 2.2rem;">
-        Hey! 🥺 <br />
-        I'm a junior studying Computer Science and Design @ Carnegie Mellon
-        University.
-      </h2>
-
-      <!--
-      <nav class="breadcrumb is-large has-dot-separator" aria-label="breadcrumbs">
-        <ul>
-          <li><router-link to="/" aria-current="page">Work</router-link>  </li>
-          <li><router-link to="/about">About</router-link> </li>
-          <li><a href = 'https://drive.google.com/file/d/1-EkAF0L7Xdy8c21eWFCr66rPUcsfRHoS/view?usp=sharing'> Resume </a> </li>
-        </ul>
-      </nav>
-    --></div>
-
-    <div id="router-view-container">
+    </nav>
+    <div class="router__view">
       <router-view />
     </div>
 
-    <footer style="padding-top: 5rem; color: magenta;">© Mia Tang 2020</footer>
+    <footer class="footer_container unselectable" id="footer__container">
+      <span class="footer__text ibm__typeface">
+        Built with Vue and <strike>love</strike> coffee. Mia Tang 2021 ©</span
+      >
+    </footer>
   </div>
 </template>
 
 <script>
 import "buefy/dist/buefy.css";
+import $ from "jquery";
+
+/*
+$(document).ready(function() {
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".navbar-burger").toggleClass("is-active");
+    $(".navbar-menu").toggleClass("is-active");
+  });
+}); */
 
 export default {
-  components: {},
+  mounted() {
+    window.addEventListener(
+      "beforeunload",
+      function(e) {
+        document.body.className = "page-loading";
+      },
+      false
+    );
+    this.routeChange();
+  },
+  watch: {
+    "$route.name"() {
+      this.routeChange();
+    },
+  },
+  methods: {
+    routeChange() {
+      let navBar = document.getElementById("navBar");
+      let footer = document.getElementById("footer__container");
+      let navText = [...document.getElementsByClassName("nav__text")];
+      if (this.$route.name != "Home" && this.$route.name != "Visual") {
+        navBar.style.backgroundColor = "white";
+        footer.style.backgroundColor = "white";
+        document.body.style.backgroundColor = "white";
+        navText.forEach((text) => (text.style.fontWeight = "200"));
+      } else {
+        navBar.style.backgroundColor = "black";
+        footer.style.backgroundColor = "black";
+        document.body.style.backgroundColor = "black";
+        navText.forEach((text) => (text.style.fontWeight = "400"));
+      }
+    },
+  },
 };
 </script>
 
-<style lang="scss">
-/* fonts */
-@import "@/assets/styles/_colors.scss";
-@import "@/assets/styles/_reset";
-
-@font-face {
-  font-family: "Uxum-Medium";
-  src: url("../src/assets/fonts/UxumGrotesque-Medium.woff") format("woff"),
-    url("../src/assets/fonts/UxumGrotesque-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Uxum-Regular";
-  src: url("../src/assets/fonts/UxumGrotesque-Regular.woff") format("woff"),
-    url("../src/assets/fonts/UxumGrotesque-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Uxum-Ultra";
-  src: url("../src/assets/fonts/UxumGrotesque-Ultra.woff") format("woff"),
-    url("../src/assets/fonts/UxumGrotesque-Ultra.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Uxum-UltraLight";
-  src: url("../src/assets/fonts/UxumGrotesque-UltraLight.woff") format("woff"),
-    url("../src/assets/fonts/UxumGrotesque-UltraLight.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Uxum-Medium-Italic";
-  src: url("../src/assets/fonts/UxumGrotesqueItalic-Medium.woff") format("woff"),
-    url("../src/assets/fonts/UxumGrotesqueItalic-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Uxum-Regular-Italic";
-  src: url("../src/assets/fonts/UxumGrotesqueItalic-Regular.woff")
-      format("woff"),
-    url("../src/assets/fonts/UxumGrotesqueItalic-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Voyage";
-  src: url("../src/assets/fonts/voyage-regular-webfont.woff") format("woff"),
-    url("../src/assets/fonts/voyage-regular-webfont.woff2") format("woff2");
-}
-
-html {
-  scroll-behavior: smooth;
-  background-color: black;
-}
+<style lang="scss" scoped>
+@import "@/assets/styles/reset.scss";
+@import "@/assets/styles/colors.scss";
+@import "@/assets/styles/functional.scss";
+@import "@/assets/styles/ui__elements.scss";
+$fade-in-time: 0.2s;
 
 #app {
-  font-family: Uxum-Regular, Uxum-Ultra, Uxum-UltraLight, sans-serif;
+  font-family: freight-text-pro, serif;
+  font-weight: 300;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 5%;
-  color: $color-near-black;
-  width: 55%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-#nav {
-  //padding: 30px;
-  float: right;
-  margin-right: 5%;
-  font-size: 2em;
-  word-spacing: 2em;
-
-  &.router-link-exact-active {
-  }
+.router__view {
+  padding: 2rem;
+  margin-left: $sidebar-width; /* sidebar-width; Same as the width of the sidebar */
+  height: 100%;
 }
 
-/* structure */
-footer {
-  color: $color-near-black;
-  padding-top: 5em;
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: $sidebar-width; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid $highlight-color;
+  transition: all $fade-in-time ease-in-out;
 }
 
-body {
-  //background-color: $color-near-white;
-}
-
-a {
-  font-family: Uxum-Regular, Uxum-Ultra, Uxum-UltraLight, sans-serif;
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  padding-right: 0;
+  padding-left: 0;
   text-decoration: none;
+  font-size: 20px;
+  color: $inactive-link-color;
+  display: block;
+  font-weight: 800;
+  font-family: ibm-plex-mono, sans-serif;
 }
 
-/* specific element */
-
-h1 {
-  font-size: 2.5em;
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: $text-color;
 }
 
-h2 {
-  font-size: 2em;
+.footer_container {
+  bottom: 0;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  margin-top: 1rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid $highlight-color;
+  transition: all $fade-in-time ease-in-out;
 }
 
-h3 {
-  font-size: 1.5em;
+.footer__text {
+  color: $highlight-color;
+  font-weight: 600;
 }
 
-p {
-  line-height: 1.5;
-}
-
-/* section does not clash with nav, leaves space in between */
-section {
-  padding: 50px 0 50px 0;
-  // overflow: hidden;
-}
-
-.Bold-Text {
-  padding-bottom: 1em;
-}
-
-.name-container {
-  padding-bottom: 0.5em;
-}
-
-.header-container {
-  //display: flex;
-  //justify-content: space-between;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  padding-bottom: 1em;
-  padding-top: 0.2em;
-  top: 0em;
-  //background-color: $color-near-white;
-  z-index: 1;
-  //border-bottom: solid 3px;
-}
-
-.router-view {
-  overflow: hidden;
-}
-
-.voyage {
-  font-family: Voyage;
-}
-
-@media screen and (max-width: 600px) {
-  #app {
-    width: 100%;
-  }
-  .header-container {
-    padding-bottom: 0.5em;
-    padding-top: 0.1em;
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 1020px) {
+  .sidenav {
+    visibility: hidden;
   }
 
-  h1 {
-    font-size: 1.8em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  p {
-    font-size: 1.1em;
-  }
-
-  footer {
-    padding-top: 2em;
+  .router__view {
+    padding: 5vw;
+    margin: 0;
   }
 }
 </style>

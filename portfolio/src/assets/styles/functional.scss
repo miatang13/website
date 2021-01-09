@@ -1,0 +1,146 @@
+$sidebar-width: 160px;
+$main-padding: 8vh;
+$padding-top: calc($sidebar-width/2);
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.dotted__box {
+  outline: 1px dotted black;
+}
+
+.ibm__typeface {
+  font-family: ibm-plex-mono, sans-serif;
+}
+
+.column {
+  padding: 0;
+  margin: 0;
+}
+
+.columns {
+  padding: 0;
+  margin: 0;
+}
+
+.a__text {
+  font-family: ibm-plex-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.left__padding {
+  padding-left: 1rem;
+}
+
+.right__border {
+  border-right: solid 1px #9f9f9f; // gray 2
+}
+
+.highlight__text {
+  color: magenta;
+  font-weight: 800;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1020px) {
+  .left__padding {
+    padding: 0;
+    padding-top: 1vh;
+  }
+
+  .right__border {
+    border: none;
+  }
+}
+
+$gallery-fade-in-time: 1s;
+
+.fade-in {
+  animation: fadeIn ease $gallery-fade-in-time;
+  -webkit-animation: fadeIn ease $gallery-fade-in-time;
+  -moz-animation: fadeIn ease $gallery-fade-in-time;
+  -o-animation: fadeIn ease $gallery-fade-in-time;
+  -ms-animation: fadeIn ease $gallery-fade-in-time;
+}
+
+$fade-in-time: 1s;
+
+.root {
+  /*
+  animation: fadeIn ease $fade-in-time;
+  -webkit-animation: fadeIn ease $fade-in-time;
+  -moz-animation: fadeIn ease $fade-in-time;
+  -o-animation: fadeIn ease $fade-in-time;
+  -ms-animation: fadeIn ease $fade-in-time; */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

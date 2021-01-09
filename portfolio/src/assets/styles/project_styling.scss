@@ -1,0 +1,115 @@
+$image-top-bot-padding: 5vh;
+$color-grey1: #e9e9e9;
+$color-grey2: #9f9f9f;
+$color-grey3: #585858;
+$hr-color: $color-grey1;
+
+* {
+  text-align: left;
+  background-color: white;
+}
+
+.root {
+  padding: 5vh;
+}
+
+.ibm__typeface {
+  font-family: ibm-plex-mono, sans-serif;
+}
+
+hr {
+  border-top: 1px solid $hr-color;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 2vw;
+}
+
+.call__outs__wrapper {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.project__tags {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.project__tags li {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+}
+
+.square__bullet__list {
+  list-style-type: square;
+}
+
+.square__bullet__list li {
+  padding-bottom: 0.8em;
+}
+
+.banner__image {
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  margin: 0;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.image__side__padding {
+  padding-right: 5px;
+}
+
+.body__image {
+  margin: 0;
+  padding-top: $image-top-bot-padding;
+  padding-bottom: $image-top-bot-padding;
+}
+
+.image__text {
+  font-size: 0.8em;
+}
+
+.main__title {
+  font-family: ibm-plex-mono, sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  padding-top: 1vh;
+}
+
+.main__subtitle {
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-top: 1vh;
+}
+
+.project__tags {
+  font-family: ibm-plex-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body__text {
+  font-size: 1.2em;
+}
+
+.section__title {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.glitch-embed-wrap {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
