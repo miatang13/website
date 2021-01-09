@@ -1,7 +1,7 @@
 <template>
   <div id="Thumbnail">
     <div
-      class="thumbnail unselectable container"
+      class="thumbnail unselectable overlay__container"
       @mouseover="isOpen = true"
       @mouseleave="isOpen = false"
       @click="redirect()"
@@ -134,14 +134,8 @@ export default {
   transition: opacity 0.2s, visibility 0.2s;
 }
 
-.container {
+.overlay__container {
   position: relative;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .overlay {
@@ -157,7 +151,7 @@ export default {
   transition: 0.25s ease-in-out;
 }
 
-.container:hover .overlay {
+.overlay__container:hover .overlay {
   height: 100%;
   opacity: 100%;
   border: 1px solid rgb(0, 0, 0);
