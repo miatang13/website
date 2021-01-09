@@ -1,30 +1,28 @@
 <template>
   <div id="Thumbnail">
     <div
-      class="thumbnail unselectable overlay__container"
-      @mouseover="isOpen = true"
-      @mouseleave="isOpen = false"
+      class="thumbnail unselectable"
+      @mouseover="mouseEnter()"
+      @mouseleave="mouseLeft()"
       @click="redirect()"
     >
       <figure class="image is-5by3">
         <img class="img__img" :src="getImgUrl()" />
       </figure>
 
-      <div class="overlay">
-        <div class="overlay__text">
-          <div class="img__description">
-            <!-- :class="{ on: isOpen }" v-show="isOpen"-->
-            <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
+      <div class="overlay" :class="{ on: isOpen }">
+        <div class="img__description overlay__text">
+          <!-- :class="{ on: isOpen }" v-show="isOpen"-->
+          <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
 
-            <p class="thumbnail__category">
-              {{ thumbnailData.category }}
-            </p>
+          <p class="thumbnail__category">
+            {{ thumbnailData.category }}
+          </p>
 
-            <!--
+          <!--
         <p class="thumbnail__software">
           {{ thumbnailData.software }}
         </p>-->
-          </div>
         </div>
       </div>
     </div>
@@ -51,9 +49,13 @@ export default {
     },
   },
   methods: {
-    mouseOver() {
-      this.isOpen = !this.isOpen;
-      console.log(this.isOpen);
+    mouseEnter() {
+      this.isOpen = true;
+      //console.log("enter");
+    },
+    mouseLeft() {
+      this.isOpen = false;
+      //console.log("leave");
     },
     getImgUrl() {
       return require("../assets/img/" + this.thumbnailData.imgPath);
@@ -99,15 +101,27 @@ export default {
   position: absolute;
   background: $thumbnail-color;
   color: #818181;
-  visibility: hidden;
   opacity: 50;
   transition: opacity 0.15s, visibility 0.15s;
 }
 
+.overlay__text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .thumbnail__title {
-  font-size: 2em; /*calc(14px + 0.5vw); */
+  font-size: 2em;
   font-family: ibm-plex-mono, sans-serif;
-  /* font-family: freight-text-pro, serif; */
   font-weight: 500;
   font-style: normal;
   color: $text-color;
@@ -120,27 +134,6 @@ export default {
   font-style: italic;
   font-size: 1em; /*calc(14px + 0.5vw); */
   color: $text-color;
-}
-
-.on {
-  visibility: visible;
-  opacity: 100%;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 1.2vh;
-  transform: translate(-50%, -50%);
-  /* transitioneffect. not necessary */
-  -webkit-transition: opacity 0.2s, visibility 0.2s;
-  -moz-transition: opacity 0.2s, visibility 0.2s;
-  -ms-transition: opacity 0.2s, visibility 0.2s;
-  -o-transition: opacity 0.2s, visibility 0.2s;
-  transition: opacity 0.2s, visibility 0.2s;
-}
-
-.overlay__container {
-  position: relative;
 }
 
 .overlay {
@@ -160,25 +153,9 @@ export default {
   transition: 0.25s ease-in-out;
 }
 
-.overlay__container:hover {
-  .overlay {
-    height: 100%;
-    opacity: 100%;
-    border: 1px solid rgb(0, 0, 0);
-  }
-}
-
-.overlay__text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+.on {
+  height: 100%;
+  opacity: 100%;
+  border: 1px solid rgb(0, 0, 0);
 }
 </style>
