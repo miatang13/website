@@ -149,7 +149,7 @@ $fade-in-time: 0.2s;
 @media screen and (max-width: 1020px) {
   .sidenav {
     width: 100%;
-    height: 5%;
+    height: 7%;
     flex-direction: row;
     overflow-x: visible;
     align-items: stretch;
@@ -163,7 +163,7 @@ $fade-in-time: 0.2s;
 
   .router__view {
     margin: 0;
-    margin-top: 2vh;
+    margin-top: 7%;
     padding: 3vw;
   }
 
