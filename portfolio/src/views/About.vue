@@ -12,33 +12,34 @@
       <div class="column is-full"><hr /></div>
 
       <div class="column is-four-fifths" id="current">
-        <p>
-          <b><i>Canadian &#127809; </i></b> based in Vancouver, British
-          Columbia, where I have 2 corgis named Leeze (5 yr) and Mango (3 yr).
-          Pronouns: she/her.
-        </p>
-        <p>
-          <b><i>Junior </i></b> at Carnegie Mellon University studying Computer
-          Science and Graphic Design w/ a minor in Logic. (2022 expected)
-        </p>
-        <p>
-          <b><i>Frontend Engineer (1+ yr) </i></b> at
-          <a href="https://www.linkedin.com/company/irisrover/mycompany/">
-            IrisRover</a
-          >
-          building interfaces for ground officers to drive a lunar rover on the
-          moon in 2021.
-        </p>
+        <ul class="lists">
+          <li>
+            <b><i>Canadian &#127809; </i></b> based in Vancouver, British
+            Columbia, where I have 2 corgis named Leeze (5 yr) and Mango (3 yr).
+            Pronouns: she/her.
+          </li>
+          <li>
+            <b><i>Junior </i></b> at Carnegie Mellon University studying
+            Computer Science and Graphic Design w/ a minor in Logic. (2022
+            expected)
 
-        <p>
-          <b><i>Incoming Research Intern </i></b> at
-          <a
-            href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
-            >Penrose</a
-          >
-          creating programmable visualization tool for complex mathematical
-          topics.
-        </p>
+            <b><i>Frontend Engineer (1+ yr) </i></b> at
+            <a href="https://www.linkedin.com/company/irisrover/mycompany/">
+              IrisRover</a
+            >
+            building interfaces for ground officers to drive a lunar rover on
+            the moon in 2021.
+          </li>
+          <li>
+            <b><i>Incoming Research Intern </i></b> at
+            <a
+              href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
+              >Penrose</a
+            >
+            creating programmable visualization tool for complex mathematical
+            topics.
+          </li>
+        </ul>
       </div>
 
       <div class="column is-full"><hr /></div>
@@ -224,7 +225,7 @@ a {
   font-style: italic;
 }
 
-#current p {
+#current ul li {
   font-family: ibm-plex-mono, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -239,5 +240,17 @@ a {
 .articles__text {
   padding-bottom: 0.5vh;
   font-size: 1.2em;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 1020px) {
+  .intro__text {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+
+  #details {
+    font-size: 1em;
+  }
 }
 </style>

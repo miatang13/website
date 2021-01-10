@@ -113,3 +113,27 @@ h3 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 1020px) {
+  .root {
+    padding: 0;
+    padding-top: 3vw;
+  }
+
+  .main__title {
+    font-size: 1.5rem;
+  }
+
+  .main__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .project__tags {
+    font-size: 0.7rem;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}

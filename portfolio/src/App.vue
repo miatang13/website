@@ -153,12 +153,13 @@ $fade-in-time: 0.2s;
     flex-direction: row;
     overflow-x: visible;
     align-items: stretch;
+    padding-bottom: 1vw;
     /*justify-content: normal; */
   }
 
   .sidenav a {
     padding-left: 4vw;
-    text-decoration: underline;
+    padding-bottom: 1vh;
   }
 
   .router__view {
