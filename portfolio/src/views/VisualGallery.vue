@@ -48,7 +48,7 @@ export default {
           title: "Community Event Campaign",
           category: "Print & Digital",
           software: "Adobe",
-          imgPath: "DanceCampaignDesign/poster_crop1.png",
+          imgPath: "DanceCampaignDesign/Opt-asphaltcrop1.png",
           subpageRouter: "/AsphaltCampaignPoster",
         },
       ],

@@ -107,11 +107,16 @@ h3 {
 .section__title {
   font-size: 2em;
   font-weight: 400;
+  font-style: italic;
 }
 
 .glitch-embed-wrap {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.expand__btn {
+  text-decoration: underline;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
