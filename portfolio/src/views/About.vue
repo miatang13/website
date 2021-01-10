@@ -12,7 +12,7 @@
       <div class="column is-full"><hr /></div>
 
       <div class="column is-four-fifths" id="current">
-        <ul class="lists">
+        <ul class="lists square__bullet__list">
           <li>
             <b><i>Canadian &#127809; </i></b> based in Vancouver, British
             Columbia, where I have 2 corgis named Leeze (5 yr) and Mango (3 yr).
@@ -22,7 +22,8 @@
             <b><i>Junior </i></b> at Carnegie Mellon University studying
             Computer Science and Graphic Design w/ a minor in Logic. (2022
             expected)
-
+          </li>
+          <li>
             <b><i>Frontend Engineer (1+ yr) </i></b> at
             <a href="https://www.linkedin.com/company/irisrover/mycompany/">
               IrisRover</a
@@ -59,61 +60,14 @@
 
       <div class="column is-full">
         <div class="columns">
-          <div class="column is-one-third">
+          <div class="column is-half">
             <figure class="image is-box bio__image">
               <img
                 src="https://miro.medium.com/max/2000/1*543bRfXoHGkNnrA8y2N4YA.png"
               />
             </figure>
-          </div>
 
-          <div class="column" id="details">
-            <p>
-              I enjoy computer science and logic. At the same time, I love
-              beautiful typography, graphics, and motion design. So naturally, I
-              wanted to combine my interests and create some meaningful stuff —
-              whether it is curating emotionally stimulating graphics with code
-              or Adobe, or developing robust softwares for people to use.
-              <br />
-              <br />
-              Long story short, I want to design and implement beautiful,
-              meaningful, and impactful work. To do that, I’m ready to take on
-              new technical challenges, and frankly, the frustration that comes
-              with learning new things excites me.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-full"><hr /></div>
-
-      <div class="column is-full">
-        <div class="columns bottom__section">
-          <div class="column is-one-third right__border">
-            <p class="articles__text highlight__text">
-              Currently looking for 2021 Summer internship ☆
-            </p>
-            <ul class="lists">
-              <li><a href="#"> Resume </a></li>
-              <li>
-                <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn </a>
-              </li>
-              <li><a href="https://twitter.com/Miamiamia0103"> Twitter </a></li>
-              <li>
-                <p class="a__text">
-                  miatang13[at]gmail[dot]com
-                </p>
-              </li>
-            </ul>
-          </div>
-
-          <div
-            class="column is-one-third articles__section right__border left__padding"
-          >
-            <p class="articles__text">
-              I enjoy writing articles on computer science
-            </p>
-            <ul class="lists">
+            <ul class="lists small__list">
               <li>
                 <a
                   href="https://mia-tang.medium.com/functional-programming-manual-v-1-510ae8671b88"
@@ -142,9 +96,59 @@
             </ul>
           </div>
 
-          <div class="column is-one-third left__padding">
+          <div class="column" id="details">
+            <p>
+              Solving a problem that I couldn't solve yesterday gives me the
+              greatest joy. My curiosity of eveything that I haven't done is the
+              reason why I love to work with emerging technology. My background
+              in Computer Science equips me to take on technical challenges. On
+              top of enjoying the process of making things work, I'm also a
+              graphic designer who gets excited about beautiful typography,
+              colors, and motion. My past experiences of working as UX Designer
+              and Graphic Designer made me more understanding as now I'm
+              normally on the implementation side.
+              <br />
+              <br />
+              Another important aspect of my work is my interest in
+              storytelling, or put it simply, explaining stuff. I realized this
+              when I was a teaching assistant for a CS class. To help my
+              students, I spent time thinking about how to explain complicated
+              topics for people with varied backgrounds, and have fun while
+              understanding it. This applies to all kinds of information sharing
+              that happens on the internet. I believe in creating engaging
+              experiences that smoothly delivers what should be delivered to the
+              audience. Whether I'm a writer, designer, or a developer, I want
+              to write, design, or build work that is accessible and compelling.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-full"><hr /></div>
+
+      <div class="column is-full">
+        <div class="columns bottom__section">
+          <div class="column is-half right__border">
+            <p class="articles__text highlight__text">
+              Currently looking for 2021 Summer internship ☆
+            </p>
+            <ul class="lists">
+              <li><a href="#"> Resume </a></li>
+              <li>
+                <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn </a>
+              </li>
+              <li><a href="https://twitter.com/Miamiamia0103"> Twitter </a></li>
+              <li>
+                <p class="a__text">
+                  miatang13[at]gmail[dot]com
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="column is-half left__padding">
             <p class="articles__text">
-              Currently learning and practicing
+              Learning and practicing
             </p>
             <ul class="lists ibm__typeface">
               <li>THREE.js</li>
@@ -189,8 +193,16 @@ $intro-text-size: 6.3vh;
   font-size: $intro-text-size;
 }
 
+.square__bullet__list {
+  list-style-type: square;
+}
+
+.square__bullet__list li {
+  padding-bottom: 0.8em;
+}
+
 p {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 #details {
@@ -225,12 +237,22 @@ a {
   font-style: italic;
 }
 
-#current ul li {
+.lists {
   font-family: ibm-plex-mono, sans-serif;
   font-weight: 400;
   font-style: normal;
   padding-bottom: 0.5vw;
   padding-top: 0.5vw;
+  font-size: 1.2em;
+}
+
+.small__lists {
+  font-family: ibm-plex-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 0.5vw;
+  padding-top: 0.5vw;
+  font-size: 0.8em;
 }
 
 .bottom__section {
