@@ -61,6 +61,27 @@
 
       <div class="column is-full"><hr /></div>
 
+      <div class="column is-three-fifths">
+        <span class="section__title"> Target Audience </span>
+        <ul
+          class="square__bullet__list ibm__typeface"
+          style="padding-top: 2vh; padding-bottom: 2vh;"
+        >
+          <li>
+            First time pet owners.
+          </li>
+          <li>
+            Couples / Families who wants to know who is the most responsible one
+            (for real).
+          </li>
+          <li>
+            Bored people who wants a digital pet.
+          </li>
+        </ul>
+      </div>
+
+      <div class="column is-full"><hr /></div>
+
       <div class="column is-full">
         <span class="section__title"> Key Interactions <br /> </span>
 
@@ -85,6 +106,15 @@
           </div>
         </div>
 
+        <div class="column is-two-thirds">
+          <p class="image__description">
+            This is the default state of the pet, where the recorded last visit
+            time and the daily pet and walk data are displayed.
+          </p>
+        </div>
+
+        <div class="column is-full"><hr /></div>
+
         <span class="image__caption ibm__typeface">
           2. Petting Interaction
         </span>
@@ -105,6 +135,15 @@
             </figure>
           </div>
         </div>
+
+        <div class="column is-two-thirds">
+          <p class="image__description">
+            This is the interaction that simulates petting an actual dog. The
+            number of minutes of petting time is recorded in the database.
+          </p>
+        </div>
+
+        <div class="column is-full"><hr /></div>
 
         <span class="image__caption ibm__typeface">
           3. Walk (Wiggle for attention)
@@ -130,6 +169,17 @@
           </div>
         </div>
 
+        <div class="column is-two-thirds">
+          <p class="image__description">
+            The pet will be in the wiggle state if it has not been walked today
+            to notify its owner that we should go on a walk. The actual location
+            of the phone will be recorded, and the location needs to be changing
+            for the 15 minutes as the user starts the walk.
+          </p>
+        </div>
+
+        <div class="column is-full"><hr /></div>
+
         <span class="image__caption ibm__typeface">
           4. Feed (Turns Away for attention)
         </span>
@@ -154,6 +204,16 @@
           </div>
         </div>
 
+        <div class="column is-two-thirds">
+          <p class="image__description">
+            The pet goes in starving state twice a day for breakfast and dinner,
+            and the owner needs to feed with the simple interaction within 60
+            minutes after the starving phase begins.
+          </p>
+        </div>
+
+        <div class="column is-full"><hr /></div>
+
         <span class="image__caption ibm__typeface">
           5. Daily log & Weekly log on contribution
         </span>
@@ -165,39 +225,41 @@
         </div>
       </div>
 
+      <p class="image__description column is-two-thirds">
+        Lastly and most importantly, the user can check his/her own data of
+        contribution on a daily basis, and every friday, the users will be able
+        to see all the other users's in the same registered family. "Who really
+        took care of the pet?" will no longer be a needed question.
+      </p>
+
+      <div class="column is-full"><hr /></div>
+
       <div class="column is-two-thirds">
-        <span class="section__title"> Process </span>
+        <span class="section__title"> Thoughts </span>
 
         <p class="body__text">
-          process text
+          This project is motivated by my own identity of being a pet owner, and
+          my worry about pets being abandoned after the pandemic ends. Many
+          people have bought or adopted new pets into their lives due to
+          loneliness caused by quarantine, and I truly worry about once our life
+          goes back to normal, are they ready for the daily responsibilities of
+          having a pet?
         </p>
       </div>
 
-      <div class="column is-three-fifths">
-        <ul
-          class="square__bullet__list ibm__typeface"
-          style="padding-top: 2vh; padding-bottom: 2vh;"
-        >
-          <li>
-            hungry, thirsty (set time)→ tap on food / water bowl to feed
-          </li>
-          <li>
-            need company (random time, but fixed amount to satisfy)→ users need
-            to pet the dog by touching the screen
-          </li>
-          <li>
-            need walk (set time) → need user to actually go outside and move
-            around for 15 minutes or more
-          </li>
-        </ul>
-      </div>
+      <!-- <div class="column is-full"><Pet /></div>-->
     </div>
   </div>
 </template>
 
 <script>
+//import Pet from "./3DPetDisplay.vue";
+
 export default {
   name: "PetSimulationSubpage",
+  components: {
+    // Pet,
+  },
   mounted() {
     console.log("PetSimulationSubpage");
   },
