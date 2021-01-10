@@ -1,14 +1,12 @@
 <template>
   <div id="app">
     <nav class="sidenav unselectable" id="navBar">
-      <div class="">
-        <router-link to="/" class="nav__text">Tech</router-link>
-        <router-link to="/visual" class="nav__text">Visual</router-link>
-        <router-link to="/about" class="nav__text"
-          >& Me <br />
-          <!-- &#x295;&bull;&#x32b;&#x361;&bull;&#x294;&#x266c;&#x2727;&#x20; -->
-        </router-link>
-      </div>
+      <router-link to="/" class="nav__text">Tech</router-link>
+      <router-link to="/visual" class="nav__text">Visual</router-link>
+      <router-link to="/about" class="nav__text"
+        >& Me <br />
+        <!-- &#x295;&bull;&#x32b;&#x361;&bull;&#x294;&#x266c;&#x2727;&#x20; -->
+      </router-link>
     </nav>
     <div class="router__view">
       <router-view />
@@ -150,11 +148,19 @@ $fade-in-time: 0.2s;
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 1020px) {
   .sidenav {
-    visibility: hidden;
+    width: 100%;
+    height: 5%;
+    flex-direction: row;
+    overflow-x: visible;
+    align-items: stretch;
+    /*justify-content: normal; */
+  }
+
+  .sidenav a {
+    padding-left: 4vw;
   }
 
   .router__view {
-    padding: 5vw;
     margin: 0;
   }
 }
