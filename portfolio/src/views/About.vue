@@ -19,7 +19,7 @@
         </p>
         <p>
           <b><i>Junior </i></b> at Carnegie Mellon University studying Computer
-          Science and Graphics Design w/ a minor in Logic. (2022 expected)
+          Science and Graphic Design w/ a minor in Logic. (2022 expected)
         </p>
         <p>
           <b><i>Frontend Engineer (1+ yr) </i></b> at

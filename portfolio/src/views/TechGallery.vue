@@ -22,7 +22,7 @@ export default {
           title: "Pet Co-Parenting App",
           category: "Mobile Dev",
           software: "LowDB, socket.io, p5.js",
-          imgPath: "PetSimulation/petHeart.png",
+          imgPath: "PetSimulation/opt_thumbnail.png",
           subpageRouter: "/PetSimulationApp",
         },
         {
@@ -51,7 +51,7 @@ export default {
           title: "IrisRover",
           category: "Frontend/UX Engineering",
           software: "Vue.js, VueX, HTML & SCSS",
-          imgPath: "IrisRover/IrisRover.jpg",
+          imgPath: "IrisRover/mock_crop.png",
           subpageRouter: "/IrisRover",
         },
 

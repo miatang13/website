@@ -16,7 +16,7 @@
       <div class="column is-full"><hr /></div>
       <img
         class="banner__image image is-5by3 column is-full"
-        src="../../../assets/img/PetSimulation/petHeart.png"
+        src="../../../assets/img/PetSimulation/thumbnail_green.png"
       />
 
       <div class="column is-full"><hr /></div>
@@ -69,7 +69,7 @@
         </span>
 
         <div class="columns is-centered is-vcentered">
-          <div class="column is-half">
+          <div class="column is-two-thirds">
             <figure class="image">
               <img
                 src="../../../assets/img/PetSimulation/rest.gif"
@@ -78,7 +78,7 @@
             </figure>
           </div>
 
-          <div class="column is-half">
+          <div class="column">
             <figure class="image left__padding">
               <img src="../../../assets/img/PetSimulation/screen_rest.gif" />
             </figure>
@@ -90,7 +90,7 @@
         </span>
 
         <div class="columns is-centered is-vcentered">
-          <div class="column is-half">
+          <div class="column is-two-thirds">
             <figure class="image">
               <img
                 src="../../../assets/img/PetSimulation/pet.gif"
@@ -99,7 +99,7 @@
             </figure>
           </div>
 
-          <div class="column is-half">
+          <div class="column">
             <figure class="image left__padding">
               <img src="../../../assets/img/PetSimulation/screen_pet.gif" />
             </figure>
@@ -111,7 +111,7 @@
         </span>
 
         <div class="columns is-centered is-vcentered">
-          <div class="column is-half">
+          <div class="column is-two-thirds">
             <figure class="image">
               <img
                 src="../../../assets/img/PetSimulation/walk.gif"
@@ -120,10 +120,34 @@
             </figure>
           </div>
 
-          <div class="column is-half">
+          <div class="column">
             <figure class="image left__padding">
               <img
                 src="../../../assets/img/PetSimulation/screen_wiggleNRun.gif"
+                width="100%"
+              />
+            </figure>
+          </div>
+        </div>
+
+        <span class="image__caption ibm__typeface">
+          4. Feed (Turns Away for attention)
+        </span>
+
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-two-thirds">
+            <figure class="image">
+              <img
+                src="../../../assets/img/PetSimulation/feed.gif"
+                width="100%"
+              />
+            </figure>
+          </div>
+
+          <div class="column">
+            <figure class="image left__padding">
+              <img
+                src="../../../assets/img/PetSimulation/screen_feed.gif"
                 width="100%"
               />
             </figure>
