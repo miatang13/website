@@ -11,6 +11,7 @@
     "jquery": "^3.5.1",
     "three": "^0.124.0",
     "vue": "^2.6.11",
+    "vue-glsl": "^0.1.12",
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
