@@ -6,7 +6,7 @@
           <i>I'm Mia Tang, and I like to make stuff. </i> <br />
           Quick facts about me:
         </span>
-        <span class="no__break"
+        <span class="no__break emoji"
           >&#x20;&lpar;&bull;&#x20;&#x25e1;&bull;&rpar;</span
         >
       </div>
