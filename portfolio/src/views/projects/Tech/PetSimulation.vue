@@ -37,7 +37,13 @@
         <p class="body__text">
           This project explores a new way of communication between people, where
           instead of words or text, people communicate through actions: taking
-          care of the virtual pet.
+          care of the virtual pet. <br />
+          <br />
+          <i
+            >* Project originally developed on glitch, and I'm currently
+            rewriting it for IOS so original code for this is not public at the
+            moment.</i
+          >
         </p>
       </div>
 
