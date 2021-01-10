@@ -164,4 +164,11 @@ export default {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 1020px) {
+  .thumbnail__title {
+    font-size: 1.5em;
+  }
+}
 </style>

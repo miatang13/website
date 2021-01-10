@@ -158,12 +158,13 @@ $fade-in-time: 0.2s;
   }
 
   .sidenav a {
-    padding-left: 4vw;
+    padding-right: 4vw;
     padding-bottom: 1vh;
   }
 
   .router__view {
     margin: 0;
+    margin-top: 2vh;
   }
 }
 </style>
