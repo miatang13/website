@@ -21,7 +21,7 @@ export default {
           title: "Public Asphalt",
           category: "Environment Design",
           software: "",
-          imgPath: "DanceCampaignDesign/asphaltcrop1.png",
+          imgPath: "DanceCampaignDesign/Opt-asphaltcrop1.png",
           subpageRouter: "/AsphaltArt",
         },
         {
@@ -48,7 +48,7 @@ export default {
           title: "Community Event Campaign",
           category: "Print & Digital",
           software: "Adobe",
-          imgPath: "DanceCampaignDesign/Opt-asphaltcrop1.png",
+          imgPath: "DanceCampaignDesign/poster_crop1.png",
           subpageRouter: "/AsphaltCampaignPoster",
         },
       ],
