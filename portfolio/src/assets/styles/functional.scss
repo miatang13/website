@@ -65,6 +65,10 @@ $padding-top: calc($sidebar-width/2);
   font-style: italic;
 }
 
+.no__break {
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 1020px) {
   .left__padding {
     padding: 0;
@@ -87,15 +91,6 @@ $gallery-fade-in-time: 1s;
 }
 
 $fade-in-time: 1s;
-
-.root {
-  /*
-  animation: fadeIn ease $fade-in-time;
-  -webkit-animation: fadeIn ease $fade-in-time;
-  -moz-animation: fadeIn ease $fade-in-time;
-  -o-animation: fadeIn ease $fade-in-time;
-  -ms-animation: fadeIn ease $fade-in-time; */
-}
 
 @keyframes fadeIn {
   0% {
