@@ -149,9 +149,10 @@ export default {
   opacity: 0;
   transition: 0.5s ease;
   background-color: $thumbnail-color;
+  background-color: black;
 }
 .list-complete-item:hover .overlay {
-  opacity: 1;
+  opacity: 0.8;
 }
 .list-complete-item .text {
   color: white;

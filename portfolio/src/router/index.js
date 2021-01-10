@@ -77,26 +77,10 @@ const routes = [
   },
 
   {
-    path: "/Shader1",
+    path: "/Shaders",
     name: "Shader1",
     component: function() {
       return import("./../views/projects/Tech/Shader1.vue");
-    },
-  },
-
-  {
-    path: "/Shader2",
-    name: "Shader2",
-    component: function() {
-      return import("./../views/projects/Tech/Shader2.vue");
-    },
-  },
-
-  {
-    path: "/Shader3",
-    name: "Shader3",
-    component: function() {
-      return import("./../views/projects/Tech/Shader3.vue");
     },
   },
 

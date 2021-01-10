@@ -71,7 +71,7 @@ export default {
           category: "Shaders",
           software: "",
           imgPath: "Shaders/Heatwave/screenshot.png",
-          subpageRouter: "/Shader1",
+          subpageRouter: "/Shaders",
         },
         {
           name: "ColliderBall",
@@ -82,26 +82,6 @@ export default {
           imgPath: "ColliderBall/thumbnail1.gif",
           subpageRouter: "/ColliderBall",
         },
-
-        /*
-        {
-          name: "Shader2",
-          index: 7,
-          title: "Shader",
-          category: "WebGL Shader",
-          software: "p5.js (no external library)",
-          imgPath: "ColliderBall/static.png",
-          subpageRouter: "/Shader2",
-        },
-        {
-          name: "Shader3",
-          index: 8,
-          title: "Heatwave",
-          category: "WebGL Shader",
-          software: "WebGL",
-          imgPath: "Shaders/Heatwave/screenshot.png",
-          subpageRouter: "/Shader3",
-        },*/
       ],
     };
   },

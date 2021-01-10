@@ -17,12 +17,12 @@
 
       <div class="column is-full"><hr /></div>
 
-      <div class="column is-full ">
+      <div class="column is-full image is-1by1">
         <fragShader class="shader" :shaderCode="heatWaveShaderCode" />
       </div>
       <div class="column is-full"><hr /></div>
 
-      <div class="column is-full ">
+      <div class="column is-full image is-1by1">
         <fragShader class="shader" :shaderCode="vinylRecordShaderCode" />
       </div>
       <div class="column is-full"><hr /></div>

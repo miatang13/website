@@ -27,7 +27,7 @@
 
           <li>Adobe</li>
 
-          <li>2020 Spring (7 weeks)</li>
+          <li>2020 Spring (11 weeks)</li>
         </ul>
       </div>
       <div class="column is-full"><hr /></div>
@@ -62,7 +62,7 @@
             src="../../../assets/img/BrianCollinsDesign/booklet/booklet.gif"
           />
           <button class="expand__btn ibm__typeface" @click="isOpen = !isOpen">
-            View all spreads
+            View Full Spreads
           </button>
           <div class="zine__details" v-if="isOpen">
             <img
@@ -107,17 +107,15 @@
               Biography Video
             </span>
           </div>
-          <div class="columns is-centered">
-            <div class="column is-half">
-              <iframe
-                src="https://player.vimeo.com/video/419170346"
-                width="640"
-                height="360"
-                frameborder="0"
-                allow="autoplay; fullscreen"
-                allowfullscreen
-              ></iframe>
-            </div>
+          <div class="column is-full">
+            <iframe
+              src="https://player.vimeo.com/video/419170346"
+              width="640"
+              height="360"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
           </div>
           <div class="column is-full"><hr /></div>
           <span class="image__text ibm__typeface">
@@ -135,8 +133,8 @@
               Mobile Experience
             </span>
           </div>
-          <div class="columns is-centered">
-            <div class="column is-half">
+          <div class="columns">
+            <div class="column is-full">
               <iframe
                 src="https://player.vimeo.com/video/414320248"
                 width="640"
@@ -146,6 +144,21 @@
                 allowfullscreen
               ></iframe>
             </div>
+          </div>
+
+          <div class="column is-full"><hr /></div>
+
+          <div class="column is-two-thirds">
+            <span class="section__title"> Thoughts </span>
+
+            <p class="body__text">
+              I learned a tremendous amount about typography, visual hierarchy,
+              and creating a cohesive design system through this semester long
+              project. It was a great learning experience in terms of practicing
+              and solidifying my own design styles, as well as spending time on
+              studying the work of Brian Collins, who is one of my favorite
+              designers.
+            </p>
           </div>
         </div>
       </div>

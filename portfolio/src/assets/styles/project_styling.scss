@@ -80,6 +80,10 @@ li {
   padding-right: 5px;
 }
 
+.image__text {
+  padding-bottom: 1em;
+}
+
 .body__image {
   margin: 0;
   padding-top: $image-top-bot-padding;
@@ -122,6 +126,16 @@ li {
 
 .expand__btn {
   text-decoration: underline;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  border: dashed 2px black;
+  cursor: pointer;
+}
+
+.expand__btn:hover {
+  background-color: black;
+  color: white;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
