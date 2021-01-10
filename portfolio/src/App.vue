@@ -164,6 +164,13 @@ $fade-in-time: 0.2s;
   .router__view {
     margin: 0;
     margin-top: 2vh;
+    padding: 3vw;
+  }
+
+  .footer__text {
+    font-size: 0.8em;
+    font-weight: 500;
+    padding: 1em;
   }
 }
 </style>

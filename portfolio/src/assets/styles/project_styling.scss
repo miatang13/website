@@ -48,8 +48,13 @@ h3 {
   text-align: center;
 }
 
+li {
+  font-size: 1.2em;
+}
+
 .square__bullet__list {
   list-style-type: square;
+  padding-left: 1.5em;
 }
 
 .square__bullet__list li {
@@ -67,6 +72,10 @@ h3 {
   padding-bottom: 2.5%;
 }
 
+.image__caption {
+  font-size: 1.5;
+}
+
 .image__side__padding {
   padding-right: 5px;
 }
@@ -75,10 +84,6 @@ h3 {
   margin: 0;
   padding-top: $image-top-bot-padding;
   padding-bottom: $image-top-bot-padding;
-}
-
-.image__text {
-  font-size: 0.8em;
 }
 
 .main__title {
@@ -101,7 +106,7 @@ h3 {
 }
 
 .body__text {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .section__title {
@@ -127,11 +132,11 @@ h3 {
   }
 
   .main__title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .main__subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .project__tags {
@@ -140,5 +145,28 @@ h3 {
 
   iframe {
     width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .desktop__only {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .section__title {
+    font-size: 1.5em;
+  }
+
+  .body__text {
+    font-size: 1em;
+  }
+
+  li {
+    font-size: 0.8em;
+  }
+
+  .call__outs {
+    font-size: 1em;
   }
 }

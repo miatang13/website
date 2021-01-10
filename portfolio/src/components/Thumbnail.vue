@@ -168,7 +168,7 @@ export default {
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 1020px) {
   .thumbnail__title {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 </style>

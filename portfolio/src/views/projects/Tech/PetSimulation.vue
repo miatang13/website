@@ -113,7 +113,7 @@
         </div>
 
         <div class="column is-two-thirds">
-          <p class="image__description">
+          <p class="body__text">
             This is the default state of the pet, where the recorded last visit
             time and the daily pet and walk data are displayed.
           </p>
@@ -143,7 +143,7 @@
         </div>
 
         <div class="column is-two-thirds">
-          <p class="image__description">
+          <p class="body__text">
             This is the interaction that simulates petting an actual dog. The
             number of minutes of petting time is recorded in the database.
           </p>
@@ -176,7 +176,7 @@
         </div>
 
         <div class="column is-two-thirds">
-          <p class="image__description">
+          <p class="body__text">
             The pet will be in the wiggle state if it has not been walked today
             to notify its owner that we should go on a walk. The actual location
             of the phone will be recorded, and the location needs to be changing
@@ -211,7 +211,7 @@
         </div>
 
         <div class="column is-two-thirds">
-          <p class="image__description">
+          <p class="body__text">
             The pet goes in starving state twice a day for breakfast and dinner,
             and the owner needs to feed with the simple interaction within 60
             minutes after the starving phase begins.
@@ -231,7 +231,7 @@
         </div>
       </div>
 
-      <p class="image__description column is-two-thirds">
+      <p class="body__text column is-two-thirds">
         Lastly and most importantly, the user can check his/her own data of
         contribution on a daily basis, and every friday, the users will be able
         to see all the other users's in the same registered family. "Who really

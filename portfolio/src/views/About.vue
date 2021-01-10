@@ -12,7 +12,7 @@
       <div class="column is-full"><hr /></div>
 
       <div class="column is-four-fifths" id="current">
-        <ul class="lists square__bullet__list">
+        <ul class="lists square__bullet__list top__list">
           <li>
             <b><i>Canadian &#127809; </i></b> based in Vancouver, British
             Columbia, where I have 2 corgis named Leeze (5 yr) and Mango (3 yr).
@@ -64,10 +64,11 @@
             <figure class="image is-box bio__image">
               <img
                 src="https://miro.medium.com/max/2000/1*543bRfXoHGkNnrA8y2N4YA.png"
+                width="100%"
               />
             </figure>
 
-            <ul class="lists small__list">
+            <ul class="lists small__list desktop__only">
               <li>
                 <a
                   href="https://mia-tang.medium.com/functional-programming-manual-v-1-510ae8671b88"
@@ -146,7 +147,7 @@
             </ul>
           </div>
 
-          <div class="column is-half left__padding">
+          <div class="column is-half left__padding desktop__only">
             <p class="articles__text">
               Learning and practicing
             </p>
@@ -178,12 +179,6 @@ export default {
 
 $intro-text-size: 6.3vh;
 
-.bio__image {
-  padding: 2rem;
-  padding-left: 0;
-  padding-top: 0.5rem;
-}
-
 .intro__text {
   font-size: $intro-text-size;
   line-height: $intro-text-size + $intro-text-size/3;
@@ -191,14 +186,6 @@ $intro-text-size: 6.3vh;
 
 .emoji {
   font-size: $intro-text-size;
-}
-
-.square__bullet__list {
-  list-style-type: square;
-}
-
-.square__bullet__list li {
-  padding-bottom: 0.8em;
 }
 
 p {
@@ -243,7 +230,7 @@ a {
   font-style: normal;
   padding-bottom: 0.5vw;
   padding-top: 0.5vw;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .small__lists {
@@ -264,6 +251,14 @@ a {
   font-size: 1.2em;
 }
 
+.bio__image {
+  padding-right: 3vw;
+}
+
+.top__list {
+  font-size: 1.3em;
+}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 1020px) {
   .intro__text {
@@ -272,6 +267,22 @@ a {
   }
 
   #details {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .lists {
+    font-size: 1em;
+  }
+
+  .bio__image {
+    padding-right: 0;
+  }
+
+  .top__list {
     font-size: 1em;
   }
 }
