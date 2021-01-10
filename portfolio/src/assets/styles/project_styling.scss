@@ -42,6 +42,10 @@ h3 {
   table-layout: fixed;
 }
 
+.emoji {
+  white-space: nowrap;
+}
+
 .project__tags li {
   display: table-cell;
   width: auto;
