@@ -113,15 +113,16 @@
               <br />
               <br />
               Another important aspect of my work is my interest in
-              storytelling, or put it simply, explaining stuff. I realized this
+              storytelling, or put simply, explaining stuff. I realized this
               when I was a teaching assistant for a CS class. To help my
               students, I spent time thinking about how to explain complicated
               topics for people with varied backgrounds, and have fun while
               understanding it. This applies to all kinds of information sharing
-              that happens on the internet. I believe in creating engaging
-              experiences that smoothly delivers what should be delivered to the
-              audience. Whether I'm a writer, designer, or a developer, I want
-              to write, design, or build work that is accessible and compelling.
+              that happens in digital and physical worlds. I believe in creating
+              engaging experiences that smoothly delivers meaningful content to
+              its audience. Whether I'm a writer, designer, or a developer, I
+              want to write, design, or build work that is accessible and
+              compelling.
             </p>
           </div>
         </div>
@@ -255,6 +256,7 @@ a {
 
 .bio__image {
   padding-right: 3vw;
+  padding-top: 0;
 }
 
 .top__list {
@@ -281,7 +283,7 @@ a {
   }
 
   .bio__image {
-    padding-right: 0;
+    padding: 0;
   }
 
   .top__list {
