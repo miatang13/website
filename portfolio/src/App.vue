@@ -79,7 +79,7 @@ export default {
 $fade-in-time: 0.2s;
 
 #app {
-  font-family: freight-text-pro, serif;
+  font-family: ibm-plex-mono, sans-serif;
   font-weight: 300;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -142,7 +142,7 @@ $fade-in-time: 0.2s;
 
 .footer__text {
   color: $highlight-color;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */

@@ -23,7 +23,7 @@
 
       <div class="column is-full">
         <ul class="project__tags">
-          <li>Creative Prototyping</li>
+          <li>Creative Prototyping (SOLO)</li>
 
           <li>LowDB, Socket.IO, p5.js</li>
 
@@ -38,12 +38,21 @@
           This project explores a new way of communication between people, where
           instead of words or text, people communicate through actions: taking
           care of the virtual pet. <br />
-          <br />
-          <i
-            >* Project originally developed on glitch, and I'm currently
-            rewriting it for IOS so original code for this is not public at the
-            moment.</i
-          >
+        </p>
+      </div>
+
+      <div class="column is-full"><hr /></div>
+
+      <div class="column is-two-thirds">
+        <span class="section__title"> Motivation </span>
+
+        <p class="body__text">
+          This project is motivated by my own identity of being a pet owner, and
+          my worry about pets being abandoned after the pandemic ends. Many
+          people have bought or adopted new pets into their lives due to
+          loneliness caused by quarantine, and I truly worry about once our life
+          goes back to normal, are they ready for the daily responsibilities of
+          having a pet?
         </p>
       </div>
 
@@ -239,20 +248,12 @@
       </p>
 
       <div class="column is-full"><hr /></div>
-
-      <div class="column is-two-thirds">
-        <span class="section__title"> Thoughts </span>
-
-        <p class="body__text">
-          This project is motivated by my own identity of being a pet owner, and
-          my worry about pets being abandoned after the pandemic ends. Many
-          people have bought or adopted new pets into their lives due to
-          loneliness caused by quarantine, and I truly worry about once our life
-          goes back to normal, are they ready for the daily responsibilities of
-          having a pet?
-        </p>
-      </div>
-
+      <p class="body__text column is-two-thirds">
+        <i
+          >* Project originally developed on glitch, and I'm currently rewriting
+          it for IOS so original code for this is not public at the moment.</i
+        >
+      </p>
       <!-- <div class="column is-full"><Pet /></div>-->
     </div>
   </div>

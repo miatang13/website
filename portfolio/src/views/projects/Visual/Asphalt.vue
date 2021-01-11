@@ -23,7 +23,7 @@
 
       <div class="column is-full">
         <ul class="project__tags">
-          <li>Environment Design</li>
+          <li>Environment Design (SOLO)</li>
 
           <li>Adobe</li>
 

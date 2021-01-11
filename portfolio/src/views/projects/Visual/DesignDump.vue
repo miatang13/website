@@ -9,7 +9,7 @@
 
       <div class=" column is-two-thirds">
         <h2 class="main__subtitle">
-          A collection of design work.
+          A collection of design work by myself.
         </h2>
       </div>
       <div class="column is-full"><hr /></div>

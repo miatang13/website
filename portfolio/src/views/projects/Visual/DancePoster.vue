@@ -23,7 +23,7 @@
 
       <div class="column is-full">
         <ul class="project__tags">
-          <li>Campaign Design</li>
+          <li>Campaign Design (SOLO)</li>
 
           <li>Adobe</li>
 

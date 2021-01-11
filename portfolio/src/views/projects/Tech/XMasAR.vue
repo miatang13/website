@@ -23,7 +23,7 @@
 
       <div class="column is-full">
         <ul class="project__tags">
-          <li>Creative Prototyping</li>
+          <li>Creative Prototyping (SOLO)</li>
 
           <li>Unity, ARFoundations</li>
 
@@ -42,6 +42,25 @@
         </p>
       </div>
 
+      <div class="column is-full"><hr /></div>
+
+      <div class="column is-two-thirds">
+        <span class="section__title"> Motivation</span>
+
+        <p class="body__text">
+          The end of year holiday season is always one of the happiest time, but
+          for 2020, with the ongoing health concerns around the world, many
+          people are left alone away from their family members unlike the usual
+          years. Many of my friends are left alone, and setting up a whole
+          festive scene might not be financially desirable, therefore I wanted
+          to create the augmented reality experience for people to enjoy this
+          virtual festive environment without spending a single dime.
+        </p>
+      </div>
+
+      <div class="column is-two-thirds">
+        <img src="../../../assets/img/XMasAR/concept_illustration.png" />
+      </div>
       <div class="column is-full"><hr /></div>
 
       <div class="column is-full">
@@ -114,25 +133,6 @@
             />
           </div>
         </div>
-      </div>
-
-      <div class="column is-full"><hr /></div>
-      <div class="column is-two-thirds">
-        <span class="section__title"> Thoughts </span>
-
-        <p class="body__text">
-          The end of year holiday season is always one of the happiest time, but
-          for 2020, with the ongoing health concerns around the world, many
-          people are left alone away from their family members unlike the usual
-          years. Many of my friends are left alone, and setting up a whole
-          festive scene might not be financially desirable, therefore I wanted
-          to create the augmented reality experience for people to enjoy this
-          virtual festive environment without spending a single dime.
-        </p>
-      </div>
-
-      <div class="column is-full">
-        <img src="../../../assets/img/XMasAR/concept_illustration.png" />
       </div>
     </div>
   </div>

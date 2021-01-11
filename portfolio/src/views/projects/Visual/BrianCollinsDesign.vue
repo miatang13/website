@@ -23,7 +23,7 @@
 
       <div class="column is-full">
         <ul class="project__tags">
-          <li>Print + Digital Design</li>
+          <li>Print + Digital Design (SOLO)</li>
 
           <li>Adobe</li>
 

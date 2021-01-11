@@ -23,7 +23,7 @@
 
       <div class="column is-full">
         <ul class="project__tags">
-          <li>Web Design + Development</li>
+          <li>Web Design + Dev (SOLO)</li>
 
           <li>Vue.js, HTML & SCSS</li>
 

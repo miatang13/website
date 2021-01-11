@@ -111,7 +111,6 @@ export default {
 
 .thumbnail__title {
   font-size: 2em;
-  font-family: ibm-plex-mono, sans-serif;
   font-weight: 500;
   font-style: normal;
   color: $text-color;
@@ -119,7 +118,6 @@ export default {
 
 .thumbnail__category,
 .thumbnail__software {
-  font-family: freight-text-pro, serif;
   font-weight: 500;
   font-style: italic;
   font-size: 1em; /*calc(14px + 0.5vw); */

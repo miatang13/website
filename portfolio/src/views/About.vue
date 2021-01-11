@@ -65,7 +65,7 @@
           <div class="column is-half">
             <figure class="image is-box bio__image">
               <img
-                src="https://miro.medium.com/max/2000/1*543bRfXoHGkNnrA8y2N4YA.png"
+                src="./../assets/img/personal/cardboard_me.jpg"
                 width="100%"
               />
             </figure>
@@ -102,14 +102,14 @@
           <div class="column" id="details">
             <p>
               Solving a problem that I couldn't solve yesterday gives me the
-              greatest joy. My curiosity of everything that I haven't done is the
-              reason why I love to work with emerging technology. My background
-              in Computer Science equips me to take on technical challenges. On
-              top of enjoying the process of making things work, I'm also a
-              graphic designer who gets excited about beautiful typography,
-              colors, and motion. My past experiences of working as UX Designer
-              and Graphic Designer made me more understanding as now I'm
-              normally on the implementation side.
+              greatest joy. My curiosity of everything that I haven't done is
+              the reason why I love to work with emerging technology. My
+              background in Computer Science equips me to take on technical
+              challenges. On top of enjoying the process of making things work,
+              I'm also a graphic designer who gets excited about beautiful
+              typography, colors, and motion. My past experiences of working as
+              UX Designer and Graphic Designer made me more understanding as now
+              I'm normally on the implementation side.
               <br />
               <br />
               Another important aspect of my work is my interest in
@@ -180,7 +180,7 @@ export default {
 @import "@/assets/styles/functional.scss";
 @import "@/assets/styles/project_styling.scss";
 
-$intro-text-size: 6.3vh;
+$intro-text-size: 4vh;
 
 .intro__text {
   font-size: $intro-text-size;
@@ -189,6 +189,7 @@ $intro-text-size: 6.3vh;
 
 .emoji {
   font-size: $intro-text-size;
+  font-weight: 500;
 }
 
 p {

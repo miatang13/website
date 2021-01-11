@@ -22,7 +22,7 @@
 
       <div class="column is-full">
         <ul class="project__tags">
-          <li>Creative Coding</li>
+          <li>Creative Coding (SOLO)</li>
 
           <li>p5.js</li>
 
