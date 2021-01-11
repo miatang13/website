@@ -67,7 +67,7 @@
           <div class="column is-half">
             <figure class="image is-box bio__image">
               <img
-                src="./../assets/img/personal/cardboard_me.jpg"
+                src="./../assets/img/personal/Opt-miatang_bio.jpeg"
                 width="100%"
               />
             </figure>
@@ -139,7 +139,13 @@
               Contacts
             </p>
             <ul class="lists">
-              <li><a href="#"> Resume </a></li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/19KDh8Ns2NPivDsvjaia6id6irCdVOmmw/view?usp=sharing"
+                >
+                  Resume
+                </a>
+              </li>
               <li>
                 <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn </a>
               </li>
