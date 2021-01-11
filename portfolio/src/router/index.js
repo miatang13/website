@@ -80,7 +80,7 @@ const routes = [
     path: "/Shaders",
     name: "Shader1",
     component: function() {
-      return import("./../views/projects/Tech/Shader1.vue");
+      return import("./../views/projects/Tech/Shader.vue");
     },
   },
 
