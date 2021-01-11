@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <nav class="sidenav unselectable" id="navBar">
-      <router-link to="/" class="nav__text">Tech</router-link>
-      <router-link to="/visual" class="nav__text">Visual</router-link>
-      <router-link to="/about" class="nav__text"
+      <router-link to="/" class="nav__text" id="tech__nav">Tech</router-link>
+      <router-link to="/visual" class="nav__text" id="visual__nav"
+        >Visual</router-link
+      >
+      <router-link to="/about" class="nav__text" id="about__nav"
         >& Me <br />
         <!-- &#x295;&bull;&#x32b;&#x361;&bull;&#x294;&#x266c;&#x2727;&#x20; -->
       </router-link>
@@ -35,6 +37,9 @@ $(document).ready(function() {
 }); */
 
 export default {
+  data() {
+    return {};
+  },
   mounted() {
     window.addEventListener(
       "beforeunload",
@@ -55,6 +60,7 @@ export default {
       let navBar = document.getElementById("navBar");
       let footer = document.getElementById("footer__container");
       let navText = [...document.getElementsByClassName("nav__text")];
+
       if (this.$route.name != "Home" && this.$route.name != "Visual") {
         navBar.style.backgroundColor = "white";
         footer.style.backgroundColor = "white";
@@ -120,13 +126,20 @@ $fade-in-time: 0.2s;
   font-size: 20px;
   color: $inactive-link-color;
   display: block;
-  font-weight: 800;
+  font-weight: 500;
   font-family: ibm-plex-mono, sans-serif;
+  border-radius: 50%;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: $text-color;
+}
+
+.router-link-exact-active {
+  border: 1px dashed magenta;
+  border-radius: 50%;
+  transition: border-color $fade-in-time ease-in-out;
 }
 
 .footer_container {
@@ -145,15 +158,17 @@ $fade-in-time: 0.2s;
   font-weight: 400;
 }
 
+$sidenav-height: 4em;
+$sidenav-paddingtop: 0.7em;
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 1020px) {
   .sidenav {
     width: 100%;
-    height: 7%;
+    height: $sidenav-height;
     flex-direction: row;
     overflow-x: visible;
     align-items: stretch;
-    padding-bottom: 1vw;
+    padding-top: $sidenav-paddingtop;
     /*justify-content: normal; */
   }
 
@@ -163,7 +178,7 @@ $fade-in-time: 0.2s;
 
   .router__view {
     margin: 0;
-    margin-top: 7%;
+    margin-top: $sidenav-height;
     padding: 3vw;
   }
 

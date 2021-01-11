@@ -16,9 +16,8 @@
       <div class="column is-four-fifths" id="current">
         <ul class="lists square__bullet__list top__list">
           <li>
-            <b><i>Canadian &#127809; </i></b> based in Vancouver, British
-            Columbia, where I have 2 corgis named Leeze (5 yr) and Mango (3 yr).
-            Pronouns: she/her.
+            <b><i>Canadian &#127809; (she/her)</i></b> based in Vancouver,
+            British Columbia, where I have 2 corgis.
           </li>
           <li>
             <b><i>Junior </i></b> at Carnegie Mellon University studying
@@ -41,6 +40,9 @@
             >
             creating programmable visualization tool for complex mathematical
             topics.
+          </li>
+          <li class="highlight__text">
+            <b><i> Currently Looking for 2021 Summer Internship.</i></b>
           </li>
         </ul>
       </div>
@@ -133,8 +135,8 @@
       <div class="column is-full">
         <div class="columns bottom__section">
           <div class="column is-half right__border">
-            <p class="articles__text highlight__text">
-              Currently looking for 2021 Summer internship ☆
+            <p class="articles__text">
+              Contacts
             </p>
             <ul class="lists">
               <li><a href="#"> Resume </a></li>
