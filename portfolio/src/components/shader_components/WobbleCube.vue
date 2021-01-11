@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import FragShader from "./../FragShader.vue";
+import FragShader from "./../Shader.vue";
 
 export default {
   name: "WobbleCubeShader",
