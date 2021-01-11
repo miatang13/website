@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import FragShader from "@/components/FragShader.vue";
+import FragShader from "./../FragShader.vue";
 
 export default {
   name: "HeatWaveShader",
