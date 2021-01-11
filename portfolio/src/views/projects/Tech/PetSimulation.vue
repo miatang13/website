@@ -3,7 +3,7 @@
     <div class="columns is-multiline">
       <div class="column is-four-fifths">
         <h1 class="main__title">
-          Collaborative Digital Pet Caretaking Software
+          Doggo: A collaborative digital pet caretaking software
         </h1>
       </div>
 

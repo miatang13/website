@@ -41,6 +41,13 @@
         <WobbleCubeShader />
       </div>
       <div class="column is-full"><hr /></div>
+
+      <div class="column is-full ">
+        <span class="image__caption ibm__typeface">
+          Shader: Morph
+        </span>
+        <MorphShader />
+      </div>
     </div>
   </div>
 </template>
@@ -49,6 +56,7 @@
 import HeatWaveShader from "@/components/shader_components/HeatWave.vue";
 import VinylRecordShader from "@/components/shader_components/VinylRecord.vue";
 import WobbleCubeShader from "@/components/shader_components/WobbleCube.vue";
+import MorphShader from "@/components/shader_components/Morph.vue";
 
 export default {
   name: "Shader1Subpage",
@@ -56,6 +64,7 @@ export default {
     HeatWaveShader,
     VinylRecordShader,
     WobbleCubeShader,
+    MorphShader,
   },
 };
 </script>
