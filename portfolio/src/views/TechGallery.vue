@@ -51,7 +51,7 @@ export default {
           title: "IrisRover",
           category: "Frontend/UX Engineering",
           software: "Vue.js, VueX, HTML & SCSS",
-          imgPath: "IrisRover/mock_crop.png",
+          imgPath: "IrisRover/IrisRover.jpg",
           subpageRouter: "/IrisRover",
         },
 
@@ -61,7 +61,7 @@ export default {
           title: "Biography Website",
           category: "Web Design + Dev",
           software: "Vue.js, HTML & CSS",
-          imgPath: "BrianCollinsWeb/crop_thumbnail1.png",
+          imgPath: "BrianCollinsWeb/work_screen_thumbnail.png",
           subpageRouter: "/BrianCollinsWeb",
         },
         {
