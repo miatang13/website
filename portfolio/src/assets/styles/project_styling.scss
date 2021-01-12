@@ -140,7 +140,7 @@ li {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 600px) {
   .root {
     padding: 0;
     padding-top: 3vw;
