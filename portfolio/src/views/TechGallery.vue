@@ -79,7 +79,7 @@ export default {
           title: "Collider Ball",
           category: "Interactive Art",
           software: "p5.js (no external library)",
-          imgPath: "ColliderBall/thumbnail1.gif",
+          imgPath: "ColliderBall/ballThumbnail1.gif",
           subpageRouter: "/ColliderBall",
         },
       ],

@@ -227,7 +227,7 @@
 
       <div class="column is-full"><hr /></div>
       <div class="column is-two-thirds">
-        <span class="section__title"> Take-away </span>
+        <span class="section__title"> Thoughts </span>
 
         <p class="body__text">
           It was a fun project to tell the story of an brilliant designer with

@@ -15,7 +15,7 @@
       <div class="column is-full"><hr /></div>
       <img
         class="banner__image image is-5by3 column is-full"
-        src="../../../assets/img/ColliderBall/thumbnail1.gif"
+        src="../../../assets/img/ColliderBall/ballThumbnail1.gif"
       />
 
       <div class="column is-full"><hr /></div>

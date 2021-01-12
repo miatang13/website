@@ -39,7 +39,7 @@
           community to come out and paint the pavement with their neighbors.
         </p>
       </div>
-
+      <div class="column is-full"><hr /></div>
       <div class="column is-full">
         <img
           class="banner__image image is-5by3 column is-half"
@@ -78,6 +78,7 @@
             class="image is-2by3 column is-half"
             src="https://miro.medium.com/max/1000/1*Qf3dE9RSoQelJnl8bmYHcA.png"
           />
+          <div class="column is-full"><hr /></div>
           <span class="image__text ibm__typeface">
             Info Brochure
           </span>
@@ -89,6 +90,7 @@
             class="image is-5by3 column is-full"
             src="https://miro.medium.com/max/2000/1*QUs2tTQnaXGSfnQtDE7T-w.png"
           />
+          <div class="column is-full"><hr /></div>
           <span class="image__text ibm__typeface">
             Web Design
           </span>
