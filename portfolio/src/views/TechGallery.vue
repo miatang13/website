@@ -26,17 +26,6 @@ export default {
           subpageRouter: "/PetSimulationApp",
         },
 
-        /*
-        {
-          name: "PetCloning",
-          index: 2,
-          title: "Clone your bff?",
-          category: "3D Web Design + Development",
-          software: "THREE.js",
-          imgPath: "PetCloningWeb/standing.png",
-          subpageRouter: "/PetClone3DWeb",
-        }, */
-
         {
           name: "IrisRover",
           index: 4,

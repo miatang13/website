@@ -82,19 +82,6 @@
           </p>
         </div>
 
-        <!--
-
-        <div class="columns is-centered">
-          <div class="column is-four-fifths">
-            <img
-              class="image is-square"
-              src="../../../assets/img/BrianCollinsWeb/cursor-over-map.gif"
-            />
-          </div>
-        </div> 
-
-        -->
-
         <div class="column is-full"><hr /></div>
 
         <span class="image__caption ibm__typeface">
@@ -253,7 +240,4 @@ export default {
 @import "@/assets/styles/colors.scss";
 @import "@/assets/styles/project_styling.scss";
 @import "@/assets/styles/functional.scss";
-
-#BrianCollinsWebSubpage {
-}
 </style>

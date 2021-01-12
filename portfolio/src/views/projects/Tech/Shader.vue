@@ -48,6 +48,16 @@
         </span>
         <MorphShader />
       </div>
+
+      <div class="column is-full ">
+        <span class="image__caption ibm__typeface">
+          Three.js Web Development I'm currently working on. Stay tuned!
+        </span>
+        <img
+          class="banner__image image is-5by3 column is-full"
+          src="../../../assets/img/3DWeb/3jsScreenShot.jpg"
+        />
+      </div>
     </div>
   </div>
 </template>
