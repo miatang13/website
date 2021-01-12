@@ -48,6 +48,7 @@
         </span>
         <MorphShader />
       </div>
+      <div class="column is-full"><hr /></div>
 
       <div class="column is-full ">
         <span class="image__caption ibm__typeface">
