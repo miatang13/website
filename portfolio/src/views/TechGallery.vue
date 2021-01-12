@@ -22,18 +22,10 @@ export default {
           title: "Pet Co-Parenting App",
           category: "Mobile Dev",
           software: "LowDB, socket.io, p5.js",
-          imgPath: "PetSimulation/opt_thumbnail.png",
+          imgPath: "PetSimulation/walk_thumbnail.png",
           subpageRouter: "/PetSimulationApp",
         },
-        {
-          name: "ChristmasAR",
-          index: 1,
-          title: "Lonely Christmas",
-          category: "AR Mobile Dev",
-          software: "Unity, ARFoundations",
-          imgPath: "XMasAR/XmasARThumbnail.jpeg",
-          subpageRouter: "/XMasAR",
-        },
+
         /*
         {
           name: "PetCloning",
@@ -63,6 +55,15 @@ export default {
           software: "Vue.js, HTML & CSS",
           imgPath: "BrianCollinsWeb/work_screen_thumbnail.png",
           subpageRouter: "/BrianCollinsWeb",
+        },
+        {
+          name: "ChristmasAR",
+          index: 1,
+          title: "Lonely Christmas",
+          category: "AR Mobile Dev",
+          software: "Unity, ARFoundations",
+          imgPath: "XMasAR/XmasARThumbnail.jpeg",
+          subpageRouter: "/XMasAR",
         },
         {
           name: "Shader1",
