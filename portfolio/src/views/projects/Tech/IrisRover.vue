@@ -82,7 +82,7 @@
 
       <img
         class="body__image image is-5by3 column is-full"
-        src="../../../assets/img/IrisRover/cuberover_vid.gif"
+        src="../../../assets/img/IrisRover/irisrovervid_frame.png"
       />
 
       <div class="column is-two-thirds">
