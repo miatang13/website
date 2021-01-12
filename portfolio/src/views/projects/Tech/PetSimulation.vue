@@ -248,6 +248,27 @@
       </p>
 
       <div class="column is-full"><hr /></div>
+
+      <div class="column is-two-thirds">
+        <span class="section__title"> Thoughts</span>
+        <p class="body__text">
+          I really enjoyed making this project, and practice my illustration
+          skills that I haven't used in awhile. More importantly, this project
+          speaks for my view on how technology should be incorporated into our
+          lives. It should be a tool that allows us to see what we can't see so
+          clearly with our eyes, such as getting to know if you are ready to
+          bring home a new furry friend, or are you or your partner a more
+          responsible pet owner. <br />
+          <br />
+
+          The best usage for this software from my perspective is for people who
+          signed up to adopt animals from the shelters. They need to pass a
+          certain threshold of capable of being a responsible owner in order to
+          adopt an actual living animal.<br />
+        </p>
+      </div>
+
+      <div class="column is-full"><hr /></div>
       <p class="body__text column is-two-thirds">
         <i
           >* Project originally developed on glitch, and I'm currently rewriting

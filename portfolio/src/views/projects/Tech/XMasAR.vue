@@ -95,6 +95,8 @@
           </div>
         </div>
 
+        <div class="column is-full"><hr /></div>
+
         <span class="image__caption ibm__typeface">
           2. Variety of Assets For Decoration
         </span>
@@ -107,6 +109,7 @@
             />
           </div>
         </div>
+        <div class="column is-full"><hr /></div>
 
         <span class="image__caption ibm__typeface">
           3. Placing & Deleting
@@ -121,6 +124,8 @@
           </div>
         </div>
 
+        <div class="column is-full"><hr /></div>
+
         <span class="image__caption ibm__typeface">
           4. Surface Snapping for Concrete Blocks
         </span>
@@ -132,6 +137,20 @@
               src="../../../assets/img/XMasAR/suface_snap(no_deletion).gif"
             />
           </div>
+        </div>
+        <div class="column is-full"><hr /></div>
+
+        <div class="column is-two-thirds">
+          <span class="section__title"> Thoughts</span>
+          <p class="body__text">
+            I learned a lot about mobile AR development by doing this project,
+            and it has sparked my interest in learning more about 3D development
+            and AR development. The power of Augmented Reality is immense, and I
+            see numerous ways we can use AR to help uplift people, such as
+            creating a festive environment even if it is digital. We have our
+            phones as our second pair of eyes that can see objects that give us
+            warmth and happiness.
+          </p>
         </div>
       </div>
     </div>
