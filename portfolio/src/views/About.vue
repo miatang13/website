@@ -110,8 +110,8 @@
               challenges. On top of enjoying the process of making things work,
               I'm also a graphic designer who gets excited about beautiful
               typography, colors, and motion. My past experiences of working as
-              UX Designer and Graphic Designer made me more understanding as now
-              I'm normally on the implementation side.
+              a UX Designer and Graphic Designer made me more understanding in
+              bridging the communication between design and engineering teams.
               <br />
               <br />
               Another important aspect of my work is my interest in
