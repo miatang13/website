@@ -169,6 +169,7 @@ $sidenav-paddingtop: 0.7em;
     overflow-x: visible;
     align-items: stretch;
     padding-top: $sidenav-paddingtop;
+    padding-bottom: $sidenav-paddingtop/2;
     /*justify-content: normal; */
   }
 
