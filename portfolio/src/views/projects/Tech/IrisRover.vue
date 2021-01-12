@@ -46,6 +46,7 @@
           on the moon.
         </p>
       </div>
+      <div class="column is-full"><hr /></div>
 
       <img
         class="body__image image is-5by3 column is-full"
@@ -62,6 +63,8 @@
         </p>
       </div>
 
+      <div class="column is-full"><hr /></div>
+
       <img
         class="body__image image is-5by3 column is-full"
         src="../../../assets/img/IrisRover/interface.png"
@@ -75,6 +78,7 @@
           SCSS for markdowns and stylings.
         </p>
       </div>
+      <div class="column is-full"><hr /></div>
 
       <img
         class="body__image image is-5by3 column is-full"

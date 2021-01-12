@@ -14,7 +14,7 @@ $color-grey6: #222222;
 }
 
 #nprogress .bar {
-  background: #424242;
+  background: magenta;
 
   position: fixed;
   z-index: 1031;

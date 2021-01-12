@@ -273,7 +273,7 @@ a {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
   .intro__text {
     font-size: 2em;
     line-height: 1.5em;
