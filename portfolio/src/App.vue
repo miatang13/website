@@ -1,5 +1,13 @@
 <template>
   <div id="app">
+    <!--
+    <vue-scroll-progress-bar
+      @complete="handleComplete"
+      height=".1rem"
+      backgroundColor="magenta"
+      containerColor="grey"
+    />
+    -->
     <nav class="sidenav unselectable" id="navBar">
       <router-link to="/" class="nav__text" id="tech__nav">Tech</router-link>
       <router-link to="/visual" class="nav__text" id="visual__nav"
@@ -10,6 +18,7 @@
         <!-- &#x295;&bull;&#x32b;&#x361;&bull;&#x294;&#x266c;&#x2727;&#x20; -->
       </router-link>
     </nav>
+
     <div class="router__view">
       <router-view />
     </div>
@@ -27,18 +36,16 @@ import "buefy/dist/buefy.css";
 import $ from "jquery";
 
 /*
-$(document).ready(function() {
-  // Check for click events on the navbar burger icon
-  $(".navbar-burger").click(function() {
-    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-    $(".navbar-burger").toggleClass("is-active");
-    $(".navbar-menu").toggleClass("is-active");
-  });
-}); */
+import AOS from "aos";
+import Scrollbar from "smooth-scrollbar";
+Scrollbar.init(document.querySelector("#my-scrollbar")); */
 
 export default {
   data() {
     return {};
+  },
+  created() {
+    // AOS.init();
   },
   mounted() {
     window.addEventListener(
@@ -82,111 +89,11 @@ export default {
 @import "@/assets/styles/colors.scss";
 @import "@/assets/styles/functional.scss";
 @import "@/assets/styles/ui__elements.scss";
-$fade-in-time: 0.2s;
+@import "@/assets/styles/app.scss";
 
-#app {
-  font-family: ibm-plex-mono, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.router__view {
-  padding: 2rem;
-  margin-left: $sidebar-width; /* sidebar-width; Same as the width of the sidebar */
-  height: 100%;
-}
-
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: $sidebar-width; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-right: 1px solid $highlight-color;
-  transition: all $fade-in-time ease-in-out;
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  padding-right: 0;
-  padding-left: 0;
-  text-decoration: none;
-  font-size: 20px;
-  color: $inactive-link-color;
-  display: block;
-  font-weight: 500;
-  font-family: ibm-plex-mono, sans-serif;
-  border-radius: 50%;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: $text-color;
-}
-
-.router-link-exact-active {
-  border: 1px dashed magenta;
-  border-radius: 50%;
-  transition: border-color $fade-in-time ease-in-out;
-}
-
-.footer_container {
-  bottom: 0;
-  width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-  margin-top: 1rem;
-  padding-bottom: 1.5rem;
-  border-top: 1px solid $highlight-color;
-  transition: all $fade-in-time ease-in-out;
-}
-
-.footer__text {
-  color: $highlight-color;
-  font-weight: 400;
-}
-
-$sidenav-height: 4em;
-$sidenav-paddingtop: 0.7em;
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-width: 1020px) {
-  .sidenav {
-    width: 100%;
-    height: $sidenav-height;
-    flex-direction: row;
-    overflow-x: visible;
-    align-items: stretch;
-    padding-top: $sidenav-paddingtop;
-    padding-bottom: $sidenav-paddingtop/2;
-    /*justify-content: normal; */
-  }
-
-  .sidenav a {
-    padding: 2vw;
-  }
-
-  .router__view {
-    margin: 0;
-    margin-top: $sidenav-height;
-    padding: 3vw;
-  }
-
-  .footer__text {
-    font-size: 0.8em;
-    font-weight: 500;
-    padding: 1em;
-  }
+.custom {
+  width: 500px;
+  height: 500px;
+  overflow: auto;
 }
 </style>

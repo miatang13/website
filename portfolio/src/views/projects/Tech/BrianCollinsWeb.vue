@@ -229,9 +229,6 @@
 <script>
 export default {
   name: "BrianCollinsWebSubpage",
-  mounted() {
-    console.log("BrianCollinsWebSubpage");
-  },
 };
 </script>
 

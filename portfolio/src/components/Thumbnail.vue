@@ -1,15 +1,12 @@
 <template>
   <div id="Thumbnail" class="list-complete-item">
-    <!--  @mouseover="mouseEnter()"
-      @mouseleave="mouseLeft()"-->
     <div class="thumbnail unselectable" @click="redirect()">
       <figure class="image is-5by3">
-        <img class="list-complete-img" :src="getImgUrl()" />
+        <img class="list-complete-img" v-lazy="getImgUrl()" />
       </figure>
 
       <div class="overlay" id="overlay">
         <div class="overlay__text">
-          <!-- :class="{ on: isOpen }" v-show="isOpen"-->
           <span class="thumbnail__title"> {{ thumbnailData.title }}</span>
           <p class="thumbnail__category">
             {{ thumbnailData.category }}
@@ -45,7 +42,6 @@ export default {
     },
     mouseLeft() {
       this.isOpen = false;
-      //   console.log("leave");
     },
     getImgUrl() {
       return require("../assets/img/" + this.thumbnailData.imgPath);

@@ -160,9 +160,6 @@
 <script>
 export default {
   name: "XMasARSubpage",
-  mounted() {
-    console.log("XMasARSubpage");
-  },
 };
 </script>
 

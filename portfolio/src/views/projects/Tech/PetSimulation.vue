@@ -288,9 +288,6 @@ export default {
   components: {
     // Pet,
   },
-  mounted() {
-    console.log("PetSimulationSubpage");
-  },
 };
 </script>
 

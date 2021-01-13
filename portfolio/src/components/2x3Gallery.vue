@@ -1,7 +1,7 @@
 <template>
   <div id="Gallery">
     <div class="columns is-multiline  is-vcentered">
-      <div class="column is-half" v-for="work in Work" :key="work.index">
+      <div class="column is-half" v-for="(work, index) in Work" :key="index">
         <Thumbnail :thumbnailData="work" />
       </div>
     </div>
@@ -21,6 +21,12 @@ export default {
     Work: {
       type: Array,
       required: true,
+    },
+  },
+  methods: {
+    getDelay(index) {
+      console.log(index);
+      return index * 100;
     },
   },
 };

@@ -97,9 +97,6 @@
 <script>
 export default {
   name: "IrisRoverSubpage",
-  mounted() {
-    console.log("IrisRoverSubpage");
-  },
 };
 </script>
 

@@ -150,6 +150,7 @@
                 <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn </a>
               </li>
               <li><a href="https://twitter.com/Miamiamia0103"> Twitter </a></li>
+              <li><a href="https://github.com/miatang13"> Github </a></li>
               <li>
                 <p class="a__text">
                   miatang13[at]gmail[dot]com
