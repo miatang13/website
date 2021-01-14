@@ -52,13 +52,22 @@
 
       <div class="column is-full ">
         <span class="image__caption ibm__typeface">
+          Shader: Flying Cubes
+        </span>
+        <FlyingCubesShader />
+      </div>
+      <div class="column is-full"><hr /></div>
+
+      <!--
+      <div class="column is-full ">
+        <span class="image__caption ibm__typeface">
           Three.js Web Development I'm currently working on. Stay tuned!
         </span>
         <img
           class="banner__image image is-5by3 column is-full"
           src="../../../assets/img/3DWeb/3jsScreenShot.jpg"
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -68,6 +77,7 @@ import HeatWaveShader from "@/components/shader_components/HeatWave.vue";
 import VinylRecordShader from "@/components/shader_components/VinylRecord.vue";
 import WobbleCubeShader from "@/components/shader_components/WobbleCube.vue";
 import MorphShader from "@/components/shader_components/Morph.vue";
+import FlyingCubesShader from "@/components/shader_components/FlyingCubes.vue";
 
 export default {
   name: "Shader1Subpage",
@@ -76,6 +86,7 @@ export default {
     VinylRecordShader,
     WobbleCubeShader,
     MorphShader,
+    FlyingCubesShader,
   },
 };
 </script>
