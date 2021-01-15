@@ -187,11 +187,18 @@ li {
     padding-top: 0.5em;
   }
 
+  // bottom
   .image__text {
     font-size: 0.8em;
   }
 
+  // title
+  .image__caption {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+  }
+
   hr {
-    padding-bottom: 0.2sem;
+    padding-bottom: 0.2em;
   }
 }
