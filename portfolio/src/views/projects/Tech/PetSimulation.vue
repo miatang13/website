@@ -252,7 +252,7 @@
       <div class="column is-two-thirds">
         <span class="section__title"> Thoughts</span>
         <p class="body__text">
-          I really enjoyed making this project, and practice my illustration
+          I really enjoyed making this project, and practicing my illustration
           skills that I haven't used in awhile. More importantly, this project
           speaks for my view on how technology should be incorporated into our
           lives. It should be a tool that allows us to see what we can't see so
