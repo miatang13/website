@@ -201,10 +201,6 @@ $intro-text-size: 4vh;
   font-weight: 500;
 }
 
-p {
-  font-size: 1em;
-}
-
 #details {
   font-size: 1.2em;
   padding: 1vw;
@@ -281,7 +277,8 @@ a {
   }
 
   #details {
-    font-size: 1em;
+    font-size: 0.8em;
+    padding-top: 0.5em;
   }
 
   p {

@@ -40,6 +40,10 @@ h3 {
   width: 100%;
   display: table;
   table-layout: fixed;
+  font-family: ibm-plex-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
 }
 
 .project__tags li {
@@ -73,7 +77,7 @@ li {
 }
 
 .image__caption {
-  font-size: 1.5;
+  font-size: 1.5em;
 }
 
 .image__side__padding {
@@ -101,13 +105,6 @@ li {
   font-size: 1.5em;
   font-weight: 100;
   padding-top: 1vh;
-}
-
-.project__tags {
-  font-family: ibm-plex-mono, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1em;
 }
 
 .body__text {
@@ -155,7 +152,7 @@ li {
   }
 
   .project__tags {
-    font-size: 0.7rem;
+    font-size: 0.7 em;
   }
 
   iframe {
@@ -170,7 +167,7 @@ li {
   }
 
   .section__title {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .body__text {
@@ -185,7 +182,16 @@ li {
     font-size: 1em;
   }
 
-  .project__tags {
-    font-size: 1em;
+  .body__text {
+    font-size: 0.8em;
+    padding-top: 0.5em;
+  }
+
+  .image__text {
+    font-size: 0.8em;
+  }
+
+  hr {
+    padding-bottom: 0.2sem;
   }
 }
