@@ -165,5 +165,10 @@ export default {
   .thumbnail__title {
     font-size: 1em;
   }
+
+  .thumbnail__category,
+  .thumbnail__software {
+    font-size: 0.6em;
+  }
 }
 </style>
