@@ -80,7 +80,7 @@ const routes = [
     path: "/Shaders",
     name: "Shader",
     component: function() {
-      return import("./../views/projects/Tech/Shader.vue");
+      return import("./../views/projects/Tech/ShaderPage.vue");
     },
     children: [],
   },
@@ -117,6 +117,13 @@ const routes = [
     name: "morphCubeShader",
     component: function() {
       return import("./../components/shader_components/FlyingCubes.vue");
+    },
+  },
+  {
+    path: "/Shaders/handmixer",
+    name: "handMixerShader",
+    component: function() {
+      return import("./../components/shader_components/HandMixer.vue");
     },
   },
 
