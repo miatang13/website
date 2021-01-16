@@ -78,9 +78,45 @@ const routes = [
 
   {
     path: "/Shaders",
-    name: "Shader1",
+    name: "Shader",
     component: function() {
       return import("./../views/projects/Tech/Shader.vue");
+    },
+    children: [],
+  },
+  {
+    path: "/Shaders/heatwave",
+    name: "heatWaveShader",
+    component: function() {
+      return import("./../components/shader_components/HeatWave.vue");
+    },
+  },
+  {
+    path: "/Shaders/vinylrecord",
+    name: "vinylRecordShader",
+    component: function() {
+      return import("./../components/shader_components/VinylRecord.vue");
+    },
+  },
+  {
+    path: "/Shaders/wobblecube",
+    name: "wobbleCubeShader",
+    component: function() {
+      return import("./../components/shader_components/WobbleCube.vue");
+    },
+  },
+  {
+    path: "/Shaders/morphtorus",
+    name: "morphTorusShader",
+    component: function() {
+      return import("./../components/shader_components/Morph.vue");
+    },
+  },
+  {
+    path: "/Shaders/morphcube",
+    name: "morphCubeShader",
+    component: function() {
+      return import("./../components/shader_components/FlyingCubes.vue");
     },
   },
 
