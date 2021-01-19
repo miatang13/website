@@ -272,7 +272,8 @@
       <p class="body__text column is-two-thirds">
         <i
           >* Project originally developed on glitch, and I'm currently rewriting
-          it for IOS so original code for this is not public at the moment.</i
+          it with React so original code for this is not public at the
+          moment.</i
         >
       </p>
       <!-- <div class="column is-full"><Pet /></div>-->
