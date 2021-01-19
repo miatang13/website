@@ -105,7 +105,7 @@
             <p>
               Solving a problem that I couldn't solve yesterday gives me the
               greatest joy. My curiosity of everything that I haven't done is
-              the reason why I love to work with emerging technology. My
+              the reason why I love to work with technology. My
               background in Computer Science equips me to take on technical
               challenges. On top of enjoying the process of making things work,
               I'm also a graphic designer who gets excited about beautiful

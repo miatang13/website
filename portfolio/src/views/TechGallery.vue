@@ -60,7 +60,7 @@ export default {
           title: "WebGL",
           category: "Shaders",
           software: "",
-          imgPath: "Shaders/Heatwave/screenshot.png",
+          imgPath: "Shaders/thumbnails/heatwave.png",
           subpageRouter: "/Shaders",
         },
         {
