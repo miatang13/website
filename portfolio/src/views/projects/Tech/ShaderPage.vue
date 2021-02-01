@@ -47,6 +47,11 @@ export default {
     return {
       datas: [
         {
+          name: "Color Tunnel",
+          subpageLink: "/Shaders/colortunnel",
+          gifLink: "colorTunnel.gif",
+        },
+        {
           name: "Hand Mixer",
           subpageLink: "/Shaders/handmixer",
           gifLink: "handMixer.gif",

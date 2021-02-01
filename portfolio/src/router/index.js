@@ -126,6 +126,13 @@ const routes = [
       return import("./../components/shader_components/HandMixer.vue");
     },
   },
+  {
+    path: "/Shaders/colortunnel",
+    name: "colorTunnelShader",
+    component: function() {
+      return import("./../components/shader_components/ColorTunnel.vue");
+    },
+  },
 
   /*********  Visual  **********/
 
