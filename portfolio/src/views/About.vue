@@ -25,7 +25,7 @@
             expected)
           </li>
           <li>
-            <b><i>Frontend Engineer (1+ yr) </i></b> at
+            <b><i>Frontend Engineer </i></b> at
             <a href="https://www.linkedin.com/company/irisrover/mycompany/">
               IrisRover</a
             >
@@ -33,7 +33,7 @@
             the moon in 2021.
           </li>
           <li>
-            <b><i>Incoming Research Intern </i></b> at
+            <b><i>Research Intern </i></b> at
             <a
               href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
               >Penrose</a
@@ -42,7 +42,12 @@
             topics.
           </li>
           <li class="highlight__text">
-            <b><i> Currently Looking for 2021 Summer Internship.</i></b>
+            <b
+              ><i>
+                Currently Looking for 2021 Summer Internship in creative
+                technology, software engineering, and design.</i
+              ></b
+            >
           </li>
         </ul>
       </div>
@@ -105,13 +110,13 @@
             <p>
               Solving a problem that I couldn't solve yesterday gives me the
               greatest joy. My curiosity of everything that I haven't done is
-              the reason why I love to work with technology. My
-              background in Computer Science equips me to take on technical
-              challenges. On top of enjoying the process of making things work,
-              I'm also a graphic designer who gets excited about beautiful
-              typography, colors, and motion. My past experiences of working as
-              a UX Designer and Graphic Designer made me more understanding in
-              bridging the communication between design and engineering teams.
+              the reason why I love to work with technology. My background in
+              Computer Science equips me to take on technical challenges. On top
+              of enjoying the process of making things work, I'm also a graphic
+              designer who gets excited about beautiful typography, colors, and
+              motion. My past experiences of working as a UX Designer and
+              Graphic Designer made me more understanding in bridging the
+              communication between design and engineering teams.
               <br />
               <br />
               Another important aspect of my work is my interest in
