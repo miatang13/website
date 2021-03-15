@@ -45,8 +45,8 @@
             <b
               ><i>
                 Currently Looking for 2021 Summer Internship in creative
-                technology, software engineering, and design.</i
-              ></b
+                technology, design, and SWE.
+              </i></b
             >
           </li>
         </ul>
@@ -146,7 +146,7 @@
             <ul class="lists">
               <li>
                 <a
-                  href="https://drive.google.com/file/d/19KDh8Ns2NPivDsvjaia6id6irCdVOmmw/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Kohn3cnhr_Bee4IwqFJzj1SV823OeMvn/view?usp=sharing"
                 >
                   Resume
                 </a>
