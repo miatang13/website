@@ -12,7 +12,7 @@
     >
     building interfaces for a lunar rover
     
-    & a researcher at <a
+    & a Researcher at <a
       href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
       >Penrose</a
     >
