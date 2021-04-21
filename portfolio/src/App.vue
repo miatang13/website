@@ -1,99 +1,102 @@
 <template>
   <div id="app">
-    <!--
-    <vue-scroll-progress-bar
-      @complete="handleComplete"
-      height=".1rem"
-      backgroundColor="magenta"
-      containerColor="grey"
-    />
-    -->
-    <nav class="sidenav unselectable" id="navBar">
-      <router-link to="/" class="nav__text" id="tech__nav">Tech</router-link>
-      <router-link to="/visual" class="nav__text" id="visual__nav"
-        >Visual</router-link
-      >
-      <router-link to="/about" class="nav__text" id="about__nav"
-        >& Me <br />
-        <!-- &#x295;&bull;&#x32b;&#x361;&bull;&#x294;&#x266c;&#x2727;&#x20; -->
-      </router-link>
-    </nav>
+   <div id="static-text-container">
+   <h1> Mia Tang ( ˘ ³˘) </h1>
+    <p> 
+    I'm a junior at <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Carnegie Mellon</a> 
+    studying Computer Science and Communications Design w/ a minor in Logic. <br><br>
+    
+    Previously worked as a Frontend Engineer at
+    <a href="https://www.linkedin.com/company/irisrover/mycompany/">
+      IrisRover</a
+    >
+    building interfaces for a lunar rover
+    
+    & a researcher at <a
+      href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
+      >Penrose</a
+    >
+    creating programmable visualization tool for mathematical diagrams. <br> <br>
+    I'm very excited to be joining <a href = "https://www.jam3.com/"> Jam3</a>  in the summer as a 
+    creative developer intern, making some cool stuff.
+    <br><br>
+    </p>
 
-    <div class="router__view">
-      <router-view />
+    <div id = "contacts">
+      <p> Find me on <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn</a>, or miatang13[at]gmail[dot]com.</p>
     </div>
-
-    <footer class="footer_container unselectable" id="footer__container">
-      <span class="footer__text ibm__typeface">
-        Built with Vue and <strike>love</strike> coffee. Mia Tang 2021 ©</span
-      >
-    </footer>
+    <figure>
+          <img
+            src="https://miro.medium.com/max/2000/1*VMxrVbUgJ0oiBl4BFjIIKw.jpeg"
+          />
+        </figure>
+        <p> My doggos: Mango & Leeze </p>
   </div>
+   </div>
 </template>
 
 <script>
-import "buefy/dist/buefy.css";
-import $ from "jquery";
-
-/*
-import AOS from "aos";
-import Scrollbar from "smooth-scrollbar";
-Scrollbar.init(document.querySelector("#my-scrollbar")); */
 
 export default {
-  data() {
-    return {};
-  },
-  created() {
-    // AOS.init();
-  },
   mounted() {
     window.addEventListener(
       "beforeunload",
       function(e) {
         document.body.className = "page-loading";
       },
-      false
     );
-    this.routeChange();
-  },
-  watch: {
-    "$route.name"() {
-      this.routeChange();
-    },
-  },
-  methods: {
-    routeChange() {
-      let navBar = document.getElementById("navBar");
-      let footer = document.getElementById("footer__container");
-      let navText = [...document.getElementsByClassName("nav__text")];
-
-      if (this.$route.name != "Home" && this.$route.name != "Visual") {
-        navBar.style.backgroundColor = "white";
-        footer.style.backgroundColor = "white";
-        document.body.style.backgroundColor = "white";
-        navText.forEach((text) => (text.style.fontWeight = "200"));
-      } else {
-        navBar.style.backgroundColor = "black";
-        footer.style.backgroundColor = "black";
-        document.body.style.backgroundColor = "black";
-        navText.forEach((text) => (text.style.fontWeight = "400"));
-      }
-    },
   },
 };
 </script>
 
 <style lang="scss" scoped>
 @import "@/assets/styles/reset.scss";
-@import "@/assets/styles/colors.scss";
-@import "@/assets/styles/functional.scss";
-@import "@/assets/styles/ui__elements.scss";
-@import "@/assets/styles/app.scss";
+@import "@/assets/styles/static_site.scss";
 
-.custom {
-  width: 500px;
-  height: 500px;
-  overflow: auto;
+html { 
+  background-color: white;
+}
+
+* { 
+  color: rgb(0, 0, 0);
+  font-family: ibm-plex-mono, sans-serif;
+}
+
+h1 {
+  font-size: 3vw;
+  font-family: ibm-plex-mono, sans-serif;
+  padding-bottom: 1vh;
+}
+
+p { 
+  font-size: 1.2vw;
+  font-family: ibm-plex-mono, sans-serif;
+}
+
+a { 
+  color: rgb(140, 140, 140);
+}
+
+img {
+  padding-top: 3vh;
+}
+
+#static-text-container { 
+  padding: 10vh;
+  max-width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  h1 { 
+  font-size: 4vh;
+  }
+  p {
+    font-size: 2vh;
+  }
+  #static-text-container { 
+    max-width: 100%;
+    padding: 3vh;
+  }
+
 }
 </style>
