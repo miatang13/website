@@ -2,11 +2,22 @@
   <div id="app">
    <div class= "center">
    <img src = "https://64.media.tumblr.com/4e5d950cf3415279986f6b3df76df147/tumblr_mmxhygg0vn1rfjowdo1_500.gif" />
-   <h1> Hi, I'm Mia Tang ( ˘ ³˘) </h1>
+   <h1 id="greeting"> Hi, I'm Mia Tang ( ˘ ³˘) </h1>
     <p> 
     I'm a junior at Carnegie Mellon <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">(BCSA)</a> 
     studying Computer Science and Communications Design w/ a minor in Mathem. Logic. <br><br>
+    Previously at 
+     <a href="https://www.linkedin.com/company/irisrover/mycompany/">
+      IrisRover</a
+    > (Frontend Engineer) &
+    <a
+      href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
+      >Penrose</a
+    > (Researcher), and soon to be at <a href = "https://www.jam3.com/"> Jam3</a> (Developer Intern). 
     
+    Previous work available upon request. <br><br>
+    Find me on <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn</a>, or miatang13[at]gmail[dot]com. </p>
+    <!--
     Previously worked as a Frontend Engineer at
     <a href="https://www.linkedin.com/company/irisrover/mycompany/">
       IrisRover</a
@@ -55,7 +66,9 @@
     </div>
 
   </div>
-      <div class = "doggos center">
+  -->
+
+      <div class = "center doggos">
           <img
            class="magenta-stroke"
             src="https://miro.medium.com/max/2000/1*VMxrVbUgJ0oiBl4BFjIIKw.jpeg"
@@ -65,6 +78,7 @@
     <footer class = "center">  <p id = "small-text"> [cute crocodile gif from 
       <a href = "https://64.media.tumblr.com/4e5d950cf3415279986f6b3df76df147/tumblr_mmxhygg0vn1rfjowdo1_500.gif"> tumblr </a>] </p></footer>
    </div>
+  </div>
    
 </template>
 
@@ -96,7 +110,7 @@ $highlight_color : $green;
 h1 {
   font-size: 2.5vw;
   font-family: ibm-plex-mono, sans-serif;
-  padding-bottom: 1vh;
+  padding-bottom: 2vw;
 }
 
 p { 
@@ -124,6 +138,7 @@ footer {
 #app { 
   padding: 2vw;
   padding-bottom: 10vw;
+  padding-top: 5vw;
 }
 
 #static-text-container { 
@@ -146,18 +161,18 @@ footer {
   outline: 3px solid $highlight_color ;
 }
 
-.doggos{ 
-  padding: 10vh;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  max-width: 60%;
-}
-
 .center {
   margin: auto;
   width: 50%;
   padding: 10px;
 }
+
+.doggos{ 
+  padding-top: 5vw;
+  padding-bottom: 5vh;
+  max-width: 60%;
+}
+
 
 @media screen and (max-width: 600px) {
   h1 { 
