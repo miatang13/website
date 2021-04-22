@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-   <div id="static-text-container">
-   <h1> Mia Tang ( ˘ ³˘) </h1>
+   <div class= "center">
+   <img src = "https://64.media.tumblr.com/4e5d950cf3415279986f6b3df76df147/tumblr_mmxhygg0vn1rfjowdo1_500.gif" />
+   <h1> Hi, I'm Mia Tang ( ˘ ³˘) </h1>
     <p> 
-    I'm a junior at <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Carnegie Mellon</a> 
-    studying Computer Science and Communications Design w/ a minor in Logic. <br><br>
+    I'm a junior at Carnegie Mellon <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">(BCSA)</a> 
+    studying Computer Science and Communications Design w/ a minor in Mathem. Logic. <br><br>
     
     Previously worked as a Frontend Engineer at
     <a href="https://www.linkedin.com/company/irisrover/mycompany/">
@@ -17,22 +18,54 @@
       >Penrose</a
     >
     creating programmable visualization tool for mathematical diagrams. <br> <br>
-    I'm very excited to be joining <a href = "https://www.jam3.com/"> Jam3</a>  in the summer as a 
-    creative developer intern, making some cool stuff.
+    I'm very excited to be joining <a href = "https://www.jam3.com/"> Jam3</a>  in the summer 
+    as a developer intern. (Yay!)
     <br><br>
-    </p>
 
-    <div id = "contacts">
-      <p> Find me on <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn</a>, or miatang13[at]gmail[dot]com.</p>
+    In my free time, I enjoy writing articles and doing illustrations on computer science 
+    topics. 
+    </p>
+    <div id ="article-list">
+     <ul class="lists small__list desktop__only">
+              <li>
+                <a
+                  href="https://mia-tang.medium.com/functional-programming-manual-v-1-510ae8671b88"
+                >
+                  Functional Programming Manual V.1
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mia-tang.medium.com/a-note-on-higher-order-functions-191dc1a48ed4"
+                >
+                  A Note On Higher Order Functions
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://mia-tang.medium.com/interactive-proof-ed5050e8e78d"
+                  >Interactive & Zero-Knowledge Proof</a
+                >
+              </li>
+            </ul>
     </div>
-    <figure>
+
+    <div id="contacts">
+      <p> Find me on <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn</a>, or miatang13[at]gmail[dot]com. </p>
+    </div>
+
+  </div>
+      <div class = "doggos center">
           <img
+           class="magenta-stroke"
             src="https://miro.medium.com/max/2000/1*VMxrVbUgJ0oiBl4BFjIIKw.jpeg"
           />
-        </figure>
-        <p> My doggos: Mango & Leeze </p>
-  </div>
+        <p> My doggos: Mango & Leeze ♡ </p>
+        </div>
+    <footer class = "center">  <p id = "small-text"> [cute crocodile gif from 
+      <a href = "https://64.media.tumblr.com/4e5d950cf3415279986f6b3df76df147/tumblr_mmxhygg0vn1rfjowdo1_500.gif"> tumblr </a>] </p></footer>
    </div>
+   
 </template>
 
 <script>
@@ -52,10 +85,8 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/styles/reset.scss";
 @import "@/assets/styles/static_site.scss";
-
-html { 
-  background-color: white;
-}
+$green :  rgb(0, 213, 85);
+$highlight_color : $green;
 
 * { 
   color: rgb(0, 0, 0);
@@ -63,7 +94,7 @@ html {
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: ibm-plex-mono, sans-serif;
   padding-bottom: 1vh;
 }
@@ -73,29 +104,77 @@ p {
   font-family: ibm-plex-mono, sans-serif;
 }
 
-a { 
-  color: rgb(140, 140, 140);
+ul {
+  list-style-type: square;
 }
 
-img {
-  padding-top: 3vh;
+li { 
+  font-family: ibm-plex-mono, sans-serif;
+  font-size: 1.2vw;
+}
+
+a { 
+  color: $highlight_color ;
+}
+
+footer { 
+  padding-left: 10vh;
+}
+
+#app { 
+  padding: 2vw;
+  padding-bottom: 10vw;
 }
 
 #static-text-container { 
   padding: 10vh;
+  padding-bottom: 0;
+  /*padding-left: 40%; */
+  max-width: 65%; 
+}
+
+#article-list { 
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
+#small-text { 
+ font-size: 1vw;
+}
+
+.magenta-stroke { 
+  outline: 3px solid $highlight_color ;
+}
+
+.doggos{ 
+  padding: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   max-width: 60%;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
   h1 { 
   font-size: 4vh;
   }
-  p {
+  p, li, #small-text{
     font-size: 2vh;
   }
-  #static-text-container { 
+  #static-text-container, .doggos, footer { 
     max-width: 100%;
     padding: 3vh;
+  }
+  ul { 
+      list-style-type: none;
+  }
+  .center { 
+    width: 90%;
   }
 
 }
