@@ -6,15 +6,6 @@
     <p> 
     I'm a junior at Carnegie Mellon <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">(BCSA)</a> 
     studying Computer Science and Communications Design w/ a minor in Mathem. Logic. <br><br>
-    Previously at 
-     <a href="https://www.linkedin.com/company/irisrover/mycompany/">
-      IrisRover</a
-    > (Frontend Engineer) &
-    <a
-      href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
-      >Penrose</a
-    > (Researcher), and soon to be at <a href = "https://www.jam3.com/"> Jam3</a> (Developer Intern). 
-    <br> <br>
     Portfolio is currently archived, but here are my dogs!  </p>
   </div>
 
@@ -33,6 +24,17 @@
 </template>
 
 <script>
+/*
+Previously at 
+     <a href="https://www.linkedin.com/company/irisrover/mycompany/">
+      IrisRover</a
+    > (Frontend Engineer) &
+    <a
+      href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
+      >Penrose</a
+    > (Researcher), and soon to be at <a href = "https://www.jam3.com/"> Jam3</a> (Developer Intern). 
+    <br> <br>
+    */
 
 export default {
   mounted() {
