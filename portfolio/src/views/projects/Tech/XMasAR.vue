@@ -82,7 +82,7 @@
 
         <span class="section__title"> Key Interactions <br /> </span>
 
-        <span class="image__caption ibm__typeface">
+        <span class="image__caption">
           1. Place Your Christmas Tree Anywhere
         </span>
 
@@ -97,7 +97,7 @@
 
         <div class="column is-full"><hr /></div>
 
-        <span class="image__caption ibm__typeface">
+        <span class="image__caption">
           2. Variety of Assets For Decoration
         </span>
 
@@ -111,7 +111,7 @@
         </div>
         <div class="column is-full"><hr /></div>
 
-        <span class="image__caption ibm__typeface">
+        <span class="image__caption">
           3. Placing & Deleting
         </span>
 
@@ -126,7 +126,7 @@
 
         <div class="column is-full"><hr /></div>
 
-        <span class="image__caption ibm__typeface">
+        <span class="image__caption">
           4. Surface Snapping for Concrete Blocks
         </span>
 

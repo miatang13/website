@@ -1,8 +1,8 @@
 $fade-in-time: 0.2s;
 
 #app {
-  font-family: ibm-plex-mono, sans-serif;
-  font-weight: 300;
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,11 +39,11 @@ $fade-in-time: 0.2s;
   padding-right: 0;
   padding-left: 0;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 35px;
   color: $inactive-link-color;
   display: block;
   font-weight: 500;
-  font-family: ibm-plex-mono, sans-serif;
+  /* font-family: ibm-plex-mono, sans-serif; */
   border-radius: 50%;
 }
 
@@ -53,8 +53,9 @@ $fade-in-time: 0.2s;
 }
 
 .router-link-exact-active {
-  border: 1px dashed magenta;
-  border-radius: 50%;
+  color: white;
+  // border: 1px dashed magenta;
+  // border-radius: 50%;
   transition: border-color $fade-in-time ease-in-out;
 }
 
@@ -73,6 +74,7 @@ $fade-in-time: 0.2s;
   color: $highlight-color;
   font-weight: 400;
 }
+
 
 $sidenav-height: 4em;
 $sidenav-paddingtop: 0.7em;

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import TechGallery from "./../views/TechGallery.vue";
+import WorkGallery from "./../views/WorkGallery.vue";
 
 Vue.use(VueRouter);
 
@@ -8,7 +8,14 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: TechGallery,
+    component: WorkGallery,
+  },
+  {  
+    path: "tech",
+    name: "Tech",
+    component: function() {  
+      return import("../views/TechGallery.vue");
+    }
   },
   {
     path: "/visual",

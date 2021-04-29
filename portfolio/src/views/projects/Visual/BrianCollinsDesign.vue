@@ -46,7 +46,7 @@
 
       <div class="column is-full">
         <div class="columns is-multiline">
-          <span class="image__text ibm__typeface">
+          <span class="image__text      ">
             Main Poster
           </span>
           <img
@@ -54,14 +54,14 @@
             src="../../../assets/img/BrianCollinsDesign/crippledPoster.png"
           />
           <div class="column is-full"><hr /></div>
-          <span class="image__text ibm__typeface">
+          <span class="image__text  ">
             16 Page Zine
           </span>
           <img
             class="image is-5by3 column is-full"
             src="../../../assets/img/BrianCollinsDesign/booklet/booklet.gif"
           />
-          <button class="expand__btn ibm__typeface" @click="isOpen = !isOpen">
+          <button class="expand__btn  " @click="isOpen = !isOpen">
             View Full Spreads
           </button>
           <div class="zine__details" v-if="isOpen">
@@ -97,13 +97,13 @@
               class="image is-5by3 column is-full"
               src="../../../assets/img/BrianCollinsDesign/booklet/sp_7.png"
             />
-            <button class="expand__btn ibm__typeface" @click="isOpen = false">
+            <button class="expand__btn  " @click="isOpen = false">
               Close
             </button>
           </div>
           <div class="column is-full"><hr /></div>
           <div class="column is-full">
-            <span class="image__text ibm__typeface">
+            <span class="image__text  ">
               Biography Video
             </span>
           </div>
@@ -118,7 +118,7 @@
             ></iframe>
           </div>
           <div class="column is-full"><hr /></div>
-          <span class="image__text ibm__typeface">
+          <span class="image__text  ">
             Web Experience (Design + Dev)
             <router-link to="/BrianCollinsWeb"> Details </router-link></span
           >
@@ -129,7 +129,7 @@
 
           <div class="column is-full"><hr /></div>
           <div class="column is-full">
-            <span class="image__text ibm__typeface">
+            <span class="image__text  ">
               Mobile Experience
             </span>
           </div>

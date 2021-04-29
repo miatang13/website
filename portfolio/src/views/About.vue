@@ -1,75 +1,43 @@
 <template>
   <div class="root">
-    <div class="columns is-multiline">
+    <div class="columns is-multiline unselectable">
       <div class="column is-full bio__text">
-        <span class="intro__text">
-          <i>I'm Mia Tang, and I like to make stuff. </i> <br />
-          Quick facts about me:
-        </span>
-        <span class="no__break emoji"
-          >&#x20;&lpar;&bull;&#x20;&#x25e1;&bull;&rpar;</span
-        >
-      </div>
-
-      <div class="column is-full"><hr /></div>
-
-      <div class="column is-four-fifths" id="current">
-        <ul class="lists square__bullet__list top__list">
-          <li>
-            <b><i>Canadian &#127809; (she/her)</i></b> based in Vancouver,
-            British Columbia, where I have 2 corgis.
-          </li>
-          <li>
-            <b><i>Junior </i></b> at Carnegie Mellon University studying
-            Computer Science and Graphic Design w/ a minor in Logic. (2022
-            expected)
-          </li>
-          <li>
-            <b><i>Frontend Engineer </i></b> at
-            <a href="https://www.linkedin.com/company/irisrover/mycompany/">
+        <p class="intro__text">
+          Hello, I'm Mia Tang, <span class = "no__break emoji">◟(๑•͈ᴗ•͈)◞ </span> <br> 
+          a current Junior at Carnegie Mellon University 
+          <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">BCSA</a>   
+          studying Computer Science and Communications Design w/ a minor in Logic. 
+          <br> <br> 
+          Previously @ 
+          <a href="https://www.linkedin.com/company/irisrover/mycompany/">
               IrisRover</a
             >
-            building interfaces for ground officers to drive a lunar rover on
-            the moon in 2021.
-          </li>
-          <li>
-            <b><i>Research Intern </i></b> at
-            <a
+          (frontend-engineering), and @ <a
               href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
               >Penrose</a
             >
-            creating programmable visualization tool for complex mathematical
-            topics.
-          </li>
-          <li class="highlight__text">
-            <b
-              ><i>
-                Currently Looking for 2021 Summer Internship in creative
-                technology, design, and SWE.
-              </i></b
-            >
-          </li>
-        </ul>
+          (software research), and will be @ <a href ="http://jam3.com/"> Jam3 </a> this 
+          summer as a developer intern. <br> <br> 
+          Portfolio is partially archived, and will be updated sometime soon (? I promise).
+          In the meantime, here are my adorable dogs.  
+        </p>
       </div>
 
       <div class="column is-full"><hr /></div>
 
-      <div class="column if-full">
+      <div class="column is-full">
         <figure class="image">
           <img
             src="https://miro.medium.com/max/2000/1*VMxrVbUgJ0oiBl4BFjIIKw.jpeg"
           />
         </figure>
-        <span class="image__text ibm__typeface">
-          My doggos: Mango & Leeze
-        </span>
       </div>
 
       <div class="column is-full"><hr /></div>
 
       <div class="column is-full">
         <div class="columns">
-          <div class="column is-half">
+          <div class="column is-half hidden">
             <figure class="image is-box bio__image">
               <img
                 src="./../assets/img/personal/Opt-miatang_bio.jpeg"
@@ -106,10 +74,12 @@
             </ul>
           </div>
 
-          <div class="column" id="details">
+          <div class="column unselectable hidden" id="details">
             <p>
               Solving a problem that I couldn't solve yesterday gives me the
-              greatest joy. My curiosity of everything that I haven't done is
+              greatest joy. 
+              <br /><br />
+              My curiosity of everything that I haven't done is
               the reason why I love to work with technology. My background in
               Computer Science equips me to take on technical challenges. On top
               of enjoying the process of making things work, I'm also a graphic
@@ -117,7 +87,7 @@
               motion. My past experiences of working as a UX Designer and
               Graphic Designer made me more understanding in bridging the
               communication between design and engineering teams.
-              <br />
+            <!-- <br />
               <br />
               Another important aspect of my work is my interest in
               storytelling, or put simply, explaining stuff. I realized this
@@ -129,42 +99,33 @@
               engaging experiences that smoothly delivers meaningful content to
               its audience. Whether I'm a writer, designer, or a developer, I
               want to write, design, or build work that is accessible and
-              compelling.
+              compelling. --> 
             </p>
           </div>
         </div>
       </div>
 
-      <div class="column is-full"><hr /></div>
-
       <div class="column is-full">
         <div class="columns bottom__section">
-          <div class="column is-half right__border">
+          <div class="column is-half">
             <p class="articles__text">
               Contacts
             </p>
             <ul class="lists">
               <li>
-                <a
-                  href="https://drive.google.com/file/d/1Kohn3cnhr_Bee4IwqFJzj1SV823OeMvn/view?usp=sharing"
-                >
-                  Resume
+                  Resume Available Upon Request
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/mia-tang/"> LinkedIn </a>
               </li>
-              <li><a href="https://twitter.com/Miamiamia0103"> Twitter </a></li>
-              <li><a href="https://github.com/miatang13"> Github </a></li>
               <li>
-                <p class="a__text">
-                  miatang13[at]gmail[dot]com
-                </p>
+                miatang13[at]gmail[dot]com
               </li>
             </ul>
           </div>
 
-          <div class="column is-half left__padding desktop__only">
+          <div class="column is-half left__padding desktop__only hidden">
             <p class="articles__text">
               Learning and practicing
             </p>
@@ -194,7 +155,7 @@ export default {
 @import "@/assets/styles/functional.scss";
 @import "@/assets/styles/project_styling.scss";
 
-$intro-text-size: 4vh;
+$intro-text-size: 3.5vw;
 
 .intro__text {
   font-size: $intro-text-size;
@@ -202,12 +163,12 @@ $intro-text-size: 4vh;
 }
 
 .emoji {
-  font-size: $intro-text-size;
+  /*font-size: $intro-text-size;*/
   font-weight: 500;
 }
 
 #details {
-  font-size: 1.2em;
+  font-size: 1.8em;
   padding: 1vw;
   padding-top: 0;
   padding-right: 0;
@@ -225,7 +186,6 @@ hr #bottom__section {
 }
 
 a {
-  font-family: ibm-plex-mono, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-decoration: underline;
@@ -233,28 +193,18 @@ a {
 }
 
 .position__text {
-  font-family: ibm-plex-mono, sans-serif;
   font-weight: 400;
   font-style: italic;
 }
 
 .lists {
-  font-family: ibm-plex-mono, sans-serif;
   font-weight: 400;
   font-style: normal;
   padding-bottom: 0.5vw;
   padding-top: 0.5vw;
-  font-size: 1em;
+  font-size: 1.5vw;
 }
 
-.small__lists {
-  font-family: ibm-plex-mono, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  padding-bottom: 0.5vw;
-  padding-top: 0.5vw;
-  font-size: 0.8em;
-}
 
 .bottom__section {
   text-align: left;
@@ -271,7 +221,7 @@ a {
 }
 
 .top__list {
-  font-size: 1.3em;
+  font-size: 1.5vw;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -299,7 +249,7 @@ a {
   }
 
   .top__list {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 }
 </style>
