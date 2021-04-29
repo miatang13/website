@@ -241,7 +241,7 @@ a {
   }
 
   .lists {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .bio__image {
@@ -249,6 +249,10 @@ a {
   }
 
   .top__list {
+    font-size: 1.5em;
+  }
+
+  .intro__text { 
     font-size: 1.3em;
   }
 }
