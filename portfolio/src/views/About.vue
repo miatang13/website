@@ -3,7 +3,7 @@
     <div class="columns is-multiline unselectable">
       <div class="column is-full bio__text">
         <p class="intro__text">
-          Hello, I'm Mia Tang, <span class = "no__break emoji">◟(๑•͈ᴗ•͈)◞ </span> <br> 
+          Hello, I'm Mia Tang, <!--<span class = "no__break emoji">◟(๑•͈ᴗ•͈)◞ </span> <br>-->
           a current Junior at Carnegie Mellon University 
           <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">BCSA</a>   
           studying Computer Science and Communications Design w/ a minor in Logic. 
@@ -165,6 +165,10 @@ $intro-text-size: 3.5vw;
 .emoji {
   /*font-size: $intro-text-size;*/
   font-weight: 500;
+}
+
+.root { 
+  padding: 5vw;
 }
 
 #details {

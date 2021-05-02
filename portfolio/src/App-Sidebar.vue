@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <div class="unselectable">
+    <nav class="sidenav unselectable" id="navBar">
+      <router-link to="/" class="nav__text" id="tech__nav">Pg. 1</router-link>
+      <router-link to="/about" class="nav__text" id="about__nav"
+        >Pg. 2<br />
+      </router-link>
+    </nav>
+
+    <div class="router__view unselectable">
       <router-view />
     </div>
-    <div class="bio-link">
-      <router-link to="/" class="nav__text"> Some stuff </router-link>
-      <router-link to="/about" class="nav__text"> 🥸  how are you? </router-link>
-    </div>
-      
-<!--
+
+<!---->
     <footer class="footer_container unselectable" id="footer__container">
       <span class="footer__text">
         Mia Tang 2021 ©</span
       >
-    </footer>-->
+    </footer>
   </div>
 </template>
 
@@ -24,6 +27,9 @@ import $ from "jquery";
 export default {
   data() {
     return {};
+  },
+  created() {
+    // AOS.init();
   },
   mounted() {
     window.addEventListener(
@@ -69,12 +75,4 @@ export default {
 @import "@/assets/styles/ui__elements.scss";
 @import "@/assets/styles/app.scss";
 
-.bio-link{ 
-  padding-top: 15vh;
-  padding-bottom: 5vh;
-}
-
-.nav__text { 
-  color: black;
-}
 </style>

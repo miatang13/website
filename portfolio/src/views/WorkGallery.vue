@@ -1,6 +1,6 @@
 <template>
   <div id="WorkGallery">
-    <Gallery class="fade-in" :Work="Work" />
+    <Gallery class="fade-in work" :Work="Work" />
   </div>
 </template>
 
@@ -90,4 +90,14 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/assets/styles/functional.scss";
+.work { 
+  padding: 10vw;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .work { 
+    padding: 0;
+  }
+}
 </style>
