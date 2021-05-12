@@ -16,7 +16,7 @@
               href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
               >Penrose</a
             >
-          (software research), and will be @ <a href ="http://jam3.com/"> Jam3 </a> this 
+          (software research), currently @ <a href ="http://jam3.com/"> Jam3 </a> this 
           summer as a developer intern. <br> <br> 
           Portfolio is partially archived, and will be updated sometime soon (? I promise).
           In the meantime, here are my adorable dogs.  
