@@ -2,24 +2,25 @@
   <div class="root">
     <div class="columns is-multiline unselectable">
       <div class="column is-full bio__text">
+
         <p class="intro__text">
-          Hello, I'm Mia Tang, <!--<span class = "no__break emoji">◟(๑•͈ᴗ•͈)◞ </span> <br>-->
-          a current Junior at Carnegie Mellon University 
-          <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">BCSA</a>   
-          studying Computer Science and Communications Design w/ a minor in Logic. 
+          ✌️ Hello, I'm Mia Tang (she/her), <br> <!--<span class = "no__break emoji">◟(๑•͈ᴗ•͈)◞ </span> <br>-->
+          a rising Senior at Carnegie Mellon University 
+           <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">BCSA</a>   
+          program studying Computer Science and Communications Design w/ a minor in Logic. 
           <br> <br> 
-          Previously @ 
+          👩‍💻 Currently at <a href ="http://jam3.com/"> Jam3 </a> this 
+          summer as a developer intern, creating 3D Web experiences. <br> <br> 
+          
+          🌇 Previously @ 
           <a href="https://www.linkedin.com/company/irisrover/mycompany/">
               IrisRover</a
             >
           (frontend-engineering), and @ <a
-              href="https://www.cmu.edu/news/stories/archives/2020/june/tool-turns-math-into-pictures.html"
+              href="https://penrose.ink/"
               >Penrose</a
             >
-          (software research), currently @ <a href ="http://jam3.com/"> Jam3 </a> this 
-          summer as a developer intern. <br> <br> 
-          Portfolio is partially archived, and will be updated sometime soon (? I promise).
-          In the meantime, here are my adorable dogs.  
+          (graphics software research). 
         </p>
       </div>
 
@@ -31,6 +32,7 @@
             src="https://miro.medium.com/max/2000/1*VMxrVbUgJ0oiBl4BFjIIKw.jpeg"
           />
         </figure>
+        <p> My dogs Mango & Leeze ♥</p>
       </div>
 
       <div class="column is-full"><hr /></div>
@@ -74,7 +76,7 @@
             </ul>
           </div>
 
-          <div class="column unselectable hidden" id="details">
+          <div class="column unselectable " id="details">
             <p>
               Solving a problem that I couldn't solve yesterday gives me the
               greatest joy. 
@@ -84,9 +86,7 @@
               Computer Science equips me to take on technical challenges. On top
               of enjoying the process of making things work, I'm also a graphic
               designer who gets excited about beautiful typography, colors, and
-              motion. My past experiences of working as a UX Designer and
-              Graphic Designer made me more understanding in bridging the
-              communication between design and engineering teams.
+              motion. 
             <!-- <br />
               <br />
               Another important aspect of my work is my interest in
@@ -104,6 +104,8 @@
           </div>
         </div>
       </div>
+
+       <div class="column is-full"><hr /></div>
 
       <div class="column is-full">
         <div class="columns bottom__section">
@@ -160,6 +162,7 @@ $intro-text-size: 3.5vw;
 .intro__text {
   font-size: $intro-text-size;
   line-height: $intro-text-size + $intro-text-size/3;
+  padding-bottom: 1em;
 }
 
 .emoji {
@@ -167,9 +170,10 @@ $intro-text-size: 3.5vw;
   font-weight: 500;
 }
 
+
 .root { 
   padding: 5vw;
-}
+} 
 
 #details {
   font-size: 1.8em;

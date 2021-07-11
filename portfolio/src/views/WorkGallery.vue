@@ -15,7 +15,8 @@ export default {
   },
   data() {
     return {
-      Work: [/*
+      Work: [
+        /*
         {
           name: "PetSimulation",
           index: 0,
@@ -61,7 +62,7 @@ export default {
           imgPath: "Shaders/thumbnails/heatwave.png",
           subpageRouter: "/Shaders",
         },
-/*
+        /*
         {
           name: "BrianCollinsWeb",
           index: 3,
@@ -82,6 +83,25 @@ export default {
           subpageRouter: "/BrianCollinsDesign",
         },
 
+        {
+          name: "DanceCampaignPoster",
+          index: 1,
+          title: "Community Event Campaign",
+          category: "Print & Digital",
+          software: "Adobe",
+          imgPath: "DanceCampaignDesign/poster_crop1.png",
+          subpageRouter: "/AsphaltCampaignPoster",
+        },
+
+        {
+          name: "DanceBrochure",
+          index: 0,
+          title: "Public Asphalt",
+          category: "Environment Design",
+          software: "",
+          imgPath: "DanceCampaignDesign/Opt-asphaltcrop1.png",
+          subpageRouter: "/AsphaltArt",
+        },
       ],
     };
   },
@@ -90,14 +110,4 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/assets/styles/functional.scss";
-.work { 
-  padding: 10vw;
-}
-
-
-@media screen and (max-width: 1020px) {
-  .work { 
-    padding: 0;
-  }
-}
 </style>

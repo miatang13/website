@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <div class="unselectable">
+    <nav class="sidenav unselectable" id="navBar">
+      <router-link to="/" class="nav__text" id="tech__nav">Work </router-link>
+      <router-link to="/about" class="nav__text" id="about__nav"
+        >About <br />
+      </router-link>
+    </nav>
+
+    <div class="router__view unselectable">
       <router-view />
     </div>
-    <div class="bio-link">
-      <router-link to="/" class="nav__text"> Some stuff </router-link>
-      <router-link to="/about" class="nav__text"> 🥸  how are you? </router-link>
-    </div>
-      
-<!--
+
+    <!---->
     <footer class="footer_container unselectable" id="footer__container">
-      <span class="footer__text">
-        Mia Tang 2021 ©</span
-      >
-    </footer>-->
+      <span class="footer__text"> Mia Tang 2021 ©</span>
+    </footer>
   </div>
 </template>
 
@@ -24,6 +25,9 @@ import $ from "jquery";
 export default {
   data() {
     return {};
+  },
+  created() {
+    // AOS.init();
   },
   mounted() {
     window.addEventListener(
@@ -50,12 +54,12 @@ export default {
         navBar.style.backgroundColor = "white";
         footer.style.backgroundColor = "white";
         document.body.style.backgroundColor = "white";
-        navText.forEach((text) => (text.style.fontWeight = "200"));
+        // navText.forEach((text) => (text.style.fontWeight = "200"));
       } else {
         navBar.style.backgroundColor = "black";
         footer.style.backgroundColor = "black";
         document.body.style.backgroundColor = "black";
-        navText.forEach((text) => (text.style.fontWeight = "400"));
+        // navText.forEach((text) => (text.style.fontWeight = "400"));
       }
     },
   },
@@ -68,13 +72,4 @@ export default {
 @import "@/assets/styles/functional.scss";
 @import "@/assets/styles/ui__elements.scss";
 @import "@/assets/styles/app.scss";
-
-.bio-link{ 
-  padding-top: 15vh;
-  padding-bottom: 5vh;
-}
-
-.nav__text { 
-  color: black;
-}
 </style>
