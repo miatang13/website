@@ -12,7 +12,7 @@ $fade-in-time: 0.2s;
 }
 
 .router__view {
-  padding: 2rem;
+  padding: 0rem;
   margin-left: $sidebar-width; /* sidebar-width; Same as the width of the sidebar */
   height: 100%;
 }
@@ -39,12 +39,11 @@ $fade-in-time: 0.2s;
   padding-right: 0;
   padding-left: 0;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 25px;
   color: $inactive-link-color;
   display: block;
   font-weight: 500;
-  /* font-family: ibm-plex-mono, sans-serif; */
-  border-radius: 50%;
+  font-family: ibm-plex-mono, sans-serif;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -72,9 +71,9 @@ $fade-in-time: 0.2s;
 
 .footer__text {
   color: $highlight-color;
+  font-family: ibm-plex-mono, sans-serif;
   font-weight: 400;
 }
-
 
 $sidenav-height: 5em;
 $sidenav-paddingtop: 0.7em;
