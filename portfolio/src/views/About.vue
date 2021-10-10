@@ -5,12 +5,11 @@
 
         <p class="intro__text">
           ✌️ Hello, I'm Mia Tang (she/her), <br> <!--<span class = "no__break emoji">◟(๑•͈ᴗ•͈)◞ </span> <br>-->
-          a rising Senior at Carnegie Mellon University 
+          a Senior at Carnegie Mellon University 
            <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">BCSA</a>   
           program studying Computer Science and Communications Design w/ a minor in Logic. 
           <br> <br> 
-          👩‍💻 Currently at <a href ="http://jam3.com/"> Jam3 </a> this 
-          summer as a developer intern, creating 3D Web experiences. <br> <br> 
+          👩‍💻 Previous at <a href ="http://jam3.com/"> Jam3 </a> as a developer intern, creating 3D Web experiences. <br> <br> 
           
           🌇 Previously @ 
           <a href="https://www.linkedin.com/company/irisrover/mycompany/">

@@ -25,7 +25,7 @@ export default {
           software: "LowDB, socket.io, p5.js",
           imgPath: "PetSimulation/walk_thumbnail.png",
           subpageRouter: "/PetSimulationApp",
-        }, 
+        },
         {
           name: "DanceCampaignPoster",
           index: 1,
@@ -34,7 +34,18 @@ export default {
           software: "Adobe",
           imgPath: "DanceCampaignDesign/poster_crop1.png",
           subpageRouter: "/AsphaltCampaignPoster",
+
         },*/
+        {
+          name: "Jam3",
+          index: 0,
+          title: "Jam3",
+          category:
+            "Creative Development Internship (Details available on request)",
+          software: "Details available on request",
+          imgPath: "Jam3/jam3_logo.png",
+          subpageRouter: "/",
+        },
         {
           name: "IrisRover",
           index: 4,
@@ -44,6 +55,7 @@ export default {
           imgPath: "IrisRover/IrisRover.jpg",
           subpageRouter: "/IrisRover",
         },
+        /*
         {
           name: "ChristmasAR",
           index: 1,
@@ -52,7 +64,7 @@ export default {
           software: "Unity, ARFoundations",
           imgPath: "XMasAR/XmasARThumbnail.jpeg",
           subpageRouter: "/XMasAR",
-        },
+        }, */
         {
           name: "Shader1",
           index: 6,
