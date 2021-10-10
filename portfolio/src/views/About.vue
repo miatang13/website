@@ -9,17 +9,16 @@
            <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">BCSA</a>   
           program studying Computer Science and Communications Design w/ a minor in Logic. 
           <br> <br> 
-          👩‍💻 Previous at <a href ="http://jam3.com/"> Jam3 </a> as a developer intern, creating 3D Web experiences. <br> <br> 
-          
-          🌇 Previously @ 
-          <a href="https://www.linkedin.com/company/irisrover/mycompany/">
-              IrisRover</a
-            >
-          (frontend-engineering), and @ <a
+          👩‍💻 Previous at <a href ="http://jam3.com/"> Jam3 </a> for creative development,  
+           <a
               href="https://penrose.ink/"
               >Penrose</a
             >
-          (graphics software research). 
+          for graphics software research, 
+          & <a href="https://www.linkedin.com/company/irisrover/mycompany/">
+              IrisRover</a
+            >
+          for frontend-engineering.
         </p>
       </div>
 
