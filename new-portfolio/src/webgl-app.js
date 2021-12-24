@@ -1,3 +1,4 @@
+import { Clock } from "three";
 import {
   Scene,
   Color,
@@ -29,13 +30,19 @@ export default class WebGLApp {
     );
     this.camera.position.set(0, 5, 6);
     this.camera.lookAt(this.scene.position);
-    this.tanFOV = Math.tan(((Math.PI / 180) * this.camera.fov) / 2);
     this.renderer = new WebGLRenderer({ antialias: true });
     this.renderer.setSize(window.innerWidth, window.innerHeight);
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.htmlElem.appendChild(this.renderer.domElement);
-    this.controls = new OrbitControls(this.camera, this.renderer.domElement);
-    this.controls.update();
+    // this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+    // this.controls.update();
+    this.clock = new Clock();
+    this.wheelData = { y: 0, position: 0 };
+    window.addEventListener("wheel", this.handleWheel);
+  };
+
+  handleWheel = (event) => {
+    this.wheelData.y = event.deltaY * 0.0007;
   };
 
   createGridHelper = () => {
@@ -76,7 +83,15 @@ export default class WebGLApp {
   update = () => {
     this.cube.rotation.x += 0.01;
     this.cube.rotation.y += 0.01;
-    this.controls.update();
+    // this.controls.update();
+    const elapsedTime = this.clock.getElapsedTime();
+
+    // update on scroll
+    this.wheelData.position += this.wheelData.y;
+    this.wheelData.y *= 0.9; // gradual stop
+    this.camera.position.y = this.wheelData.position;
+
+    // render scene
     this.rafId = requestAnimationFrame(this.update);
     this.renderScene();
   };
