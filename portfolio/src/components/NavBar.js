@@ -13,23 +13,5 @@ export default function NavBar() {
         <span className="nav-item"> About </span>
       </Link>
     </Menu>
-    // <div className="nav_bar over-gl">
-    //   <Row>
-    //     <Col>
-    //       <Link exact to="/">
-    //         <span className="logo">Mia Tang </span>{" "}
-    //       </Link>
-    //     </Col>
-
-    //     <Col className="offset-md-9">
-    //       <NavLink exact to="/">
-    //         Work
-    //       </NavLink>
-    //     </Col>
-    //     <Col>
-    //       <NavLink to="/about"> About </NavLink>
-    //     </Col>
-    //   </Row>
-    // </div>
   );
 }

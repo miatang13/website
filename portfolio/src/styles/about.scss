@@ -38,6 +38,10 @@
   padding-bottom: 5vh;
 }
 
+.contact_links_wrapper a {
+  padding-right: 1vw;
+}
+
 // responsive
 @media screen and (max-width: 480px) {
   .about_wrapper li {

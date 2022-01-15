@@ -18,7 +18,7 @@ export default function About() {
             <TwoColumns>
               <LeftColumn>
                 <img
-                  src="/assets/personal/bio-photo-noshadow.png"
+                  src="/assets/personal/bio-photo-filter.png"
                   width="100%"
                   style={{ padding: "5vw" }}
                   alt="bio"
