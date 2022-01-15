@@ -16,7 +16,7 @@ export default function IntroImg(props) {
             className="thumbnail_img"
             src={props.img_src}
             alt="Sorry something went wrong ;("
-            initial={{ scale: 1.1 }}
+            initial={{ scale: 1 }}
           />
         </div>
       </motion.div>

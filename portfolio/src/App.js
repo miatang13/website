@@ -83,14 +83,12 @@ function App() {
 
         <SmoothScroll>
           <main id="page-wrap">
-            {/* <BrowserRouter> */}
             <Routes
               setPathname={setPathname}
               thumbnailRefs={thumbnailRefs}
               descriptionRefs={descriptionRefs}
               cssContainerRef={cssContainerRef}
             />
-            {/* </BrowserRouter> */}
           </main>
         </SmoothScroll>
       </div>

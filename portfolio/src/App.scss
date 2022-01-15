@@ -74,6 +74,11 @@ ul li {
   padding-top: 1vh;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 // responsive
 @media screen and (max-width: 480px) {
   img {

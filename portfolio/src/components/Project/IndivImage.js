@@ -9,7 +9,7 @@ export default function IndivImage(props) {
         <Image
           src={props.src}
           alt="Sorry, something went wrong with the image"
-          style={{ width: props.width }}
+          style={{ width: props.width ? props.width : "100%" }}
         />
         {props.caption && <ImageCaption> {props.caption} </ImageCaption>}
       </div>
