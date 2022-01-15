@@ -1,6 +1,5 @@
 import { Col, Row } from "react-bootstrap";
 import ImageCaption from "./ImageCaption";
-import ImageSection from "./ImageSection";
 import IndivImage from "./IndivImage";
 
 export default function ImageGallery(props) {
