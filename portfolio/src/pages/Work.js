@@ -6,8 +6,6 @@ import "../styles/webgl.scss";
 import "../styles/gallery/work.scss";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { framer_transition } from "../animations/const";
 import FadeInOut from "../components/Animation/FadeInOut";
 
 export default function Work(props) {
@@ -15,8 +13,6 @@ export default function Work(props) {
   const md = 12 / numPerRow;
 
   return (
-    // <FadeOutOnExit>
-    // <SmoothScroll>
     <>
       <FadeInOut>
         <div id="work_gallery">
@@ -47,7 +43,5 @@ export default function Work(props) {
         </div>
       </FadeInOut>
     </>
-    // </SmoothScroll>
-    // </FadeOutOnExit>
   );
 }

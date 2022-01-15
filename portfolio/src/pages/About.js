@@ -1,8 +1,6 @@
 import "../styles/about.scss";
 import AboutIntro from "../components/About/AboutIntro";
-import PrevWork from "../components/About/AboutPrevWork";
 import Contact from "../components/About/AboutContact";
-import SmoothScroll from "../components/Animation/SmoothScroll";
 import { Container } from "react-bootstrap";
 import AboutBlurb from "../components/About/AboutBlurb";
 import TwoColumns from "../components/Layout/TwoColumns";

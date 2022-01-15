@@ -1,7 +1,6 @@
 import LeftColumn from "../../components/Layout/LeftColumn";
 import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
-import BlurbHeader from "../../components/Project/BlurbHeader";
 import Callout from "../../components/Project/Callout";
 import ImageGallery from "../../components/Project/ImageGallery";
 import IndivImage from "../../components/Project/IndivImage";

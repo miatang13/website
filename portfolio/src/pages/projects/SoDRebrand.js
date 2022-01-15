@@ -4,7 +4,6 @@ import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
 import BlurbHeader from "../../components/Project/BlurbHeader";
 import ImageGallery from "../../components/Project/ImageGallery";
-import ImageSection from "../../components/Project/ImageSection";
 import IndivImage from "../../components/Project/IndivImage";
 import Project from "../../components/Project/ProjectContainer";
 import ProjectHeader from "../../components/Project/ProjectHeader";

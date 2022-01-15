@@ -1,4 +1,3 @@
-import { CSS2DRenderer } from "three/examples/jsm/renderers/CSS2DRenderer";
 import { CSS3DRenderer } from "three/examples/jsm/renderers/CSS3DRenderer";
 
 export const setupCSSRenderer = (webglApp) => {

@@ -1,6 +1,5 @@
 // library
 import React, { useEffect, useRef } from "react";
-import { BrowserRouter } from "react-router-dom";
 // css
 import "./styles/reset.scss";
 import "./App.scss";

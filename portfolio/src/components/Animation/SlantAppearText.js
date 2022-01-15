@@ -34,7 +34,7 @@ export default function SlantAppearText(props) {
       duration: 1400,
       delay: (el, i) => 30 * i,
     });
-  }, []);
+  });
 
   useEffect(() => {
     // animate on appear

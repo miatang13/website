@@ -13,7 +13,7 @@ export default function TiltOnIntersect(props) {
     if (isIntersected) {
       tiltAnimationOnIntersect(tl, wrapperRef);
     }
-  }, [isIntersected]);
+  }, [isIntersected, tl]);
 
   return <div ref={wrapperRef}>{props.children}</div>;
 }

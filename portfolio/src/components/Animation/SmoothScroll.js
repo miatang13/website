@@ -13,7 +13,7 @@ export default function SmoothScroll(props) {
       document.querySelector("#scroll"),
       options
     );
-  }, []);
+  });
 
   const location = useLocation();
   useEffect(() => {

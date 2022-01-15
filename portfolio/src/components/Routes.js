@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { Route, Switch, useLocation } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import About from "../pages/About";
 import AsOneGame from "../pages/projects/AsOneGame";
 import Bechdel from "../pages/projects/Bechdel";
@@ -10,16 +9,6 @@ import Work from "../pages/Work";
 import { AnimatePresence } from "framer-motion";
 
 export default function Routes(props) {
-  // console.log(props);
-
-  // const location = useLocation();
-
-  // useEffect(() => {
-  //   console.log("*", location.pathname);
-  //   props.setPathname(location.pathname);
-  //   window.scrollTo(0, 0);
-  // }, [location]);
-
   return (
     <Route
       render={({ location }) => (

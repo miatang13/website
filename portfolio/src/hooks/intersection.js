@@ -13,7 +13,7 @@ export default function useIntersectionObserver(ref, threshold = 0.6) {
       ([entry]) => setIsOnScreen(entry.isIntersecting),
       options
     );
-  }, []);
+  });
 
   useEffect(() => {
     observerRef.current.observe(ref.current);

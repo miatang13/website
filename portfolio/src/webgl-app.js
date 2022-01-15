@@ -2,7 +2,6 @@ import {
   Clock,
   HemisphereLight,
   MeshMatcapMaterial,
-  MeshToonMaterial,
   PlaneGeometry,
 } from "three";
 import {
@@ -10,7 +9,6 @@ import {
   Color,
   PerspectiveCamera,
   WebGLRenderer,
-  MeshBasicMaterial,
   Mesh,
   GridHelper,
   SphereGeometry,
@@ -20,7 +18,6 @@ import {
   Vector3,
   MeshLambertMaterial,
 } from "three";
-import { setupCSSRenderer } from "./webgl/setup/setup-css-renderer";
 import { createElemObject } from "./webgl/utility/cssObj";
 import * as dat from "dat.gui";
 import {
@@ -114,12 +111,12 @@ export default class WebGLApp {
 
   setupWorkGallery = (cssElem, thumbnailRefs, descriptionRefs) => {
     return;
-    this.cssElem = cssElem;
-    setupCSSRenderer(this);
-    this.thumbnailRefs = thumbnailRefs;
-    this.descriptionRefs = descriptionRefs;
-    this.addDomElems();
-    console.log("Finished set up work gallery");
+    // this.cssElem = cssElem;
+    // setupCSSRenderer(this);
+    // this.thumbnailRefs = thumbnailRefs;
+    // this.descriptionRefs = descriptionRefs;
+    // this.addDomElems();
+    // console.log("Finished set up work gallery");
   };
 
   removeWorkGallery = () => {
@@ -175,7 +172,7 @@ export default class WebGLApp {
     // event.deltaY < 0 when we scroll up, > 0 when we scroll down
     if (this.camera.position.y >= 0 && event.deltaY < 0) return;
     if (this.camera.position.y <= this.capY && event.deltaY > 0) return;
-    var direction = event.detail < 0 || event.wheelDelta > 0 ? 1 : -1;
+    // var direction = event.detail < 0 || event.wheelDelta > 0 ? 1 : -1;
     const normalized = normalizeWheel(event).spinY;
     console.log(normalized);
     // up = 1, down = -1

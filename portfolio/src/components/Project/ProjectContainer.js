@@ -1,9 +1,7 @@
 import "../../styles/project/project.scss";
-import SmoothScroll from "../Animation/SmoothScroll";
 import ProjectFooter from "./Footer";
 import { motion } from "framer-motion";
 import FadeInOut from "../Animation/FadeInOut";
-import { useEffect } from "react";
 
 export default function Project(props) {
   return (

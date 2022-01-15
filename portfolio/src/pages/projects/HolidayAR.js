@@ -2,7 +2,6 @@ import Project from "../../components/Project/ProjectContainer";
 import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectSection from "../../components/Project/ProjectSection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
-import ImageSection from "../../components/Project/ImageSection";
 import TwoColumns from "../../components/Layout/TwoColumns";
 import LeftColumn from "../../components/Layout/LeftColumn";
 import RightColumn from "../../components/Layout/RightColumn";

@@ -14,8 +14,6 @@ import ProjectShortSection from "../../components/Project/ProjectShortSection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
 import SpotlightVideoSection from "../../components/Project/SpotlightVideoSection";
 import SpotlightVideo from "../../components/Project/SpotlightVideoSection";
-import VideoRow from "../../components/Project/VideoRow";
-import VideoSection from "../../components/Project/VideoSection";
 import HandIndex from "../../components/svgs/HandIndex";
 import MagicStick from "../../components/svgs/MagicStick";
 import project_data from "../../settings/projects.json";

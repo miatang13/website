@@ -1,10 +1,7 @@
-import { motion } from "framer-motion";
-import { gallery_image_size } from "../../animations/const";
-import TiltOnIntersect from "../Animation/TiltOnIntersect";
 import IntroHeader from "./IntroHeader";
 import IntroTitle from "./IntroTitle";
 import "../../styles/gallery/thumbnail.scss";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import IntroImg from "./IntroImage";
 
 export default function ProjectHeader(props) {
