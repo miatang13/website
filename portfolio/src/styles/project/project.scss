@@ -33,7 +33,7 @@
 }
 
 .project_section .section_blurb_full {
-  width: 90%;
+  width: 100%;
   padding-bottom: 2vh;
   padding-top: 2vh;
 }
@@ -89,10 +89,10 @@ ul.blurb_list li::before {
 }
 
 // responsive
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .project_wrapper {
-    padding-top: 2vh;
-    padding-bottom: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
   }
 
   .project_section {
@@ -101,5 +101,22 @@ ul.blurb_list li::before {
 
   .project_section .section_blurb_narrow {
     width: 100%;
+  }
+
+  .section_title {
+    font-size: 2em;
+  }
+
+  .project_section .section_subtitle {
+    font-size: 1.2em;
+  }
+
+  .section_subtitle svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  h4.footer_next_text {
+    font-size: 1em;
   }
 }

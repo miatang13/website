@@ -1,4 +1,3 @@
-import { Col, Row } from "react-bootstrap";
 import LeftColumn from "../../components/Layout/LeftColumn";
 import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
@@ -46,8 +45,8 @@ export default function Jam3() {
         img_src={"/assets/Jam3/thumbnail.png"}
       />
       <ProjectSection title="Overview">
-        <Row>
-          <Col>
+        <TwoColumns>
+          <LeftColumn>
             <BlurbHeader>
               <HandIndex /> The Ask
             </BlurbHeader>
@@ -62,8 +61,8 @@ export default function Jam3() {
               used for internal purposes, therefore we were given the freedom to
               dream big and create something out of the box.
             </SectionBlurb>
-          </Col>
-          <Col>
+          </LeftColumn>
+          <RightColumn>
             <BlurbHeader>
               <MagicStick /> Our Approach
             </BlurbHeader>
@@ -80,8 +79,8 @@ export default function Jam3() {
               different visuals for each specific playlist, thus giving
               individual music curators individual rooms.
             </SectionBlurb>
-          </Col>
-        </Row>
+          </RightColumn>
+        </TwoColumns>
       </ProjectSection>
 
       <ProjectShortSection title="Note">

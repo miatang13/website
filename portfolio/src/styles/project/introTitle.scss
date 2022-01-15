@@ -16,9 +16,13 @@
 }
 
 // responsive
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .project_title,
   .project_subtitle {
     width: 100%;
+  }
+
+  h1.project_title {
+    font-size: 2em;
   }
 }

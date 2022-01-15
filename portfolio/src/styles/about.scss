@@ -39,11 +39,11 @@
 }
 
 .contact_links_wrapper a {
-  padding-right: 1vw;
+  padding-right: 2vh;
 }
 
 // responsive
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .about_wrapper li {
     width: 90%;
     font-size: 1em;

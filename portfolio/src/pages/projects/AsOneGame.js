@@ -322,10 +322,9 @@ export default function AsOneGame() {
             base_url + "screenshots/change-in-color/3.png",
             base_url + "screenshots/change-in-color/4.png",
             base_url + "screenshots/change-in-color/5.png",
-            base_url + "screenshots/change-in-color/6.png",
+            // base_url + "screenshots/change-in-color/6.png",
             base_url + "screenshots/change-in-color/7.png",
           ]}
-          oneRow={true}
           caption="Color Change in Chronological Order"
         />{" "}
         <TwoColumns>

@@ -1,5 +1,4 @@
 import Envelop from "../svgs/Envelop";
-import Link45Deg from "../svgs/Link45Deg";
 import Linkedin from "../svgs/Linkedin";
 import Twitter from "../svgs/Twitter";
 import AboutSection from "./AboutSection";

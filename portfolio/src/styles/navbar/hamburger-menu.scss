@@ -68,3 +68,15 @@
 .bm-overlay {
   background: colors.$background-color;
 }
+
+// responsive
+@media screen and (max-width: 576px) {
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 36px;
+    left: 18px;
+    top: 24px;
+  }
+}

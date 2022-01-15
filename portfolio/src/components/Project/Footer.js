@@ -23,7 +23,7 @@ export default function ProjectFooter(props) {
               to={projects[nextIndex].page_name}
               className="footer_next_item"
             >
-              <h4>
+              <h4 className="footer_next_text">
                 {projects[nextIndex].landing.title} <DoubleRight />
               </h4>
             </Link>

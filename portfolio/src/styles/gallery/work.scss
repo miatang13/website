@@ -48,3 +48,10 @@
   color: colors.$primary-color;
   font-size: 1em;
 }
+
+// responsive
+@media screen and (max-width: 576px) {
+  .gallery_project_wrapper {
+    padding-top: 10vh;
+  }
+}

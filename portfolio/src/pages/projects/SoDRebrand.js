@@ -1,4 +1,3 @@
-import { Col, Row } from "react-bootstrap";
 import LeftColumn from "../../components/Layout/LeftColumn";
 import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
@@ -104,8 +103,9 @@ export default function SoDRebrand() {
       />
 
       <ProjectSection title="Overview">
-        <Row>
-          <Col>
+        <TwoColumns>
+          <LeftColumn>
+            {" "}
             <BlurbHeader>
               <HandIndex /> The Ask
             </BlurbHeader>
@@ -119,8 +119,9 @@ export default function SoDRebrand() {
               convincing to the highschool students, a more playful brand
               identity needed to be established.
             </SectionBlurb>
-          </Col>
-          <Col>
+          </LeftColumn>
+          <RightColumn>
+            {" "}
             <BlurbHeader>
               <MagicStick /> Our Approach
             </BlurbHeader>
@@ -138,8 +139,8 @@ export default function SoDRebrand() {
               , we strive to provide insights on how the audience just might be
               a great designer.
             </SectionBlurb>{" "}
-          </Col>
-        </Row>
+          </RightColumn>
+        </TwoColumns>
       </ProjectSection>
 
       <ProjectSection title="Brand">
