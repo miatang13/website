@@ -1,0 +1,24 @@
+@use "../font";
+@use "../colors";
+
+.project_title {
+  width: 100%;
+  font-size: 4em; // TO-DO: add scss variables for font sizes
+  font-weight: 600;
+  font-family: font.$primary-font;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  color: colors.$project-section-title-color;
+}
+
+.project_subtitle {
+  width: 60%;
+}
+
+// responsive
+@media screen and (max-width: 480px) {
+  .project_title,
+  .project_subtitle {
+    width: 100%;
+  }
+}

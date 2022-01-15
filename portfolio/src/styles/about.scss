@@ -1,0 +1,60 @@
+@use 'colors';
+
+.about_wrapper {
+  color: colors.$primary-color;
+  margin: 1em;
+  width: 100vw;
+}
+
+.about_wrapper li {
+  margin-top: 1vw;
+  padding-bottom: 1vh;
+}
+
+.about_wrapper a {
+  color: colors.$link-static-color;
+  font-weight: bold;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.about_wrapper a:hover {
+  color: colors.$link-hover-color;
+}
+
+.about_wrapper p {
+  margin-top: 0.5em;
+}
+
+.about_wrapper .about_blurb {
+  width: 70%;
+}
+
+.about_wrapper hr {
+  color: colors.$primary-color;
+  border: 1px solid colors.$primary-color;
+}
+
+.about_section_wrapper {
+  padding-bottom: 5vh;
+}
+
+// responsive
+@media screen and (max-width: 480px) {
+  .about_wrapper li {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .about_wrapper p {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .about_wrapper .about_blurb {
+    width: 90%;
+  }
+
+  .about_wrapper img {
+    width: 85%;
+  }
+}

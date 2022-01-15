@@ -1,0 +1,36 @@
+@use 'colors';
+@use 'font';
+
+.nav_bar {
+  color: colors.$primary-color;
+  // border-bottom: 1px colors.$primary-color solid;
+  // background-color: colors.$background-color;
+  padding: 1.2vh;
+  position: sticky;
+  font-size: 0.7em;
+  font-weight: 800;
+  font-family: font.$nav-font;
+}
+
+.nav_bar .logo {
+  font-family: font.$nav-font;
+  color: colors.$logo-color;
+}
+
+.nav_bar a {
+  color: colors.$primary-color;
+  text-decoration: none;
+  border-bottom: 1px colors.$background-color solid;
+  border-bottom-width: 0;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav_bar a.active {
+  border-bottom: 1px colors.$primary-color solid;
+  border-bottom-width: 100%;
+  color: colors.$primary-color;
+}
+
+.nav-item {
+  font-family: font.$nav-font;
+}

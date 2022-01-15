@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "soehne-breit-bold";
+  src: url("./fonts/soehne-breit-dreiviertelfett.woff");
+}
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap");
+
+$primary-font: "soehne-breit-bold";
+$secondary-font: "Space Grotesk";
+
+$nav-font: $primary-font;
+$title-font: $primary-font;
+
+$paragraph-font: $secondary-font;

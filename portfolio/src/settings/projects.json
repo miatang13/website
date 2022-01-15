@@ -1,0 +1,34 @@
+[
+  {
+    "path": "Jam3",
+    "page_name": "/work/jam3-internship",
+    "landing": {
+      "title": "3D Metaverse for Music Curators",
+      "subtitle": "Creative Development at Jam3"
+    }
+  },
+  {
+    "path": "AsOne",
+    "page_name": "/work/as-one-narrative-game",
+    "landing": {
+      "title": "Exploration Game About Salmon Run",
+      "subtitle": "Explore the Meaning of Life as a Salmon"
+    }
+  },
+  {
+    "path": "HolidayAR",
+    "page_name": "/work/holiday-AR",
+    "landing": {
+      "title": "AR Experience for A Lonely Holiday",
+      "subtitle": "Enjoy A Festive Environment With Zero Cost "
+    }
+  },
+  {
+    "path": "SoD",
+    "page_name": "/work/cmu-sod-rebrand",
+    "landing": {
+      "title": "Rebrand Carnegie Mellon School of Design",
+      "subtitle": "Reach Prospective Students Through A Playful Campaign"
+    }
+  }
+]

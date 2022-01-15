@@ -1,0 +1,105 @@
+@use "../colors";
+@use "../project";
+
+.project_wrapper {
+  color: colors.$project-primary-color;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+.project_section {
+  padding-bottom: 10vh;
+  color: colors.$project-text-color;
+  // border: 1px solid colors.$project-primary-color;
+}
+
+.section_title {
+  padding-bottom: 2vh;
+  font-size: 3em;
+  color: colors.$project-section-title-color;
+}
+
+.project_section .section_subtitle {
+  font-size: 2em;
+  color: colors.$project-section-subtitle-color;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.project_section .section_blurb_narrow {
+  width: 50%;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.project_section .section_blurb_full {
+  width: 90%;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.project_section .blurb_header {
+  // text-decoration: underline;
+  padding-bottom: 1vh;
+}
+
+.project_section .image_gallery_wrapper {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.image_gallery_wrapper .gallery_img {
+  padding-top: 1vh;
+}
+
+.project_section .img_caption {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  color: colors.$secondary-color;
+}
+
+.img_caption svg {
+  fill: colors.$secondary-color;
+}
+
+p.section_blurb a {
+  text-decoration: underline;
+  color: colors.$link-hover-color;
+}
+
+.indiv_img_wrapper {
+  padding-bottom: 2vh;
+}
+
+.video_gallery_wrapper {
+  padding-bottom: 2vh;
+}
+
+ul.blurb_list {
+  list-style-type: none;
+}
+
+ul.blurb_list li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: colors.$project-section-title-color; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 1em; /* Also needed for space (tweak if needed) */
+}
+
+// responsive
+@media screen and (max-width: 480px) {
+  .project_wrapper {
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+  }
+
+  .project_section {
+    padding-bottom: 5vh;
+  }
+
+  .project_section .section_blurb_narrow {
+    width: 100%;
+  }
+}
