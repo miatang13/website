@@ -1,4 +1,4 @@
-import SlantAppearText from "../Animation/SlantAppearText";
+// import SlantAppearText from "../Animation/SlantAppearText";
 import TiltOnIntersect from "../Animation/TiltOnIntersect";
 import { motion } from "framer-motion";
 import { fast_transition } from "../../animations/const";
@@ -8,19 +8,21 @@ export default function WorkDescription(props) {
     <TiltOnIntersect>
       <motion.div transition={fast_transition}>
         <div className="thumbnail_description">
-          <div className="thumbnail_title">
-            <SlantAppearText
+          <div>
+            <h2 className="thumbnail_title">{props.title}</h2>
+            {/* <SlantAppearText
               text={props.title}
               index={props.index}
               type="title"
-            />
+            /> */}
           </div>
-          <div className="thumbnail_subtitle">
-            <SlantAppearText
+          <div>
+            <h4 className="thumbnail_subtitle">{props.subtitle}</h4>
+            {/* <SlantAppearText
               text={props.subtitle}
               index={props.index}
               type="subtitle"
-            />
+            /> */}
           </div>
           {/* <div className="thumbnail_link">
           <Link to={props.page_name}>
