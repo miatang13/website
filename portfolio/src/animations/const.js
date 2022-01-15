@@ -3,6 +3,11 @@ export const framer_transition = {
   ease: [0.43, 0.13, 0.23, 0.96],
 };
 
+export const fast_transition = {
+  duration: 0.2,
+  ease: [0.43, 0.13, 0.23, 0.96],
+};
+
 export const fadein_transition = {
   duration: 1.2,
   ease: [0.43, 0.13, 0.23, 0.96],

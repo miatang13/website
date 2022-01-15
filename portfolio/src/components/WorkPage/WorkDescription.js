@@ -1,12 +1,12 @@
 import SlantAppearText from "../Animation/SlantAppearText";
 import TiltOnIntersect from "../Animation/TiltOnIntersect";
 import { motion } from "framer-motion";
-import { framer_transition } from "../../animations/const";
+import { fast_transition } from "../../animations/const";
 
 export default function WorkDescription(props) {
   return (
     <TiltOnIntersect>
-      <motion.div transition={framer_transition}>
+      <motion.div transition={fast_transition}>
         <div className="thumbnail_description">
           <div className="thumbnail_title">
             <SlantAppearText

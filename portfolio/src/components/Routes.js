@@ -26,14 +26,11 @@ export default function Routes(props) {
               )}
             />
             <Route path="/about" component={About} />
-            <Route path="/work/jam3-internship" component={Jam3} />
-            <Route
-              path="/work/bechdel-directors-data-vis"
-              component={Bechdel}
-            />
-            <Route path="/work/holiday-AR" component={HolidayAR} />
-            <Route path="/work/cmu-sod-rebrand" component={SoDRebrand} />
-            <Route path="/work/as-one-narrative-game" component={AsOneGame} />
+            <Route path="/jam3-internship" component={Jam3} />
+            <Route path="/bechdel-directors-data-vis" component={Bechdel} />
+            <Route path="/holiday-AR" component={HolidayAR} />
+            <Route path="/cmu-sod-rebrand" component={SoDRebrand} />
+            <Route path="/as-one-narrative-game" component={AsOneGame} />
           </Switch>
         </AnimatePresence>
       )}
