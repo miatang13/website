@@ -11,7 +11,6 @@ import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectLinkSection from "../../components/Project/ProjectLinkSection";
 import ProjectSection from "../../components/Project/ProjectSection";
 import ProjectShortSection from "../../components/Project/ProjectShortSection";
-import ProjectSubsection from "../../components/Project/ProjectSubsection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
 import SectionSubtitle from "../../components/Project/SectionSubtitle";
 import SpotlightVideoSection from "../../components/Project/SpotlightVideoSection";
