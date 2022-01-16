@@ -50,3 +50,18 @@ b {
 .min-vh-100 {
   height: 100vh;
 }
+
+.mobile-only {
+  visibility: hidden;
+}
+
+// responsive
+@media screen and (max-width: 576px) {
+  .desktop-only {
+    visibility: hidden;
+  }
+
+  .mobile-only {
+    visibility: visible;
+  }
+}
