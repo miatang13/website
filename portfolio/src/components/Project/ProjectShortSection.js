@@ -1,5 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import TiltOnIntersect from "../Animation/TiltOnIntersect";
+import SectionTitle from "./SectionTitle";
 
 export default function ProjectShortSection(props) {
   return (
@@ -7,7 +8,7 @@ export default function ProjectShortSection(props) {
       <div className="project_section">
         <Row>
           <Col md={6} sm={12}>
-            <h1 className="section_title">{props.title}</h1>
+            <SectionTitle title={props.title} />
           </Col>
           <Col md={6} sm={12}>
             {" "}

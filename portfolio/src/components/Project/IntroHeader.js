@@ -4,7 +4,7 @@ import "../../styles/project/introHeader.scss";
 export default function IntroHeader(props) {
   console.log(props);
   return (
-    <div className="project_section">
+    <div className="project_subsection">
       <Row>
         <Col className="header_tile" md={4}>
           <h4 className="header_title">Client</h4>

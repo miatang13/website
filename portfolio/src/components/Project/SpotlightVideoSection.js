@@ -1,13 +1,14 @@
 import { Col, Row } from "react-bootstrap";
 import IndivVideo from "./IndivVideo";
 import SectionSubtitle from "./SectionSubtitle";
+import SectionTitle from "./SectionTitle";
 
 export default function SpotlightVideoSection(props) {
   return (
     <div className="spotlight_video_wrapper" style={{ paddingBottom: "2vh" }}>
       <Row>
         <Col md={{ span: 6 }}>
-          {props.title && <h2 className="section_title">{props.title}</h2>}
+          {props.title && <SectionTitle title={props.title} />}
           {props.subtitle && (
             <SectionSubtitle>{props.subtitle}</SectionSubtitle>
           )}

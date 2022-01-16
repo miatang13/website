@@ -4,7 +4,7 @@
 .project_wrapper {
   color: colors.$project-primary-color;
   padding-bottom: 5vh;
-  padding-top: 5vh;
+  padding-top: 10vh;
 }
 
 .project_section {
@@ -41,6 +41,10 @@
 .project_section .blurb_header {
   // text-decoration: underline;
   padding-bottom: 1vh;
+}
+
+.project_subsection {
+  padding-bottom: 4vh;
 }
 
 .image_gallery_wrapper {

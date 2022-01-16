@@ -1,5 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import IndivImage from "./IndivImage";
+import SectionTitle from "./SectionTitle";
 
 export default function SpotlightImageSection(props) {
   return (
@@ -14,7 +15,7 @@ export default function SpotlightImageSection(props) {
       </Row>
       <Row>
         <Col md={{ span: 6 }}>
-          <h2 className="section_title">{props.title}</h2>
+          <SectionTitle title={props.title} />
         </Col>
         <Col md={{ span: 6 }}>{props.children}</Col>
       </Row>
