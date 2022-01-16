@@ -7,19 +7,10 @@ export default function ImageRow(props) {
   return (
     <TwoColumns>
       <LeftColumn>
-        {props.left && (
-          <IndivImage src={props.src} caption={props.caption} width="100%" />
-        )}
-        {!props.left && props.children}
+        <IndivImage src={props.src} caption={props.caption} width="100%" />
       </LeftColumn>
 
-      <RightColumn>
-        {props.right && (
-          <IndivImage src={props.src} caption={props.caption} width="100%" />
-        )}
-
-        {!props.right && props.children}
-      </RightColumn>
+      <RightColumn> {props.children}</RightColumn>
     </TwoColumns>
   );
 }

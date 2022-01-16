@@ -14,7 +14,6 @@
 }
 
 .thumbnail_title {
-  margin-top: 0.5vw;
 }
 
 .thumbnail_img {
@@ -28,8 +27,8 @@
   /* border: white solid 1px; */
   color: colors.$primary-color;
   // width: 30vw;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  padding-top: 1vh;
+  padding-bottom: 5vh;
 }
 
 .thumbnail_title {
@@ -40,7 +39,6 @@
 }
 
 .thumbnail_subtitle {
-  font-size: 1em;
   font-family: font.$primary-font;
   color: colors.$secondary-color;
 }

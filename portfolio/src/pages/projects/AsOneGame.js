@@ -3,6 +3,7 @@ import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
 import Callout from "../../components/Project/Callout";
 import ImageGallery from "../../components/Project/ImageGallery";
+import ImageRow from "../../components/Project/ImageRow";
 import IndivImage from "../../components/Project/IndivImage";
 import List from "../../components/Project/List";
 import Project from "../../components/Project/ProjectContainer";
@@ -13,6 +14,7 @@ import ProjectShortSection from "../../components/Project/ProjectShortSection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
 import SectionSubtitle from "../../components/Project/SectionSubtitle";
 import VideoGallery from "../../components/Project/VideoGallery";
+import VideoRow from "../../components/Project/VideoRow";
 import VideoSection from "../../components/Project/VideoSection";
 import RefLink from "../../components/Utility/RefLink";
 import project_data from "../../settings/projects.json";
@@ -97,32 +99,23 @@ export default function AsOneGame() {
           md="4"
           caption="Narrative Design Sketch, Game Design Macro, Visual Mood Board"
         />
-        <TwoColumns>
-          <LeftColumn vAlign={true}>
-            <SectionBlurb fullWidth={true}>
-              Before moving into Unity, we further explored the narrative design
-              by creating a Narrative Design Sketch. Together we strengthened
-              the plot by adding more interactive characters the player can
-              engage with. <br />
-              <br />
-              Throughout the process, we stayed mindful of the assets we needed
-              to create with each potential feature we were considering by
-              keeping track of the Game Design Macro spreadsheet.
-              <br />
-              <br />
-              One interesting exercise in the planning process was the Color
-              Script. By planning out each key scene's main color, we were able
-              to visualize and solidify our visions of the game as a team.
-            </SectionBlurb>
-          </LeftColumn>
-          <RightColumn>
-            <IndivImage
-              src={planning_url + "color-script" + format}
-              width="100%"
-              caption="Color Script"
-            />{" "}
-          </RightColumn>
-        </TwoColumns>
+        <ImageRow src={planning_url + "color-script" + format}>
+          <SectionBlurb fullWidth={true}>
+            Before moving into Unity, we further explored the narrative design
+            by creating a Narrative Design Sketch. Together we strengthened the
+            plot by adding more interactive characters the player can engage
+            with. <br />
+            <br />
+            Throughout the process, we stayed mindful of the assets we needed to
+            create with each potential feature we were considering by keeping
+            track of the Game Design Macro spreadsheet.
+            <br />
+            <br />
+            One interesting exercise in the planning process was the Color
+            Script. By planning out each key scene's main color, we were able to
+            visualize and solidify our visions of the game as a team.
+          </SectionBlurb>
+        </ImageRow>
       </ProjectSection>
       <ProjectSection title="3. Making">
         <ImageGallery
@@ -132,28 +125,19 @@ export default function AsOneGame() {
           ]}
           caption="Vertical Slice, 3D Sound Objects"
         />
-        <TwoColumns>
-          <LeftColumn>
-            <IndivImage
-              src={process_url + "inky.png"}
-              width="100%"
-              // caption=".ink File"
-            />{" "}
-          </LeftColumn>
-          <RightColumn>
-            <SectionBlurb fullWidth={true}>
-              I worked on implementing the player control and crafting the
-              environment of the game, which involved visual and audio designs.
-              I made environmental assets using Blender. <br />
-              <br />
-              It was my first time working on both creating the asset and using
-              the asset within Unity, gaining experiences as both game designer
-              and game developer. <br /> <br />
-              We used Inky to write our dialogues, and used a package to
-              integrate it within Unity.
-            </SectionBlurb>
-          </RightColumn>
-        </TwoColumns>
+        <ImageRow src={process_url + "inky.png"} caption="Ink File">
+          <SectionBlurb fullWidth={true}>
+            I worked on implementing the player control and crafting the
+            environment of the game, which involved visual and audio designs. I
+            made environmental assets using Blender. <br />
+            <br />
+            It was my first time working on both creating the asset and using
+            the asset within Unity, gaining experiences as both game designer
+            and game developer. <br /> <br />
+            We used Inky to write our dialogues, and used a package to integrate
+            it within Unity.
+          </SectionBlurb>
+        </ImageRow>
       </ProjectSection>
 
       <ProjectSection title="4. The Game">
@@ -209,34 +193,25 @@ export default function AsOneGame() {
           ]}
           caption="One-way Dialogues"
         />{" "}
-        <TwoColumns>
-          <LeftColumn>
-            <SectionBlurb fullWidth={true}>
-              The player would encounter different NPCs in various places. By
-              pressing enter, a one-way dialogue or dialogue with multiple paths
-              get initiated. <br /> <br />
-              Each NPC serves 1 purpose from below:
-              <List
-                items={[
-                  "Say some witty nonsense commentaries to light up the mood.",
-                  "Pressure player to swim upstream like other fish.",
-                  "Motivate player to reconsider if swimming upstream is the correct decision.",
-                ]}
-              />
-              {/* <br />
-              In particular, the fish NPCs try to convince the player to keep on
-              swimming upstream, and the NPCs of other species express their
-              doubts. */}
-            </SectionBlurb>
-          </LeftColumn>
-          <RightColumn>
-            <VideoSection
-              src={base_url + "features/seahorse.mp4"}
-              caption="Multiple options"
-              width="100%"
-            />
-          </RightColumn>
-        </TwoColumns>
+        <VideoRow
+          src={base_url + "features/seahorse.mp4"}
+          caption="Multiple options"
+        >
+          {" "}
+          <SectionBlurb fullWidth={true}>
+            The player would encounter different NPCs in various places. By
+            pressing enter, a one-way dialogue or dialogue with multiple paths
+            get initiated. <br /> <br />
+            Each NPC serves 1 purpose from below:
+            <List
+              items={[
+                "Say some witty nonsense commentaries to light up the mood.",
+                "Pressure player to swim upstream like other fish.",
+                "Motivate player to reconsider if swimming upstream is the correct decision.",
+              ]}
+            />{" "}
+          </SectionBlurb>
+        </VideoRow>
         <SectionSubtitle>Chasing the Crowd Mentality</SectionSubtitle>
         <ImageGallery
           images={[
@@ -298,22 +273,12 @@ export default function AsOneGame() {
           oneRow={true}
           caption="Environmental Change in Chronological Order"
         />
-        <TwoColumns>
-          <LeftColumn>
-            <IndivImage
-              src={process_url + "environment.png"}
-              width="100%"
-              caption="Planning"
-            />
-          </LeftColumn>
-          <RightColumn>
-            <SectionBlurb fullWidth={true}>
-              We crafted the environment to have a clear progression from
-              relaxing to challenging, conveying the hardship of swimming
-              upstream.
-            </SectionBlurb>
-          </RightColumn>
-        </TwoColumns>
+        <ImageRow src={process_url + "environment.png"} caption="Planning">
+          <SectionBlurb fullWidth={true}>
+            We crafted the environment to have a clear progression from relaxing
+            to challenging, conveying the hardship of swimming upstream.
+          </SectionBlurb>
+        </ImageRow>
         <SectionSubtitle>Progression of Water Color</SectionSubtitle>
         <ImageGallery
           images={[
@@ -327,23 +292,16 @@ export default function AsOneGame() {
           ]}
           caption="Color Change in Chronological Order"
         />{" "}
-        <TwoColumns>
-          <LeftColumn>
-            <SectionBlurb fullWidth={true}>
-              Color of water changes from warm orange, bright blue, to dark blue
-              as the player moves further down in the journey. It can be used as
-              an indication of progress in the game, as well as a mood
-              indicator.
-            </SectionBlurb>
-          </LeftColumn>
-          <RightColumn>
-            <VideoSection
-              src={base_url + "features/water-shader.mp4"}
-              caption="Water Shader"
-              width="100%"
-            />
-          </RightColumn>
-        </TwoColumns>
+        <VideoRow
+          src={base_url + "features/water-shader.mp4"}
+          caption="Water Shader"
+        >
+          <SectionBlurb fullWidth={true}>
+            Color of water changes from warm orange, bright blue, to dark blue
+            as the player moves further down in the journey. It can be used as
+            an indication of progress in the game, as well as a mood indicator.
+          </SectionBlurb>
+        </VideoRow>
       </ProjectSection>
 
       <ProjectSection title="Reflection">

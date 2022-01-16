@@ -7,19 +7,10 @@ export default function VideoRow(props) {
   return (
     <TwoColumns>
       <LeftColumn>
-        {props.left && (
-          <IndivVideo src={props.src} caption={props.caption} width="100%" />
-        )}
-        {!props.left && props.children}
+        <IndivVideo src={props.src} caption={props.caption} width="100%" />
       </LeftColumn>
 
-      <RightColumn>
-        {props.right && (
-          <IndivVideo src={props.src} caption={props.caption} width="100%" />
-        )}
-
-        {!props.right && props.children}
-      </RightColumn>
+      <RightColumn>{props.children}</RightColumn>
     </TwoColumns>
   );
 }
