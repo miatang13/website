@@ -3,13 +3,7 @@ import Listbullet from "./ListBullet";
 
 export default function AboutIntro() {
   return (
-    <div
-      className="about_section_wrapper"
-      style={{
-        padding: "5vw",
-        paddingLeft: 0,
-      }}
-    >
+    <div className="about_section_wrapper" id="about_intro">
       <h1> thanks for stopping by </h1>
       <p>
         <br />

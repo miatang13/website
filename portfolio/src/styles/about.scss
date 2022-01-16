@@ -43,6 +43,12 @@
   padding-right: 2vh;
 }
 
+#bio-photo,
+#about_intro {
+  padding: 5vw;
+  padding-left: 0;
+}
+
 // responsive
 @media screen and (max-width: 576px) {
   .about_wrapper li {
@@ -61,5 +67,14 @@
 
   .about_wrapper img {
     width: 85%;
+  }
+
+  #bio-photo {
+    padding: 0;
+  }
+
+  #about_intro {
+    padding: 0;
+    padding-top: 5vh;
   }
 }

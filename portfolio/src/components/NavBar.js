@@ -38,12 +38,12 @@ export default function NavBar() {
               </Link>
             </Col>
 
-            <Col md={{ span: 1, offset: 9 }}>
+            <Col md={{ span: 1, offset: 9 }} style={{ textAlign: "right" }}>
               <NavLink exact to="/">
                 work
               </NavLink>
             </Col>
-            <Col>
+            <Col style={{ textAlign: "right" }}>
               <NavLink to="/about"> about </NavLink>
             </Col>
           </Row>
