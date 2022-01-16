@@ -11,6 +11,7 @@ import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectLinkSection from "../../components/Project/ProjectLinkSection";
 import ProjectSection from "../../components/Project/ProjectSection";
 import ProjectShortSection from "../../components/Project/ProjectShortSection";
+import ProjectSubsection from "../../components/Project/ProjectSubsection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
 import SectionSubtitle from "../../components/Project/SectionSubtitle";
 import SpotlightVideoSection from "../../components/Project/SpotlightVideoSection";
@@ -180,6 +181,15 @@ export default function Jam3() {
         >
           <TwoColumns>
             <LeftColumn>
+              <ImageGallery
+                images={[
+                  "/assets/Jam3/process/reactions/reactions_crop.gif",
+                  "/assets/Jam3/process/reactions/inroom.gif",
+                ]}
+                caption="Prototyping Reactions Animation"
+              />
+            </LeftColumn>
+            <RightColumn>
               <SectionBlurb fullWidth={true}>
                 To communicate their feelings and reactions to the current song,
                 users can send reactions by toggling a reaction menu and
@@ -192,15 +202,6 @@ export default function Jam3() {
                 hands on deck to rig it with a model, so it was mostly designed
                 through code, which I found to be particularly interesting.
               </SectionBlurb>
-            </LeftColumn>
-            <RightColumn>
-              <ImageGallery
-                images={[
-                  "/assets/Jam3/process/reactions/reactions_crop.gif",
-                  "/assets/Jam3/process/reactions/inroom.gif",
-                ]}
-                caption="Prototyping reactions animation"
-              />
             </RightColumn>
           </TwoColumns>
         </SpotlightVideo>
@@ -224,7 +225,6 @@ export default function Jam3() {
         /> 
       <SectionBlurb> HERE </SectionBlurb> 
       </ProjectSection> */}
-
         <SectionSubtitle> Post-processing </SectionSubtitle>
         <ImageGallery
           images={[

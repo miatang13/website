@@ -3,6 +3,7 @@ import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
 import BlurbHeader from "../../components/Project/BlurbHeader";
 import ImageGallery from "../../components/Project/ImageGallery";
+import ImageRow from "../../components/Project/ImageRow";
 import IndivImage from "../../components/Project/IndivImage";
 import Project from "../../components/Project/ProjectContainer";
 import ProjectHeader from "../../components/Project/ProjectHeader";
@@ -164,30 +165,22 @@ export default function SoDRebrand() {
           alt="multi-page"
           width="100%"
         />
-        <TwoColumns>
-          <LeftColumn>
-            <IndivImage
-              src={base_url + "web/mockup.gif"}
-              alt="web motion mockup"
-              width="100%"
-            />
-          </LeftColumn>
-          <RightColumn>
-            <SectionBlurb fullWidth={true}>
-              As the lead developer on the team, I first researched on the
-              existing popular CMS on the market, and decided on using Cargo to
-              make our website come to life. By using a CMS, it allows easy
-              editing for other designers on the team, and future maintenance of
-              the website. <br />
-              <br />
-              The website is designed and made to be{" "}
-              <span class="highlight_text">
-                playful, interactive, and engaging
-              </span>
-              .
-            </SectionBlurb>
-          </RightColumn>
-        </TwoColumns>
+        <ImageRow left={true} src={base_url + "web/mockup.gif"}>
+          {" "}
+          <SectionBlurb fullWidth={true}>
+            As the lead developer on the team, I first researched on the
+            existing popular CMS on the market, and decided on using Cargo to
+            make our website come to life. By using a CMS, it allows easy
+            editing for other designers on the team, and future maintenance of
+            the website. <br />
+            <br />
+            The website is designed and made to be{" "}
+            <span class="highlight_text">
+              playful, interactive, and engaging
+            </span>
+            .{" "}
+          </SectionBlurb>
+        </ImageRow>
 
         <ImageGallery
           images={web_subpage_images}
