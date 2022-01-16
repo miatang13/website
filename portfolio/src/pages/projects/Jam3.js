@@ -3,7 +3,6 @@ import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
 import BlurbHeader from "../../components/Project/BlurbHeader";
 import ImageGallery from "../../components/Project/ImageGallery";
-import ImageRow from "../../components/Project/ImageRow";
 import IndivImage from "../../components/Project/IndivImage";
 import IndivVideo from "../../components/Project/IndivVideo";
 import Project from "../../components/Project/ProjectContainer";
@@ -261,7 +260,6 @@ export default function Jam3() {
       </ProjectSection>
 
       <ProjectSection title="Reflection">
-        <ImageRow src="/assets/Jam3/process/staging.png"></ImageRow>
         <IndivImage
           src="/assets/Jam3/process/staging.png"
           width="100%"
