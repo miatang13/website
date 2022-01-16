@@ -102,7 +102,7 @@ export default function Bechdel() {
 
       <ProjectSubsection subtitle="API 2: Movie Databse API">
         <ImageRow
-          right={true}
+          left={true}
           src={code_url + "movie-data.png"}
           caption="API Call to Movie Database API"
         >
@@ -134,11 +134,26 @@ export default function Bechdel() {
       </ProjectSubsection>
 
       <ProjectSubsection subtitle="API 3: NYT API">
-        <SectionBlurb fullWidth={true}>
-          In total, we made around NUMBER API calls. We were able to use a
-          movie's IMDb ID to retrieve 26 fields of data on a movie. We selected
-          to display a movie's poster, rated, genre, awards, and box office.
-        </SectionBlurb>
+        <ImageRow
+          left={true}
+          src={code_url + "NYT-p5.png"}
+          caption="Using P5 Editor for Quick Interface"
+        >
+          <SectionBlurb fullWidth={true}>
+            Since we want to spotlight the directors, we included one more layer
+            of data by using the NYT Developer API, in particular, the Article
+            Search API, to find articles on the selected directors.
+          </SectionBlurb>{" "}
+          <SectionBlurb fullWidth={true}>
+            A challenge we encountered was that we could not programmatically
+            search for all these directors as we were exceeding the maximum
+            number of calls on the API at a time. Therefore we had to do some
+            manual labour to run the script on 5 directors at a time. To do so,
+            I created a quick interface in P5 editor that allows user to
+            download a json containing search results of 5 directors at a time,
+            which expedited our manual process.
+          </SectionBlurb>{" "}
+        </ImageRow>
       </ProjectSubsection>
 
       <ProjectShortSection title="2. Design">
