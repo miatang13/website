@@ -2,21 +2,19 @@
 @use "../colors";
 
 #work_gallery {
-  padding: 5vw;
+  padding-bottom: 5vh;
 }
 
 .gallery_project_wrapper {
   // height: 100vh;
   // width: 100vw;
   // background-color: colors.$background-color;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  // padding-left: 2vw;
+  // padding-right: 2vw;
 }
 
-.thumbnail_title,
-.thumbnail_subtitle,
-.thumbnail_link {
-  margin: 0.5vw;
+.thumbnail_title {
+  margin-top: 0.5vw;
 }
 
 .thumbnail_img {
@@ -30,12 +28,15 @@
   /* border: white solid 1px; */
   color: colors.$primary-color;
   // width: 30vw;
-  padding: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 .thumbnail_title {
-  font-size: 1.2em;
+  font-size: 2em;
   font-family: font.$primary-font;
+  line-height: 1.2em;
+  padding-bottom: 0.2em;
 }
 
 .thumbnail_subtitle {

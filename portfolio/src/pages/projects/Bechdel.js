@@ -2,17 +2,21 @@ import LeftColumn from "../../components/Layout/LeftColumn";
 import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
 import ImageGallery from "../../components/Project/ImageGallery";
+import ImageRow from "../../components/Project/ImageRow";
 import IndivImage from "../../components/Project/IndivImage";
 import IndivVideo from "../../components/Project/IndivVideo";
 import Project from "../../components/Project/ProjectContainer";
 import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectSection from "../../components/Project/ProjectSection";
 import ProjectShortSection from "../../components/Project/ProjectShortSection";
+import ProjectSubsection from "../../components/Project/ProjectSubsection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
 import SectionSubtitle from "../../components/Project/SectionSubtitle";
 import SpotlightImageSection from "../../components/Project/SpotlightImageSection";
 import SpotlightVideoSection from "../../components/Project/SpotlightVideoSection";
 import VideoGallery from "../../components/Project/VideoGallery";
+import HighlightText from "../../components/Utility/HighlightText";
+import RefLink from "../../components/Utility/RefLink";
 import project_data from "../../settings/projects.json";
 
 export default function Bechdel() {
@@ -38,33 +42,104 @@ export default function Bechdel() {
 
       <ProjectShortSection title="Overview">
         <SectionBlurb fullWidth={true}>
-          51-367 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          This was a 2-months class project for 51-367 Computational Design
+          Thinking taught by{" "}
+          <a href="https://kyuhashim.com/">Professor Kyuha Shim</a> at Carnegie
+          Mellon. The prompt was to create an engaging web experience that
+          organizes and displays data in a digestible approach by creating
+          interesting patterns.
         </SectionBlurb>
       </ProjectShortSection>
 
       <ProjectShortSection title="1. Data">
         <SectionBlurb fullWidth={true}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Our group decided to{" "}
+          <HighlightText>
+            showcase data related to gender representation in films
+          </HighlightText>
+          . A way to measure inequality of female representation in film is the
+          <RefLink
+            href="https://en.wikipedia.org/wiki/Bechdel_test"
+            text="Bechdel test"
+          />
+          . We understand that it does not provide the perfect measure, but it
+          provides a surface-level framework to evaluate bias against women in
+          film.
         </SectionBlurb>
       </ProjectShortSection>
 
-      <ProjectSection>
-        <SectionSubtitle>API 1: Bechdel</SectionSubtitle>
-        <SectionSubtitle>API 2: IMdb</SectionSubtitle>
-        <SectionSubtitle>API 3: NYT</SectionSubtitle>
-      </ProjectSection>
+      <ProjectSubsection subtitle="API 1: Bechdel Test API">
+        <ImageRow
+          left={true}
+          src={code_url + "bechdelAPI-all.png"}
+          caption="Data from BechdelTest API"
+        >
+          <SectionBlurb fullWidth={true}>
+            We retrieved NUMBER movies from the{" "}
+            <a href="https://bechdeltest.com/api/v1/doc">BechdelTest API</a>,
+            and used this dataset as our main data. From the BechdelTestAPI, we
+            get the IMDb id for each movie that passed the Bechdel test with a
+            rating from 1 to 3, i.e. the number of Bechdel test rules the movie
+            passes.
+          </SectionBlurb>
+          <SectionBlurb fullWidth={true}>
+            Then we{" "}
+            <HighlightText>
+              ranked directors by the number of their movies appearing in the
+              dataset
+            </HighlightText>{" "}
+            from high to low, thus compiling a list of directors we want to
+            promote and applaud for.
+          </SectionBlurb>
+
+          <SectionBlurb fullWidth={true}>
+            We decided to display directors with two or more movies passing the
+            Bechdel Test, which leaves us with NUMBER directors and NUMBERS
+            movies to display.
+          </SectionBlurb>
+        </ImageRow>
+      </ProjectSubsection>
+
+      <ProjectSubsection subtitle="API 2: Movie Databse API">
+        <ImageRow
+          right={true}
+          src={code_url + "movie-data.png"}
+          caption="API Call to Movie Database API"
+        >
+          <SectionBlurb fullWidth={true}>
+            We needed more data on every movie that we are displaying, therefore
+            we used the{" "}
+            <a href="https://rapidapi.com/rapidapi/api/movie-database-imdb-alternative/">
+              {" "}
+              Movie Database API{" "}
+            </a>{" "}
+            by RapidAPI.
+          </SectionBlurb>
+
+          <SectionBlurb fullWidth={true}>
+            In total, we made around NUMBER API calls. We were able to use a
+            movie's IMDb ID to retrieve 26 fields of data on a movie. We
+            selected to display a movie's poster, rated, genre, awards, and box
+            office.
+          </SectionBlurb>
+
+          <SectionBlurb fullWidth={true}>
+            <HighlightText>
+              It was my first time doing data API calls with Node.js{" "}
+            </HighlightText>{" "}
+            as in the past I've only used Node for Sockets, and I am always glad
+            to learn more.
+          </SectionBlurb>
+        </ImageRow>
+      </ProjectSubsection>
+
+      <ProjectSubsection subtitle="API 3: NYT API">
+        <SectionBlurb fullWidth={true}>
+          In total, we made around NUMBER API calls. We were able to use a
+          movie's IMDb ID to retrieve 26 fields of data on a movie. We selected
+          to display a movie's poster, rated, genre, awards, and box office.
+        </SectionBlurb>
+      </ProjectSubsection>
 
       <ProjectShortSection title="2. Design">
         <SectionBlurb fullWidth={true}>

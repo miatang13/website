@@ -4,17 +4,19 @@ import WorkDescription from "../components/WorkPage/WorkDescription";
 // css
 import "../styles/webgl.scss";
 import "../styles/gallery/work.scss";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import FadeInOut from "../components/Animation/FadeInOut";
+import WorkIntro from "../components/WorkPage/WorkIntro";
 
 export default function Work(props) {
   const numPerRow = 2;
   const md = 12 / numPerRow;
 
   return (
-    <>
-      <FadeInOut>
+    <FadeInOut>
+      <Container>
+        <WorkIntro />
         <div id="work_gallery">
           <div id="css3d" ref={props.cssContainerRef}></div>
           <Row>
@@ -41,7 +43,7 @@ export default function Work(props) {
             ))}
           </Row>
         </div>
-      </FadeInOut>
-    </>
+      </Container>
+    </FadeInOut>
   );
 }

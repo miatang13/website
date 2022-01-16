@@ -20,7 +20,9 @@ export default function About() {
                 <img
                   src="/assets/personal/bio-photo-filter.png"
                   width="100%"
-                  style={{ padding: "5vw" }}
+                  style={{
+                    padding: "5vw",
+                  }}
                   alt="bio"
                 />
               </LeftColumn>

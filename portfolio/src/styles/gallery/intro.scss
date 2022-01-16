@@ -1,0 +1,28 @@
+@use "../colors";
+
+#work_intro {
+  padding-top: 50vh;
+  height: 100vh;
+}
+
+.work_intro_text {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: colors.$primary-color;
+  width: 50%;
+}
+
+// responsive
+@media screen and (max-width: 576px) {
+  #work_intro {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 20vh;
+  }
+
+  .work_intro_text {
+    width: 100%;
+    line-height: 1.3em;
+    font-size: 1.3em;
+  }
+}

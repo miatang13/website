@@ -3,10 +3,18 @@ import Listbullet from "./ListBullet";
 
 export default function AboutIntro() {
   return (
-    <div className="about_section_wrapper">
+    <div
+      className="about_section_wrapper"
+      style={{
+        padding: "5vw",
+        paddingLeft: 0,
+      }}
+    >
       <p>
-        Hi, I am Mia Tang, and I am a Canadian creative developer interested in
-        building interactive experiences (web, MR, & game).
+        Thanks for stopping by. <br />
+        <br />
+        Hi, I am Mia Tang, and I am a creative developer interested in building
+        interactive experiences (web, MR, & game).
       </p>{" "}
       <p>
         I currently study at Carnegie Mellon University under the

@@ -1,10 +1,11 @@
 import TiltOnIntersect from "../Animation/TiltOnIntersect";
+import SectionSubtitle from "./SectionSubtitle";
 
-export default function ProjectSection(props) {
+export default function ProjectSubsection(props) {
   return (
     <TiltOnIntersect>
       <div className="project_section">
-        {props.title && <h1 className="section_title">{props.title}</h1>}
+        {props.subtitle && <SectionSubtitle>{props.subtitle}</SectionSubtitle>}
         {props.children}
         {props.hasDivider && <hr></hr>}
       </div>

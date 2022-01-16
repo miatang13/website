@@ -3,33 +3,35 @@
     "path": "Jam3",
     "page_name": "/jam3-internship",
     "landing": {
-      "title": "3D Metaverse for Music Curators",
-      "subtitle": "Creative Development at Jam3"
+      "title": "spotify rooms",
+      "subtitle": "Creative Development at Jam3",
+      "summary": "3D Metaverse for Music Curators"
     }
   },
   {
     "path": "AsOne",
     "page_name": "/as-one-narrative-game",
     "landing": {
-      "title": "Exploration Game About Salmon Run",
-      "subtitle": "Explore the Meaning of Life as a Salmon"
+      "title": "as one",
+      "subtitle": "Exploration Game About Salmon Run",
+      "summary": "Explore the Meaning of Life as a Salmon"
     }
   },
   {
     "path": "HolidayAR",
     "page_name": "/holiday-AR",
     "landing": {
-      "title": "AR Experience for A Lonely Holiday",
-      "subtitle": "Enjoy A Festive Environment With Zero Cost "
+      "title": "virtual holiday",
+      "summary": "Enjoy A Festive Environment With Zero Cost",
+      "subtitle": "AR Experience for A Lonely Holiday"
     }
   },
-
   {
     "path": "SoD",
     "page_name": "/cmu-sod-rebrand",
     "landing": {
-      "title": "Rebrand Carnegie Mellon School of Design",
-      "subtitle": "Reach Prospective Students Through A Playful Campaign"
+      "title": "rebrand cmu school of design",
+      "subtitle": "Playful Campaign for Perspective Students"
     }
   }
 ]

@@ -32,8 +32,10 @@ b {
 }
 
 .highlight_text {
-  background-color: colors.$project-highlight-color;
+  // background-color: colors.$project-highlight-color;
   color: colors.$project-highlight-text-color;
+  font-weight: bold;
+  // text-decoration: underline;
 }
 
 .center_container {

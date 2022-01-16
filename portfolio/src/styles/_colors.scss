@@ -13,23 +13,17 @@ $ocean-blue: #076191;
 $plaster: #cdcdcd;
 $linen: #e9e9e9;
 
-// pinky, violet
-$violet: rgb(173, 142, 224);
-$bright-violet: rgb(208, 137, 255);
-$dark-violet: rgb(96, 69, 114);
-$muted-pink: rgb(231, 173, 233);
-
-$primary-color: $linen;
-$secondary-color: $violet;
+$primary-color: $plaster;
+$secondary-color: $light-grey;
 
 $background-color: $dark-grey;
-$link-static-color: $violet;
+$link-static-color: $white;
 $link-hover-color: $linen;
 $logo-color: $linen;
 
 $project-primary-color: $primary-color;
 $project-text-color: $linen;
-$project-section-title-color: $violet;
-$project-section-subtitle-color: $bright-violet;
-$project-highlight-color: $violet;
-$project-highlight-text-color: $dark-violet;
+$project-section-title-color: $white;
+$project-section-subtitle-color: $white;
+$project-highlight-color: $plaster;
+$project-highlight-text-color: $white;
