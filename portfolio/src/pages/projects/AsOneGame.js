@@ -4,7 +4,6 @@ import TwoColumns from "../../components/Layout/TwoColumns";
 import Callout from "../../components/Project/Callout";
 import ImageGallery from "../../components/Project/ImageGallery";
 import ImageRow from "../../components/Project/ImageRow";
-import IndivImage from "../../components/Project/IndivImage";
 import List from "../../components/Project/List";
 import Project from "../../components/Project/ProjectContainer";
 import ProjectHeader from "../../components/Project/ProjectHeader";
@@ -15,7 +14,6 @@ import SectionBlurb from "../../components/Project/SectionBlurb";
 import SectionSubtitle from "../../components/Project/SectionSubtitle";
 import VideoGallery from "../../components/Project/VideoGallery";
 import VideoRow from "../../components/Project/VideoRow";
-import VideoSection from "../../components/Project/VideoSection";
 import RefLink from "../../components/Utility/RefLink";
 import project_data from "../../settings/projects.json";
 
