@@ -32,13 +32,13 @@ export default function Bechdel() {
         role="Sole Developer, Designer"
         skills="WebGL, React, NYT API, RapidAPI"
         timeline="October 2021 — December 2021"
-        client="Class Project for 51-367 @CMU"
+        client="Computational Design Thinking @CMU"
         img_src={base_url + "thumbnail.png"}
       />
 
       <ProjectShortSection title="Overview">
         <SectionBlurb fullWidth={true}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          51-367 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -202,6 +202,15 @@ export default function Bechdel() {
             video_url + "catalog-click" + video_format,
           ]}
         />
+      </ProjectSection>
+
+      <ProjectSection title="Reflection">
+        <SectionBlurb>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </SectionBlurb>{" "}
       </ProjectSection>
     </Project>
   );

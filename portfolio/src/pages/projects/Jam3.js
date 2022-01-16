@@ -5,12 +5,14 @@ import BlurbHeader from "../../components/Project/BlurbHeader";
 import ImageGallery from "../../components/Project/ImageGallery";
 import ImageRow from "../../components/Project/ImageRow";
 import IndivImage from "../../components/Project/IndivImage";
+import IndivVideo from "../../components/Project/IndivVideo";
 import Project from "../../components/Project/ProjectContainer";
 import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectLinkSection from "../../components/Project/ProjectLinkSection";
 import ProjectSection from "../../components/Project/ProjectSection";
 import ProjectShortSection from "../../components/Project/ProjectShortSection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
+import SectionSubtitle from "../../components/Project/SectionSubtitle";
 import SpotlightVideoSection from "../../components/Project/SpotlightVideoSection";
 import SpotlightVideo from "../../components/Project/SpotlightVideoSection";
 import HandIndex from "../../components/svgs/HandIndex";
@@ -97,21 +99,30 @@ export default function Jam3() {
         </SectionBlurb>
       </ProjectShortSection>
 
-      <ProjectSection>
+      <ProjectSection title="Prototype Features">
         <SpotlightVideoSection
-          title="Avatars"
+          subtitle="Avatars"
           src={base_url + "appear" + display_format}
           caption="User Appear as Avatar on Connection"
         >
-          <SectionBlurb fullWidth={true}>
-            Each user gets randomly assigned an avatar of a geometric shape with
-            patterns wrapped around it. The textures are animated in real-time
-            with shaders to have an dynamic appearance.
-          </SectionBlurb>{" "}
+          <TwoColumns>
+            <LeftColumn>
+              <IndivImage
+                src="/assets/Jam3/process/texture/texture-shape.gif"
+                caption="WIP: Shapes and Patterns for Avatars"
+              />
+            </LeftColumn>
+            <RightColumn>
+              <SectionBlurb fullWidth={true}>
+                Each user gets randomly assigned an avatar of a geometric shape
+                with patterns wrapped around it. The textures are animated in
+                real-time with shaders to have an dynamic appearance.
+              </SectionBlurb>
+            </RightColumn>
+          </TwoColumns>
         </SpotlightVideoSection>
-      </ProjectSection>
 
-      {/* <TwoColumns>
+        {/* <TwoColumns>
           <LeftColumn>
             <IndivImage
               src="/assets/Jam3/process/texture/texture_shape.gif"
@@ -138,65 +149,63 @@ export default function Jam3() {
           </RightColumn>
         </TwoColumns> */}
 
-      <ProjectSection>
         <SpotlightVideo
           src={base_url + "navigation" + display_format}
           caption="User Navigating in the Space"
-          title="Navigation"
+          subtitle="Navigation"
         >
-          <SectionBlurb fullWidth={true}>
-            The users can navigate in the space, moving and rotating their
-            avatars to reach different places in the room. Furthermore, they can
-            safely navigate in the room without worrying of falling out of the
-            windows because we added rigid bodies to avatar itself and the
-            environmental assets.
-          </SectionBlurb>
+          <TwoColumns>
+            <LeftColumn>
+              <IndivImage
+                src="/assets/Jam3/process/physics/room.png"
+                caption="Rigid Bodies Using Cannon.js"
+              />
+            </LeftColumn>
+            <RightColumn>
+              <SectionBlurb fullWidth={true}>
+                The users can navigate in the space, moving and rotating their
+                avatars to reach different places in the room. Furthermore, they
+                can safely navigate in the room without worrying of falling out
+                of the windows because we added rigid bodies to avatar itself
+                and the environmental assets.
+              </SectionBlurb>
+            </RightColumn>
+          </TwoColumns>
         </SpotlightVideo>
 
-        <ImageGallery
-          images={[
-            "/assets/Jam3/process/physics/room.png",
-            "/assets/Jam3/process/physics/entry.png",
-          ]}
-          caption="Rigid Bodies Using Cannon.js"
-        />
-      </ProjectSection>
-
-      <ProjectSection>
         <SpotlightVideo
           src={base_url + "reaction" + display_format}
           caption="User Expressing Emotions Through Live & Synced Animations"
-          title="Reactions"
+          subtitle="Reactions"
         >
-          <SectionBlurb fullWidth={true}>
-            To communicate their feelings and reactions to the current song,
-            users can send reactions by toggling a reaction menu and choosing
-            their desired emotion. The reactions are synced across all the
-            players.
-          </SectionBlurb>
+          <TwoColumns>
+            <LeftColumn>
+              <SectionBlurb fullWidth={true}>
+                To communicate their feelings and reactions to the current song,
+                users can send reactions by toggling a reaction menu and
+                choosing their desired emotion. The reactions are synced across
+                all the players.
+              </SectionBlurb>
+              <SectionBlurb fullWidth={true}>
+                The reaction animation was more challenging than animating user
+                interface since it was fully 3D, and we did not have enough
+                hands on deck to rig it with a model, so it was mostly designed
+                through code, which I found to be particularly interesting.
+              </SectionBlurb>
+            </LeftColumn>
+            <RightColumn>
+              <ImageGallery
+                images={[
+                  "/assets/Jam3/process/reactions/reactions_crop.gif",
+                  "/assets/Jam3/process/reactions/inroom.gif",
+                ]}
+                caption="Prototyping reactions animation"
+              />
+            </RightColumn>
+          </TwoColumns>
         </SpotlightVideo>
 
-        <TwoColumns>
-          <LeftColumn>
-            <SectionBlurb fullWidth={true}>
-              The reaction animation was more challenging than animating user
-              interface since it was fully 3D, and we did not have enough hands
-              on deck to rig it with a model, so it was mostly designed through
-              code, which I found to be particularly interesting.
-            </SectionBlurb>
-          </LeftColumn>
-          <RightColumn>
-            <ImageGallery
-              images={[
-                "/assets/Jam3/process/reactions/reactions_crop.gif",
-                "/assets/Jam3/process/reactions/inroom.gif",
-              ]}
-              caption="Prototyping reactions animation"
-            />
-          </RightColumn>
-        </TwoColumns>
-      </ProjectSection>
-      {/* 
+        {/* 
       <ProjectSection title="Feature: Music Visualization">
         <ImageGallery
           md={4}
@@ -216,7 +225,7 @@ export default function Jam3() {
       <SectionBlurb> HERE </SectionBlurb> 
       </ProjectSection> */}
 
-      <ProjectSection title="Post-processing">
+        <SectionSubtitle> Post-processing </SectionSubtitle>
         <ImageGallery
           images={[
             "/assets/Jam3/process/post-processing/compressed/without1.png",
@@ -224,22 +233,31 @@ export default function Jam3() {
             "/assets/Jam3/process/post-processing/compressed/with1.png",
             "/assets/Jam3/process/post-processing/compressed/with2.png",
           ]}
-          caption="Without (L) & With (R) Post-processing"
+          caption="Without (1, 2) & With (3, 4) Post-processing"
         />
-      </ProjectSection>
 
-      <ProjectSection>
         <SpotlightVideo
           src={base_url + "multi_player" + display_format}
           caption="Multiple Users Jumping on Dance Floor"
-          title="Multi-player"
+          subtitle="Multi-player Mode"
         >
-          <SectionBlurb fullWidth={true}>
-            One key feature I was responsible for is the multi-player aspect. We
-            used socket.io and Node.JS web framework express. <br /> <br />
-            One important take-away was to deploy early because things that work
-            perfectly locally can go unexpected ways when deployed.
-          </SectionBlurb>
+          <TwoColumns>
+            <LeftColumn>
+              <IndivVideo
+                src="/assets/Jam3/process/multi-player/socket-position.mp4"
+                caption="Avatar Movement Sync Across Users"
+              />
+            </LeftColumn>
+            <RightColumn>
+              <SectionBlurb fullWidth={true}>
+                One key feature I was responsible for is the multi-player
+                aspect. We used socket.io and Node.JS web framework express.{" "}
+                <br /> <br />
+                One important take-away was to deploy early because things that
+                work perfectly locally can go unexpected ways when deployed.
+              </SectionBlurb>
+            </RightColumn>
+          </TwoColumns>
         </SpotlightVideo>
       </ProjectSection>
 

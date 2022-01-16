@@ -23,15 +23,7 @@
       "subtitle": "Enjoy A Festive Environment With Zero Cost "
     }
   },
-  {
-    "path": "Bechdel",
-    "abv_name": "Data Visualization",
-    "page_name": "/bechdel-directors-data-vis",
-    "landing": {
-      "title": "Interactive Data Visualization of Film Directors",
-      "subtitle": "WebGL, NYT API"
-    }
-  },
+
   {
     "path": "SoD",
     "page_name": "/cmu-sod-rebrand",

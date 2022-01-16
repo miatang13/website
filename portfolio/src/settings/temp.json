@@ -1,7 +1,7 @@
 {
   "path": "Bechdel",
   "abv_name": "Data Visualization",
-  "page_name": "/work/bechdel-directors-data-vis",
+  "page_name": "/bechdel-directors-data-vis",
   "landing": {
     "title": "Interactive Data Visualization of Film Directors",
     "subtitle": "WebGL, NYT API"
