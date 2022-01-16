@@ -32,13 +32,13 @@ export default function NavBar() {
       <div className="desktop-only">
         <div className="nav_bar over-gl">
           <Row>
-            <Col>
+            <Col md={{ span: 1 }}>
               <Link exact to="/">
                 <span className="logo">mia tang</span>{" "}
               </Link>
             </Col>
 
-            <Col className="offset-md-9">
+            <Col md={{ span: 1, offset: 9 }}>
               <NavLink exact to="/">
                 work
               </NavLink>

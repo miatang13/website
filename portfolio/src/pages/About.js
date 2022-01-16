@@ -22,6 +22,7 @@ export default function About() {
                   width="100%"
                   style={{
                     padding: "5vw",
+                    paddingLeft: 0,
                   }}
                   alt="bio"
                 />

@@ -10,11 +10,11 @@ export default function AboutIntro() {
         paddingLeft: 0,
       }}
     >
+      <h1> thanks for stopping by </h1>
       <p>
-        Thanks for stopping by. <br />
         <br />
-        Hi, I am Mia Tang, and I am a creative developer interested in building
-        interactive experiences (web, MR, & game).
+        Hi, I am Mia Tang, and I am interested in creating interactive
+        experiences (web, MR, & game).
       </p>{" "}
       <p>
         I currently study at Carnegie Mellon University under the
