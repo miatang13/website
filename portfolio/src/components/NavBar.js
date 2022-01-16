@@ -40,11 +40,11 @@ export default function NavBar() {
 
             <Col className="offset-md-9">
               <NavLink exact to="/">
-                Work
+                work
               </NavLink>
             </Col>
             <Col>
-              <NavLink to="/about"> About </NavLink>
+              <NavLink to="/about"> about </NavLink>
             </Col>
           </Row>
         </div>
