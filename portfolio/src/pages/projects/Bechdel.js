@@ -39,12 +39,12 @@ export default function Bechdel() {
 
       <ProjectShortSection title="Overview">
         <SectionBlurb fullWidth={true}>
-          This was a 2-months class project for 51-367 Computational Design
-          Thinking taught by{" "}
-          <RefLink href="https://kyuhashim.com/" text="Professor Kyuha Shim" />{" "}
-          at Carnegie Mellon. The prompt was to create an engaging web
-          experience that organizes and displays data in a digestible approach
-          by creating interesting patterns.
+          This was a 2 months class project for 51-367 Computational Design
+          Thinking taught by Professor{" "}
+          <RefLink href="https://kyuhashim.com/" text="Kyuha Shim" /> at
+          Carnegie Mellon. The prompt was to create an engaging web experience
+          that organizes and displays data in a digestible approach by creating
+          interesting patterns.
         </SectionBlurb>
       </ProjectShortSection>
 
@@ -54,7 +54,7 @@ export default function Bechdel() {
           <HighlightText>
             showcase data related to gender representation in films
           </HighlightText>
-          . A way to measure inequality of female representation in film is the
+          . A way to measure inequality of female representation in film is the{" "}
           <RefLink
             href="https://en.wikipedia.org/wiki/Bechdel_test"
             text="Bechdel test"
@@ -171,9 +171,8 @@ export default function Bechdel() {
           >
             <SectionBlurb fullWidth={true}>
               We designed the website to be a gallery the user can navigate back
-              and forth directors. The directors are displayed in the order of
-              directors with most movies that passed the Bechdel test to
-              directors with least movies that passed.
+              and forth between the directors. The directors are displayed in
+              the order of most to least movies.
             </SectionBlurb>
             <SectionBlurb fullWidth={true}>
               The website displays one director data visualization at a time.
@@ -252,10 +251,9 @@ export default function Bechdel() {
             <RightColumn>
               <SectionBlurb fullWidth={true}>
                 We experimented with various color combinations, and only
-                realized after awhile that as long as we used the original
+                realized after a while that as long as we used the original
                 posters, it will be almost impossible for things to look
-                cohesive as these posters have a range of color palettes and
-                contrasts.
+                cohesive as these posters have a range of color palettes.
               </SectionBlurb>{" "}
               <SectionBlurb fullWidth={true}>
                 Therefore I{" "}
@@ -309,10 +307,10 @@ export default function Bechdel() {
               articles on top of the visualization.
             </SectionBlurb>{" "}
             <SectionBlurb fullWidth={true}>
-              Each bubble contains the NYT article snippet, and user can hover
-              on top of the bubble to increase its opacity. They can also
-              navigate to the actual article by clicking on the "Read More",
-              which brings them to the full article.
+              Each bubble contains a NYT article snippet, and user can hover on
+              top of the bubble to increase its opacity. They can also navigate
+              to the actual article by clicking on the "Read More", which brings
+              them to the full article.
             </SectionBlurb>{" "}
           </ImageRow>
         </SpotlightVideoSection>
@@ -345,11 +343,11 @@ export default function Bechdel() {
       <ProjectSection title="Reflection">
         <SectionBlurb>
           I had great fun making the project with great teammates who offered
-          wonderful designs. In the process, one of my major take-away was
-          choosing a specific dataset to work with provides more freedom, and we
-          should never try to force a narrative into the data, but instead, let
-          the data tell us the story. I would love to experiment more with
-          creative data visualizations in the future.
+          wonderful designs. One of my major take-away was choosing a specific
+          dataset to work with provides more freedom, and we should never try to
+          force a narrative into the data, but instead, let the data tell us the
+          story. I would love to experiment more with creative data
+          visualizations in the future.
         </SectionBlurb>{" "}
       </ProjectSection>
     </Project>

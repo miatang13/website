@@ -256,7 +256,7 @@ export default function AsOneGame() {
           ]}
         />
         <SectionBlurb>
-          The environmental assets are low-poly and made in vibrant colors to be
+          The low-poly environmental assets were made in vibrant colors to be
           consistent with the player fish and to create the illusion of a
           simple, innocent exploration game.
         </SectionBlurb>
@@ -295,14 +295,14 @@ export default function AsOneGame() {
           caption="Water Shader"
         >
           <SectionBlurb fullWidth={true}>
-            Color of water changes from warm orange, bright blue, to dark blue
-            as the player moves further down in the journey. It can be used as
+            Color of water would change from warm orange, bright blue, to dark
+            blue as the player move further down in the journey. It was used as
             an indication of progress in the game, as well as a mood indicator.
           </SectionBlurb>
         </VideoRow>
       </ProjectSection>
 
-      <ProjectSection title="Reflection">
+      <ProjectSection title="Reflection" hasDivider={true}>
         <SectionBlurb>
           From this project, I learned about the basic steps of creating an
           actual game along with great teammates and mentor. <br />

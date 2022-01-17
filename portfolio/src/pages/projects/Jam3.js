@@ -259,7 +259,7 @@ export default function Jam3() {
         </SpotlightVideo>
       </ProjectSection>
 
-      <ProjectSection title="Reflection">
+      <ProjectSection title="Reflection" hasDivider={true}>
         <IndivImage
           src="/assets/Jam3/process/staging.png"
           width="100%"
