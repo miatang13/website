@@ -88,7 +88,7 @@ export default function SoDRebrand() {
     },
   ];
 
-  const project_idx = 3;
+  const project_idx = project_data.length - 1;
 
   return (
     <Project index={project_idx}>

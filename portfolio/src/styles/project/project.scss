@@ -8,11 +8,12 @@
 }
 
 .project_section {
-  padding-bottom: 8vh;
+  margin-bottom: 3vh;
+  padding-bottom: 2vh;
   padding-left: 3vw;
   padding-right: 3vw;
   color: colors.$project-text-color;
-  // border: 1px solid colors.$project-primary-color;
+  //border-bottom: 1px solid colors.$project-primary-color;
 }
 
 .section_title {

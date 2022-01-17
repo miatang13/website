@@ -5,7 +5,7 @@ import SectionTitle from "./SectionTitle";
 
 export default function SpotlightVideoSection(props) {
   return (
-    <div className="spotlight_video_wrapper" style={{ paddingBottom: "2vh" }}>
+    <div className="spotlight_video_wrapper">
       <Row>
         <Col md={{ span: 6 }}>
           {props.title && <SectionTitle title={props.title} />}
@@ -15,9 +15,6 @@ export default function SpotlightVideoSection(props) {
         </Col>
       </Row>
       <Row style={{ paddingBottom: "2vh" }}>
-        {/* <Col md={{ span: 4 }}>
-          <h2 className="section_title">{props.title}</h2>
-        </Col> */}
         <Col md={{ span: 12 }}>
           <IndivVideo src={props.src} />
         </Col>

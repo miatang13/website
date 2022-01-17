@@ -7,7 +7,11 @@ export default function VideoRow(props) {
   return (
     <TwoColumns>
       <LeftColumn>
-        <IndivVideo src={props.src} caption={props.caption} width="100%" />
+        <IndivVideo
+          src={props.src}
+          caption={props.caption}
+          width={props.width ? props.width : "100%"}
+        />
       </LeftColumn>
 
       <RightColumn>{props.children}</RightColumn>

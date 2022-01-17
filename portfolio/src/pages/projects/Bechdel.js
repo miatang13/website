@@ -3,18 +3,15 @@ import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
 import ImageGallery from "../../components/Project/ImageGallery";
 import ImageRow from "../../components/Project/ImageRow";
-import IndivImage from "../../components/Project/IndivImage";
-import IndivVideo from "../../components/Project/IndivVideo";
 import Project from "../../components/Project/ProjectContainer";
 import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectSection from "../../components/Project/ProjectSection";
 import ProjectShortSection from "../../components/Project/ProjectShortSection";
 import ProjectSubsection from "../../components/Project/ProjectSubsection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
-import SectionSubtitle from "../../components/Project/SectionSubtitle";
 import SpotlightImageSection from "../../components/Project/SpotlightImageSection";
 import SpotlightVideoSection from "../../components/Project/SpotlightVideoSection";
-import VideoGallery from "../../components/Project/VideoGallery";
+import VideoRow from "../../components/Project/VideoRow";
 import HighlightText from "../../components/Utility/HighlightText";
 import RefLink from "../../components/Utility/RefLink";
 import project_data from "../../settings/projects.json";
@@ -122,14 +119,13 @@ export default function Bechdel() {
             selected to display a movie's poster, rated, genre, awards, and box
             office.
           </SectionBlurb>
-
+          {/* 
           <SectionBlurb fullWidth={true}>
             <HighlightText>
               It was my first time doing data API calls with Node.js{" "}
             </HighlightText>{" "}
-            as in the past I've only used Node for Sockets, and I am always glad
-            to learn more.
-          </SectionBlurb>
+            as in the past I've only used Node for Sockets.
+          </SectionBlurb> */}
         </ImageRow>
       </ProjectSubsection>
 
@@ -140,80 +136,95 @@ export default function Bechdel() {
           caption="Using P5 Editor for Quick Interface"
         >
           <SectionBlurb fullWidth={true}>
-            Since we want to spotlight the directors, we included one more layer
-            of data by using the NYT Developer API, in particular, the Article
-            Search API, to find articles on the selected directors.
+            Since we want to spotlight the directors, we included{" "}
+            <HighlightText>one more layer of data</HighlightText> by using the
+            NYT Developer API, in particular, the Article Search API, to find
+            articles on the selected directors.
           </SectionBlurb>{" "}
           <SectionBlurb fullWidth={true}>
             A challenge we encountered was that we could not programmatically
-            search for all these directors as we were exceeding the maximum
-            number of calls on the API at a time. Therefore we had to do some
-            manual labour to run the script on 5 directors at a time. To do so,
-            I created a quick interface in P5 editor that allows user to
-            download a json containing search results of 5 directors at a time,
-            which expedited our manual process.
+            search for all these directors at once as it exceeded the maximum
+            number of calls on the API at a time. Therefore we had to do manual
+            labour to run the script on 5 directors at a time. To do so, I
+            created a quick interface in P5 editor that allows user to download
+            a json containing search results, which expedited our manual
+            process.
           </SectionBlurb>{" "}
         </ImageRow>
       </ProjectSubsection>
 
       <ProjectShortSection title="2. Design">
         <SectionBlurb fullWidth={true}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          We focused on designing{" "}
+          <HighlightText>
+            an interactive, engaging, and fun experience that promotes and
+            spotlights the directors by creating a unique data visualization{" "}
+          </HighlightText>{" "}
+          for each director.
         </SectionBlurb>
       </ProjectShortSection>
 
       <ProjectSection>
         <SpotlightImageSection
-          src={process_url + "key-withoutUI.png"}
-          title="Data Visualization"
+          src={process_url + "key-structure.png"}
+          subtitle="Data Visualization"
+          fullContent={true}
         >
-          <SectionBlurb fullWidth={true}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </SectionBlurb>{" "}
+          <ImageRow
+            src={process_url + "director-display.png"}
+            caption="NYT Articles Overlay"
+          >
+            <SectionBlurb fullWidth={true}>
+              We designed the website to be a gallery the user can navigate back
+              and forth directors. The directors are displayed in the order of
+              directors with most movies that passed the Bechdel test to
+              directors with least movies that passed.
+            </SectionBlurb>
+            <SectionBlurb fullWidth={true}>
+              The website displays one director data visualization at a time.
+              Each visualization plots a director's movies on a graph with two
+              axis: box office and release date.
+            </SectionBlurb>
+            <SectionBlurb fullWidth={true}>
+              A design challenge we encountered was how to include the NYT
+              articles in the data visualization, and the solution we came up
+              with was overlaying the articles on top, and users can toggle its
+              visibility.
+            </SectionBlurb>
+          </ImageRow>
         </SpotlightImageSection>
       </ProjectSection>
 
-      <ProjectSection>
-        <SectionSubtitle>SUBTITLE</SectionSubtitle>
-        <ImageGallery
-          images={[
-            process_url + "genre-symbols.png",
-            process_url + "audience-rate.png",
-          ]}
-        />
+      <ProjectSubsection subtitle="Assets">
         <TwoColumns>
           <LeftColumn>
-            <IndivImage src={code_url + "snippet.png"} />{" "}
+            <ImageGallery
+              images={[
+                process_url + "genre-symbols.png",
+                process_url + "audience-rate.png",
+              ]}
+              md={12}
+            />
           </LeftColumn>
           <RightColumn>
             <SectionBlurb fullWidth={true}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              We made 3D assets for movie genres and colors for movie's content
+              rating. These went through multiple iterations during development
+              for visual cohesiveness.
             </SectionBlurb>{" "}
           </RightColumn>
         </TwoColumns>
-      </ProjectSection>
+      </ProjectSubsection>
 
       <ProjectShortSection title="3. Website">
         <SectionBlurb fullWidth={true}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I was the only developer on the team, which gave me great freedom over
+          implementation, but on the other hand, I had to automate as much as I
+          could given the short implementation timeline.{" "}
+          <HighlightText>
+            The website was implemented and deployed within a timeline of 1.5
+            week.
+          </HighlightText>
         </SectionBlurb>
       </ProjectShortSection>
 
@@ -222,84 +233,127 @@ export default function Bechdel() {
           // title="Data Visualization"
           src={video_url + "enter" + video_format}
           caption="User Enter"
+          subtitle="Gallery"
         >
-          <SectionBlurb fullWidth={true}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </SectionBlurb>{" "}
-        </SpotlightVideoSection>
-        <VideoGallery
-          videos={[
-            video_url + "shader1" + video_format,
-            video_url + "shader2" + video_format,
-            video_url + "shader3" + video_format,
-          ]}
-        />
-      </ProjectSection>
-
-      <ProjectSection>
-        <SpotlightVideoSection
-          title="Navigation"
-          src={video_url + "navigation" + video_format}
-          caption="User Enter"
-        >
-          <SectionBlurb fullWidth={true}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </SectionBlurb>{" "}
-        </SpotlightVideoSection>
-
-        <ProjectSection>
+          <ImageGallery
+            images={[
+              process_url + "visual-iterations/1.png",
+              process_url + "visual-iterations/2.png",
+              process_url + "visual-iterations/3.png",
+            ]}
+            caption="Iterations in Development"
+          />
           <TwoColumns>
             <LeftColumn>
-              <IndivVideo src={video_url + "arrowkey_detail" + video_format} />{" "}
+              {" "}
+              <ImageGallery
+                images={[
+                  video_url + "shader/1.gif",
+                  video_url + "shader/original1.png",
+                ]}
+                caption="Displayed Versus Original"
+              />
             </LeftColumn>
             <RightColumn>
               <SectionBlurb fullWidth={true}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                We experimented with various color combinations, and only
+                realized after awhile that as long as we used the original
+                posters, it will be almost impossible for things to look
+                cohesive as these posters have a range of color palettes and
+                contrasts.
               </SectionBlurb>{" "}
+              <SectionBlurb fullWidth={true}>
+                Therefore I{" "}
+                <HighlightText>
+                  shaders to dynamically alter the colors channels and distort
+                  the images{" "}
+                </HighlightText>{" "}
+                to give them a more dynamic appearance.
+              </SectionBlurb>
             </RightColumn>
           </TwoColumns>
-        </ProjectSection>
-      </ProjectSection>
-
-      <ProjectSection>
-        <SpotlightVideoSection
-          title="NYT Articles"
-          src={video_url + "NYT-articles" + video_format}
-        >
-          <SectionBlurb fullWidth={true}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </SectionBlurb>{" "}
         </SpotlightVideoSection>
       </ProjectSection>
 
       <ProjectSection>
-        <SectionSubtitle>Catalog </SectionSubtitle>
-        <VideoGallery
-          videos={[
-            video_url + "catalog-sort" + video_format,
-            video_url + "catalog-click" + video_format,
-          ]}
-        />
+        <SpotlightVideoSection
+          subtitle="Navigation"
+          src={video_url + "navigation" + video_format}
+          caption="User Enter"
+        >
+          <VideoRow
+            src={video_url + "arrowkey_2-1" + video_format}
+            caption="UI Animations"
+          >
+            <SectionBlurb fullWidth={true}>
+              Users press arrow keys to navigate between directors. The posters
+              travel in the corresponding direction of the navigation. We had
+              test users tell us that this was almost a game-like experience,
+              which we were very happy to hear.
+            </SectionBlurb>{" "}
+            <SectionBlurb fullWidth={true}>
+              To make the experience delightful, playful and intuitive, I added
+              minor interactive details to the user interface, such as the arrow
+              key SVGs that animate when user presses up or down keys.
+            </SectionBlurb>{" "}
+          </VideoRow>
+        </SpotlightVideoSection>
+      </ProjectSection>
+
+      <ProjectSection>
+        <SpotlightVideoSection
+          subtitle="NYT Articles"
+          src={video_url + "NYT-articles" + video_format}
+        >
+          <ImageRow
+            src={process_url + "NYT-articles-on.png"}
+            caption="NYT Articles Toggled"
+          >
+            <SectionBlurb fullWidth={true}>
+              With each visualization, the user can choose to display the NYT
+              articles on top of the visualization.
+            </SectionBlurb>{" "}
+            <SectionBlurb fullWidth={true}>
+              Each bubble contains the NYT article snippet, and user can hover
+              on top of the bubble to increase its opacity. They can also
+              navigate to the actual article by clicking on the "Read More",
+              which brings them to the full article.
+            </SectionBlurb>{" "}
+          </ImageRow>
+        </SpotlightVideoSection>
+      </ProjectSection>
+
+      <ProjectSection>
+        <SpotlightVideoSection
+          subtitle="Catalog"
+          src={video_url + "catalog-click" + video_format}
+        >
+          <VideoRow
+            src={video_url + "catalog-sort" + video_format}
+            caption="NYT Articles Toggled"
+          >
+            <SectionBlurb fullWidth={true}>
+              I wanted to provide a more efficient and comprehensive way to
+              navigate in between directors, therefore I built another Catalog
+              page where users can view all the directors in the gallery, and by
+              clicking on the director name, they will be brough to that
+              director's data visualization page.
+            </SectionBlurb>{" "}
+            <SectionBlurb fullWidth={true}>
+              Users can view the Catalog in two sortings: number of movies and
+              average box office.
+            </SectionBlurb>{" "}
+          </VideoRow>
+        </SpotlightVideoSection>
       </ProjectSection>
 
       <ProjectSection title="Reflection">
         <SectionBlurb>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          I had great fun making the project with great teammates who offered
+          wonderful designs. In the process, one of my major take-away was
+          choosing a specific dataset to work with provides more freedom, and we
+          should never try to force a narrative into the data, but instead, let
+          the data tell us what the story is.
         </SectionBlurb>{" "}
       </ProjectSection>
     </Project>
