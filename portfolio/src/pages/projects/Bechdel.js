@@ -72,7 +72,7 @@ export default function Bechdel() {
           caption="Data from BechdelTest API"
         >
           <SectionBlurb fullWidth={true}>
-            We retrieved NUMBER movies from the{" "}
+            We retrieved 3508 movies from the{" "}
             <a href="https://bechdeltest.com/api/v1/doc">BechdelTest API</a>,
             and used this dataset as our main data. From the BechdelTestAPI, we
             get the IMDb id for each movie that passed the Bechdel test with a
@@ -91,8 +91,8 @@ export default function Bechdel() {
 
           <SectionBlurb fullWidth={true}>
             We decided to display directors with two or more movies passing the
-            Bechdel Test, which leaves us with NUMBER directors and NUMBERS
-            movies to display.
+            Bechdel Test, which leaves us with 88 directors and 305 movies to
+            display.
           </SectionBlurb>
         </ImageRow>
       </ProjectSubsection>
@@ -114,10 +114,9 @@ export default function Bechdel() {
           </SectionBlurb>
 
           <SectionBlurb fullWidth={true}>
-            In total, we made around NUMBER API calls. We were able to use a
-            movie's IMDb ID to retrieve 26 fields of data on a movie. We
-            selected to display a movie's poster, rated, genre, awards, and box
-            office.
+            We were able to use a movie's IMDb ID to retrieve 26 fields of data
+            on a movie. We selected to display a movie's poster, rated, genre,
+            awards, and box office.
           </SectionBlurb>
           {/* 
           <SectionBlurb fullWidth={true}>
