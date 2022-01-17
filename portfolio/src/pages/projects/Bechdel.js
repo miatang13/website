@@ -41,10 +41,10 @@ export default function Bechdel() {
         <SectionBlurb fullWidth={true}>
           This was a 2-months class project for 51-367 Computational Design
           Thinking taught by{" "}
-          <a href="https://kyuhashim.com/">Professor Kyuha Shim</a> at Carnegie
-          Mellon. The prompt was to create an engaging web experience that
-          organizes and displays data in a digestible approach by creating
-          interesting patterns.
+          <RefLink href="https://kyuhashim.com/" text="Professor Kyuha Shim" />{" "}
+          at Carnegie Mellon. The prompt was to create an engaging web
+          experience that organizes and displays data in a digestible approach
+          by creating interesting patterns.
         </SectionBlurb>
       </ProjectShortSection>
 
@@ -73,11 +73,14 @@ export default function Bechdel() {
         >
           <SectionBlurb fullWidth={true}>
             We retrieved 3508 movies from the{" "}
-            <a href="https://bechdeltest.com/api/v1/doc">BechdelTest API</a>,
-            and used this dataset as our main data. From the BechdelTestAPI, we
-            get the IMDb id for each movie that passed the Bechdel test with a
-            rating from 1 to 3, i.e. the number of Bechdel test rules the movie
-            passes.
+            <RefLink
+              href="https://bechdeltest.com/api/v1/doc"
+              text="BechdelTest API"
+            />
+            , and used this dataset as our main data. From the BechdelTestAPI,
+            we get the IMDb id for each movie that passed the Bechdel test with
+            a rating from 1 to 3, i.e. the number of Bechdel test rules the
+            movie passes.
           </SectionBlurb>
           <SectionBlurb fullWidth={true}>
             Then we{" "}
@@ -106,10 +109,10 @@ export default function Bechdel() {
           <SectionBlurb fullWidth={true}>
             We needed more data on every movie that we are displaying, therefore
             we used the{" "}
-            <a href="https://rapidapi.com/rapidapi/api/movie-database-imdb-alternative/">
-              {" "}
-              Movie Database API{" "}
-            </a>{" "}
+            <RefLink
+              href="https://rapidapi.com/rapidapi/api/movie-database-imdb-alternative/"
+              text="Movie Database API"
+            />
             by RapidAPI.
           </SectionBlurb>
 
@@ -118,13 +121,6 @@ export default function Bechdel() {
             on a movie. We selected to display a movie's poster, rated, genre,
             awards, and box office.
           </SectionBlurb>
-          {/* 
-          <SectionBlurb fullWidth={true}>
-            <HighlightText>
-              It was my first time doing data API calls with Node.js{" "}
-            </HighlightText>{" "}
-            as in the past I've only used Node for Sockets.
-          </SectionBlurb> */}
         </ImageRow>
       </ProjectSubsection>
 
