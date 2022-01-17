@@ -264,8 +264,8 @@ export default function Bechdel() {
               <SectionBlurb fullWidth={true}>
                 Therefore I{" "}
                 <HighlightText>
-                  shaders to dynamically alter the colors channels and distort
-                  the images{" "}
+                  wrote shaders to dynamically alter the colors channels and
+                  distort the images{" "}
                 </HighlightText>{" "}
                 to give them a more dynamic appearance.
               </SectionBlurb>
@@ -329,13 +329,13 @@ export default function Bechdel() {
         >
           <VideoRow
             src={video_url + "catalog-sort" + video_format}
-            caption="NYT Articles Toggled"
+            caption="Sort Catalog"
           >
             <SectionBlurb fullWidth={true}>
               I wanted to provide a more efficient and comprehensive way to
               navigate in between directors, therefore I built another Catalog
               page where users can view all the directors in the gallery, and by
-              clicking on the director name, they will be brough to that
+              clicking on the director name, they will be brought to that
               director's data visualization page.
             </SectionBlurb>{" "}
             <SectionBlurb fullWidth={true}>
@@ -352,7 +352,8 @@ export default function Bechdel() {
           wonderful designs. In the process, one of my major take-away was
           choosing a specific dataset to work with provides more freedom, and we
           should never try to force a narrative into the data, but instead, let
-          the data tell us what the story is.
+          the data tell us the story. I would love to experiment more with
+          creative data visualizations in the future.
         </SectionBlurb>{" "}
       </ProjectSection>
     </Project>
