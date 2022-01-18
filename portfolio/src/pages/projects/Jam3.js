@@ -106,7 +106,7 @@ export default function Jam3() {
             <LeftColumn>
               <IndivImage
                 src="/assets/Jam3/process/texture/texture-shape.gif"
-                caption="WIP: Shapes and Patterns for Avatars"
+                caption="Shapes and Patterns for Avatars"
               />
             </LeftColumn>
             <RightColumn>

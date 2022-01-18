@@ -2,12 +2,12 @@
 
 .about_wrapper {
   color: colors.$primary-color;
-  width: 100vw;
   padding-bottom: 5vh;
+  padding-left: 1vh;
 }
 
 .about_wrapper li {
-  margin-top: 1vw;
+  padding-top: 1vw;
   padding-bottom: 1vh;
 }
 
@@ -51,29 +51,31 @@
 // responsive
 @media screen and (max-width: 576px) {
   .about_wrapper li {
-    width: 90%;
+    width: 100%;
     font-size: 1em;
+    padding-top: 2vh;
   }
 
   .about_wrapper p {
-    width: 90%;
+    width: 100%;
     font-size: 1em;
   }
 
   .about_wrapper .about_blurb {
-    width: 90%;
+    width: 100%;
   }
 
   .about_wrapper img {
-    width: 85%;
+    width: 100%;
   }
 
   #bio-photo {
     padding: 0;
   }
 
-  #about_intro {
+  #about_intro h1 {
     padding: 0;
     padding-top: 5vh;
+    font-size: 1.8em;
   }
 }
