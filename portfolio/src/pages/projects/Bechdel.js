@@ -3,6 +3,7 @@ import RightColumn from "../../components/Layout/RightColumn";
 import TwoColumns from "../../components/Layout/TwoColumns";
 import ImageGallery from "../../components/Project/ImageGallery";
 import ImageRow from "../../components/Project/ImageRow";
+import List from "../../components/Project/List";
 import Project from "../../components/Project/ProjectContainer";
 import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectSection from "../../components/Project/ProjectSection";
@@ -64,6 +65,17 @@ export default function Bechdel() {
           provides a surface-level framework to evaluate bias against women in
           film.
         </SectionBlurb>
+      </ProjectShortSection>
+
+      <ProjectShortSection subtitle="Bechdel Test">
+        The usual criteria of the Bechdel Test are:
+        <List
+          items={[
+            "at least two women are featured",
+            "these women talk to each other",
+            "they discuss something other than a man",
+          ]}
+        />{" "}
       </ProjectShortSection>
 
       <ProjectSubsection subtitle="API 1: Bechdel Test API">

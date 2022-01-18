@@ -7,7 +7,7 @@
       "subtitle": "Creative Development at Jam3",
       "summary": "3D Metaverse for Music Curators"
     },
-    "project_summary": "Listen to your favorite music curator's playlist with your friends in a 3D virtual party space."
+    "project_summary": "3D virtual party space for your favorite music playlist"
   },
   {
     "path": "AsOne",
@@ -17,7 +17,7 @@
       "subtitle": "Exploration Game About Salmon Run",
       "summary": "Explore the Meaning of Life as a Salmon"
     },
-    "project_summary": "Explore the world and the meaning of life as a tiny salmon in an indie narrative game."
+    "project_summary": "Indie narrative game where you explore as a tiny fish"
   },
   {
     "path": "HolidayAR",
@@ -27,7 +27,7 @@
       "summary": "Enjoy A Festive Environment With Zero Cost",
       "subtitle": "AR Experience for A Lonely Holiday"
     },
-    "project_summary": "Build & enjoy a festive environment in any corner with zero cost."
+    "project_summary": "Festive environment built in any corner"
   },
   {
     "path": "Bechdel",
@@ -38,7 +38,7 @@
       "subtitle": "Interactive Data Visualization of Movie Directors",
       "summary": "Displaying Directors With Movies Passing Bechdel Test"
     },
-    "project_summary": "Browse interactive data visualization gallery of Bechdel approved movie directors."
+    "project_summary": "Data visualization of Bechdel approved film directors"
   },
   {
     "path": "SoD",
@@ -47,6 +47,6 @@
       "title": "rebrand cmu school of design",
       "subtitle": "Playful Campaign for Perspective Students"
     },
-    "project_summary": "Reach diverse highschool students through a playful campaign."
+    "project_summary": "Campaign to diversify future applicants"
   }
 ]

@@ -8,7 +8,14 @@
 }
 
 .intro_callout {
-  font-size: 2.5em;
+  font-size: 3em;
   line-height: 1.2em;
   padding-bottom: 2vh;
+}
+
+// responsive
+@media screen and (max-width: 576px) {
+  .intro_callout {
+    font-size: 1.5em;
+  }
 }
