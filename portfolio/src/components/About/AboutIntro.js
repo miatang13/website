@@ -20,11 +20,14 @@ export default function AboutIntro() {
       </p>
       <p>
         I seek to work in environments that allow me to be creative and
-        technical at the same time.
-      </p>
+        technical at the same time.{" "}
+      </p>{" "}
       <p>
-        {" "}
-        Previously, I've worked with wonderful people at the following places
+        Currently, I am working as a Teaching Assistant for the class Computer
+        Graphics (15-462) at CMU.
+      </p>{" "}
+      <p>
+        Previously, I've worked with wonderful people at the following places:
       </p>
       <ul>
         {about_data.past_work.map((w) => (

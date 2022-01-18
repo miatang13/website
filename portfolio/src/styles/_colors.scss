@@ -2,6 +2,7 @@ $white: rgb(255, 255, 255);
 $black: rgb(0, 0, 0);
 $light-grey: rgb(214, 214, 214);
 $mid-grey: rgb(180, 180, 180);
+$mid-dark-grey: rgb(87, 87, 87);
 $dark-grey: rgb(24, 24, 24);
 
 // elegant
@@ -22,3 +23,5 @@ $project-section-title-color: $white;
 $project-section-subtitle-color: $white;
 $project-highlight-color: $plaster;
 $project-highlight-text-color: $white;
+
+$project-callout-color: $mid-dark-grey;

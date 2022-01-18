@@ -21,13 +21,10 @@ import project_data from "../../settings/projects.json";
 export default function Jam3() {
   const project_idx = 0;
 
-  // title
-  const title = project_data[project_idx].landing.title;
-  const subtitle = project_data[project_idx].landing.subtitle;
   // intro header
   const team = "Jam3 — Development, Design";
   const role = "Developer, Intern";
-  const timeline = "June 2021 — August 2021";
+  const timeline = "2 months (June — August 2021)";
   const skills = "WebGL, React, Socket.io";
   // image
   const base_url = "/assets/Jam3/video/compressed/";
@@ -36,8 +33,9 @@ export default function Jam3() {
   return (
     <Project index={project_idx}>
       <ProjectHeader
-        title={title}
-        subtitle={subtitle}
+        title={project_data[project_idx].landing.title}
+        subtitle={project_data[project_idx].landing.subtitle}
+        callout={project_data[project_idx].project_summary}
         team={team}
         role={role}
         timeline={timeline}
@@ -260,11 +258,7 @@ export default function Jam3() {
       </ProjectSection>
 
       <ProjectSection title="Reflection" hasDivider={true}>
-        <IndivImage
-          src="/assets/Jam3/process/staging.png"
-          width="100%"
-          // caption="Staging in Progress"
-        />
+        <IndivImage src="/assets/Jam3/process/staging.png" width="100%" />
         <TwoColumns>
           <LeftColumn>
             <SectionBlurb fullWidth={true}>

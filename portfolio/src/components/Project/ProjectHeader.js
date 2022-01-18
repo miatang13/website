@@ -8,7 +8,11 @@ export default function ProjectHeader(props) {
     //
     <div className="project_section">
       <div className="project_header_wrapper">
-        <IntroTitle title={props.title} subtitle={props.subtitle} />
+        <IntroTitle
+          title={props.title}
+          subtitle={props.subtitle}
+          callout={props.callout}
+        />
 
         <IntroHeader
           team={props.team}

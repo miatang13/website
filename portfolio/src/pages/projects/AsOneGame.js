@@ -29,6 +29,7 @@ export default function AsOneGame() {
       <ProjectHeader
         title={project_data[project_idx].landing.title}
         subtitle={project_data[project_idx].landing.subtitle}
+        callout={project_data[project_idx].project_summary}
         team="Anne He, Ameer Jones"
         role="Game Designer, Developer"
         skills="Unity, Blender, Inky, Bitsy"

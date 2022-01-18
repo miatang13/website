@@ -95,6 +95,7 @@ export default function SoDRebrand() {
       <ProjectHeader
         title={project_data[project_idx].landing.title}
         subtitle={project_data[project_idx].landing.subtitle}
+        callout={project_data[project_idx].project_summary}
         team="Langston Wells, Yoshi Torralva, Angela Lee, Alice Cai"
         role="Developer, Designer"
         skills="Cargo CMS, Javascript, Figma"

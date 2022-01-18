@@ -1,11 +1,11 @@
 import "../../styles/project/introTitle.scss";
-// import SlantAppearText from "../Animation/SlantAppearText";
+import IntroCallout from "./IntroCallout";
 
 export default function IntroTitle(props) {
   return (
     <div className="project_subsection">
       <h1 className="project_title"> {props.title}</h1>
-      <h4 className="project_subtitle">{props.subtitle} </h4>
+      {props.callout && <IntroCallout>{props.callout}</IntroCallout>}
     </div>
   );
 }

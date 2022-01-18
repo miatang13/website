@@ -29,6 +29,7 @@ export default function Bechdel() {
       <ProjectHeader
         title={project_data[project_idx].landing.title}
         subtitle={project_data[project_idx].landing.subtitle}
+        callout={project_data[project_idx].project_summary}
         team="Jina Lee, Mihika Bansal, Caroline Song"
         role="Sole Developer, Designer"
         skills="WebGL, React, NYT API, RapidAPI"

@@ -3,11 +3,11 @@
 
 .project_title {
   width: 100%;
-  font-size: 4em; // TO-DO: add scss variables for font sizes
+  font-size: 1em; // TO-DO: add scss variables for font sizes
   font-weight: 600;
   font-family: font.$primary-font;
   margin-bottom: 2vh;
-  color: colors.$project-section-title-color;
+  color: colors.$project-callout-color;
 }
 
 .project_subtitle {

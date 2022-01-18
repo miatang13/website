@@ -42,6 +42,7 @@ export default function HolidayAR() {
       <ProjectHeader
         title={project_data[project_idx].landing.title}
         subtitle={project_data[project_idx].landing.subtitle}
+        callout={project_data[project_idx].project_summary}
         team="SOLO"
         role="Creative Prototyper, Designer"
         timeline="2020 Fall — 2 weeks"
