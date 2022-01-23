@@ -18,7 +18,7 @@ export default function About() {
             <TwoColumns>
               <LeftColumn>
                 <img
-                  src="/assets/personal/bio-photo-filter.png"
+                  src="/assets/personal/with-mango.png"
                   width="100%"
                   id="bio-photo"
                   alt="bio"
