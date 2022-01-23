@@ -1,37 +1,20 @@
 import "../styles/about.scss";
-import AboutIntro from "../components/About/AboutIntro";
-import Contact from "../components/About/AboutContact";
 import { Container } from "react-bootstrap";
 import AboutBlurb from "../components/About/AboutBlurb";
-import TwoColumns from "../components/Layout/TwoColumns";
-import LeftColumn from "../components/Layout/LeftColumn";
-import RightColumn from "../components/Layout/RightColumn";
-import AboutSection from "../components/About/AboutSection";
 import FadeInOut from "../components/Animation/FadeInOut";
+import AboutPhotoBlurb from "../components/About/AboutPhotoBlurb";
+import AboutContact from "../components/About/AboutContact";
+import AboutFooter from "../components/About/AboutFooter";
 
 export default function About() {
   return (
     <FadeInOut>
       <div className="about_wrapper">
         <Container>
-          <AboutSection>
-            <TwoColumns>
-              <LeftColumn>
-                <img
-                  src="/assets/personal/with-mango.png"
-                  width="100%"
-                  id="bio-photo"
-                  alt="bio"
-                />
-              </LeftColumn>
-              <RightColumn>
-                <AboutIntro />
-              </RightColumn>
-            </TwoColumns>
-          </AboutSection>
-
+          <AboutPhotoBlurb />
           <AboutBlurb />
-          <Contact />
+          <AboutContact />
+          <AboutFooter />
         </Container>
       </div>
     </FadeInOut>
