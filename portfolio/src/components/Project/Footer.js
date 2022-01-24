@@ -10,15 +10,17 @@ export default function ProjectFooter(props) {
   // const prevIndex = props.currentIndex;
   const nextIndex = (props.currentIndex + 1) % projects.length;
   return (
-    <TiltOnIntersect>
-      <Container className="footer_wrapper">
-        <Row>
-          <Col md={6}>
+    <Container className="footer_wrapper">
+      <Row>
+        <Col md={6}>
+          <TiltOnIntersect>
             <h4 className="footer_greeting">
               <Star /> Thank you for reading.
             </h4>
-          </Col>
-          <Col style={{ textAlign: "right" }} md={6}>
+          </TiltOnIntersect>
+        </Col>
+        <Col style={{ textAlign: "right" }} md={6}>
+          <TiltOnIntersect>
             <Link
               to={projects[nextIndex].page_name}
               className="footer_next_item"
@@ -27,9 +29,9 @@ export default function ProjectFooter(props) {
                 {projects[nextIndex].landing.title} <DoubleRight />
               </h4>
             </Link>
-          </Col>
-        </Row>
-      </Container>
-    </TiltOnIntersect>
+          </TiltOnIntersect>
+        </Col>
+      </Row>
+    </Container>
   );
 }

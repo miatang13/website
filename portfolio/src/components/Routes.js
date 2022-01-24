@@ -7,6 +7,7 @@ import Jam3 from "../pages/projects/Jam3";
 import SoDRebrand from "../pages/projects/SoDRebrand";
 import Work from "../pages/Work";
 import { AnimatePresence } from "framer-motion";
+import Illustrations from "../pages/projects/Illustrations";
 
 export default function Routes(props) {
   return (
@@ -31,6 +32,10 @@ export default function Routes(props) {
             <Route path="/holiday-AR" component={HolidayAR} />
             <Route path="/cmu-sod-rebrand" component={SoDRebrand} />
             <Route path="/as-one-narrative-game" component={AsOneGame} />
+            <Route
+              path="/educational-illustrations"
+              component={Illustrations}
+            />
           </Switch>
         </AnimatePresence>
       )}

@@ -8,7 +8,7 @@ export default function SpotlightImageSection(props) {
   const content_offset = props.fullContent ? 0 : 6;
 
   return (
-    <div className="spotlight_video_wrapper">
+    <div className="spotlight_image_wrapper">
       <Row style={{ paddingBottom: "2vh" }}>
         <Col md={{ span: 6 }}>
           {props.title && <SectionTitle title={props.title} />}
@@ -20,11 +20,13 @@ export default function SpotlightImageSection(props) {
           <IndivImage src={props.src} />
         </Col>
       </Row>
-      <Row>
-        <Col md={{ span: content_span, offset: content_offset }}>
-          {props.children}
-        </Col>
-      </Row>
+      {props.children && (
+        <Row>
+          <Col md={{ span: content_span, offset: content_offset }}>
+            {props.children}
+          </Col>
+        </Row>
+      )}
     </div>
   );
 }

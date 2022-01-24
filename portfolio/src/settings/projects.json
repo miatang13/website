@@ -48,5 +48,14 @@
       "subtitle": "Playful Campaign for Prospective Students"
     },
     "project_summary": "Campaign to diversify future applicants"
+  },
+  {
+    "path": "Illustration",
+    "page_name": "/educational-illustrations",
+    "landing": {
+      "title": "comp sci illustrations",
+      "subtitle": "Playful Campaign for Prospective Students"
+    },
+    "project_summary": "Learn complex technical concepts in a fun and  approachable way"
   }
 ]

@@ -16,7 +16,7 @@ export default function WorkIntro() {
           <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">
             @cmu
           </a>
-          , interested in computer graphics, immersive experiences, and UX
+          , interested in computer graphics, immersive experiences, and ux
           engineering.
         </h3>
       </Row>
