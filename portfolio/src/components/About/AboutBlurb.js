@@ -11,6 +11,8 @@ export default function AboutBlurb() {
         <TwoColumns>
           <LeftColumn>
             <h1>a bit more about myself </h1>
+          </LeftColumn>
+          <RightColumn>
             <p>
               Solving a problem that I couldn't solve yesterday gives me the
               greatest joy.
@@ -22,8 +24,6 @@ export default function AboutBlurb() {
               process of making things work, I'm also a graphic designer who
               gets excited about beautiful typography, colors, and motion.
             </p>
-          </LeftColumn>
-          <RightColumn>
             <p>
               Another important aspect of my work is my interest in
               storytelling, or put simply, explaining stuff. <br />

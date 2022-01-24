@@ -5,7 +5,7 @@ export default function ArrowUp(props) {
       width={props.size}
       height={props.size}
       fill="white"
-      class="bi bi-arrow-90deg-up"
+      className="bi bi-arrow-90deg-up"
       viewBox="0 0 16 16"
     >
       <path

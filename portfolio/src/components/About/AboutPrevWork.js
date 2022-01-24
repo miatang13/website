@@ -1,5 +1,4 @@
 import about_data from "../../settings/about.json";
-import Listbullet from "./ListBullet";
 
 export default function PrevWork() {
   return (
@@ -11,7 +10,7 @@ export default function PrevWork() {
       <ul>
         {about_data.past_work.map((w) => (
           <li>
-            <Listbullet /> <a href={w.link}>{w.company}</a> ({w.title}){" "}
+            <a href={w.link}>{w.company}</a> ({w.title}){" "}
           </li>
         ))}
       </ul>

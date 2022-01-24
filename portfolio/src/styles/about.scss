@@ -42,10 +42,8 @@
   padding-right: 2vh;
 }
 
-#bio-photo,
 #about_intro {
-  padding: 5vw;
-  padding-left: 0;
+  padding-top: 5vw;
 }
 
 // responsive
@@ -75,7 +73,6 @@
 
   #about_intro h1 {
     padding: 0;
-    padding-top: 5vh;
-    font-size: 1.8em;
+    padding-top: 2vh;
   }
 }
