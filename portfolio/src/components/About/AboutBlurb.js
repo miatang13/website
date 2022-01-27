@@ -1,5 +1,4 @@
 import AboutSection from "./AboutSection";
-import TiltOnIntersect from "../Animation/TiltOnIntersect";
 import TwoColumns from "../Layout/TwoColumns";
 import LeftColumn from "../Layout/LeftColumn";
 import RightColumn from "../Layout/RightColumn";
