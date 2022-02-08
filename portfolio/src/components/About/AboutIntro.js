@@ -9,7 +9,7 @@ export default function AboutIntro() {
       <AboutSection>
         <TwoColumns>
           <LeftColumn>
-            <h1> thanks for stopping by </h1>
+            <h1> thanks for stopping by! </h1>
           </LeftColumn>
           <RightColumn>
             <p>
@@ -27,10 +27,6 @@ export default function AboutIntro() {
             <p>
               I seek to work in environments that allow me to be creative and
               technical at the same time.{" "}
-            </p>{" "}
-            <p>
-              Currently, I am working as a Teaching Assistant for the class
-              Computer Graphics (15-462) at CMU.
             </p>{" "}
           </RightColumn>
         </TwoColumns>

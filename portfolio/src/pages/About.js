@@ -5,6 +5,8 @@ import FadeInOut from "../components/Animation/FadeInOut";
 import AboutContact from "../components/About/AboutContact";
 import AboutFooter from "../components/About/AboutFooter";
 import AboutIntro from "../components/About/AboutIntro";
+import AboutCurrent from "../components/About/AboutCurrent";
+import AboutPast from "../components/About/AboutPast";
 
 export default function About() {
   return (
@@ -12,6 +14,8 @@ export default function About() {
       <div className="about_wrapper">
         <Container>
           <AboutIntro />
+          <AboutCurrent />
+          <AboutPast />
           <AboutBlurb />
           <AboutContact />
           <AboutFooter />

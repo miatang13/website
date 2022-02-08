@@ -8,7 +8,7 @@ export default function AboutBlurb() {
     <AboutSection>
       <TwoColumns>
         <LeftColumn>
-          <h1>a bit more about myself </h1>
+          <h1>a bit more about myself: </h1>
         </LeftColumn>
         <RightColumn>
           <p>
