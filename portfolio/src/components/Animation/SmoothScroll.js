@@ -17,7 +17,7 @@ export default function SmoothScroll(props) {
 
   const location = useLocation();
   useEffect(() => {
-    console.log("*", location.pathname);
+    // console.log("*", location.pathname);
     // props.setPathname(location.pathname);
     const target = document.querySelector("#scroll");
     const targetPosition = target.getBoundingClientRect();

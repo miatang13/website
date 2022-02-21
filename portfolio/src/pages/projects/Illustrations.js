@@ -4,9 +4,7 @@ import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectSection from "../../components/Project/ProjectSection";
 import ProjectShortSection from "../../components/Project/ProjectShortSection";
 import SectionBlurb from "../../components/Project/SectionBlurb";
-import ZoomImageGallery from "../../components/Project/ZoomImageGallery";
 import RefLink from "../../components/Utility/RefLink";
-import ZoomablePicture from "../../components/Utility/ZoomablePicture";
 import project_data from "../../settings/projects.json";
 import { Tweet } from "react-twitter-widgets";
 
@@ -45,8 +43,24 @@ export default function Illustrations() {
         </SectionBlurb>
       </ProjectShortSection>
 
+      <ProjectSection subtitle="Halfedge Mesh">
+        <Tweet tweetId="1495438738398191617" />
+      </ProjectSection>
+
+      <ProjectSection subtitle="Graphics Valentines Cards">
+        <Tweet tweetId="1493238627572330496" />
+      </ProjectSection>
+
+      <ProjectSection subtitle="Anti-Aliasing Strategies">
+        <Tweet tweetId="1490355292487487494" />
+      </ProjectSection>
+
+      <ProjectSection subtitle="SVG Rasterization">
+        <Tweet tweetId="1487812714294652934" />
+      </ProjectSection>
+
       <ProjectSection subtitle="Brief History on Graphics">
-        <ZoomImageGallery
+        {/* <ZoomImageGallery
           images={[
             base_url + "/graphics/history/1960.png",
             base_url + "/graphics/history/1970.png",
@@ -55,24 +69,24 @@ export default function Illustrations() {
             base_url + "/graphics/history/2000.png",
           ]}
           md={4}
-        />
+        /> */}
         <Tweet tweetId="1485314067610812420" />
       </ProjectSection>
 
       <ProjectSection subtitle="Occlusion with Z-buffer">
-        <ZoomablePicture
+        {/* <ZoomablePicture
           src={base_url + "graphics/comics/occlusion_zbuffer.png"}
-        />
+        /> */}
         <Tweet tweetId="1454168094151225356" />
       </ProjectSection>
 
       <ProjectSection subtitle="Texture Mapping & MIP Map">
-        <ZoomablePicture src={base_url + "graphics/comics/mipmap.png"} />
+        {/* <ZoomablePicture src={base_url + "graphics/comics/mipmap.png"} /> */}
         <Tweet tweetId="1446842946813370369" />
       </ProjectSection>
 
       <ProjectSection subtitle="Anti-aliasing">
-        <ZoomablePicture src={base_url + "graphics/comics/anti-aliasing.png"} />
+        {/* <ZoomablePicture src={base_url + "graphics/comics/anti-aliasing.png"} /> */}
         <Tweet tweetId="1443930631554183168" />
       </ProjectSection>
 

@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import "../../styles/project/introHeader.scss";
 
 export default function IntroHeader(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div className="project_subsection">
       <Row>
