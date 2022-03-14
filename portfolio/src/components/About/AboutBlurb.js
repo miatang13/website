@@ -21,8 +21,8 @@ export default function AboutBlurb() {
             equips me to take on technical challenges. On top of enjoying the
             process of making things work, I'm also a graphic designer who gets
             excited about beautiful typography, colors, and motion.
-          </p>
-          <p>
+            <br />
+            <br />
             Another important aspect of my work is my interest in storytelling,
             or put simply, explaining stuff. <br />
             <br />I realized this when I was a teaching assistant for a CS

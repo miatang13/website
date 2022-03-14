@@ -18,8 +18,9 @@ export default function AboutContact() {
           </LeftColumn>
           <RightColumn>
             <HighlightText>
-              Currently looking for 2022 summer internship opportunities. Reach
-              out to talk about anything fun. =)
+              I'm no longer looking for 2022 summer internship opportunities,
+              but please reach out to talk about anything fun for now or for the
+              future. =)
             </HighlightText>
             <ul className="contact_links_wrapper">
               <li>

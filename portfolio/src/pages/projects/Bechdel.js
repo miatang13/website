@@ -18,7 +18,7 @@ import RefLink from "../../components/Utility/RefLink";
 import project_data from "../../settings/projects.json";
 
 export default function Bechdel() {
-  const project_idx = 3;
+  const project_idx = 2;
   const base_url = "/assets/Bechdel/";
   const process_url = base_url + "process/";
   const video_url = base_url + "videos/";

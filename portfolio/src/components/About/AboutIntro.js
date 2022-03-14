@@ -13,12 +13,8 @@ export default function AboutIntro() {
           </LeftColumn>
           <RightColumn>
             <p>
-              Hi, I am Mia Tang, and I am interested in creating interactive
-              experiences (web, MR, & game).
-            </p>{" "}
-            <p>
-              I currently study at Carnegie Mellon University under the
-              interdisciplinary{" "}
+              Hi, I am Mia Tang, and I currently study at Carnegie Mellon
+              University under the interdisciplinary{" "}
               <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">
                 BXA program
               </a>
