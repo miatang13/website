@@ -17,7 +17,10 @@ export default function AboutFooter() {
           </Col>
           <Col md={8} sm={12}>
             <img src="/assets/personal/doggo.png" width="100%" alt="doggo" />
-            <span>My dogs: Mango & Leeze</span>
+            <span>
+              {" "}
+              <b>My dogs: Mango & Leeze</b>
+            </span>
           </Col>
         </Row>
       </TiltOnIntersect>

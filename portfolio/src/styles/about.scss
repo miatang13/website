@@ -50,8 +50,11 @@
   padding-top: 5vw;
 }
 
-.about_section_wrapper p {
+.about_section_wrapper h3 {
   font-size: 2em;
+  line-height: 1.5em;
+  color: colors.$primary-color;
+  width: 70%;
 }
 
 // responsive
@@ -82,5 +85,11 @@
   #about_content {
     padding: 0;
     padding-top: 2vh;
+  }
+
+  .about_section_wrapper h3 {
+    width: 100%;
+    line-height: 1.3em;
+    font-size: 1.3em;
   }
 }
