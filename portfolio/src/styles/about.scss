@@ -46,6 +46,14 @@
   padding-top: 5vw;
 }
 
+#about_content {
+  padding-top: 5vw;
+}
+
+.about_section_wrapper p {
+  font-size: 2em;
+}
+
 // responsive
 @media screen and (max-width: 576px) {
   .about_wrapper li {
@@ -71,7 +79,7 @@
     padding: 0;
   }
 
-  #about_intro h1 {
+  #about_content {
     padding: 0;
     padding-top: 2vh;
   }

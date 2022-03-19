@@ -1,23 +1,15 @@
 import "../styles/about.scss";
 import { Container } from "react-bootstrap";
-import AboutBlurb from "../components/About/AboutBlurb";
 import FadeInOut from "../components/Animation/FadeInOut";
-import AboutContact from "../components/About/AboutContact";
 import AboutFooter from "../components/About/AboutFooter";
-import AboutIntro from "../components/About/AboutIntro";
-import AboutCurrent from "../components/About/AboutCurrent";
-import AboutPast from "../components/About/AboutPast";
+import AboutLongBlurb from "../components/About/AboutLongBlurb";
 
 export default function About() {
   return (
     <FadeInOut>
       <div className="about_wrapper">
         <Container>
-          <AboutIntro />
-          <AboutCurrent />
-          <AboutPast />
-          <AboutBlurb />
-          <AboutContact />
+          <AboutLongBlurb />
           <AboutFooter />
         </Container>
       </div>
