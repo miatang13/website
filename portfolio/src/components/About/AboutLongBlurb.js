@@ -27,12 +27,12 @@ export default function AboutLongBlurb() {
       </p>
 
       <p>
-        Currently I work as a backend developer at{" "}
+        Currently I work as backend developer at{" "}
         <RefLink
           text="Computational Creativity Lab"
           href="http://computational-creativity.org/"
         />{" "}
-        led by Professor Kyuha Shim, and a teaching assistant for the class
+        led by Professor Kyuha Shim, and teaching assistant for the class
         Computer Graphics (15-462) at CMU.
       </p>
       <p>
