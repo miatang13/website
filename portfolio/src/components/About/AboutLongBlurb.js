@@ -43,8 +43,8 @@ export default function AboutLongBlurb() {
       <p>
         For summer 2022, I will be interning at{" "}
         <RefLink text="Cesium" href="https://cesium.com/" /> as a software
-        developer, focusing on 3D geospatial data. Feel free reach out to talk
-        about anything fun for the future.
+        developer, focusing on 3D geospatial data. Feel free to reach out to
+        talk about anything fun for the future.
       </p>
       <ul className="contact_links_wrapper">
         <li>
