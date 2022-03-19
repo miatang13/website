@@ -43,7 +43,7 @@ export default function AboutLongBlurb() {
         </Col>
       </Row>
       <h3>
-        In the past, I met and collaborated with wonderful people as a developer
+        In the past, I have met and collaborated with wonderful people as a developer
         intern at <RefLink text="Jam3" href="https://www.jam3.com/" />, research
         assistant at{" "}
         <RefLink text="Penrose" href="https://penrose.cs.cmu.edu/ " />,
