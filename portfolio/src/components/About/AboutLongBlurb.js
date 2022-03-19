@@ -16,14 +16,13 @@ export default function AboutLongBlurb() {
         </Col>
       </Row>
       <h3>
-        {" "}
-        hello, I am Mia Tang, and I study at Carnegie Mellon University under
-        the interdisciplinary{" "}
+        Thank you for visiting :) <br></br>I am Mia Tang, a student at Carnegie
+        Mellon University's{" "}
         <RefLink
           href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html"
           text="BXA program"
         />
-        , majoring in Computer Science and Communications Design.
+        , majoring in Computer Science and Design.
       </h3>
       <Row id="about_content">
         <Col md={2}>
@@ -31,13 +30,12 @@ export default function AboutLongBlurb() {
         </Col>
       </Row>
       <h3>
-        currently I am a backend developer at{" "}
+        At the moment, I am a backend developer at{" "}
         <RefLink
           text="Computational Creativity Lab"
           href="http://computational-creativity.org/"
         />{" "}
-        led by Professor Kyuha Shim, and teaching assistant for the class
-        Computer Graphics (15-462) at CMU.{" "}
+        , and a teaching assistant for the class Computer Graphics.{" "}
       </h3>{" "}
       <Row id="about_content">
         <Col md={2}>
@@ -45,9 +43,17 @@ export default function AboutLongBlurb() {
         </Col>
       </Row>
       <h3>
-        in the past, I worked as a developer intern at Jam3, research assistant
-        at Penrose, developer & brand designer at CMU School of Design, and
-        frontend engineer at IrisRover.
+        In the past, I met and collaborated with wonderful people as a developer
+        intern at <RefLink text="Jam3" href="https://www.jam3.com/" />, research
+        assistant at{" "}
+        <RefLink text="Penrose" href="https://penrose.cs.cmu.edu/ " />,
+        developer & brand designer at{" "}
+        <RefLink
+          text="CMU School of Design"
+          href="https://design.cmu.edu/content/school-design-debuts-new-logo-designed-students"
+        />
+        , and frontend engineer at{" "}
+        <RefLink text="IrisRover" href="https://irislunarrover.space/" />.
       </h3>
       <Row id="about_content">
         <Col md={2}>
@@ -55,9 +61,9 @@ export default function AboutLongBlurb() {
         </Col>
       </Row>
       <h3>
-        for summer 2022, I will be interning at{" "}
+        For summer 2022, I will be interning at{" "}
         <RefLink text="Cesium" href="https://cesium.com/" /> as a software
-        developer, focusing on 3D geospatial data. Feel free to reach out to
+        developer, working with 3D geospatial data. Feel free to reach out to
         talk about anything fun for the future.
       </h3>
       <ul className="contact_links_wrapper">
