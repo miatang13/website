@@ -20,17 +20,6 @@
     "project_summary": "Indie narrative game where you explore as a tiny fish"
   },
   {
-    "path": "Bechdel",
-    "abv_name": "Data Visualization",
-    "page_name": "/bechdel-directors-data-vis",
-    "landing": {
-      "title": "the (bech)ideal",
-      "subtitle": "Interactive Data Visualization of Movie Directors",
-      "summary": "Displaying Directors With Movies Passing Bechdel Test"
-    },
-    "project_summary": "Data visualization of Bechdel approved film directors"
-  },
-  {
     "path": "SoD",
     "page_name": "/cmu-sod-rebrand",
     "landing": {
