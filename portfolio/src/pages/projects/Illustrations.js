@@ -43,6 +43,18 @@ export default function Illustrations() {
         </SectionBlurb>
       </ProjectShortSection>
 
+      <ProjectSection subtitle="Ray Tracing">
+        <Tweet tweetId="1510623478256480268" />
+      </ProjectSection>
+
+      <ProjectSection subtitle="Rendering Pipeline">
+        <Tweet tweetId="1503383036087386113" />
+      </ProjectSection>
+
+      <ProjectSection subtitle="Subdivision Surfaces">
+        <Tweet tweetId="1500591790805725187" />
+      </ProjectSection>
+
       <ProjectSection subtitle="Halfedge Mesh">
         <Tweet tweetId="1495438738398191617" />
       </ProjectSection>
