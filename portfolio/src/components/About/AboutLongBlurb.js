@@ -15,15 +15,33 @@ export default function AboutLongBlurb() {
           <IndivImage src="/assets/personal/elmo-wave.gif" />
         </Col>
       </Row>
-      <h3>
-        Thank you for visiting :) <br></br>I am Mia Tang, a student at Carnegie
-        Mellon University's{" "}
-        <RefLink
-          href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html"
-          text="BXA program"
-        />
-        , majoring in Computer Science and Design.
-      </h3>
+      <Row>
+        <h3>
+          Thanks for visiting :) <br></br>I am Mia Tang, a student at Carnegie
+          Mellon University's{" "}
+          <RefLink
+            href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html"
+            text="BXA program"
+          />
+          , majoring in Computer Science and Design.
+        </h3>
+      </Row>
+      <Row id="about_content">
+        <Col md={3}>
+          <img
+            src="/assets/personal/bio-photo-side.jpg"
+            width="100%"
+            id="bio-photo"
+            alt="bio"
+          />
+        </Col>
+      </Row>
+      <Row>
+        <h3>
+          I am from Canada, and I grew up in the beautiful Vancouver, British
+          Columbia, where my family lives (including my two adorable corgis).{" "}
+        </h3>
+      </Row>
       <Row id="about_content">
         <Col md={2}>
           <IndivImage src="/assets/personal/dog-computer.gif" />

@@ -43,6 +43,10 @@ export default function Illustrations() {
         </SectionBlurb>
       </ProjectShortSection>
 
+      <ProjectSection subtitle="Image Compression">
+        <Tweet tweetId="1515698020624519171" />
+      </ProjectSection>
+
       <ProjectSection subtitle="Ray Tracing">
         <Tweet tweetId="1510623478256480268" />
       </ProjectSection>
