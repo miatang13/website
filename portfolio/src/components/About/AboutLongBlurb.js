@@ -89,9 +89,8 @@ export default function AboutLongBlurb() {
           <Envelop /> <HighlightText>miatang13[at]gmail[dot]com</HighlightText>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1tXYpZihDdmMnYTsDwIiHwF3peB2Zq3r6/view?usp=sharing">
-            résumé
-          </a>
+          {/* <a href="https://drive.google.com/file/d/1tXYpZihDdmMnYTsDwIiHwF3peB2Zq3r6/view?usp=sharing">             résumé available upon request
+          </a> */}
           <a href="https://www.linkedin.com/in/mia-tang/">
             <Linkedin />{" "}
           </a>{" "}
