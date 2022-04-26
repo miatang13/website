@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import TiltOnIntersect from "../Animation/TiltOnIntersect";
 import AboutSection from "./AboutSection";
 
