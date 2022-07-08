@@ -48,8 +48,9 @@ export default function AboutLongBlurb() {
         </Col>
       </Row>
       <h3>
-        At the moment, I am a software developer intern at <RefLink text="Cesium" href="https://cesium.com/" />.
-        During the semester, I am a teaching assistant for the class Computer Graphics.
+        At the moment, I am a software developer intern at{" "}
+        <RefLink text="Cesium" href="https://cesium.com/" />. During the
+        semester, I am a teaching assistant for the class Computer Graphics.
       </h3>{" "}
       <Row id="about_content">
         <Col md={2}>
@@ -57,14 +58,15 @@ export default function AboutLongBlurb() {
         </Col>
       </Row>
       <h3>
-        In the past, I have met and collaborated with wonderful people as a research developer at <RefLink
+        In the past, I have met and collaborated with wonderful people as a
+        research developer at{" "}
+        <RefLink
           text="Computational Creativity Lab"
           href="http://computational-creativity.org/"
-        />{" "} led by Professor Kyuha Shim
-        ,
-        developer intern at <RefLink text="Jam3" href="https://www.jam3.com/" />
-        , research assistant at{" "}
-        <RefLink text="Penrose" href="https://penrose.cs.cmu.edu/ " />,
+        />{" "}
+        led by Professor Kyuha Shim , developer intern at{" "}
+        <RefLink text="Jam3" href="https://www.jam3.com/" />, research assistant
+        at <RefLink text="Penrose" href="https://penrose.cs.cmu.edu/ " />,
         developer & brand designer at{" "}
         <RefLink
           text="CMU School of Design"
@@ -79,9 +81,10 @@ export default function AboutLongBlurb() {
         </Col>
       </Row>
       <h3>
-        In my free time, I like to create educational content in the form of illustrations and comics
-        as both the writer and illustrator. In particular, I am fascinated with the field of Graphics. 
-        Feel free to contact me for any fun opportunities.
+        In my free time, I like to create educational content in the form of
+        illustrations and comics as both the writer and illustrator. In
+        particular, I am fascinated with the field of Graphics. Feel free to
+        contact me for any fun opportunities.
       </h3>
       <ul className="contact_links_wrapper">
         <li>
