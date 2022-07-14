@@ -1,0 +1,122 @@
+@use "../colors";
+@use "../project";
+
+.project_wrapper {
+  color: colors.$project-primary-color;
+  padding-bottom: 5vh;
+  padding-top: 10vh;
+}
+
+.project_section {
+  margin-bottom: 3vh;
+  padding-bottom: 2vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  color: colors.$project-text-color;
+  //border-bottom: 1px solid colors.$project-primary-color;
+}
+
+.section_title {
+  padding-bottom: 2vh;
+  font-size: 3em;
+  color: colors.$project-section-title-color;
+}
+
+.project_section .section_subtitle {
+  font-size: 2em;
+  color: colors.$project-section-subtitle-color;
+  padding-bottom: 2vh;
+}
+
+.project_section .section_blurb_narrow {
+  width: 50%;
+  padding-bottom: 2vh;
+}
+
+.project_section .section_blurb_full {
+  width: 100%;
+  padding-bottom: 2vh;
+}
+
+.project_section .blurb_header {
+  // text-decoration: underline;
+  padding-bottom: 1vh;
+}
+
+.project_subsection {
+  padding-bottom: 4vh;
+}
+
+.image_gallery_wrapper {
+  padding-bottom: 2vh;
+}
+
+.image_gallery_wrapper .gallery_img {
+  padding-top: 1vh;
+}
+
+.project_section .img_caption {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  color: colors.$secondary-color;
+}
+
+.img_caption svg {
+  fill: colors.$secondary-color;
+}
+
+p.section_blurb a {
+  text-decoration: underline;
+  color: colors.$link-hover-color;
+}
+
+.video_gallery_wrapper {
+  padding-bottom: 2vh;
+}
+
+ul.blurb_list {
+  list-style-type: circle;
+  margin-left: 1em;
+}
+
+// ul.blurb_list li::before {
+//   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+//   color: colors.$project-section-title-color; /* Change the color */
+//   font-weight: bold; /* If you want it to be bold */
+//   display: inline-block; /* Needed to add space between the bullet and the text */
+//   width: 1em; /* Also needed for space (tweak if needed) */
+//   margin-left: 1em; /* Also needed for space (tweak if needed) */
+// }
+
+// responsive
+@media screen and (max-width: 576px) {
+  .project_wrapper {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+  }
+
+  .project_section {
+    padding-bottom: 5vh;
+  }
+
+  .project_section .section_blurb_narrow {
+    width: 100%;
+  }
+
+  .section_title {
+    font-size: 2em;
+  }
+
+  .project_section .section_subtitle {
+    font-size: 1.2em;
+  }
+
+  .section_subtitle svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  h4.footer_next_text {
+    font-size: 1em;
+  }
+}
