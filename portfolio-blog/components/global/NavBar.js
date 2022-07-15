@@ -1,20 +1,20 @@
-import Container from "../layouts/Container";
 import Link from "next/link";
 
+const nav_text_style = "font-mono text-base font-normal text-slate-700 ";
 export default function () {
   return (
-    <div className="hover:cursor-default sticky w-full grid px-4 py-5 grid-cols-4 border-b border-solid z-10">
+    <div className="hover:cursor-default sticky w-full grid px-4 py-5 grid-cols-4 z-10 mb-8">
       <Link href="/">
-        <span>Landing</span>
+        <span className={nav_text_style}>MIA TANG</span>
       </Link>
       <Link href="/work">
-        <span>Work</span>
+        <span className={nav_text_style + " text-right"}>WORK</span>
       </Link>
       <Link href="/blog">
-        <span>Blog</span>
+        <span className={nav_text_style + " text-right"}>BLOG</span>
       </Link>
       <Link href="/about">
-        <span>About</span>
+        <span className={nav_text_style + " text-right"}>ABOUT</span>
       </Link>
     </div>
   );

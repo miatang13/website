@@ -1,5 +1,7 @@
 import Head from "next/head";
-import GlobalContainer from "../components/layouts/GlobalContainer";
+import Image from "next/image";
+import HappyElmo from "../public/assets/personal/penguin.gif";
+import globalStyles from "../settings/global-styles.json";
 
 export default function Home() {
   return (
@@ -10,33 +12,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <GlobalContainer>
-        <main>
-          <div className="container w-full h-full">
-            <h1 className="text-3xl font-bold underline">
-              {" "}
-              hello there, I'm mia, currently studying computer science and
-              design{" "}
-              <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">
-                at carnegie mellon with a interest in computer graphics.
-              </a>
-            </h1>
-          </div>
-        </main>
-
-        {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
-      </GlobalContainer>
+      <main>
+        <div className="container">
+          <Image src={HappyElmo} width={200} height={130} />
+          <h1 className={globalStyles.font_styles.h1 + " py-10"}>
+            Hello there, I'm Mia. <br />
+            <br /> I currently study Computer Science and Design at Carnegie
+            Mellon's{" "}
+            <a
+              className={globalStyles.font_styles.link}
+              href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html"
+            >
+              BXA
+            </a>{" "}
+            program with a interest in Computer Graphics and Immersive
+            Experiences.
+          </h1>
+        </div>
+      </main>
     </div>
   );
 }
