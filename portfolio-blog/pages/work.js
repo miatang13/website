@@ -4,11 +4,19 @@ import Image from "next/image";
 import { thumbnail_base_path, thumbnail_filename } from "../settings/path";
 import globalStyles from "../settings/global-styles.json";
 import ExternalLink from "../components/global/ExternalLink";
+import dogComputerGif from "../public/assets/personal/dog-computer.gif";
 
 export default function Work() {
   return (
     <div className="container">
-      <h1 className={globalStyles.font_styles.h1}>
+      <div className="pb-6">
+        <h1 className={globalStyles.font_styles.h1}>
+          Projects are currently being updated ...{" "}
+        </h1>
+        <Image src={dogComputerGif} />
+      </div>
+
+      <h4 className={globalStyles.font_styles.h4}>
         At the moment, I am a software developer intern at{" "}
         <ExternalLink
           href="https://cesium.com/"
@@ -37,7 +45,7 @@ export default function Work() {
           Iris Rover
         </ExternalLink>
         .
-      </h1>
+      </h4>
       <div
         className="container grid gap-4 grid-cols-2 grid-rows-2"
         id="work-gallery-wrapper"

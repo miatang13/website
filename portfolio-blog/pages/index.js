@@ -25,8 +25,7 @@ export default function Home() {
             >
               BXA
             </a>{" "}
-            program with a interest in Computer Graphics and Immersive
-            Experiences.
+            program with a interest in Computer Graphics.
           </h1>
         </div>
       </main>
