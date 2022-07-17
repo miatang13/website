@@ -1,5 +1,5 @@
 export default function Hashtag() {
-  const size = 45;
+  const size = 15;
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
