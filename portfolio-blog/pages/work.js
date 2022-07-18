@@ -5,10 +5,11 @@ import { thumbnail_base_path, thumbnail_filename } from "../settings/path";
 import globalStyles from "../settings/global-styles";
 import ExternalLink from "../components/global/ExternalLink";
 import dogComputerGif from "../public/assets/personal/dog-computer.gif";
+import PageContainer from "../components/global/PageContainer";
 
 export default function Work() {
   return (
-    <div className="container h-screen w-screen grid">
+    <div className="container h-screen w-screen grid" id="page-container">
       <div className="sm:w-8/12 place-self-center">
         <Image src={dogComputerGif} />
         <h1 className={globalStyles.font_styles.h1}>

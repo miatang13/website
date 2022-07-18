@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="container h-screen w-screen grid">
+        <div className="container h-screen w-screen grid" id="page-container">
           <div className="sm:w-8/12 place-self-center">
             <Image src={HappyElmo} width={200} height={130} />
 
@@ -23,17 +23,18 @@ export default function Home() {
                 " py-10"
               }
             >
-              Hello there, I'm Mia. <br />
-              <br /> I currently study Computer Science and Design at Carnegie
-              Mellon's{" "}
+              Hello there, I'm Mia.
+            </h1>
+            <h4 className={globalStyles.font_styles.h4}>
+              I currently study Computer Science and Design at Carnegie Mellon's{" "}
               <a
                 className={globalStyles.font_styles.link}
                 href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html"
               >
                 BXA
               </a>{" "}
-              program with a interest in Computer Graphics.
-            </h1>
+              program with a interest in Computer Graphics. This website is
+            </h4>
           </div>
         </div>
       </main>

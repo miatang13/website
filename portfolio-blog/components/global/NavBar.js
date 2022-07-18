@@ -1,22 +1,26 @@
 import Link from "next/link";
+import globalStyles from "../../settings/global-styles";
 
-const nav_text_style = "font-mono text-base font-black text-slate-700 ";
 export default function () {
   return (
-    <div className="hover:cursor-default sticky w-full grid px-4 pt-5 grid-cols-4 z-10 mb-8">
-      <Link href="/">
-        <div>
-          <span className={nav_text_style}>mia tang</span>
-        </div>
+    <div className="sticky w-full grid px-4 pt-5 grid-cols-4 z-10 mb-8 ">
+      <Link href="/" className={globalStyles.font_styles.link}>
+        <span className={globalStyles.font_styles.nav_bar}>mia tang</span>
       </Link>
-      <Link href="/work">
-        <span className={nav_text_style + " text-right"}>work</span>
+      <Link href="/work" className={globalStyles.font_styles.link}>
+        <span className={globalStyles.font_styles.nav_bar + " text-right"}>
+          work
+        </span>
       </Link>
-      <Link href="/blog">
-        <span className={nav_text_style + " text-right"}>blog</span>
+      <Link href="/blog" className={globalStyles.font_styles.link}>
+        <span className={globalStyles.font_styles.nav_bar + " text-right"}>
+          blog
+        </span>
       </Link>
-      <Link href="/about">
-        <span className={nav_text_style + " text-right"}>about</span>
+      <Link href="/about" className={globalStyles.font_styles.link}>
+        <span className={globalStyles.font_styles.nav_bar + " text-right"}>
+          about
+        </span>
       </Link>
     </div>
   );
