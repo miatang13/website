@@ -1,4 +1,4 @@
-import globalStyles from "../../settings/global-styles.json";
+import globalStyles from "../../settings/global-styles";
 
 export default function ExternalLink(props) {
   return (

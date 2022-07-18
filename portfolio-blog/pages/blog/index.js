@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import globalStyles from "../../settings/global-styles.json";
+import globalStyles from "../../settings/global-styles";
 import blogData from "../../settings/blogs.json";
 import Image from "next/image";
 import Link from "next/link";

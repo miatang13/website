@@ -1,11 +1,11 @@
 import Linkedin from "../svgs/Linkedin";
 import Twitter from "../svgs/Twitter";
-import globalStyles from "../../settings/global-styles.json";
+import globalStyles from "../../settings/global-styles";
 
 export default function Footer() {
   return (
     <footer className="container py-6 pb-6 w-screen place-content-center grid">
-      <ul className="flex flex-none md:flex-1 space-x-4 place-content-center">
+      <ul className="flex flex-none md:flex-1 space-x-4 place-content-center py-2">
         <li>
           <a href="https://twitter.com/Miamiamia0103">
             <Twitter />
@@ -20,9 +20,9 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <h4 className={globalStyles.font_styles.h4 + " align-top"}>
+      <p className={globalStyles.font_styles.p + " text-sm text-neutral-500"}>
         &copy; mia tang 2018-2022
-      </h4>
+      </p>
     </footer>
   );
 }

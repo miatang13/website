@@ -1,8 +1,0 @@
-{
-  "font_styles": {
-    "h1": "text-lg font-light font-mono text-slate-900 align-middle py-12",
-    "link": "text-slate-700 underline hover:decoration-pink-500 hover:text-slate-300",
-    "p": "font-mono font-normal text-2xl text-slate-700 ",
-    "h4": "font-light font-mono text-slate-300 align-middle text-base"
-  }
-}

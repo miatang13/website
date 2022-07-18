@@ -1,20 +1,15 @@
 import Image from "next/image";
-import globalStyles from "../settings/global-styles.json";
+import globalStyles from "../settings/global-styles";
 import teaPainting from "../public/assets/personal/painting-tea.png";
 import animalPainting from "../public/assets/personal/painting-animals.png";
 import mangoLeeze from "../public/assets/personal/doggo.png";
-import profilePic from "../public/assets/personal/bio-chair-sqr.png";
+import profilePic from "../public/assets/personal/bio-photo-side-sqr.png";
 
 export default function About() {
   return (
-    <div className="container py-6 pb-6 w-screen place-content-center grid">
-      <div className="sm:w-1/2 ">
-        <div className="grid sm:grid-cols-2 pb-6 ">
-          <Image src={profilePic} />
-        </div>
-
+    <div className="container w-screen grid">
+      <div className="sm:w-8/12 place-self-center">
         <p className={globalStyles.font_styles.p}>
-          Thanks for visiting. :-) <br />
           <br />I am Mia Tang, a student at Carnegie Mellon University's{" "}
           <a
             className={globalStyles.font_styles.link}
@@ -60,7 +55,7 @@ export default function About() {
           <br /> Some random fun facts: (1) My favorite artistic medium is oil
           on canvas.
         </p>
-        <div class="grid grid-cols-2 gap-4 pb-6">
+        <div class="grid grid-cols-2 gap-4 py-6">
           <Image src={teaPainting} />
           <Image src={animalPainting} />
         </div>
@@ -68,7 +63,7 @@ export default function About() {
           (2) I have two corgis named Mango and Leeze. They both reside in
           Vancouver, B.C., Canada, with my lovely family.
         </p>
-        <div class="grid grid-cols-1 gap-4 pb-6">
+        <div class="grid grid-cols-1 gap-4 py-6">
           <Image src={mangoLeeze} />
         </div>
         <p className={globalStyles.font_styles.p}>
@@ -76,6 +71,14 @@ export default function About() {
           feel free to contact me. The best way to reach me is at
           miatang13[at]gmail[dot]com.
         </p>
+        <div className="grid sm:grid-cols-3 py-6">
+          <div className="sm:col-start-2">
+            <Image src={profilePic} />
+            <p className={globalStyles.font_styles.p}>
+              Thanks for visiting. :-)
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
