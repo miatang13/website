@@ -3,13 +3,10 @@ import globalStyles from "../../settings/global-styles";
 import blogData from "../../settings/blogs.json";
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "../../components/global/Footer";
 
 export default function Blog() {
-  const [blogs, setBlogs] = useState([]); // sorted by time (latest in front)
-  const [defaultBlogs, setDefaultBlogs] = useState([]);
   const [grpBlogs, setGrpBlogs] = useState({});
-  const [displayCatalog, setDisplayCatalog] = useState(false);
-  const [groupByTopic, setGroupByTopic] = useState(false);
   const base_url = "/../public/blog/";
 
   // populate all blogs
@@ -23,13 +20,11 @@ export default function Blog() {
         img_path: base_url + b + "/thumbnail.png",
         page_path: b,
         category: blogData[b].category,
+        date: blogData[b].date,
       };
       blogsToDisplay.push(curBlog);
       categories[blogData[b].category] = 0;
     });
-    setDefaultBlogs(blogsToDisplay);
-    // our initial display is default blogs
-    setBlogs(blogsToDisplay);
 
     // we create the blogs grouped by categories too
     let groupedBlogs = {};
@@ -40,52 +35,59 @@ export default function Blog() {
       groupedBlogs[category] = filtered;
     });
     setGrpBlogs(groupedBlogs);
+
+    console.log(groupedBlogs);
   }, []);
 
   return (
-    <div className="container">
-      <h4 className={globalStyles.font_styles.h4}>
-        I make educational materials on computer science topics on the weekends.{" "}
-      </h4>
-      <div className="flex space-x-4">
-        <button onClick={() => setDisplayCatalog(!displayCatalog)}>
-          Browse Catalog
-        </button>
-        <button onClick={() => setGroupByTopic(!groupByTopic)}>
-          Group By Topic{" "}
-        </button>
-      </div>
+    <div className="container h-screen w-screen grid">
+      <div className="sm:w-8/12 place-self-center">
+        <h1 className={globalStyles.font_styles.h1}>
+          I make educational materials on computer science topics on the
+          weekends.{" "}
+        </h1>
 
-      {displayCatalog && (
-        <div>
-          <h2> Catalog </h2>
-          <div
-            class="grid grid-cols-3 gap-4 place-content-center"
-            id="blog-posts-catalog"
-          >
-            {blogs.map((b, index) => (
-              <div>
-                <Link href={"/blog/" + b.page_path}>
-                  <h4>{b.title}</h4>
-                </Link>
-              </div>
+        <div id="blog-posts-catalog">
+          <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
+          <div className="grid grid-cols-3 gap-3">
+            {Object.keys(grpBlogs).map((key, index) => (
+              <>
+                {grpBlogs[key].map((b) => (
+                  <div>
+                    <Link href={"/blog/" + b.page_path}>
+                      <p className={globalStyles.font_styles.p}>{b.title}</p>
+                    </Link>
+                  </div>
+                ))}
+              </>
             ))}
           </div>
         </div>
-      )}
-      {!displayCatalog && (
-        <div class="grid grid-cols-3 gap-4" id="blog-posts-thumbnails">
-          {blogs.map((b) => (
-            <div>
-              <Image src={b.img_path} width={200} height={200} />
-              <Link href={"/blog/" + b.page_path}>
-                <h3>{b.title}</h3>
-              </Link>
-              <p> {b.description} </p>
-            </div>
+
+        <div id="blog-posts-thumbnails">
+          <h1 className={globalStyles.font_styles.h1}>Posts</h1>
+          {Object.keys(grpBlogs).map((key, index) => (
+            <>
+              <h2 className={globalStyles.font_styles.h2}>
+                Topics Related To {key}
+              </h2>
+              <div className="grid grid-cols-3 gap-4">
+                {grpBlogs[key].map((b) => (
+                  <div>
+                    <Image src={b.img_path} width={200} height={200} />
+                    <Link href={"/blog/" + b.page_path}>
+                      <h3>{b.title}</h3>
+                    </Link>
+                    <p> {b.description} </p>
+                    <p> {b.date} </p>
+                  </div>
+                ))}
+              </div>
+            </>
           ))}
         </div>
-      )}
+      </div>
+      <Footer />
     </div>
   );
 }
