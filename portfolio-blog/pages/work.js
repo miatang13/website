@@ -11,10 +11,12 @@ export default function Work() {
   return (
     <div className="container h-screen w-screen grid" id="page-container">
       <div className="sm:w-8/12 place-self-center">
-        <Image src={dogComputerGif} />
-        <h1 className={globalStyles.font_styles.h1}>
-          Projects are currently being updated ...{" "}
-        </h1>
+        <div className="pb-6">
+          <Image src={dogComputerGif} />
+          <h1 className={globalStyles.font_styles.h1}>
+            Projects are currently being updated ...{" "}
+          </h1>
+        </div>
         <p className={globalStyles.font_styles.p}>
           At the moment, I am a software developer intern at{" "}
           <ExternalLink href="https://cesium.com/">Cesium</ExternalLink>

@@ -43,13 +43,9 @@ export default function Blog() {
     <div className="container w-screen grid" id="page-container">
       <div className="sm:w-9/12 place-self-center">
         <Image src={HeroImg} />
-        <h1 className={globalStyles.font_styles.h1}>
-          I make educational materials on computer science topics on the
-          weekends.
-        </h1>
 
         <div id="blog-posts-catalog" className="pb-6">
-          <h2 className={globalStyles.font_styles.h2}>Catalog</h2>
+          <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
 
           <div className="grid grid-cols-2 gap-3">
             {Object.keys(grpBlogs).map((key, index) => (
@@ -107,7 +103,7 @@ export default function Blog() {
         </div>
 
         <div id="blog-posts-all">
-          <h2 className={globalStyles.font_styles.h2}>All Posts</h2>
+          <h1 className={globalStyles.font_styles.h1}>All Posts</h1>
           {Object.keys(grpBlogs).map((key, index) => (
             <div className="pb-3">
               <h3 className={globalStyles.font_styles.h3}>
