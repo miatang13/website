@@ -4,9 +4,6 @@ import blogData from "../../settings/blogs.json";
 import Image from "next/image";
 import Link from "next/link";
 import HeroImg from "../../public/assets/Illustration/thumbnail.png";
-import Footer from "../../components/global/Footer";
-import Link45Deg from "../../components/svgs/Link45Deg";
-import DoubleRight from "../../components/svgs/DoubleRight";
 
 export default function Blog() {
   const [grpBlogs, setGrpBlogs] = useState({});

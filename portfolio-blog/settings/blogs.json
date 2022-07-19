@@ -67,7 +67,7 @@
   },
   "zbuffer": {
     "description": "history",
-    "title": "Texture Mapping & MIP map",
+    "title": "Z-buffer",
     "category": "Computer Graphics",
     "date": "Oct 29, 2021"
   },
