@@ -4,6 +4,8 @@ import blogData from "../../settings/blogs.json";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "../../components/global/Footer";
+import Link45Deg from "../../components/svgs/Link45Deg";
+import DoubleRight from "../../components/svgs/DoubleRight";
 
 export default function Blog() {
   const [grpBlogs, setGrpBlogs] = useState({});
@@ -41,21 +43,32 @@ export default function Blog() {
 
   return (
     <div className="container w-screen grid" id="page-container">
-      <div className="sm:w-8/12 place-self-center">
+      <div className="sm:w-9/12 place-self-center">
         <h1 className={globalStyles.font_styles.h1}>
           I make educational materials on computer science topics on the
           weekends.
         </h1>
 
         <div id="blog-posts-catalog">
-          <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
-          <div className="grid grid-cols-3 gap-3">
+          <h2 className={globalStyles.font_styles.h2}>Catalog</h2>
+          <h3 className={globalStyles.font_styles.h3}>Published</h3>
+
+          <div className="grid grid-cols-2 gap-3">
             {Object.keys(grpBlogs).map((key, index) => (
               <>
                 {grpBlogs[key].map((b) => (
                   <div>
                     <Link href={"/blog/" + b.page_path}>
-                      <p className={globalStyles.font_styles.p}>{b.title}</p>
+                      <div className="flex underline decoration-pink-500">
+                        {/* <Link45Deg /> */}
+                        <span
+                          className={
+                            globalStyles.font_styles.p + " text-xs font-black"
+                          }
+                        >
+                          {b.title}
+                        </span>
+                      </div>
                     </Link>
                   </div>
                 ))}
@@ -64,30 +77,28 @@ export default function Blog() {
           </div>
         </div>
 
-        <div id="blog-posts-thumbnails">
-          <h1 className={globalStyles.font_styles.h1}>Posts</h1>
+        <div id="blog-posts-all">
+          <h2 className={globalStyles.font_styles.h2}>All Posts</h2>
           {Object.keys(grpBlogs).map((key, index) => (
             <div className="pb-3">
-              <h2 className={globalStyles.font_styles.h2}>
+              <h3 className={globalStyles.font_styles.h3}>
                 Topics Related To {key}
-              </h2>
-              <div className="grid grid-cols-3 gap-4">
+              </h3>
+              <div className="grid grid-cols-4 gap-4">
                 {grpBlogs[key].map((b) => (
                   <div>
                     <Image src={b.img_path} width={200} height={200} />
                     <Link href={"/blog/" + b.page_path}>
-                      <h3
+                      <h4
                         className={
-                          globalStyles.font_styles.h3 +
+                          globalStyles.font_styles.h4 +
                           +" underline decoration-pink-500"
                         }
                       >
                         {b.title}
-                      </h3>
+                      </h4>
                     </Link>
-                    {/* <p> {b.description} </p> */}
-                    <p className={globalStyles.font_styles.p + " text-xs"}>
-                      {" "}
+                    <p className={globalStyles.font_styles.p + " text-sm"}>
                       {b.date}{" "}
                     </p>
                   </div>
@@ -95,6 +106,26 @@ export default function Blog() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div id="blog-posts-upcoming">
+          <h3 className={globalStyles.font_styles.h3 + "pb-0"}>
+            Currently in the works ...
+          </h3>
+          <p className={globalStyles.font_styles.p + " text-xs italic pb-3"}>
+            Updated [July 18th 2022]
+          </p>
+          <div className="container">
+            <ul className="list-disc">
+              <li className={globalStyles.font_styles.p}> Shadow Maps</li>
+              <li className={globalStyles.font_styles.p}>
+                Shadows in Ray Tracing
+              </li>
+              <li className={globalStyles.font_styles.p}>
+                <p> Bounding Volume Hierarchy </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
