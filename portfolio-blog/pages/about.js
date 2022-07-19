@@ -7,8 +7,11 @@ import profilePic from "../public/assets/personal/bio-photo-side-sqr.png";
 
 export default function About() {
   return (
-    <div className="container w-screen grid" id="page-container">
-      <div className="sm:w-8/12 place-self-center">
+    <div
+      className={globalStyles.div_styles.page_outer_wrapper}
+      id="page-container"
+    >
+      <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
         <p className={globalStyles.font_styles.p}>
           <br />I am Mia Tang, a student at Carnegie Mellon University's{" "}
           <a
@@ -55,22 +58,26 @@ export default function About() {
           <br /> Some fun facts: (1) My favorite artistic medium is oil on
           canvas.
         </p>
-        <div class="grid grid-cols-2 gap-4 py-6">
+        <div class="grid sm:grid-cols-2 gap-4 py-6">
           <Image src={teaPainting} />
           <Image src={animalPainting} />
         </div>
         <p className={globalStyles.font_styles.p}>
-          (2) I have two corgis named Mango and Leeze. They both reside in
-          Vancouver, B.C., Canada, with my lovely family.
+          I have two adorable corgis, Mango and Leeze.
         </p>
-        <div class="grid grid-cols-1 gap-4 py-6">
-          <Image src={mangoLeeze} />
+
+        <div className="grid sm:grid-cols-2 py-6">
+          <div className="sm:col-start-1">
+            <Image src={mangoLeeze} />
+          </div>
         </div>
+
         <p className={globalStyles.font_styles.p}>
           That's about it for now. I'm always looking for fun opportunities, so
           feel free to contact me. The best way to reach me is at my email:
           miatang13[at]gmail[dot]com
         </p>
+
         <div className="grid sm:grid-cols-3 py-6">
           <div className="sm:col-start-2">
             <Image src={profilePic} />

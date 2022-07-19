@@ -3,31 +3,28 @@ import HappyElmo from "../public/assets/personal/penguin.gif";
 import globalStyles from "../settings/global-styles";
 
 export default function Home() {
+  const fontStyles = globalStyles.font_styles;
   return (
-    <div className="container h-screen w-screen grid">
-      <div className="container h-screen w-screen grid" id="page-container">
-        <div className="sm:w-8/12 place-self-center">
-          <Image src={HappyElmo} width={200} height={130} />
+    <div
+      className={globalStyles.div_styles.page_outer_wrapper + " h-screen"}
+      id="page-container"
+    >
+      <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
+        <Image src={HappyElmo} width={200} height={130} />
 
-          <h1
-            className={
-              "text-3xl font-black font-mono text-slate-900 align-middle py-12" +
-              " py-10"
-            }
+        <h1 className={fontStyles.h1 + " font-semibold"}>
+          Hello there, I'm Mia. <br />
+          <br /> I currently study Computer Science and Design at Carnegie
+          Mellon's{" "}
+          <a
+            className={fontStyles.link}
+            href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html"
           >
-            Hello there, I'm Mia.
-          </h1>
-          <p className={globalStyles.font_styles.p}>
-            I currently study Computer Science and Design at Carnegie Mellon's{" "}
-            <a
-              className={globalStyles.font_styles.link}
-              href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html"
-            >
-              BXA
-            </a>{" "}
-            program with a interest in Computer Graphics.
-          </p>
-        </div>
+            BXA
+          </a>{" "}
+          program with a interest in Computer Graphics. You can find my
+          professional work and personal blog on this website.
+        </h1>
       </div>
     </div>
   );

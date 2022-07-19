@@ -1,12 +1,18 @@
 const globalStyles = {
   font_styles: {
-    h1: "text-3xl font-black font-mono text-slate-900 py-3",
-    h2: "text-2xl font-black font-mono text-slate-900 py-3",
-    h3: "text-xl font-black font-mono text-slate-900 py-3",
-    h4: "font-black font-mono align-middle text-lg text-slate-900 py-3",
-    link: "text-cyan-500 underline hover:decoration-pink-500 hover:text-slate-300 hover:cursor-pointer",
-    p: "font-mono font-normal text-base text-slate-700",
-    nav_bar: "font-mono font-black text-base hover:cursor-pointer",
+    h1: "font-mono py-6 select-none",
+    h2: "font-mono py-3 select-none",
+    h3: "font-mono py-3 select-none",
+    h4: "font-mono py-1 select-none",
+    link: "underline hover:cursor-pointer",
+    p: "font-mono font-medium",
+    nav_bar: "font-mono font-black hover:cursor-pointer hover:bg-amber-200",
+    nav_bar_logo: "font-mono font-black hover:cursor-pointer",
+  },
+  div_styles: {
+    page_inner_wrapper_narrow: "sm:w-8/12 place-self-center",
+    page_inner_wrapper_wide: "sm:w-9/12 place-self-center",
+    page_outer_wrapper: "container w-screen grid",
   },
 };
 

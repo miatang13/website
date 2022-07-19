@@ -1,96 +1,114 @@
 {
   "ml-models": {
-    "description": "MSAA, SSAA",
+    "covered": ["Autoencoder", "Diffusion", "GAN", "Transformer"],
     "title": "ML Models",
     "category": "Machine Learning",
-    "date": "00101"
+    "date": "COMING"
   },
   "ml-basics": {
-    "description": "ML",
+    "covered": ["Gradient Descent", "Linear Regression", "Neural Network Overview"],
     "title": "ML Basics",
     "category": "Machine Learning",
-    "date": "00101"
+    "date": "July 8, 2022"
   },
   "image-compression": {
-    "description": "he",
+    "covered": ["Lossy & Lossless Compression", "Color Quantization", "Chroma Subsampling", "DCT Transform"],
     "title": "Image Compression",
     "category": "Computer Graphics",
-    "date": "April 17, 2022"
+    "date": "April 17, 2022",
+    "complete": true
   },
   "ray-tracing": {
-    "description": "he",
+    "covered": ["Motivation", "Ray Equation", "Forward, Backward Ray Tracing", "General Ray Tracying Algorithm"],
     "title": "Ray Tracing",
     "category": "Computer Graphics",
-    "date": "April 3, 2022"
+    "date": "April 3, 2022",
+    "complete": true
   },
   "render-pipeline": {
-    "description": "he",
+    "covered":["Geometry Processing", "Rasterization", "Fragment Processing", "Frame Buffer Processing"],
     "title": "Rendering Pipeline",
     "category": "Computer Graphics",
-    "date": "March 14, 2022"
+    "date": "March 14, 2022",
+    "complete": true
   },
   "subdivision-catmull-clark": {
-    "description": "he",
+    "covered": ["Subdivision Surface","Refinement Schemes",  "Catmull-Clark Subdivison Algorithm" ],
     "title": "Subdivision & Catmull-Clark",
     "category": "Computer Graphics",
-    "date": "March 6, 2022"
+    "date": "March 6, 2022",
+    "complete": true
   },
-  "halfdedge-mesh": {
-    "description": "he",
+  "halfedge-mesh": {
+    "covered": ["Mesh Basics", "Halfedge Data Structure", "Halfedge in Action", "Manifold Mesh"],
     "title": "Halfedge Mesh Data Structure",
     "category": "Computer Graphics",
-    "date": "Feb 20, 2022"
+    "date": "Feb 20, 2022",
+    "complete": true
   },
   "graphics-valentines": {
-    "description": "Something fun. =)",
+    "covered": ["GPU", "Halfedge", "World Coordinates", "NURBS Surface"],
     "title": "Valentine's Day Cards",
     "category": "Computer Graphics",
-    "date": "Feb 14, 2022"
+    "date": "Feb 14, 2022",
+    "complete": true
   },
   "anti-aliasing": {
-    "description": "MSAA, SSAA, TXAA, FXAA",
+    "covered": ["MSAA", "SSAA", "TXAA", "FXAA"],
     "title": "4 Kinds of Anti-Aliasing",
     "category": "Computer Graphics",
-    "date": "Feb 6, 2022"
+    "date": "Feb 6, 2022",
+    "complete": true
   },
   "svg-rasterization": {
-    "description": "SVG Rasterization",
+    "covered": ["SVG Rasterization Pipeline", "Sampling", "Triangle Rasterization", "Supersampling"],
     "title": "SVG Rasterization",
     "category": "Computer Graphics",
-    "date": "Jan 30, 2022"
+    "date": "Jan 30, 2022",
+    "complete": true
   },
   "graphics-history": {
-    "description": "history",
+    "covered": ["1960s", "1970s", "1980s", "1990s", "2000s"],
     "title": "Graphics History",
     "category": "Computer Graphics",
-    "date": "Jan 23, 2022"
+    "date": "Jan 23, 2022",
+    "complete": true
   },
-  "zbuffer": {
-    "description": "history",
-    "title": "Z-buffer",
+  "z-buffer": {
+    "covered": ["Occlusion", "Z-buffer", "Depth Test"],
+    "title": "Occlusion with Z-buffer",
     "category": "Computer Graphics",
-    "date": "Oct 29, 2021"
+    "date": "Oct 29, 2021",
+    "complete": true
   },
   "mipmap": {
-    "description": "history",
-    "title": "Texture Mapping & MIP map",
+    "covered": ["Texture Mapping", "Magnification", "Minification", "MIP Map Generation"],
+    "title": "Texture Mapping & MIP Map",
     "category": "Computer Graphics",
-    "date": "Oct 9, 2021"
+    "date": "Oct 9, 2021",
+    "complete": true
+  },
+  "super-sampling": { 
+    "covered": ["Supersampling", "Box Filter"],
+    "title": "Supersampling",
+    "category":"Computer Graphics",
+    "date":"Oct 1, 2021",
+    "complete": true
   },
   "zero-knowledge-proof": {
-    "description": "history",
+    "covered":  ["history"],
     "title": "Zero Knowledge Proof",
     "category": "Theoretical CS",
     "date": "Dec 4, 2020"
   },
   "hof": {
-    "description": "history",
+    "covered":  ["history"],
     "title": "Higher Order Functions",
     "category": "Functional Programming",
     "date": "March 9, 2020"
   },
   "functional-programming-manual": {
-    "description": "history",
+    "covered":  ["history"],
     "title": "Expressions, Totality & Structural Induction",
     "category": "Functional Programming",
     "date": "Feb 8, 2020"
