@@ -17,7 +17,7 @@ export default function Home() {
           >
             Hello there, I'm Mia.
           </h1>
-          <h4 className={globalStyles.font_styles.h4}>
+          <p className={globalStyles.font_styles.p}>
             I currently study Computer Science and Design at Carnegie Mellon's{" "}
             <a
               className={globalStyles.font_styles.link}
@@ -26,7 +26,7 @@ export default function Home() {
               BXA
             </a>{" "}
             program with a interest in Computer Graphics.
-          </h4>
+          </p>
         </div>
       </div>
     </div>

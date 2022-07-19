@@ -76,5 +76,23 @@
     "title": "Texture Mapping & MIP map",
     "category": "Computer Graphics",
     "date": "Oct 9, 2021"
+  },
+  "zero-knowledge-proof": {
+    "description": "history",
+    "title": "Zero Knowledge Proof",
+    "category": "Theoretical CS",
+    "date": "Dec 4, 2020"
+  },
+  "hof": {
+    "description": "history",
+    "title": "Higher Order Functions",
+    "category": "Functional Programming",
+    "date": "March 9, 2020"
+  },
+  "functional-programming-manual": {
+    "description": "history",
+    "title": "Expressions, Totality & Structural Induction",
+    "category": "Functional Programming",
+    "date": "Feb 8, 2020"
   }
 }

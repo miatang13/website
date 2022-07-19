@@ -3,6 +3,7 @@ import globalStyles from "../../settings/global-styles";
 import blogData from "../../settings/blogs.json";
 import Image from "next/image";
 import Link from "next/link";
+import HeroImg from "../../public/assets/Illustration/thumbnail.png";
 import Footer from "../../components/global/Footer";
 import Link45Deg from "../../components/svgs/Link45Deg";
 import DoubleRight from "../../components/svgs/DoubleRight";
@@ -44,19 +45,22 @@ export default function Blog() {
   return (
     <div className="container w-screen grid" id="page-container">
       <div className="sm:w-9/12 place-self-center">
+        <Image src={HeroImg} />
         <h1 className={globalStyles.font_styles.h1}>
           I make educational materials on computer science topics on the
           weekends.
         </h1>
 
-        <div id="blog-posts-catalog">
+        <div id="blog-posts-catalog" className="pb-6">
           <h2 className={globalStyles.font_styles.h2}>Catalog</h2>
-          <h3 className={globalStyles.font_styles.h3}>Published</h3>
 
           <div className="grid grid-cols-2 gap-3">
             {Object.keys(grpBlogs).map((key, index) => (
-              <>
-                {grpBlogs[key].map((b) => (
+              <div>
+                <h3 className={globalStyles.font_styles.h3}>
+                  Topics Related To {key}
+                </h3>
+                {grpBlogs[key].map((b, i) => (
                   <div>
                     <Link href={"/blog/" + b.page_path}>
                       <div className="flex underline decoration-pink-500">
@@ -66,14 +70,42 @@ export default function Blog() {
                             globalStyles.font_styles.p + " text-xs font-black"
                           }
                         >
-                          {b.title}
+                          {i}. {b.title}
                         </span>
                       </div>
                     </Link>
                   </div>
                 ))}
-              </>
+              </div>
             ))}
+          </div>
+        </div>
+
+        <div id="blog-posts-upcoming" className="pb-6">
+          <h3 className={globalStyles.font_styles.h3 + "pb-0"}>
+            Currently in the Works
+          </h3>
+          <p className={globalStyles.font_styles.p + " text-xs italic pb-3"}>
+            Updated [July 18th 2022]
+          </p>
+          <div className="container">
+            <ul className="list-disc">
+              <li
+                className={globalStyles.font_styles.p + " text-xs font-black"}
+              >
+                Shadow Maps
+              </li>
+              <li
+                className={globalStyles.font_styles.p + " text-xs font-black"}
+              >
+                Shadows in Ray Tracing
+              </li>
+              <li
+                className={globalStyles.font_styles.p + " text-xs font-black"}
+              >
+                <p> Bounding Volume Hierarchy </p>
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -98,7 +130,7 @@ export default function Blog() {
                         {b.title}
                       </h4>
                     </Link>
-                    <p className={globalStyles.font_styles.p + " text-sm"}>
+                    <p className={globalStyles.font_styles.p + " text-xs"}>
                       {b.date}{" "}
                     </p>
                   </div>
@@ -106,26 +138,6 @@ export default function Blog() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div id="blog-posts-upcoming">
-          <h3 className={globalStyles.font_styles.h3 + "pb-0"}>
-            Currently in the works ...
-          </h3>
-          <p className={globalStyles.font_styles.p + " text-xs italic pb-3"}>
-            Updated [July 18th 2022]
-          </p>
-          <div className="container">
-            <ul className="list-disc">
-              <li className={globalStyles.font_styles.p}> Shadow Maps</li>
-              <li className={globalStyles.font_styles.p}>
-                Shadows in Ray Tracing
-              </li>
-              <li className={globalStyles.font_styles.p}>
-                <p> Bounding Volume Hierarchy </p>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>

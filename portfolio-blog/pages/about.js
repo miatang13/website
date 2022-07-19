@@ -52,8 +52,8 @@ export default function About() {
           importantly, the repeated victories of conquering new intellectual
           challenges help us become more confident and resilient.
           <br />
-          <br /> Some random fun facts: (1) My favorite artistic medium is oil
-          on canvas.
+          <br /> Some fun facts: (1) My favorite artistic medium is oil on
+          canvas.
         </p>
         <div class="grid grid-cols-2 gap-4 py-6">
           <Image src={teaPainting} />
@@ -68,8 +68,8 @@ export default function About() {
         </div>
         <p className={globalStyles.font_styles.p}>
           That's about it for now. I'm always looking for fun opportunities, so
-          feel free to contact me. The best way to reach me is at
-          miatang13[at]gmail[dot]com.
+          feel free to contact me. The best way to reach me is at my email:
+          miatang13[at]gmail[dot]com
         </p>
         <div className="grid sm:grid-cols-3 py-6">
           <div className="sm:col-start-2">
