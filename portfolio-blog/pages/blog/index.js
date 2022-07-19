@@ -40,11 +40,11 @@ export default function Blog() {
   }, []);
 
   return (
-    <div className="container h-screen w-screen grid">
+    <div className="container w-screen grid" id="page-container">
       <div className="sm:w-8/12 place-self-center">
         <h1 className={globalStyles.font_styles.h1}>
           I make educational materials on computer science topics on the
-          weekends.{" "}
+          weekends.
         </h1>
 
         <div id="blog-posts-catalog">
@@ -67,7 +67,7 @@ export default function Blog() {
         <div id="blog-posts-thumbnails">
           <h1 className={globalStyles.font_styles.h1}>Posts</h1>
           {Object.keys(grpBlogs).map((key, index) => (
-            <>
+            <div className="pb-3">
               <h2 className={globalStyles.font_styles.h2}>
                 Topics Related To {key}
               </h2>
@@ -76,18 +76,27 @@ export default function Blog() {
                   <div>
                     <Image src={b.img_path} width={200} height={200} />
                     <Link href={"/blog/" + b.page_path}>
-                      <h3>{b.title}</h3>
+                      <h3
+                        className={
+                          globalStyles.font_styles.h3 +
+                          +" underline decoration-pink-500"
+                        }
+                      >
+                        {b.title}
+                      </h3>
                     </Link>
-                    <p> {b.description} </p>
-                    <p> {b.date} </p>
+                    {/* <p> {b.description} </p> */}
+                    <p className={globalStyles.font_styles.p + " text-xs"}>
+                      {" "}
+                      {b.date}{" "}
+                    </p>
                   </div>
                 ))}
               </div>
-            </>
+            </div>
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

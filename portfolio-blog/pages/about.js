@@ -7,7 +7,7 @@ import profilePic from "../public/assets/personal/bio-photo-side-sqr.png";
 
 export default function About() {
   return (
-    <div className="container h-screen w-screen grid" id="page-container">
+    <div className="container w-screen grid" id="page-container">
       <div className="sm:w-8/12 place-self-center">
         <p className={globalStyles.font_styles.p}>
           <br />I am Mia Tang, a student at Carnegie Mellon University's{" "}
