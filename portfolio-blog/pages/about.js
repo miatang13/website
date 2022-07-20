@@ -3,6 +3,7 @@ import globalStyles from "../settings/global-styles";
 import teaPainting from "../public/assets/personal/painting-tea.png";
 import animalPainting from "../public/assets/personal/painting-animals.png";
 import mangoLeeze from "../public/assets/personal/doggo.png";
+import doggoSniff from "../public/assets/personal/doggo-sniff.png";
 import profilePic from "../public/assets/personal/bio-photo-side-sqr.png";
 
 export default function About() {
@@ -66,10 +67,9 @@ export default function About() {
           I have two adorable corgis, Mango and Leeze.
         </p>
 
-        <div className="grid sm:grid-cols-2 py-6">
-          <div className="sm:col-start-1">
-            <Image src={mangoLeeze} />
-          </div>
+        <div className="grid sm:grid-cols-2 gap-4 py-6">
+          <Image src={mangoLeeze} />
+          <Image src={doggoSniff} />
         </div>
 
         <p className={globalStyles.font_styles.p}>

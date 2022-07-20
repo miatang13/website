@@ -16,16 +16,7 @@ export default function () {
       </div>
       <div className="text-right">
         <Link href="/work" className={globalStyles.font_styles.link}>
-          <span
-            className={
-              globalStyles.font_styles.nav_bar +
-                " text-right" +
-                router.asPath ===
-              "/work"
-                ? active_link_styling
-                : ""
-            }
-          >
+          <span className={globalStyles.font_styles.nav_bar + " text-right"}>
             work
           </span>
         </Link>
