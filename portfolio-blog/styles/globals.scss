@@ -14,9 +14,10 @@ body {
 
 * {
   box-sizing: border-box;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-h1 { 
+h1 {
   display: block;
   font-size: 2em;
   margin-top: 0.67em;
@@ -24,52 +25,69 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 2em;
+  }
 }
+
 h2 {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.33em;
+  }
 }
-h3 { 
+
+h3 {
   display: block;
-  font-size: 1.17em;
+  font-size: 1.5em;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
-}
-h4 { 
-  display: block;
-  margin-top: 1.33em;
-  margin-bottom: 1.33em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
-h5 { 
-  display: block;
-  font-size: .83em;
-  margin-top: 1.67em;
-  margin-bottom: 1.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
-h6 { 
-  display: block;
-  font-size: .67em;
-  margin-top: 2.33em;
-  margin-bottom: 2.33em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.25em;
+  }
 }
 
-a, span { 
+h4 {
+  display: block;
+  font-size: 1.3em;
+  margin-top: 1.17em;
+  margin-bottom: 1.17em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.13em;
+  }
+}
+
+p,
+span,
+li {
+  font-size: 1.1em;
+  @media only screen and (max-width: 768px) {
+    font-size: 1em;
+  }
+}
+
+a,
+span {
   font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-text,
+  .work-text {
+    font-size: 1.13em;
+    font-weight: 500;
+  }
 }

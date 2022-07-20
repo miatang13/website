@@ -3,6 +3,7 @@ import "../styles/globals.scss";
 import FadeInOut from "../components/animation/FadeInOut";
 import Footer from "../components/global/Footer";
 import Head from "next/head";
+import ResponsiveNav from "../components/global/ResponsiveNav";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -14,7 +15,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <main>
-        <NavBar />
+        <ResponsiveNav />
         <FadeInOut>
           <Component {...pageProps} />
         </FadeInOut>

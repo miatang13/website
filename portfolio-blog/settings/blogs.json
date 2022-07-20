@@ -1,15 +1,17 @@
 {
   "ml-models": {
     "covered": ["Autoencoder", "Diffusion", "GAN", "Transformer"],
-    "title": "ML Models",
+    "title": "Machine Learning Models",
     "category": "Machine Learning",
     "date": "COMING"
   },
   "ml-basics": {
     "covered": ["Gradient Descent", "Linear Regression", "Neural Network Overview"],
-    "title": "ML Basics",
+    "title": "Machine Learning Basics",
     "category": "Machine Learning",
-    "date": "July 8, 2022"
+    "date": "July 8, 2022",
+    "complete": true
+    
   },
   "image-compression": {
     "covered": ["Lossy & Lossless Compression", "Color Quantization", "Chroma Subsampling", "DCT Transform"],
@@ -96,19 +98,19 @@
     "complete": true
   },
   "zero-knowledge-proof": {
-    "covered":  ["history"],
+    "covered":  [],
     "title": "Zero Knowledge Proof",
     "category": "Theoretical CS",
     "date": "Dec 4, 2020"
   },
   "hof": {
-    "covered":  ["history"],
+    "covered":  [],
     "title": "Higher Order Functions",
     "category": "Functional Programming",
     "date": "March 9, 2020"
   },
   "functional-programming-manual": {
-    "covered":  ["history"],
+    "covered":  [],
     "title": "Expressions, Totality & Structural Induction",
     "category": "Functional Programming",
     "date": "Feb 8, 2020"

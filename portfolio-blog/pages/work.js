@@ -19,7 +19,7 @@ export default function Work() {
             Projects are currently being updated ...{" "}
           </h1>
         </div>
-        <p className={globalStyles.font_styles.p}>
+        <h4 className={globalStyles.font_styles.h4 + " work-text"}>
           At the moment, I am a software developer intern at{" "}
           <ExternalLink href="https://cesium.com/">Cesium</ExternalLink>
           . During the semester, I am a teaching assistant for the class 15-462
@@ -45,7 +45,7 @@ export default function Work() {
             Iris Rover
           </ExternalLink>
           .
-        </p>
+        </h4>
       </div>
     </div>
   );

@@ -40,6 +40,12 @@ export default function Blog() {
     console.log(groupedBlogs);
   }, []);
 
+  function handleClick(e, complete) {
+    if (!complete) {
+      e.preventDefault;
+    }
+  }
+
   return (
     <div
       className={globalStyles.div_styles.page_outer_wrapper}
@@ -51,7 +57,7 @@ export default function Blog() {
         <div id="blog-posts-catalog" className="pb-12">
           <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
 
-          <div className="grid grid-cols-2 gap-3 select-none">
+          <div className="grid sm:grid-cols-2 gap-3 select-none">
             {Object.keys(grpBlogs).map((key, index) => (
               <div>
                 <h2 className={globalStyles.font_styles.h2 + " pb-3"}>{key}</h2>
@@ -87,9 +93,11 @@ export default function Blog() {
           </p>
           <div className="container">
             <ul className="list-disc">
-              <li className={globalStyles.font_styles.p}>Shadow Maps</li>
               <li className={globalStyles.font_styles.p}>
-                Shadows in Ray Tracing
+                <p>Shadow Maps</p>
+              </li>
+              <li className={globalStyles.font_styles.p}>
+                <p> Shadows in Ray Tracing</p>
               </li>
               <li className={globalStyles.font_styles.p}>
                 <p> Bounding Volume Hierarchy </p>
@@ -107,16 +115,22 @@ export default function Blog() {
               </h2>
               <div className="grid sm:grid-cols-3 gap-12 select-none">
                 {grpBlogs[key].map((b) => (
-                  <Link href={"/blog/" + b.page_path}>
+                  <Link
+                    href={b.complete ? "/blog/" + b.page_path : "/blog"}
+                    onClick={(e) => handleClick(e, b.complete)}
+                  >
                     <div
                       className={
                         "p-3 bg-gradient-to-r from-yellow-50 hover:from-yellow-100 hover:to-orange-100 outline outline-offset-2 " +
-                        (b.complete ? "outline-orange-50" : "outline-blue-500")
+                        (b.complete
+                          ? "outline-orange-50"
+                          : "outline-slate-50 from-slate-50 hover:from-slate-50 hover:to-slate-50 hover:cursor-not-allowed")
                       }
                     >
                       <p
                         className={
-                          globalStyles.font_styles.p + " text-slate-400"
+                          globalStyles.font_styles.p +
+                          " text-slate-400  text-sm"
                         }
                       >
                         {b.date}
@@ -124,16 +138,16 @@ export default function Blog() {
                       <div>
                         <Image src={b.img_path} width={400} height={400} />
                       </div>
-                      <Link href={"/blog/" + b.page_path}>
-                        <h3
-                          className={
-                            globalStyles.font_styles.h3 +
-                            " bg-gradient-to-r from-yellow-100"
-                          }
-                        >
-                          {b.title}
-                        </h3>
-                      </Link>
+                      <h3
+                        className={
+                          globalStyles.font_styles.h3 +
+                          (b.complete
+                            ? " bg-gradient-to-r from-yellow-100"
+                            : " ")
+                        }
+                      >
+                        {b.title}
+                      </h3>
 
                       <p
                         className={
@@ -141,7 +155,7 @@ export default function Blog() {
                         }
                       >
                         {b.covered.map((topic, index) => (
-                          <span className=" inline-flex">
+                          <span className="inline-flex text-sm">
                             {topic}
                             {index !== b.covered.length - 1 && ", "}{" "}
                           </span>

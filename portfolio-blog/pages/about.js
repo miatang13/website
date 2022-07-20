@@ -5,6 +5,7 @@ import animalPainting from "../public/assets/personal/painting-animals.png";
 import mangoLeeze from "../public/assets/personal/doggo.png";
 import doggoSniff from "../public/assets/personal/doggo-sniff.png";
 import profilePic from "../public/assets/personal/bio-photo-side-sqr.png";
+import ExternalLink from "../components/global/ExternalLink";
 
 export default function About() {
   return (
@@ -15,12 +16,9 @@ export default function About() {
       <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
         <p className={globalStyles.font_styles.p}>
           <br />I am Mia Tang, a student at Carnegie Mellon University's{" "}
-          <a
-            className={globalStyles.font_styles.link}
-            href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html"
-          >
+          <ExternalLink href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">
             BXA program
-          </a>
+          </ExternalLink>
           , majoring in Computer Science and Design. My Design concentration is
           Communications Design.
           <br />
