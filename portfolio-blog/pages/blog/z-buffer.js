@@ -33,7 +33,10 @@ export default function ZBuffer() {
             </ul>
           </div>
         </div>
-        <Image src={frame1} />
+        <div className="py-12 border-b-2">
+          <Image src={frame1} />
+        </div>
+
         <div className="pt-12">
           <Tweet tweetId="1454168094151225356" />
         </div>

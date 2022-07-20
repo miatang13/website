@@ -31,7 +31,10 @@ export default function MipMap() {
             </ul>
           </div>
         </div>
-        <Image src={frame1} />
+        <div className="py-12 border-b-2">
+          <Image src={frame1} />
+        </div>
+
         <div className="pt-12">
           <Tweet tweetId="1446842946813370369" />
         </div>

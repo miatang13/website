@@ -45,7 +45,7 @@ export default function Blog() {
       className={globalStyles.div_styles.page_outer_wrapper}
       id="page-container"
     >
-      <div className={globalStyles.div_styles.page_inner_wrapper_wide}>
+      <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
         <Image src={HeroImg} />
 
         <div id="blog-posts-catalog" className="pb-12">
@@ -105,7 +105,7 @@ export default function Blog() {
               <h2 className={globalStyles.font_styles.h2 + " pb-6"}>
                 Topics Related To {key}
               </h2>
-              <div className="grid sm:grid-cols-4 gap-6 select-none">
+              <div className="grid sm:grid-cols-3 gap-12 select-none">
                 {grpBlogs[key].map((b) => (
                   <Link href={"/blog/" + b.page_path}>
                     <div

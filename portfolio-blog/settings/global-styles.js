@@ -12,6 +12,7 @@ const globalStyles = {
   div_styles: {
     page_inner_wrapper_narrow: "sm:w-8/12 place-self-center",
     page_inner_wrapper_wide: "sm:w-9/12 place-self-center",
+    page_inner_wrapper: "sm:w-8/12 place-self-center",
     page_outer_wrapper: "container w-screen grid",
   },
 };

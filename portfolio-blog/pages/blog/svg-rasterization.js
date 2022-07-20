@@ -7,7 +7,7 @@ import Image from "next/image";
 import blogData from "../../settings/blogs.json";
 import { Tweet } from "react-twitter-widgets";
 
-export default function Subdivison() {
+export default function SvgRaster() {
   return (
     <div
       className={globalStyles.div_styles.page_outer_wrapper}

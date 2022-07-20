@@ -4,7 +4,7 @@ import Image from "next/image";
 import blogData from "../../settings/blogs.json";
 import { Tweet } from "react-twitter-widgets";
 
-export default function SupperSampling() {
+export default function SuperSampling() {
   return (
     <div
       className={globalStyles.div_styles.page_outer_wrapper}
@@ -32,7 +32,10 @@ export default function SupperSampling() {
             </ul>
           </div>
         </div>
-        <Image src={frame1} />
+        <div className="py-12 border-b-2">
+          <Image src={frame1} />
+        </div>
+
         <div className="pt-12">
           <Tweet tweetId="1443930631554183168" />
         </div>
