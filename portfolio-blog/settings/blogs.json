@@ -1,4 +1,16 @@
 {
+  "image-compression": {
+    "covered": [
+      "Lossy & Lossless Compression",
+      "Color Quantization",
+      "Chroma Subsampling",
+      "DCT Transform"
+    ],
+    "title": "Image Compression",
+    "category": "Computer Graphics",
+    "date": "April 17, 2022",
+    "complete": true
+  },
   "ml-models": {
     "covered": ["Autoencoder", "Diffusion", "GAN", "Transformer"],
     "title": "Machine Learning Models",
@@ -6,43 +18,58 @@
     "date": "COMING"
   },
   "ml-basics": {
-    "covered": ["Gradient Descent", "Linear Regression", "Neural Network Overview"],
+    "covered": [
+      "Gradient Descent",
+      "Linear Regression",
+      "Neural Network Overview"
+    ],
     "title": "Machine Learning Basics",
     "category": "Machine Learning",
     "date": "July 8, 2022",
     "complete": true
-    
-  },
-  "image-compression": {
-    "covered": ["Lossy & Lossless Compression", "Color Quantization", "Chroma Subsampling", "DCT Transform"],
-    "title": "Image Compression",
-    "category": "Computer Graphics",
-    "date": "April 17, 2022",
-    "complete": true
   },
   "ray-tracing": {
-    "covered": ["Motivation", "Ray Equation", "Forward, Backward Ray Tracing", "General Ray Tracying Algorithm"],
+    "covered": [
+      "Motivation",
+      "Ray Equation",
+      "Forward, Backward Ray Tracing",
+      "General Ray Tracying Algorithm"
+    ],
     "title": "Ray Tracing",
     "category": "Computer Graphics",
     "date": "April 3, 2022",
     "complete": true
   },
   "render-pipeline": {
-    "covered":["Geometry Processing", "Rasterization", "Fragment Processing", "Frame Buffer Processing"],
+    "covered": [
+      "Geometry Processing",
+      "Rasterization",
+      "Fragment Processing",
+      "Frame Buffer Processing"
+    ],
     "title": "Rendering Pipeline",
     "category": "Computer Graphics",
     "date": "March 14, 2022",
     "complete": true
   },
   "subdivision-catmull-clark": {
-    "covered": ["Subdivision Surface","Refinement Schemes",  "Catmull-Clark Subdivison Algorithm" ],
+    "covered": [
+      "Subdivision Surface",
+      "Refinement Schemes",
+      "Catmull-Clark Subdivison Algorithm"
+    ],
     "title": "Subdivision & Catmull-Clark",
     "category": "Computer Graphics",
     "date": "March 6, 2022",
     "complete": true
   },
   "halfedge-mesh": {
-    "covered": ["Mesh Basics", "Halfedge Data Structure", "Halfedge in Action", "Manifold Mesh"],
+    "covered": [
+      "Mesh Basics",
+      "Halfedge Data Structure",
+      "Halfedge in Action",
+      "Manifold Mesh"
+    ],
     "title": "Halfedge Mesh Data Structure",
     "category": "Computer Graphics",
     "date": "Feb 20, 2022",
@@ -63,7 +90,12 @@
     "complete": true
   },
   "svg-rasterization": {
-    "covered": ["SVG Rasterization Pipeline", "Sampling", "Triangle Rasterization", "Supersampling"],
+    "covered": [
+      "SVG Rasterization Pipeline",
+      "Sampling",
+      "Triangle Rasterization",
+      "Supersampling"
+    ],
     "title": "SVG Rasterization",
     "category": "Computer Graphics",
     "date": "Jan 30, 2022",
@@ -84,35 +116,63 @@
     "complete": true
   },
   "mipmap": {
-    "covered": ["Texture Mapping", "Magnification", "Minification", "MIP Map Generation"],
+    "covered": [
+      "Texture Mapping",
+      "Magnification",
+      "Minification",
+      "MIP Map Generation"
+    ],
     "title": "Texture Mapping & MIP Map",
     "category": "Computer Graphics",
     "date": "Oct 9, 2021",
     "complete": true
   },
-  "super-sampling": { 
+  "super-sampling": {
     "covered": ["Supersampling", "Box Filter"],
     "title": "Supersampling",
-    "category":"Computer Graphics",
-    "date":"Oct 1, 2021",
+    "category": "Computer Graphics",
+    "date": "Oct 1, 2021",
     "complete": true
   },
   "zero-knowledge-proof": {
-    "covered":  [],
+    "covered": [
+      "Complexity Class I.P",
+      "Prover & Verifier",
+      "Turing Machine",
+      "Graph Isomorphism"
+    ],
     "title": "Zero Knowledge Proof",
     "category": "Theoretical CS",
-    "date": "Dec 4, 2020"
+    "date": "Dec 4, 2020",
+    "format": "Medium Post",
+    "external": true,
+    "link": "https://medium.com/@mia-tang/interactive-proof-ed5050e8e78d",
+    "complete": true
   },
   "hof": {
-    "covered":  [],
+    "covered": ["Map", "Filter", "Foldl", "Foldr"],
     "title": "Higher Order Functions",
     "category": "Functional Programming",
-    "date": "March 9, 2020"
+    "date": "March 9, 2020",
+    "format": "Medium Post",
+    "external": true,
+    "link": "https://medium.com/@mia-tang/a-note-on-higher-order-functions-191dc1a48ed4",
+    "complete": true
   },
   "functional-programming-manual": {
-    "covered":  [],
-    "title": "Expressions, Totality & Structural Induction",
+    "covered": [
+      "Expressions",
+      "Totality",
+      "Datatypes",
+      "Structural Induction",
+      "Functions Types"
+    ],
+    "title": "Functional Programming Manual",
     "category": "Functional Programming",
-    "date": "Feb 8, 2020"
+    "date": "Feb 8, 2020",
+    "format": "Medium Post",
+    "external": true,
+    "link": "https://medium.com/@mia-tang/functional-programming-manual-v-1-510ae8671b88",
+    "complete": true
   }
 }

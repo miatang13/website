@@ -26,7 +26,12 @@ export default function MipMap() {
           <div className="container">
             <ul className="list-disc">
               {blogData["mipmap"].covered.map((topic) => (
-                <li className={globalStyles.font_styles.p}>{topic}</li>
+                <li
+                  className={globalStyles.font_styles.p}
+                  key={"topic-" + topic}
+                >
+                  {topic}
+                </li>
               ))}
             </ul>
           </div>

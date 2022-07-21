@@ -1,5 +1,3 @@
-import Image from "next/image";
-import HappyElmo from "../public/assets/personal/penguin.gif";
 import globalStyles from "../settings/global-styles";
 
 export default function Home() {
@@ -10,9 +8,7 @@ export default function Home() {
       id="page-container"
     >
       <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
-        <Image src={HappyElmo} width={200} height={130} />
-
-        <h1 className={fontStyles.h1}>Hello there, I'm Mia.</h1>
+        <h1 className={fontStyles.h1}>Hello there, I am Mia Tang.</h1>
         <h2 className={fontStyles.h2 + " landing-text"}>
           I currently study Computer Science and Design at Carnegie Mellon's{" "}
           <a
@@ -22,9 +18,16 @@ export default function Home() {
             BXA
           </a>{" "}
           program with a interest in Computer Graphics. You can find my
-          professional work and personal blog on this website.
+          professional work and personal blog here.
         </h2>
       </div>
+      <style jsx>
+        {`
+          .landing-text {
+            font-weight: 500;
+          }
+        `}
+      </style>
     </div>
   );
 }

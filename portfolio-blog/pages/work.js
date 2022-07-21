@@ -9,27 +9,25 @@ import dogComputerGif from "../public/assets/personal/dog-computer.gif";
 export default function Work() {
   return (
     <div
-      className={globalStyles.div_styles.page_outer_wrapper + " h-screen"}
+      className={globalStyles.div_styles.page_outer_wrapper + " sm:h-screen"}
       id="page-container"
     >
       <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
-        <div className="pb-6">
-          <Image src={dogComputerGif} />
-          <h1 className={globalStyles.font_styles.h1}>
-            Projects are currently being updated ...{" "}
-          </h1>
-        </div>
+        <Image src={dogComputerGif} />
+        <h1 className={globalStyles.font_styles.h1}>
+          Projects are currently being updated.{" "}
+        </h1>
         <h4 className={globalStyles.font_styles.h4 + " work-text"}>
           At the moment, I am a software developer intern at{" "}
           <ExternalLink href="https://cesium.com/">Cesium</ExternalLink>
           . During the semester, I am a teaching assistant for the class 15-462
-          Computer Graphics at CMU. <br />
+          Computer Graphics. <br />
           <br /> In the past, I have met and collaborated with wonderful people
           as a research developer at{" "}
           <ExternalLink href="http://computational-creativity.org/">
             Computational Creativity Lab
           </ExternalLink>{" "}
-          led by Professor Kyuha Shim , developer intern at{" "}
+          led by Professor Kyuha Shim, developer intern at{" "}
           <ExternalLink href="https://www.jam3.com/">Jam3</ExternalLink>,
           research assistant at{" "}
           <ExternalLink href="https://penrose.cs.cmu.edu/ ">
@@ -47,6 +45,14 @@ export default function Work() {
           .
         </h4>
       </div>
+      <style jsx>
+        {`
+          .work-text,
+          a.external-link {
+            font-weight: 500;
+          }
+        `}
+      </style>
     </div>
   );
 }

@@ -20,13 +20,13 @@ export default function About() {
             BXA program
           </ExternalLink>
           , majoring in Computer Science and Design. My Design concentration is
-          Communications Design.
+          in Communications Design.
           <br />
           <br />
           Solving a problem that I couldn't solve yesterday gives me the
           greatest joy. I am an avid learner curious about a variety of topics
-          from within my field of academics study to the natural world, history,
-          and personal-development. The world is an intriguing system that I
+          from within my field of academic study to the natural world, history,
+          and personal development. The world is an intriguing system that I
           seek to understand. As long as I grow in any arbitrary axis of life on
           a daily basis, I find that to be extremely meaningful and rewarding.
           <br />
@@ -43,16 +43,16 @@ export default function About() {
           In my free time, I like to experiment with my interest in
           storytelling. I strive to find ways to explain difficult technical
           concepts. It all started in my sophomore year in college when I was a
-          teaching assistant for the class Functional Programming 15-150 at CMU.
-          It is an introductory class with students coming from different
-          majors, and naturally, there are students who come with a weaker
-          background in logical thinking and programming. To help my students, I
-          spent time thinking about how to explain complicated topics in an
-          accessible and engaging manner. I strongly believe in that the process
-          of acquiring new knowledge is one of the most exhilarating and
-          gratifying experience that everyone deserves to have. More
-          importantly, the repeated victories of conquering new intellectual
-          challenges help us become more confident and resilient.
+          teaching assistant for the class Functional Programming. It is an
+          introductory class with students coming from different majors, and
+          naturally, there are students who come with a weaker background in
+          logical thinking and programming. To help my students, I spent time
+          thinking about how to explain complicated topics in an accessible and
+          engaging manner. I strongly believe in that the process of acquiring
+          new knowledge is one of the most exhilarating and gratifying
+          experiences that everyone deserves to have. More importantly, the
+          repeated victories of conquering new intellectual challenges help us
+          become more confident and resilient.
           <br />
           <br /> Some fun facts: (1) My favorite artistic medium is oil on
           canvas.

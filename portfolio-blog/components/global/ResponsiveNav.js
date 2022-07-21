@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import globalStyles from "../../settings/global-styles";
+import { NavLink } from "./NavLink";
 
 export default function ResponsiveNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -14,7 +15,7 @@ export default function ResponsiveNav() {
   }, []);
 
   return (
-    <nav className="navigation container">
+    <nav className="navigation container select-none fixed top-0 left-0 right-0 z-40">
       <div
         className="logo hover:cursor-pointer"
         onClick={() => setIsNavExpanded(false)}
@@ -48,36 +49,33 @@ export default function ResponsiveNav() {
           onClick={() => setIsNavExpanded(false)}
         >
           <li className={isNavExpanded ? " " : "col-start-3"}>
-            <Link href="/work">
-              <span
-                className={globalStyles.font_styles.nav_bar + " text-right"}
-              >
-                work
-              </span>
-            </Link>
+            <NavLink href="/work" className="nav-link">
+              <span className={globalStyles.font_styles.nav_bar}>work</span>
+            </NavLink>
           </li>
           <li className="text-right">
-            <Link href="/blog">
+            <NavLink href="/blog" className="nav-link">
               <span className={globalStyles.font_styles.nav_bar}>blog</span>
-            </Link>
+            </NavLink>
           </li>
           <li className="text-right">
-            <Link href="/about">
+            <NavLink href="/about" className="nav-link">
               <span className={globalStyles.font_styles.nav_bar}>about</span>
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>
       <style jsx>
         {`
           .navigation {
-            position: relative;
+            // position: relative;
             display: flex;
             align-items: center;
             height: 60px;
             width: 100%;
-            padding: 0.5rem 0.5rem;
+            padding: 0.5rem 0rem;
             color: black;
+            background-color: rgb(255, 254, 249);
           }
 
           .navigation-menu {
@@ -135,10 +133,15 @@ export default function ResponsiveNav() {
               text-align: center;
               margin: 0;
               font-size: 3em;
+              padding: 0;
             }
 
             .navigation-menu.expanded ul {
               display: block;
+            }
+
+            .logo {
+              margin-left: 1.5rem;
             }
           }
         `}

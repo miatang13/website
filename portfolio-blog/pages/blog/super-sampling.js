@@ -27,7 +27,12 @@ export default function SuperSampling() {
           <div className="container">
             <ul className="list-disc">
               {blogData["super-sampling"].covered.map((topic) => (
-                <li className={globalStyles.font_styles.p}>{topic}</li>
+                <li
+                  className={globalStyles.font_styles.p}
+                  key={"topic-" + topic}
+                >
+                  {topic}
+                </li>
               ))}
             </ul>
           </div>
