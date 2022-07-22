@@ -73,7 +73,7 @@ export default function ResponsiveNav() {
             align-items: center;
             height: 60px;
             width: 100%;
-            padding: 0.5rem 0rem;
+            padding: 0.5rem 0.5rem;
             color: black;
             background-color: rgb(255, 254, 249);
           }
@@ -116,6 +116,10 @@ export default function ResponsiveNav() {
           @media screen and (max-width: 550px) {
             .hamburger {
               display: block;
+            }
+
+            .navigation {
+              padding: 0;
             }
 
             .navigation-menu ul {
