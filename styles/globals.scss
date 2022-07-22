@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Fira+Mono:wght@400;500;700&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255, 254, 249);
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+h1 {
+  display: block;
+  font-size: 2.2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.8em;
+  }
+}
+
+h2 {
+  display: block;
+  font-size: 1.8em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.33em;
+  }
+}
+
+h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.25em;
+  }
+}
+
+h4 {
+  display: block;
+  font-size: 1.3em;
+  margin-top: 1.17em;
+  margin-bottom: 1.17em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.13em;
+  }
+}
+
+p,
+span,
+li {
+  font-size: 1.1em;
+  @media only screen and (max-width: 768px) {
+    font-size: 1em;
+  }
+}
+
+a,
+span {
+  font-weight: 500;
+}
+
+a.nav-link.active {
+  background-color: rgb(253 230 138);
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-text,
+  .work-text {
+    font-size: 1.13em;
+    font-weight: 500;
+  }
+}
