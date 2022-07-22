@@ -13,12 +13,11 @@ export default function Home() {
         <div className="grid grid-cols-5">
           <Image src={gif} />
         </div>
-        <h1 className={fontStyles.h1}>hello there!</h1>
+        <h1 className={fontStyles.h1}>hello there.</h1>
 
         <h2 className={fontStyles.h2 + " landing-text"}>
           I'm Mia Tang, and I currently study Computer Science and Design at
-          Carnegie Mellon with a interest in Computer Graphics. You can find my
-          professional work and personal blog here.
+          Carnegie Mellon with a interest in Computer Graphics.
         </h2>
       </div>
       <style jsx>
