@@ -13,7 +13,7 @@ export default function AntiAliasing() {
       className={globalStyles.div_styles.page_outer_wrapper}
       id="page-container"
     >
-      <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
+      <div className={globalStyles.div_styles.page_inner_wrapper}>
         <div className="pb-12 border-b-2">
           <h1 className={globalStyles.font_styles.h1}>Anti-Aliasing</h1>
           <p className={globalStyles.font_styles.p}>

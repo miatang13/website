@@ -12,12 +12,12 @@ export default function Work() {
       className={globalStyles.div_styles.page_outer_wrapper + " sm:h-screen"}
       id="page-container"
     >
-      <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
-        <Image src={dogComputerGif} />
+      <div className={globalStyles.div_styles.page_inner_wrapper}>
+        {/* <Image src={dogComputerGif} /> */}
         <h1 className={globalStyles.font_styles.h1}>
           Projects are currently being updated.{" "}
         </h1>
-        <h4 className={globalStyles.font_styles.h4 + " work-text"}>
+        <p className={globalStyles.font_styles.p + " work-text"}>
           At the moment, I am a software developer intern at{" "}
           <ExternalLink href="https://cesium.com/">Cesium</ExternalLink>
           . During the semester, I am a teaching assistant for the class 15-462
@@ -43,13 +43,13 @@ export default function Work() {
             Iris Rover
           </ExternalLink>
           .
-        </h4>
+        </p>
       </div>
       <style jsx>
         {`
           .work-text,
           a.external-link {
-            font-weight: 500;
+            font-weight: 300;
           }
         `}
       </style>

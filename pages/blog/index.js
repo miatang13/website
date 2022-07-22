@@ -46,7 +46,7 @@ export default function Blog() {
       className={globalStyles.div_styles.page_outer_wrapper}
       id="page-container"
     >
-      <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
+      <div className={globalStyles.div_styles.page_inner_wrapper}>
         <Image src={HeroImg} />
 
         <div id="blog-posts-catalog" className="pb-12">

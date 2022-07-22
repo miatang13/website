@@ -11,10 +11,8 @@ const globalStyles = {
     btn: "font-mono font-black hover:cursor-pointer hover:bg-amber-200 px-2",
   },
   div_styles: {
-    page_inner_wrapper_narrow: "sm:w-8/12 place-self-center w-9/12",
-    page_inner_wrapper_wide: "sm:w-9/12 place-self-center w-9/12",
-    page_inner_wrapper: "sm:w-8/12 place-self-center w-9/12",
-    page_outer_wrapper: "container w-screen grid py-12",
+    page_inner_wrapper: "sm:container sm:w-8/12 w-9/12 sm:mx-auto",
+    page_outer_wrapper: "container w-screen grid py-12 place-content-center",
   },
 };
 

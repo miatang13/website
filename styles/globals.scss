@@ -19,7 +19,7 @@ body {
 
 h1 {
   display: block;
-  font-size: 2.2em;
+  font-size: 2em;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   margin-left: 0;
@@ -27,13 +27,13 @@ h1 {
   font-weight: bold;
 
   @media only screen and (max-width: 768px) {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 }
 
 h2 {
   display: block;
-  font-size: 1.8em;
+  font-size: 1.5em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
@@ -46,7 +46,7 @@ h2 {
 
 h3 {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
@@ -73,10 +73,7 @@ h4 {
 p,
 span,
 li {
-  font-size: 1.1em;
-  @media only screen and (max-width: 768px) {
-    font-size: 1em;
-  }
+  font-size: 1rem;
 }
 
 a,
@@ -93,5 +90,13 @@ a.nav-link.active {
   .work-text {
     font-size: 1.13em;
     font-weight: 500;
+  }
+}
+
+#page-container {
+  width: 85%;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
   }
 }

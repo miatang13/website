@@ -13,7 +13,7 @@ export default function About() {
       className={globalStyles.div_styles.page_outer_wrapper}
       id="page-container"
     >
-      <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
+      <div className={globalStyles.div_styles.page_inner_wrapper}>
         <p className={globalStyles.font_styles.p}>
           <br />I am Mia Tang, a student at Carnegie Mellon University's{" "}
           <ExternalLink href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">

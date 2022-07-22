@@ -7,7 +7,7 @@ export default function Home() {
       className={globalStyles.div_styles.page_outer_wrapper + " h-screen"}
       id="page-container"
     >
-      <div className={globalStyles.div_styles.page_inner_wrapper_narrow}>
+      <div className={globalStyles.div_styles.page_inner_wrapper}>
         <h1 className={fontStyles.h1}>Hello there, I am Mia Tang.</h1>
         <h2 className={fontStyles.h2 + " landing-text"}>
           I currently study Computer Science and Design at Carnegie Mellon's{" "}
