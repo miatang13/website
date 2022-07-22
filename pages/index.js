@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <h1 className={fontStyles.h1}>hello there.</h1>
 
-        <h2 className={fontStyles.h2 + " landing-text"}>
+        <h2 className={fontStyles.h2 + " landing-text desktop-narrow-text"}>
           I'm Mia Tang, and I currently study Computer Science and Design at
           Carnegie Mellon with a interest in Computer Graphics.
         </h2>

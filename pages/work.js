@@ -17,7 +17,11 @@ export default function Work() {
         <h1 className={globalStyles.font_styles.h1}>
           Projects are currently being updated.{" "}
         </h1>
-        <p className={globalStyles.font_styles.p + " work-text"}>
+        <h2
+          className={
+            globalStyles.font_styles.h2 + " work-text desktop-narrow-text"
+          }
+        >
           At the moment, I am a software developer intern at{" "}
           <ExternalLink href="https://cesium.com/">Cesium</ExternalLink>
           . During the semester, I am a teaching assistant for the class 15-462
@@ -43,7 +47,7 @@ export default function Work() {
             Iris Rover
           </ExternalLink>
           .
-        </p>
+        </h2>
       </div>
       <style jsx>
         {`

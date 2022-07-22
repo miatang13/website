@@ -73,7 +73,7 @@ h4 {
 p,
 span,
 li {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 a,
@@ -88,13 +88,34 @@ a.nav-link.active {
 @media only screen and (max-width: 768px) {
   .landing-text,
   .work-text {
-    font-size: 1.13em;
+    font-size: 1em;
     font-weight: 500;
+  }
+
+  a.nav-link.active {
+    background: none;
+    text-decoration: underline;
+  }
+
+  a.nav-link span {
+    font-size: 1em;
+  }
+
+  .work-text {
+    font-size: 1em;
   }
 }
 
 #page-container {
   width: 85%;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.desktop-narrow-text {
+  width: 70%;
 
   @media only screen and (max-width: 768px) {
     width: 100%;
