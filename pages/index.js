@@ -10,7 +10,7 @@ export default function Home() {
       id="page-container"
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-6">
           <Image src={gif} />
         </div>
         <h1 className={fontStyles.h1}>hello there.</h1>
