@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { thumbnail_base_path, thumbnail_filename } from "../settings/path";
 import globalStyles from "../settings/global-styles";
-import ExternalLink from "../components/global/ExternalLink";
 import dogComputerGif from "../public/assets/personal/dog-computer.gif";
+import StyledExternalLink from "../components/global/StyledExternalLink";
 
 export default function Work() {
   return (
@@ -23,29 +23,33 @@ export default function Work() {
           }
         >
           At the moment, I am a software developer intern at{" "}
-          <ExternalLink href="https://cesium.com/">Cesium</ExternalLink>
+          <StyledExternalLink href="https://cesium.com/">
+            Cesium
+          </StyledExternalLink>
           . During the semester, I am a teaching assistant for the class 15-462
           Computer Graphics. <br />
           <br /> In the past, I have met and collaborated with wonderful people
           as a research developer at{" "}
-          <ExternalLink href="http://computational-creativity.org/">
+          <StyledExternalLink href="http://computational-creativity.org/">
             Computational Creativity Lab
-          </ExternalLink>{" "}
+          </StyledExternalLink>{" "}
           led by Professor Kyuha Shim, developer intern at{" "}
-          <ExternalLink href="https://www.jam3.com/">Jam3</ExternalLink>,
-          research assistant at{" "}
-          <ExternalLink href="https://penrose.cs.cmu.edu/ ">
+          <StyledExternalLink href="https://www.jam3.com/">
+            Jam3
+          </StyledExternalLink>
+          , research assistant at{" "}
+          <StyledExternalLink href="https://penrose.cs.cmu.edu/ ">
             Penrose
-          </ExternalLink>
+          </StyledExternalLink>
           , developer & brand designer at{" "}
-          <ExternalLink href="https://design.cmu.edu/content/school-design-debuts-new-logo-designed-students">
+          <StyledExternalLink href="https://design.cmu.edu/content/school-design-debuts-new-logo-designed-students">
             CMU School of Design
-          </ExternalLink>
+          </StyledExternalLink>
           , and frontend engineer at{" "}
-          <ExternalLink href="https://irislunarrover.space/">
+          <StyledExternalLink href="https://irislunarrover.space/">
             {" "}
             Iris Rover
-          </ExternalLink>
+          </StyledExternalLink>
           .
         </h2>
       </div>

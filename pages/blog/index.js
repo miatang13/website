@@ -6,6 +6,7 @@ import Link from "next/link";
 import HeroImg from "../../public/assets/Illustration/thumbnail.png";
 import ExternalLink from "../../components/global/ExternalLink";
 import LinkWrapper from "../../components/global/LinkWrapper";
+import StyledExternalLink from "../../components/global/StyledExternalLink";
 
 export default function Blog() {
   const [showTopicsCatalog, setShowTopic] = useState(false);
@@ -143,10 +144,10 @@ export default function Blog() {
           <h1 className={globalStyles.font_styles.h1}>Browse All</h1>
           <p className={globalStyles.font_styles.p}>
             You can download full resolution exports in this{" "}
-            <ExternalLink href="https://drive.google.com/drive/folders/1jAJKYetzfq08U6fnZSKrEloT1Ye-ukWo?usp=sharing">
+            <StyledExternalLink href="https://drive.google.com/drive/folders/1jAJKYetzfq08U6fnZSKrEloT1Ye-ukWo?usp=sharing">
               {" "}
               google drive folder
-            </ExternalLink>
+            </StyledExternalLink>
             .
           </p>
           {Object.keys(grpBlogs).map((key, index) => (
