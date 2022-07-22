@@ -141,6 +141,14 @@ export default function Blog() {
 
         <div id="blog-posts-all" className="pb-12">
           <h1 className={globalStyles.font_styles.h1}>Browse All</h1>
+          <p className={globalStyles.font_styles.p}>
+            You can download full resolution exports in this{" "}
+            <ExternalLink href="https://drive.google.com/drive/folders/1jAJKYetzfq08U6fnZSKrEloT1Ye-ukWo?usp=sharing">
+              {" "}
+              google drive folder
+            </ExternalLink>
+            .
+          </p>
           {Object.keys(grpBlogs).map((key, index) => (
             <div className="pr-6 pb-12 border-b-2">
               <h2 className={globalStyles.font_styles.h2 + " sm:pb-6 pb-3"}>

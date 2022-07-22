@@ -27,8 +27,8 @@ export default function About() {
           greatest joy. I am an avid learner curious about a variety of topics
           from within my field of academic study to the natural world, history,
           and personal development. The world is an intriguing system that I
-          seek to understand. As long as I grow in any arbitrary axis of life on
-          a daily basis, I find that to be extremely meaningful and rewarding.
+          seek to understand. I find consistent growth in any field to be
+          extremely meaningful and rewarding.
           <br />
           <br />
           On the more professional side of things, I enjoy software development,
