@@ -49,7 +49,7 @@ export default function Work() {
         {`
           .work-text,
           a.external-link {
-            font-weight: 300;
+            font-weight: 400;
           }
         `}
       </style>
