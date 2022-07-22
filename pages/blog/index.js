@@ -85,10 +85,10 @@ export default function Blog() {
                               globalStyles.font_styles.p +
                               (b.complete
                                 ? " underline decoration-amber-300 hover:bg-amber-200"
-                                : "")
+                                : " text-slate-400")
                             }
                           >
-                            {b.title}
+                            {b.title} {b.complete ? " " : "(COMING SOON)"}
                           </span>
 
                           {showTopicsCatalog && (
@@ -202,7 +202,8 @@ export default function Blog() {
         <div id="blog-posts-paragraph" className="pb-6">
           <p className={globalStyles.font_styles.p}>
             If there are any topics you wish to see me cover, feel free to send
-            me an email. 📮
+            me an email. <br />
+            <br /> 📮: miatang13[at]gmail[dot]com
           </p>
         </div>
       </div>
