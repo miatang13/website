@@ -1,5 +1,5 @@
 import globalStyles from "../settings/global-styles";
-import gif from "../public/random/elmo-wave.gif";
+import gif from "../public/random/penguin.gif";
 import Image from "next/image";
 
 export default function Home() {
