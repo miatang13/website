@@ -23,36 +23,33 @@ export default function About() {
           in Communications Design.
           <br />
           <br />
-          Solving a problem that I couldn't solve yesterday gives me the
-          greatest joy. I am an avid learner curious about a variety of topics
-          from within my field of academic study to the natural world, history,
-          and personal development. The world is an intriguing system that I
-          seek to understand. I find consistent growth in any field to be
-          extremely meaningful and rewarding.
+          Solving a problem I couldn't solve yesterday gives me the greatest
+          joy. I'm an avid learner and seek to understand the world through
+          varied perspectives. The two schools of thought I follow closely are
+          Stoicism and Kaizen.
           <br />
           <br />
-          On the more professional side of things, I enjoy software development,
-          in particular, I wish to work with graphics systems. My education in
-          Computer Science equips me to take on exciting technical challenges.
-          On top of making things work, I am passionate about beautiful
-          typography, colors, and motion. Hence, I treasure professional
-          environments where I get to collaborate with designers as a developer,
-          or work on projects developing tools for the creative community.
+          Professionally speaking, I enjoy software development and wish to work
+          with graphics systems. My education in Computer Science equips me to
+          take on challenges. On top of that, I grew up being passionate about
+          typography, colors, and motion. Therefore, I treasure professional
+          environments where I get to collaborate with designers as a developer
+          or work on projects building tools for the creative community.
           <br />
           <br />
           In my free time, I like to experiment with my interest in
-          storytelling. I strive to find ways to explain difficult technical
-          concepts. It all started in my sophomore year in college when I was a
-          teaching assistant for the class Functional Programming. It is an
-          introductory class with students coming from different majors, and
-          naturally, there are students who come with a weaker background in
-          logical thinking and programming. To help my students, I spent time
-          thinking about how to explain complicated topics in an accessible and
-          engaging manner. I strongly believe in that the process of acquiring
-          new knowledge is one of the most exhilarating and gratifying
-          experiences that everyone deserves to have. More importantly, the
-          repeated victories of conquering new intellectual challenges help us
-          become more confident and resilient.
+          storytelling. In particular, I strive to find ways to explain complex
+          technical concepts. It all started in my sophomore year when I was a
+          teaching assistant for a Functional Programming class. It is an
+          introductory class with students from different majors, and naturally,
+          there are students with a weaker background in logical thinking and
+          programming. To help my students, I spent time thinking about how to
+          explain complicated topics in an accessible and engaging manner. I
+          strongly believe in that the process of acquiring new knowledge is one
+          of the most exhilarating and gratifying experiences that everyone
+          deserves to have. More importantly, the repeated victories of
+          conquering new intellectual challenges help us become more confident
+          and resilient.
           <br />
           <br /> Some fun facts: (1) My favorite artistic medium is oil on
           canvas.
@@ -62,7 +59,8 @@ export default function About() {
           <Image src={animalPainting} />
         </div>
         <p className={globalStyles.font_styles.p}>
-          I have two adorable corgis, Mango and Leeze.
+          (2) I have two adorable corgis, Mango and Leeze. They live in the
+          beautiful British Columbia, Canada, with my lovely family.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-4 py-6">
