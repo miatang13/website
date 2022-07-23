@@ -18,7 +18,13 @@ export default function MLModels() {
           <h1 className={globalStyles.font_styles.h1}>
             {blogData["ml-models"].title}
           </h1>
-          <p className={globalStyles.font_styles.p}>FILL THIS OUT</p>
+          <p className={globalStyles.font_styles.p}>
+            Have you wondered about the magic behind generative AI art tools
+            like DALL·E and Midjourney? Seeing the outputs is fun, and learning
+            the algorithms can be even more rewarding. Today we look at 4
+            popular Machine Learning models — Autoencoder, Transformer,
+            Diffusion Model, and GAN.
+          </p>
         </div>
         <div className="py-12 border-b-2">
           <h4 className={globalStyles.font_styles.h4}>Topics Covered</h4>

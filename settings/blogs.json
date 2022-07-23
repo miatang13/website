@@ -15,7 +15,8 @@
     "covered": ["Autoencoder", "Diffusion", "GAN", "Transformer"],
     "title": "Machine Learning Models",
     "category": "Machine Learning",
-    "date": "COMING"
+    "date": "July 23, 2022",
+    "complete": true
   },
   "ml-basics": {
     "covered": [
