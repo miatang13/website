@@ -47,9 +47,9 @@ export default function MLModels() {
           <Image src={frame3} />
           <Image src={frame4} />
         </div>
-        {/* <div className="pt-12">
-          <Tweet tweetId="1545518922509713411" />
-        </div> */}
+        <div className="pt-12">
+          <Tweet tweetId="1550863605519847425" />
+        </div>
       </div>
     </div>
   );
