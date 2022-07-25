@@ -4,7 +4,7 @@ export default function ProjectHeader(props) {
   return (
     <div className="pb-12" id="work-page-header">
       <h2 className={globalStyles.font_styles.h2 + " text-slate-600"}>
-        {props.page_data.landing.title} -
+        {props.page_data.landing.title.toUpperCase()} -
       </h2>
       <h1 className={globalStyles.font_styles.h1}>
         {props.page_data.landing.subtitle}

@@ -36,7 +36,7 @@ export default function Jam3() {
           className={globalStyles.div_styles.work_project_container}
           id="work-main-content"
         >
-          <h2>Overview</h2>
+          <h2 className={globalStyles.font_styles.h2}>Overview</h2>
           <div>
             <p className={globalStyles.font_styles.p}>
               In a team of 6 interns from the Design and Development department

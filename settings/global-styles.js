@@ -13,7 +13,7 @@ const globalStyles = {
   },
   div_styles: {
     page_inner_wrapper: "sm:container sm:w-8/12 w-9/12 sm:mx-auto",
-    page_outer_wrapper: "container w-screen grid py-12 place-content-center",
+    page_outer_wrapper: "container w-screen grid pt-12 place-content-center",
     work_project_container:
       "grid sm:grid-cols-2 auto-rows-max sm:gap-12 gap-6 py-12",
   },

@@ -85,12 +85,12 @@ export default function Work() {
                         (p.complete ? " bg-gradient-to-r from-yellow-100" : " ")
                       }
                     >
-                      {p.landing.title}
+                      {p.landing.title.toUpperCase()}
                     </h2>
                     <p
                       className={globalStyles.font_styles.p + " text-slate-400"}
                     >
-                      {p.skills}
+                      {p.role} | {p.skills}
                     </p>
                   </div>
                 </LinkWrapper>

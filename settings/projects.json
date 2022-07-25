@@ -13,6 +13,19 @@
     "show": true
   },
   {
+    "path": "CCL",
+    "page_name": "/ccl",
+    "landing": {
+      "title": "Computational Creativity Lab",
+      "subtitle": "Full-Stack Development at CCL"
+    },
+    "timeline": "Sep 2021 — May 2022",
+    "project_summary": "3D virtual party space for your favorite music playlist",
+    "skills": "WebGL, React, MongoDB",
+    "role": "Undergrad Developer Researcher",
+    "show": true
+  },
+  {
     "path": "Jam3",
     "page_name": "/jam3-internship",
     "landing": {
