@@ -1,2 +1,62 @@
 [
+  {
+    "path": "Cesium",
+    "page_name": "/cesium-internship",
+    "landing": {
+      "title": "cesium internship",
+      "subtitle": "Unreal Engine Development for Geospatial Data"
+    },
+    "timeline": "June - August 2022",
+    "project_summary": "Unreal game engine development to unleash the power of 3D data",
+    "skills": "Unreal Engine, C++",
+    "role": "Software Developer Intern",
+    "show": true
+  },
+  {
+    "path": "Jam3",
+    "page_name": "/jam3-internship",
+    "landing": {
+      "title": "jam3 internship",
+      "subtitle": "Creative Development at Jam3"
+    },
+    "timeline": "June — August 2021",
+    "project_summary": "3D virtual party space for your favorite music playlist",
+    "skills": "WebGL, React, Socket.io",
+    "role": "Software Developer Intern",
+    "show": true
+  },
+  {
+    "path": "AsOne",
+    "page_name": "/as-one-narrative-game",
+    "landing": {
+      "title": "as one",
+      "subtitle": "Exploration Game About Salmon Run"
+    },
+    "timeline": "October - December 2021",
+    "project_summary": "Indie narrative game where you explore as a tiny fish",
+    "skills": "Unity, Blender, Inky"
+  },
+  {
+    "path": "SoD",
+    "page_name": "/cmu-sod-rebrand",
+    "landing": {
+      "title": "rebrand cmu school of design",
+      "subtitle": "Playful Campaign for Prospective Students"
+    },
+    "timeline": "January — August 2021",
+    "project_summary": "Campaign to diversify future applicants",
+    "skills": "Cargo CMS, Javascript, Figma"
+  },
+  {
+    "path": "Bechdel",
+    "abv_name": "Data Visualization",
+    "page_name": "/bechdel-directors-data-vis",
+    "landing": {
+      "title": "the (bech)ideal",
+      "subtitle": "Interactive Data Visualization of Movie Directors"
+    },
+    "timeline": "October — December 2021",
+    "project_summary": "Data visualization of Bechdel approved film directors",
+    "skills": "WebGL, React, NYT API, RapidAPI"
+  }
 ]

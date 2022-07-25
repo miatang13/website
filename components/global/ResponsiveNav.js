@@ -49,12 +49,12 @@ export default function ResponsiveNav() {
           onClick={() => setIsNavExpanded(false)}
         >
           <li className={isNavExpanded ? " " : "col-start-3"}>
-            <NavLink href="/work" className="nav-link">
+            <NavLink href="/work" className="nav-link" exact>
               <span className={globalStyles.font_styles.nav_bar}>work</span>
             </NavLink>
           </li>
           <li className="text-right">
-            <NavLink href="/blog" className="nav-link">
+            <NavLink href="/blog" className="nav-link" exact>
               <span className={globalStyles.font_styles.nav_bar}>blog</span>
             </NavLink>
           </li>

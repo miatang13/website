@@ -2,9 +2,7 @@ import { useEffect, useState } from "react";
 import globalStyles from "../../settings/global-styles";
 import blogData from "../../settings/blogs.json";
 import Image from "next/image";
-import Link from "next/link";
-import HeroImg from "../../public/assets/Illustration/thumbnail.png";
-import ExternalLink from "../../components/global/ExternalLink";
+import HeroImg from "../../public/blog/thumbnail.png";
 import LinkWrapper from "../../components/global/LinkWrapper";
 import StyledExternalLink from "../../components/global/StyledExternalLink";
 
