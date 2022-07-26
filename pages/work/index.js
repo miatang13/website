@@ -66,7 +66,8 @@ export default function Work() {
                   <div className="p-3 bg-gradient-to-r from-yellow-50 hover:from-yellow-100 hover:to-orange-100 outline outline-offset-2 outline-orange-50">
                     <p
                       className={
-                        globalStyles.font_styles.p + " text-slate-400  text-sm"
+                        globalStyles.font_styles.p +
+                        " text-slate-400  text-sm pb-3"
                       }
                     >
                       {p.timeline}
@@ -88,7 +89,9 @@ export default function Work() {
                       {p.landing.title.toUpperCase()}
                     </h2>
                     <p
-                      className={globalStyles.font_styles.p + " text-slate-400"}
+                      className={
+                        globalStyles.font_styles.p + " text-slate-400 text-sm"
+                      }
                     >
                       {p.role} | {p.skills}
                     </p>
