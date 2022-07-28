@@ -194,7 +194,7 @@ export default function Blog() {
                         {b.covered.map((topic, index) => (
                           <span className="inline-flex text-sm">
                             {topic}
-                            {index !== b.covered.length - 1 && ", "}{" "}
+                            {index !== b.covered.length - 1 && ", "} &nbsp;
                           </span>
                         ))}
                       </p>
