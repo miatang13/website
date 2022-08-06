@@ -16,8 +16,8 @@ export default function Home() {
         <h1 className={fontStyles.h1}>hello there.</h1>
 
         <h2 className={fontStyles.h2 + " landing-text desktop-narrow-text"}>
-          I'm Mia Tang, and I currently study Computer Science and Design at
-          Carnegie Mellon with a interest in Computer Graphics.
+          I'm Mia Tang, a student at Carnegie Mellon studying Computer Science
+          and Design with a interest in Computer Graphics.
         </h2>
       </div>
       <style jsx>
