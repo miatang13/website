@@ -30,14 +30,14 @@ export default function About() {
           <br />
           <br />
           Professionally speaking, I enjoy software development and wish to work
-          with graphics systems. I care and value typography, colors, and motion
-          of designed artifacts. Growing up, I only dreamt of becoming an artist
-          or a designer, but that took a turn when I was introduced to
-          programming at CMU. Even though now I wish to work as an engineer, I
-          still very much adore and love to be part of the creative community.
-          Therefore, I treasure professional environments where I get to
-          collaborate with creatives as a developer or work on projects building
-          tools for artists and designers.
+          with graphics systems. I cherish the typography, colors, and motion of
+          designed artifacts. Growing up, I only dreamt of becoming an artist or
+          a designer, but that took a turn when I was introduced to programming
+          at CMU. Even though now I wish to work as an engineer, I still very
+          much adore and love to be part of the creative community. Therefore, I
+          treasure professional environments where I get to collaborate with
+          creatives as a developer or work on projects building tools for
+          artists and designers.
           <br />
           <br />
           In my free time, I like to experiment with my interest in
