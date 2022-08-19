@@ -22,14 +22,14 @@ export default function Work() {
             globalStyles.font_styles.h2 + " work-text desktop-narrow-text"
           }
         >
-          At the moment, I am a software developer intern at{" "}
+          During the semester, I am a teaching assistant for the class 15-462
+          Computer Graphics at CMU. <br />
+          <br /> In the past, I have met and collaborated with wonderful people
+          as a software developer intern at{" "}
           <StyledExternalLink href="https://cesium.com/">
             Cesium
           </StyledExternalLink>
-          . During the semester, I am a teaching assistant for the class 15-462
-          Computer Graphics. <br />
-          <br /> In the past, I have met and collaborated with wonderful people
-          as a research developer at{" "}
+          , research developer at{" "}
           <StyledExternalLink href="http://computational-creativity.org/">
             Computational Creativity Lab
           </StyledExternalLink>{" "}

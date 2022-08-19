@@ -31,7 +31,7 @@ export default function Cesium() {
               Cesium for Unreal Plugin
             </StyledExternalLink>
             , which builds on open standards and APIs, allowing Unreal Engine
-            users to create virtual worlds with massic 3D data.
+            users to create virtual worlds with massive 3D data.
           </p>
         </div>
       </div>

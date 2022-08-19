@@ -17,7 +17,7 @@ export default function Home() {
 
         <h2 className={fontStyles.h2 + " landing-text desktop-narrow-text"}>
           I'm Mia Tang, a student at Carnegie Mellon studying Computer Science
-          and Design with a interest in Computer Graphics.
+          and Design with an interest in Computer Graphics.
         </h2>
       </div>
       <style jsx>

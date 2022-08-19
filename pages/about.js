@@ -25,7 +25,7 @@ export default function About() {
           <br />
           Solving a problem I couldn't solve yesterday gives me the greatest
           joy. I'm an avid learner and seek to understand the world through
-          varied perspectives. The two schools of thought I follow closely are
+          various perspectives. The two schools of thought I follow closely are
           Stoicism and Kaizen.
           <br />
           <br />
