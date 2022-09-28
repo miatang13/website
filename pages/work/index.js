@@ -22,10 +22,8 @@ export default function Work() {
             globalStyles.font_styles.h2 + " work-text desktop-narrow-text"
           }
         >
-          During the semester, I am a teaching assistant for the class 15-462
-          Computer Graphics at CMU. <br />
-          <br /> In the past, I have met and collaborated with wonderful people
-          as a software developer intern at{" "}
+          In the past, I have met and collaborated with wonderful people as a
+          software developer intern at{" "}
           <StyledExternalLink href="https://cesium.com/">
             Cesium
           </StyledExternalLink>
@@ -33,7 +31,11 @@ export default function Work() {
           <StyledExternalLink href="http://computational-creativity.org/">
             Computational Creativity Lab
           </StyledExternalLink>{" "}
-          led by Professor Kyuha Shim, developer intern at{" "}
+          led by Professor{" "}
+          <StyledExternalLink href="https://kyuhashim.com/">
+            Kyuha Shim
+          </StyledExternalLink>{" "}
+          , developer intern at{" "}
           <StyledExternalLink href="https://www.jam3.com/">
             Jam3
           </StyledExternalLink>
@@ -52,7 +54,7 @@ export default function Work() {
           .
         </h2>
         <div
-          className="grid gap-4 sm:grid-cols-2 pt-12"
+          className="grid gap-4 sm:grid-cols-1 pt-12"
           id="work-gallery-wrapper"
         >
           {projectByOrder.map((projectName) => {

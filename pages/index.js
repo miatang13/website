@@ -1,6 +1,7 @@
 import globalStyles from "../settings/global-styles";
 import gif from "../public/random/penguin.gif";
 import Image from "next/image";
+import StyledExternalLink from "../components/global/StyledExternalLink";
 
 export default function Home() {
   const fontStyles = globalStyles.font_styles;
@@ -16,8 +17,16 @@ export default function Home() {
         <h1 className={fontStyles.h1}>hello there.</h1>
 
         <h2 className={fontStyles.h2 + " landing-text desktop-narrow-text"}>
-          I'm Mia Tang, a student at Carnegie Mellon studying Computer Science
-          and Design with an interest in Computer Graphics.
+          I am Mia Tang, a student at Carnegie Mellon studying Computer Science
+          and Design with interests in computer graphics, vision, and generative
+          visual systems. <br /> <br />
+          Currently, I am part of the Generative Intelligence Lab at CMU led by
+          Professor{" "}
+          <StyledExternalLink href="https://www.cs.cmu.edu/~junyanz/">
+            {" "}
+            Jun-Yan Zhu
+          </StyledExternalLink>
+          , and a teaching assistant for the class Computer Graphics.
         </h2>
       </div>
       <style jsx>
