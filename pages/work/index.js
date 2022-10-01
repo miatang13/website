@@ -22,7 +22,7 @@ export default function Work() {
             globalStyles.font_styles.h2 + " work-text desktop-narrow-text"
           }
         >
-          In the past, I have met and collaborated with wonderful people as a
+          In the past, I have met and collaborated with amazing people as a
           software developer intern at{" "}
           <StyledExternalLink href="https://cesium.com/">
             Cesium
@@ -34,7 +34,7 @@ export default function Work() {
           led by Professor{" "}
           <StyledExternalLink href="https://kyuhashim.com/">
             Kyuha Shim
-          </StyledExternalLink>{" "}
+          </StyledExternalLink>
           , developer intern at{" "}
           <StyledExternalLink href="https://www.jam3.com/">
             Jam3

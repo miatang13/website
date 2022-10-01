@@ -17,16 +17,17 @@ export default function Home() {
         <h1 className={fontStyles.h1}>hello there.</h1>
 
         <h2 className={fontStyles.h2 + " landing-text desktop-narrow-text"}>
-          I am Mia Tang, a student at Carnegie Mellon studying Computer Science
-          and Design with interests in computer graphics, vision, and generative
-          visual systems. <br /> <br />
-          Currently, I am part of the Generative Intelligence Lab at CMU led by
-          Professor{" "}
+          I'm Mia, a student at Carnegie Mellon studying Computer Science and
+          Design with interests in computer graphics, vision, and generative
+          visual systems. <br />
+          <br />
+          👩‍💻 At the moment, I'm delighted to work with wonderful people at the
+          Generative Intelligence Lab led by Professor{" "}
           <StyledExternalLink href="https://www.cs.cmu.edu/~junyanz/">
-            {" "}
             Jun-Yan Zhu
           </StyledExternalLink>
-          , and a teaching assistant for the class Computer Graphics.
+          . 🧑‍🏫 Teaching is also a passion of mine. You can find my
+          educational work in the blog page.
         </h2>
       </div>
       <style jsx>
