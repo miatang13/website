@@ -1,9 +1,7 @@
 import projects from "../../settings/projects.json";
-import Link from "next/link";
 import Image from "next/image";
 import { thumbnail_base_path, thumbnail_filename } from "../../settings/path";
 import globalStyles from "../../settings/global-styles";
-import dogComputerGif from "../../public/assets/personal/dog-computer.gif";
 import StyledExternalLink from "../../components/global/StyledExternalLink";
 import LinkWrapper from "../../components/global/LinkWrapper";
 import projectByOrder from "../../settings/project-order";

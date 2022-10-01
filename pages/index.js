@@ -26,7 +26,8 @@ export default function Home() {
           <StyledExternalLink href="https://www.cs.cmu.edu/~junyanz/">
             Jun-Yan Zhu
           </StyledExternalLink>
-          . 🧑‍🏫 Teaching is also a passion of mine. You can find my
+          .<br />
+          <br /> 🧑‍🏫 Teaching is also a passion of mine. You can find my
           educational work in the blog page.
         </h2>
       </div>
