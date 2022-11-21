@@ -49,8 +49,8 @@ export default function ResponsiveNav() {
           onClick={() => setIsNavExpanded(false)}
         >
           <li className={isNavExpanded ? " " : "col-start-3"}>
-            <NavLink href="/work" className="nav-link" exact>
-              <span className={globalStyles.font_styles.nav_bar}>work</span>
+            <NavLink href="/" className="nav-link" exact>
+              <span className={globalStyles.font_styles.nav_bar}>home</span>
             </NavLink>
           </li>
           <li className="text-right">

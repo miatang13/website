@@ -47,6 +47,11 @@ export default function Blog() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <Image src={HeroImg} />
+        <p className="text-xs bg-slate-200 pt-1">
+          👩‍💻 Hi there. Thank you for checking in. I'm currently taking a short
+          break on producing new materials due to my busy schedule. I will be
+          back soon! (~ December 2022) ❤️
+        </p>
 
         <div id="blog-posts-catalog" className="pb-12">
           <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
