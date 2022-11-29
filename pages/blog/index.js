@@ -47,7 +47,7 @@ export default function Blog() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <Image src={HeroImg} />
-        <p className="text-xs bg-slate-200 pt-1">
+        <p className="text-base bg-slate-200 pt-1">
           👩‍💻 Hi there. Thank you for checking in. I'm currently taking a short
           break on producing new materials due to my busy schedule. I will be
           back soon! (~ December 2022) ❤️

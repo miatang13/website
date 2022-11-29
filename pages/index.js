@@ -24,13 +24,14 @@ export default function Work() {
           Design with interests in computer graphics, vision, and generative
           visual systems. <br />
           <br />
-          👩‍💻 At the moment, I'm delighted to work with wonderful people at the
-          Generative Intelligence Lab under Professor{" "}
+          👩‍💻 Currently, I'm advised by Professor{" "}
           <StyledExternalLink href="https://www.cs.cmu.edu/~junyanz/">
             Jun-Yan Zhu
-          </StyledExternalLink> {" "}
-           on generative models. <br />
-          <br /> 🧑‍🏫 Teaching is also a passion of mine. You can find my
+          </StyledExternalLink> as I work with wonderful people at the
+          Generative Intelligence Lab. <br />
+          <br /> 
+          
+          🧑‍🏫 Teaching is also a passion of mine. You can find my
           educational work in the blog page.
 
           <br />
