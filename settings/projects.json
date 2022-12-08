@@ -1,5 +1,18 @@
 [
   {
+    "path": "LayoutGeneration",
+    "page_name": "/layout-generation",
+    "landing": {
+      "title": "Layout Generation",
+      "subtitle": ""
+    },
+    "timeline": "December 2022",
+    "project_summary": "Layout generation for 2D Documents",
+    "skills": "Python, PyTorch, OpenCV",
+    "role": "",
+    "show": false
+  },
+  {
     "path": "Cesium",
     "page_name": "/cesium-internship",
     "landing": {
