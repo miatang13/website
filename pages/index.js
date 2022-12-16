@@ -17,7 +17,7 @@ export default function Work() {
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <h4
           className={
-            globalStyles.font_styles.h2 + " work-text desktop-narrow-text"
+            globalStyles.font_styles.h2 + " work-text pb-4"
           }
         >
           👋 Hi there! I'm Mia, a student at Carnegie Mellon studying Computer Science and
@@ -68,7 +68,7 @@ export default function Work() {
           .
         </h4>
         <div
-          className="grid gap-4 sm:grid-cols-1 pt-12"
+          className="grid gap-4 md:grid-cols-2 pt-12 border-t-2"
           id="work-gallery-wrapper"
         >
           {projectByOrder.map((projectName) => {
@@ -79,7 +79,7 @@ export default function Work() {
             return (
               p.show && (
                 <LinkWrapper href={"work" + p.page_name} key={p.path}>
-                  <div className="p-3 bg-gradient-to-r from-yellow-50 hover:from-yellow-100 hover:to-orange-100 outline outline-offset-2 outline-orange-50">
+                  <div className="h-full p-3 bg-gradient-to-r from-yellow-50 hover:from-yellow-100 hover:to-orange-100 outline outline-offset-2 outline-orange-50">
                     <p
                       className={
                         globalStyles.font_styles.p +
@@ -102,14 +102,14 @@ export default function Work() {
                         (p.complete ? " bg-gradient-to-r from-yellow-100" : " ")
                       }
                     >
-                      {p.landing.title.toUpperCase()}
+                      {p.landing.title}
                     </h3>
                     <p
                       className={
                         globalStyles.font_styles.p + " text-slate-400 text-sm"
                       }
                     >
-                      {p.role} | {p.skills}
+                    {p.skills}
                     </p>
                   </div>
                 </LinkWrapper>
