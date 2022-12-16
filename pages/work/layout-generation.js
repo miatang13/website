@@ -15,6 +15,7 @@ import patent_epoch0_sample from "../../public/assets/Layout/results/method1/pat
 import financial_epoch10_sample from "../../public/assets/Layout/results/method1/financial_epoch10_sample.png";
 import sci_epoch10_sample from "../../public/assets/Layout/results/method1/sci_epoch10_sample.png";
 import patent_epoch10_sample from "../../public/assets/Layout/results/method1/patent_epoch10_sample.png";
+import epochs from "../../public/assets/Layout/results/method1/epochs.gif";
 import financial_metrics from "../../public/assets/Layout/results/method1/financial_metrics.png";
 import patent_metrics from "../../public/assets/Layout/results/method1/patent_metrics.png";
 import sci_metrics from "../../public/assets/Layout/results/method1/sci_metrics.png";
@@ -308,6 +309,13 @@ export default function LayoutGeneration() {
               </div>
             </div>
             <FullLinePadded />
+            <div class='grid place-content-center'>
+              {" "}
+              <Image src={epochs} />
+            </div>
+
+            <FullLinePadded />
+
             <h3 class='col-span-full'> Method 1 Evaluations </h3>
             <span>Financial Report</span>
             <Image src={financial_metrics} />
@@ -353,7 +361,7 @@ export default function LayoutGeneration() {
                 <Image src={patent_epoch10_sample2} />
               </div>
             </div>
-            <FullLinePadded />
+
             <h3 class='col-span-full'> Method 2 Evaluation </h3>
             <Image src={method2_metrics} />
             <FullLinePadded />
