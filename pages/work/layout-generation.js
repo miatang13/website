@@ -365,7 +365,10 @@ export default function LayoutGeneration() {
             <Image src={baseline_eval} />
             <FullLinePadded />
             <h3>Comparison Results</h3>
-            <Image src={comparison_plot} />
+            <div class='md:px-20'>
+              <Image src={comparison_plot} />
+            </div>
+
             <FullLinePadded />
 
             <h3 className={globalStyles.font_styles.h3}>Result Discussion</h3>
