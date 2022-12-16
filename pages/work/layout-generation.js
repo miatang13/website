@@ -1,8 +1,9 @@
 import Image from "next/image";
 import globalStyles from "../../settings/global-styles";
-import hero_img from "../../public/assets/Layout/thumbnail.png";
+import hero_img from "../../public/assets/Layout/hero-image.png";
 import StyledExternalLink from "../../components/global/StyledExternalLink";
 import FullLine from "../../components/project/FullLine";
+import FullLinePadded from "../../components/project/FullLinePadded";
 
 // IMAGES
 import layoutArchitecture from "../../public/assets/Layout/layout-architecture.png";
@@ -56,7 +57,7 @@ export default function LayoutGeneration() {
               <h3 className={globalStyles.font_styles.h3}>
                 <b>team</b> <br />
               </h3>
-              <p className={globalStyles.font_styles.p}> Tom Chen </p>
+              <p className={globalStyles.font_styles.p}> Tom (Honghao) Chen </p>
             </div>
           </div>
         </div>
@@ -80,19 +81,24 @@ export default function LayoutGeneration() {
               train on as the standard for good design, so we want to minimize
               the difference between our predicted grounding boxes of each
               graphical element with respect to their ground truth grounding box
-              positions. The layout problem is impactful as graphic design is
-              detrimental to delivering crucial information ranging from a
-              kindergarten concert to a protest gathering. Without efficient and
-              functional graphic design that involves an intuitive assemblage of
-              graphical elements, people will be easily misguided and confused
-              by the abundance of information, and miss out on important data
-              they should take away. There are graphic designers who excel at
+              positions.
+              <br />
+              <br />
+              The layout problem is impactful as graphic design is detrimental
+              to delivering crucial information ranging from a kindergarten
+              concert to a protest gathering. Without efficient and functional
+              graphic design that involves an intuitive assemblage of graphical
+              elements, people will be easily misguided and confused by the
+              abundance of information, and miss out on important data they
+              should take away. There are graphic designers who excel at
               building these visual systems and can do them in an efficient and
               effective manner, but the demand for good design simply outnumber
               the quantity of designers we have, and sadly, good designs often
               go unnoticed and unappreciated because of how smoothly they
-              integrate with our environment, both physical and digital. To
-              create actual change within any environment, the delivery of
+              integrate with our environment, both physical and digital.
+              <br />
+              <br />
+              To create actual change within any environment, the delivery of
               compelling information is key to inform, influence, and inspire.
               Just like what Kofi Annan once said,{" "}
               <i>Knowledge is power. Information is liberating. </i> Education
@@ -101,7 +107,7 @@ export default function LayoutGeneration() {
               significant factor of a good design, therefore the layout problem
               is worth exploring, studying, and advancing.
             </p>
-            <FullLine />
+            <FullLinePadded />
 
             {/* Section 2 */}
             <h2 className={globalStyles.font_styles.h2}>2. Related Work</h2>
@@ -110,7 +116,7 @@ export default function LayoutGeneration() {
               graphic layouts of a document. Its major downside is that it was
               really difficult to train.
             </p>
-            <div class='py-4'>
+            <div class='py-4 md:px-20'>
               <Image src={layoutArchitecture} />
             </div>
             <p>
@@ -128,29 +134,32 @@ export default function LayoutGeneration() {
               different number of labeled layout elements, when we convert
               layout elements into a sequence, we pad the sequence into the max
               possible length within the dataset and add a special ⟨bos⟩ token
-              in the beginning and ⟨eos⟩ token in the end. The mapping rule of a
-              layout element to a chunk in the sequence is as followed: for a
-              layout element that is a certain category (e.g. text) c, has a
-              top-left coordinate (x, y) within the source image and has a width
-              w and height h, it is mapped to a chunk in the sequence as (...,
-              &lt;c&gt;, x, y, h, w, …) where &lt;c&gt; is a numerical encoding
-              of the layout element category. It is worth mentioning that Layout
-              Transformer does not account for the document genre. As
-              illustrated in the architecture, the document genre information is
-              not used in the training or testing phase. Therefore, the original
-              Layout Transformer is insufficient to achieve a single model that
-              was to generate varied layout styles based on a specific document
-              genre.
+              in the beginning and ⟨eos⟩ token in the end. <br />
+              <br />
+              The mapping rule of a layout element to a chunk in the sequence is
+              as followed: for a layout element that is a certain category (e.g.
+              text) c, has a top-left coordinate (x, y) within the source image
+              and has a width w and height h, it is mapped to a chunk in the
+              sequence as (..., &lt;c&gt;, x, y, h, w, …) where &lt;c&gt; is a
+              numerical encoding of the layout element category. It is worth
+              mentioning that Layout Transformer does not account for the
+              document genre. As illustrated in the architecture, the document
+              genre information is not used in the training or testing phase.
+              Therefore, the original Layout Transformer is insufficient to
+              achieve a single model that was to generate varied layout styles
+              based on a specific document genre.
             </p>
-            <FullLine />
+            <FullLinePadded />
 
             {/* Section 3 */}
             <h2 className={globalStyles.font_styles.h2}>3. Methods</h2>
-            <h3 className={globalStyles.font_styles.h3}>Method 1</h3>
+            <h3 className={globalStyles.font_styles.h3}>
+              Method 1: Model Per Genre
+            </h3>
             <p>
-              Method 1: Separate genre training The first approach we attempted
-              was to train a separate model for every genre. For model training,
-              we used the DocLayNet dataset that contain 6 types of documents,
+              Separate genre training The first approach we attempted was to
+              train a separate model for every genre. For model training, we
+              used the DocLayNet dataset that contain 6 types of documents,
               including financial reports, scientific articles, patents,
               government tenders, laws and regulations and manuals. Each
               document sample was human-labeled with the document type and
@@ -168,7 +177,9 @@ export default function LayoutGeneration() {
             <div class='py-4'>
               <Image src={Pipeline} />
             </div>
-            <h3 className={globalStyles.font_styles.h3}>Method 2</h3>
+            <h3 className={globalStyles.font_styles.h3}>
+              Method 2: Joint Genre
+            </h3>
             <p>
               Joint genre training The second approach we attempted was to train
               a single model that could understand the difference among document
@@ -176,32 +187,34 @@ export default function LayoutGeneration() {
               As explained in the Related Work: Layout Transformer section, the
               original Layout Transformer was insufficient to allow us to train
               a single model that generates varied layout styles based on a
-              specific document genre. To fill the gap, we tried encoding the
-              document genre information into the sequences by modifying the
-              mapping rule from layout elements to sequence chunks. For a layout
-              element that is from document genre (e.g. patents) g, is a certain
-              category (e.g. text) c, has a top-left coordinate (x, y) within
-              the source image and has a width w and height h, it is mapped to a
-              chunk in the sequence as (..., &lt;g&gt;, &lt;c&gt;, x, y, h, w,
-              …) where &lt;c&gt; is a numerical encoding of the layout element
-              category and &lt;g&gt; is an encoding of the document genre. We
-              applied this mapping rule to the training and validation datasets.
-              The intuition was that during training, each sequence that
-              represented all layout elements from one document sample would
-              contain the same genre id, so all chunks in the sequence ought to
-              have the same value for &lt;g&gt;. The model would learn to
-              predict the correct genre id based on the previous sequence
-              elements. In the validation phase, we input a short sequence that
-              consists of 7 tokens: ( &lt;bos&gt;, &lt;g&gt;, &lt;c&gt;, x, y,
-              h, w), which included the information about one layout element to
-              the model and evaluated the resultant sequence predicted by the
-              model based on the input sequence. Based on the genre id &lt;g&gt;
-              encoded in the input sequence, a well-trained model under our
-              approach ought to predict following layout elements that had the
-              same genre id and holistically shared the inherent style unique to
-              the document genre.
+              specific document genre. <br />
+              <br />
+              To fill the gap, we tried encoding the document genre information
+              into the sequences by modifying the mapping rule from layout
+              elements to sequence chunks. For a layout element that is from
+              document genre (e.g. patents) g, is a certain category (e.g. text)
+              c, has a top-left coordinate (x, y) within the source image and
+              has a width w and height h, it is mapped to a chunk in the
+              sequence as (..., &lt;g&gt;, &lt;c&gt;, x, y, h, w, …) where
+              &lt;c&gt; is a numerical encoding of the layout element category
+              and &lt;g&gt; is an encoding of the document genre. We applied
+              this mapping rule to the training and validation datasets. The
+              intuition was that during training, each sequence that represented
+              all layout elements from one document sample would contain the
+              same genre id, so all chunks in the sequence ought to have the
+              same value for &lt;g&gt;. The model would learn to predict the
+              correct genre id based on the previous sequence elements. In the
+              validation phase, we input a short sequence that consists of 7
+              tokens: ( &lt;bos&gt;, &lt;g&gt;, &lt;c&gt;, x, y, h, w), which
+              included the information about one layout element to the model and
+              evaluated the resultant sequence predicted by the model based on
+              the input sequence. Based on the genre id &lt;g&gt; encoded in the
+              input sequence, a well-trained model under our approach ought to
+              predict following layout elements that had the same genre id and
+              holistically shared the inherent style unique to the document
+              genre.
             </p>
-            <FullLine />
+            <FullLinePadded />
 
             {/* Section 4 */}
             <h2 className={globalStyles.font_styles.h2}>
@@ -228,31 +241,34 @@ export default function LayoutGeneration() {
               metrics to further compare our approaches: coverage, overlap and
               intra-category intersection over union (IoU). Coverage and overlap
               were mentioned in the Layout Transformer paper, and we introduced
-              the third metric, intra-category IoU. Coverage means the
-              percentage of canvas covered by the layout elements. We calculated
-              coverage for an image by computing the union area of all layout
-              bounding boxes in an image and dividing the union area by the
-              total image area. An effective model should produce layout
-              elements that have similar coverage as the ground truth layout
-              elements. Overlap represents the IoU of layout elements in an
-              image. In the DocLayNet dataset, elements do not overlap with each
-              other, so overlap ideally should be small. We calculated overlap
-              for one image by summing up pairwise IoU between layout bounding
-              boxes in the image. Intra-category IoU aims to estimate the model
-              accuracy in predicting the layout elements that match the ground
-              truth elements in their locations in the image and their
-              categories. To compute this metric, we took each prediction layout
-              box for an image, found its closest ground truth box with the same
-              category, and calculated their IoU. Finally, we average these
-              IoU’s to get the Intra-category IoU value for the image. The
-              computational complexity for these metrics was non-trivial. The
-              coverage computation for N rectangles was O(N<sup>3</sup>); the
-              overlap computation for N rectangles was O(N<sup>2</sup>). Given
-              the time constraint for our project, we sampled 16 documents from
-              the validation dataset and computed average values of these three
-              evaluation metrics on these samples every 2 epochs.
+              the third metric, intra-category IoU. <br />
+              <br />
+              Coverage means the percentage of canvas covered by the layout
+              elements. We calculated coverage for an image by computing the
+              union area of all layout bounding boxes in an image and dividing
+              the union area by the total image area. An effective model should
+              produce layout elements that have similar coverage as the ground
+              truth layout elements. Overlap represents the IoU of layout
+              elements in an image. In the DocLayNet dataset, elements do not
+              overlap with each other, so overlap ideally should be small. We
+              calculated overlap for one image by summing up pairwise IoU
+              between layout bounding boxes in the image. Intra-category IoU
+              aims to estimate the model accuracy in predicting the layout
+              elements that match the ground truth elements in their locations
+              in the image and their categories. To compute this metric, we took
+              each prediction layout box for an image, found its closest ground
+              truth box with the same category, and calculated their IoU.
+              Finally, we average these IoU’s to get the Intra-category IoU
+              value for the image. <br />
+              <br />
+              The computational complexity for these metrics was non-trivial.
+              The coverage computation for N rectangles was O(N<sup>3</sup>);
+              the overlap computation for N rectangles was O(N<sup>2</sup>).
+              Given the time constraint for our project, we sampled 16 documents
+              from the validation dataset and computed average values of these
+              three evaluation metrics on these samples every 2 epochs.
             </p>
-            <FullLine />
+            <FullLinePadded />
 
             {/* Section 5 */}
             <h2 className={globalStyles.font_styles.h2}>5. Results</h2>
@@ -269,10 +285,10 @@ export default function LayoutGeneration() {
                 <Image src={sci_epoch0_sample} />
               </div>
               <div>
-                <span>Patents</span>
+                <span class='block'>Patents</span>
                 <Image src={patent_epoch0_sample} />
               </div>
-              <FullLine />
+              <FullLinePadded />
               <h3 class='col-span-full'>
                 {" "}
                 Method 1 Generated Output Epoch 10{" "}
@@ -286,60 +302,60 @@ export default function LayoutGeneration() {
                 <Image src={sci_epoch10_sample} />
               </div>
               <div>
-                <span>Patents</span>
+                <span class='block'>Patents</span>
                 <Image src={patent_epoch10_sample} />
               </div>
             </div>
-            <FullLine />
+            <FullLinePadded />
             <h3 class='col-span-full'> Method 1 Evaluations </h3>
             <span>Financial Report</span>
             <Image src={financial_metrics} />
-            <FullLine />
+            <FullLinePadded />
             <span>Scientific Articles</span>
             <Image src={sci_metrics} />
-            <FullLine />
+            <FullLinePadded />
             <span>Patents</span>
             <Image src={patent_metrics} />
-            <FullLine />
+            <FullLinePadded />
 
             <div class='grid md:grid-cols-3'>
               <h3 class={globalStyles.font_styles.h3 + " col-span-full"}>
                 Method 2 Generated Output Epoch 0{" "}
               </h3>
               <div>
-                <span>Financial Report</span>
+                <span class='block'>Financial Report</span>
                 <Image src={financial_epoch0_sample2} />
               </div>
               <div>
-                <span>Scientific Articles</span>
+                <span class='block'>Scientific Articles</span>
                 <Image src={sci_epoch0_sample2} />
               </div>
               <div>
-                <span>Patents</span>
+                <span class='block'>Patents</span>
                 <Image src={patent_epoch0_sample2} />
               </div>
-              <FullLine />
+              <FullLinePadded />
               <h3 class='col-span-full'>
                 {" "}
                 Method 2 Generated Output Epoch 10{" "}
               </h3>
               <div>
-                <span>Financial Report</span>
+                <span class='block'>Financial Report</span>
                 <Image src={financial_epoch10_sample2} />
               </div>
               <div>
-                <span>Scientific Articles</span>
+                <span class='block'>Scientific Articles</span>
                 <Image src={sci_epoch10_sample2} />
               </div>
               <div>
-                <span>Patents</span>
+                <span class='block'>Patents</span>
                 <Image src={patent_epoch10_sample2} />
               </div>
             </div>
-            <FullLine />
+            <FullLinePadded />
             <h3 class='col-span-full'> Method 2 Evaluation </h3>
             <Image src={method2_metrics} />
-            <FullLine />
+            <FullLinePadded />
 
             <h3>Baseline Evaluation</h3>
             <p>
@@ -347,10 +363,13 @@ export default function LayoutGeneration() {
               from Method 1 to predict.
             </p>
             <Image src={baseline_eval} />
-            <FullLine />
+            <FullLinePadded />
             <h3>Comparison Results</h3>
-            <Image src={comparison_plot} />
-            <FullLine />
+            <div class='md:px-20'>
+              <Image src={comparison_plot} />
+            </div>
+
+            <FullLinePadded />
 
             <h3 className={globalStyles.font_styles.h3}>Result Discussion</h3>
             <p>
