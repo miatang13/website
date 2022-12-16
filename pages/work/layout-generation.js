@@ -1,6 +1,6 @@
 import Image from "next/image";
 import globalStyles from "../../settings/global-styles";
-import hero_img from "../../public/assets/Layout/thumbnail.png";
+import hero_img from "../../public/assets/Layout/hero-image.png";
 import StyledExternalLink from "../../components/global/StyledExternalLink";
 import FullLine from "../../components/project/FullLine";
 
@@ -110,7 +110,7 @@ export default function LayoutGeneration() {
               graphic layouts of a document. Its major downside is that it was
               really difficult to train.
             </p>
-            <div class='py-4'>
+            <div class='py-4 md:px-20'>
               <Image src={layoutArchitecture} />
             </div>
             <p>
