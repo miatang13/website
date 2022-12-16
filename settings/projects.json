@@ -1,17 +1,31 @@
 [
   {
-    "path": "Layout",
-    "page_name": "/layout-generation",
+    "path": "3DP",
+    "page_name": "/3D-photography-LDI",
     "landing": {
-      "title": "Layout Generation (Coming Soon)",
+      "title": "3D Photography with Layered Depth Inpainting (Coming Soon)",
       "subtitle": ""
     },
-    "timeline": "December 2022",
-    "project_summary": "Layout generation for 2D Documents",
+    "timeline": "December 2022 - Present",
+    "project_summary": "3D photo",
     "skills": "Python, PyTorch, OpenCV",
     "role": "",
     "show": true,
-    "no-click": true
+    "no-click": true,
+    "gif-thumbnail": true
+  },
+  {
+    "path": "Layout",
+    "page_name": "/layout-generation",
+    "landing": {
+      "title": "Layout Generation",
+      "subtitle": ""
+    },
+    "timeline": "December 2022 - Present",
+    "project_summary": "Layout generation for 2D Documents",
+    "skills": "Python, PyTorch, OpenCV",
+    "role": "",
+    "show": true
   },
   {
     "path": "Cesium",
