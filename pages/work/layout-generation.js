@@ -67,7 +67,7 @@ export default function LayoutGeneration() {
           className='grid place-items-center auto-rows-max py-12 '
           id='work-main-content'
         >
-          <div class='w-4/5'>
+          <div class='sm:w-4/5'>
             {/* Section 1 */}
             <h2 className={globalStyles.font_styles.h2}>1. Introduction</h2>
             <p>
@@ -118,6 +118,7 @@ export default function LayoutGeneration() {
             </p>
             <div class='py-4 md:px-20'>
               <Image src={layoutArchitecture} />
+              <span>Layout Transformer Architecture</span>
             </div>
             <p>
               Different from previous approaches, <b>Layout Transformer</b>{" "}
@@ -276,15 +277,15 @@ export default function LayoutGeneration() {
               <h3 class={globalStyles.font_styles.h3 + " col-span-full"}>
                 Method 1 Generated Output Epoch 0{" "}
               </h3>
-              <div>
+              <div class='grid place-content-center'>
                 <span>Financial Report</span>
                 <Image src={financial_epoch0_sample} />
               </div>
-              <div>
+              <div class='grid place-content-center'>
                 <span>Scientific Articles</span>
                 <Image src={sci_epoch0_sample} />
               </div>
-              <div>
+              <div class='grid place-content-center'>
                 <span class='block'>Patents</span>
                 <Image src={patent_epoch0_sample} />
               </div>
@@ -293,15 +294,15 @@ export default function LayoutGeneration() {
                 {" "}
                 Method 1 Generated Output Epoch 10{" "}
               </h3>
-              <div>
+              <div class='grid place-content-center'>
                 <span>Financial Report</span>
                 <Image src={financial_epoch10_sample} />
               </div>
-              <div>
+              <div class='grid place-content-center'>
                 <span>Scientific Articles</span>
                 <Image src={sci_epoch10_sample} />
               </div>
-              <div>
+              <div class='grid place-content-center'>
                 <span class='block'>Patents</span>
                 <Image src={patent_epoch10_sample} />
               </div>
@@ -322,15 +323,15 @@ export default function LayoutGeneration() {
               <h3 class={globalStyles.font_styles.h3 + " col-span-full"}>
                 Method 2 Generated Output Epoch 0{" "}
               </h3>
-              <div>
+              <div class='grid place-content-center'>
                 <span class='block'>Financial Report</span>
                 <Image src={financial_epoch0_sample2} />
               </div>
-              <div>
+              <div class='grid place-content-center'>
                 <span class='block'>Scientific Articles</span>
                 <Image src={sci_epoch0_sample2} />
               </div>
-              <div>
+              <div class='grid place-content-center'>
                 <span class='block'>Patents</span>
                 <Image src={patent_epoch0_sample2} />
               </div>
@@ -339,15 +340,15 @@ export default function LayoutGeneration() {
                 {" "}
                 Method 2 Generated Output Epoch 10{" "}
               </h3>
-              <div>
+              <div class='grid place-content-center'>
                 <span class='block'>Financial Report</span>
                 <Image src={financial_epoch10_sample2} />
               </div>
-              <div>
+              <div class='grid place-content-center'>
                 <span class='block'>Scientific Articles</span>
                 <Image src={sci_epoch10_sample2} />
               </div>
-              <div>
+              <div class='grid place-content-center'>
                 <span class='block'>Patents</span>
                 <Image src={patent_epoch10_sample2} />
               </div>
@@ -381,7 +382,7 @@ export default function LayoutGeneration() {
               after the first epoch to 0.26 after tenth epoch. We compared the
               effectiveness of Method 1 and 2 by setting up the following
               experiment: to evaluate either method, we randomly sampled 16
-              documents – 10 from the financial report validation set, 3 from
+              documents - 10 from the financial report validation set, 3 from
               the scientific article validation set and 3 from the patent
               validation set. We sampled more financial report samples because
               there are significantly more financial reports in the DocLayNet
@@ -398,6 +399,58 @@ export default function LayoutGeneration() {
               demonstrated its ability to generate document layouts that have a
               similar coverage as the ground truth layouts.
             </p>
+
+            <FullLinePadded />
+            {/* Section 6 */}
+            <h2 className={globalStyles.font_styles.h2}>6. Conclusion</h2>
+            <p>
+              This project allowed us to explore the various stages in training
+              a deep model. We started with attempting to make our own dataset
+              from scratch, detecting ground truth bounding boxes on book
+              covers, which failed due to the lack of time and resources. Then
+              we learned about working with existing datasets and how to use
+              them for our own purposes. We truly came to the realization of the
+              importance of data in deep learning. <br />
+              <br />
+              Overall, we are really happy with where we ended up as of now. We
+              were able to have worthy results and we learned a lot about the
+              process of training a deep learning model. Moreover, we got to
+              experiment with something new that we came up with, and we are
+              decently surprised by the performance of our joint genre method.
+              We are excited to continue this project in the future.
+            </p>
+
+            <FullLinePadded />
+            <h2 className={globalStyles.font_styles.h2}>7. References</h2>
+            <ul class='list-disc'>
+              <li>
+                {" "}
+                <StyledExternalLink href='https://github.com/DS4SD/DocLayNet'>
+                  {" "}
+                  DocLayNet: A Dataset for Document Layout Analysis
+                </StyledExternalLink>
+              </li>
+              <li>
+                {" "}
+                <StyledExternalLink href='https://github.com/kampta/DeepLayout'>
+                  DeepLayout Repo
+                </StyledExternalLink>
+              </li>
+              <li>
+                {" "}
+                <StyledExternalLink href='https://arxiv.org/abs/2006.14615'>
+                  LayoutTransformer: Layout Generation and Completion with
+                  Self-attention
+                </StyledExternalLink>
+              </li>
+              <li>
+                <StyledExternalLink href='https://arxiv.org/abs/1901.06767'>
+                  Layout Generation and Completion with Self-attention
+                  LayoutGAN: Generating Graphic Layouts with Wireframe
+                  Discriminators
+                </StyledExternalLink>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
