@@ -269,7 +269,7 @@ export default function LayoutGeneration() {
                 <Image src={sci_epoch0_sample} />
               </div>
               <div>
-                <span>Patents</span>
+                <span class='block'>Patents</span>
                 <Image src={patent_epoch0_sample} />
               </div>
               <FullLine />
@@ -286,7 +286,7 @@ export default function LayoutGeneration() {
                 <Image src={sci_epoch10_sample} />
               </div>
               <div>
-                <span>Patents</span>
+                <span class='block'>Patents</span>
                 <Image src={patent_epoch10_sample} />
               </div>
             </div>
@@ -307,15 +307,15 @@ export default function LayoutGeneration() {
                 Method 2 Generated Output Epoch 0{" "}
               </h3>
               <div>
-                <span>Financial Report</span>
+                <span class='block'>Financial Report</span>
                 <Image src={financial_epoch0_sample2} />
               </div>
               <div>
-                <span>Scientific Articles</span>
+                <span class='block'>Scientific Articles</span>
                 <Image src={sci_epoch0_sample2} />
               </div>
               <div>
-                <span>Patents</span>
+                <span class='block'>Patents</span>
                 <Image src={patent_epoch0_sample2} />
               </div>
               <FullLine />
@@ -324,15 +324,15 @@ export default function LayoutGeneration() {
                 Method 2 Generated Output Epoch 10{" "}
               </h3>
               <div>
-                <span>Financial Report</span>
+                <span class='block'>Financial Report</span>
                 <Image src={financial_epoch10_sample2} />
               </div>
               <div>
-                <span>Scientific Articles</span>
+                <span class='block'>Scientific Articles</span>
                 <Image src={sci_epoch10_sample2} />
               </div>
               <div>
-                <span>Patents</span>
+                <span class='block'>Patents</span>
                 <Image src={patent_epoch10_sample2} />
               </div>
             </div>
