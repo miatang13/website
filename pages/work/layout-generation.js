@@ -1,17 +1,35 @@
 import Image from "next/image";
 import globalStyles from "../../settings/global-styles";
 import hero_img from "../../public/assets/Layout/thumbnail.png";
-import projects_data from "../../settings/projects.json";
-import projectByOrder from "../../settings/project-order";
 import StyledExternalLink from "../../components/global/StyledExternalLink";
 import FullLine from "../../components/project/FullLine";
+
+// IMAGES
 import layoutArchitecture from "../../public/assets/Layout/layout-architecture.png";
 import Pipeline from "../../public/assets/Layout/pipeline.png";
+// Method 1
+import financial_epoch0_sample from "../../public/assets/Layout/results/method1/financial_epoch0_sample.png";
+import sci_epoch0_sample from "../../public/assets/Layout/results/method1/sci_epoch0_sample.png";
+import patent_epoch0_sample from "../../public/assets/Layout/results/method1/patent_epoch0_sample.png";
+import financial_epoch10_sample from "../../public/assets/Layout/results/method1/financial_epoch10_sample.png";
+import sci_epoch10_sample from "../../public/assets/Layout/results/method1/sci_epoch10_sample.png";
+import patent_epoch10_sample from "../../public/assets/Layout/results/method1/patent_epoch10_sample.png";
+import financial_metrics from "../../public/assets/Layout/results/method1/financial_metrics.png";
+import patent_metrics from "../../public/assets/Layout/results/method1/patent_metrics.png";
+import sci_metrics from "../../public/assets/Layout/results/method1/sci_metrics.png";
+// Method 2
+import financial_epoch0_sample2 from "../../public/assets/Layout/results/method2/financial_epoch0_sample.png";
+import sci_epoch0_sample2 from "../../public/assets/Layout/results/method2/sci_epoch0_sample.png";
+import patent_epoch0_sample2 from "../../public/assets/Layout/results/method2/patent_epoch0_sample.png";
+import financial_epoch10_sample2 from "../../public/assets/Layout/results/method2/financial_epoch10_sample.png";
+import sci_epoch10_sample2 from "../../public/assets/Layout/results/method2/sci_epoch10_sample.png";
+import patent_epoch10_sample2 from "../../public/assets/Layout/results/method2/patent_epoch10_sample.png";
+import method2_metrics from "../../public/assets/Layout/results/method2/metrics.png";
+
+import baseline_eval from "../../public/assets/Layout/results/Baseline_metric_single_step_eval.png";
+import comparison_plot from "../../public/assets/Layout/results/comparison_plot.png";
 
 const page_key = "LayoutGeneration";
-
-const project_idx = projectByOrder.indexOf(page_key);
-const page_data = projects_data[project_idx];
 
 export default function LayoutGeneration() {
   return (
@@ -83,6 +101,7 @@ export default function LayoutGeneration() {
               significant factor of a good design, therefore the layout problem
               is worth exploring, studying, and advancing.
             </p>
+            <FullLine />
 
             {/* Section 2 */}
             <h2 className={globalStyles.font_styles.h2}>2. Related Work</h2>
@@ -123,6 +142,7 @@ export default function LayoutGeneration() {
               was to generate varied layout styles based on a specific document
               genre.
             </p>
+            <FullLine />
 
             {/* Section 3 */}
             <h2 className={globalStyles.font_styles.h2}>3. Methods</h2>
@@ -181,6 +201,7 @@ export default function LayoutGeneration() {
               same genre id and holistically shared the inherent style unique to
               the document genre.
             </p>
+            <FullLine />
 
             {/* Section 4 */}
             <h2 className={globalStyles.font_styles.h2}>
@@ -225,15 +246,112 @@ export default function LayoutGeneration() {
               category, and calculated their IoU. Finally, we average these
               IoU’s to get the Intra-category IoU value for the image. The
               computational complexity for these metrics was non-trivial. The
-              coverage computation for N rectangles was O(N3); the overlap
-              computation for N rectangles was O(N2). Given the time constraint
-              for our project, we sampled 16 documents from the validation
-              dataset and computed average values of these three evaluation
-              metrics on these samples every 2 epochs.
+              coverage computation for N rectangles was O(N<sup>3</sup>); the
+              overlap computation for N rectangles was O(N<sup>2</sup>). Given
+              the time constraint for our project, we sampled 16 documents from
+              the validation dataset and computed average values of these three
+              evaluation metrics on these samples every 2 epochs.
             </p>
+            <FullLine />
 
             {/* Section 5 */}
             <h2 className={globalStyles.font_styles.h2}>5. Results</h2>
+            <div class='grid md:grid-cols-3'>
+              <h3 class={globalStyles.font_styles.h3 + " col-span-full"}>
+                Method 1 Generated Output Epoch 0{" "}
+              </h3>
+              <div>
+                <span>Financial Report</span>
+                <Image src={financial_epoch0_sample} />
+              </div>
+              <div>
+                <span>Scientific Articles</span>
+                <Image src={sci_epoch0_sample} />
+              </div>
+              <div>
+                <span>Patents</span>
+                <Image src={patent_epoch0_sample} />
+              </div>
+              <FullLine />
+              <h3 class='col-span-full'>
+                {" "}
+                Method 1 Generated Output Epoch 10{" "}
+              </h3>
+              <div>
+                <span>Financial Report</span>
+                <Image src={financial_epoch10_sample} />
+              </div>
+              <div>
+                <span>Scientific Articles</span>
+                <Image src={sci_epoch10_sample} />
+              </div>
+              <div>
+                <span>Patents</span>
+                <Image src={patent_epoch10_sample} />
+              </div>
+            </div>
+            <FullLine />
+            <h3 class='col-span-full'> Method 1 Evaluations </h3>
+            <span>Financial Report</span>
+            <Image src={financial_metrics} />
+            <FullLine />
+            <span>Scientific Articles</span>
+            <Image src={sci_metrics} />
+            <FullLine />
+            <span>Patents</span>
+            <Image src={patent_metrics} />
+            <FullLine />
+
+            <div class='grid md:grid-cols-3'>
+              <h3 class={globalStyles.font_styles.h3 + " col-span-full"}>
+                Method 2 Generated Output Epoch 0{" "}
+              </h3>
+              <div>
+                <span>Financial Report</span>
+                <Image src={financial_epoch0_sample2} />
+              </div>
+              <div>
+                <span>Scientific Articles</span>
+                <Image src={sci_epoch0_sample2} />
+              </div>
+              <div>
+                <span>Patents</span>
+                <Image src={patent_epoch0_sample2} />
+              </div>
+              <FullLine />
+              <h3 class='col-span-full'>
+                {" "}
+                Method 2 Generated Output Epoch 10{" "}
+              </h3>
+              <div>
+                <span>Financial Report</span>
+                <Image src={financial_epoch10_sample2} />
+              </div>
+              <div>
+                <span>Scientific Articles</span>
+                <Image src={sci_epoch10_sample2} />
+              </div>
+              <div>
+                <span>Patents</span>
+                <Image src={patent_epoch10_sample2} />
+              </div>
+            </div>
+            <FullLine />
+            <h3 class='col-span-full'> Method 2 Evaluation </h3>
+            <Image src={method2_metrics} />
+            <FullLine />
+
+            <h3>Baseline Evaluation</h3>
+            <p>
+              Sampled 16 documents from 3 genres and used genre-specific models
+              from Method 1 to predict.
+            </p>
+            <Image src={baseline_eval} />
+            <FullLine />
+            <h3>Comparison Results</h3>
+            <Image src={comparison_plot} />
+            <FullLine />
+
             <h3 className={globalStyles.font_styles.h3}>Result Discussion</h3>
             <p>
               Observing the generated samples at Epoch 0 and Epoch 10 from joint
