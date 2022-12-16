@@ -40,7 +40,7 @@ export default function LayoutGeneration() {
         {/* HEADER */}
         <div className='pb-12' id='work-page-header'>
           <h2 className={globalStyles.font_styles.h2 + " text-slate-600"}>
-            GRAPHICAL LAYOUT GENERATION -
+            {"Graphical Layout Generation By Genre".toUpperCase()} -
           </h2>
           {/* <h1 className={globalStyles.font_styles.h1}>
             {page_data.landing.subtitle}

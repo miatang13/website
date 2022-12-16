@@ -22,8 +22,8 @@ export default function Work() {
         <h4 className={globalStyles.font_styles.h2 + " work-text pb-4"}>
           👋 Hi there! I'm Mia, a student at Carnegie Mellon studying Computer
           Science and Design with interests in computer graphics, vision, and
-          generative visual systems. In particular, I'm fascinated with
-          developing tools to enhance design process. <br />
+          generative visual systems. In particular, I hope to develop tools for
+          designers and artists. <br />
           <br />
           👩‍💻 Currently, I'm advised by Professor{" "}
           <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
