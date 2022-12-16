@@ -4,21 +4,21 @@ import teaPainting from "../public/assets/personal/painting-tea.png";
 import animalPainting from "../public/assets/personal/painting-animals.png";
 import mangoLeeze from "../public/assets/personal/doggo.png";
 import doggoSniff from "../public/assets/personal/doggo-sniff.png";
-import profilePic from "../public/assets/personal/bio-photo-side-sqr.png";
-import ExternalLink from "../components/global/ExternalLink";
+import profilePic from "../public/assets/personal/bio-chair-sqr.png";
+import StyledExternalLink from "../components/global/StyledExternalLink";
 
 export default function About() {
   return (
     <div
       className={globalStyles.div_styles.page_outer_wrapper}
-      id="page-container"
+      id='page-container'
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <p className={globalStyles.font_styles.p}>
           <br />I am Mia Tang, a student at Carnegie Mellon University's{" "}
-          <ExternalLink href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">
+          <StyledExternalLink href='https://www.cmu.edu/interdisciplinary/programs/bcsa.html'>
             BXA program
-          </ExternalLink>
+          </StyledExternalLink>
           , majoring in Computer Science and Design. My Design concentration is
           in Communications Design.
           <br />
@@ -57,7 +57,7 @@ export default function About() {
           <br /> Some fun facts: (1) My favorite artistic medium is oil on
           canvas.
         </p>
-        <div class="grid sm:grid-cols-2 gap-4 py-6">
+        <div class='grid sm:grid-cols-2 gap-4 py-6'>
           <Image src={teaPainting} />
           <Image src={animalPainting} />
         </div>
@@ -66,7 +66,7 @@ export default function About() {
           beautiful British Columbia, Canada, with my lovely family.
         </p>
 
-        <div className="grid sm:grid-cols-2 gap-4 py-6">
+        <div className='grid sm:grid-cols-2 gap-4 py-6'>
           <Image src={mangoLeeze} />
           <Image src={doggoSniff} />
         </div>
@@ -77,8 +77,8 @@ export default function About() {
           miatang13[at]gmail[dot]com
         </p>
 
-        <div className="grid sm:grid-cols-3 py-6">
-          <div className="sm:col-start-2">
+        <div className='grid sm:grid-cols-3 py-6'>
+          <div className='sm:col-start-2'>
             <Image src={profilePic} />
             <p className={globalStyles.font_styles.p}>
               Thanks for visiting. :-)
