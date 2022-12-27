@@ -43,20 +43,20 @@ export default function Blog() {
   return (
     <div
       className={globalStyles.div_styles.page_outer_wrapper}
-      id="page-container"
+      id='page-container'
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <Image src={HeroImg} />
-        <p className="text-base bg-slate-200 pt-1">
+        <p className='text-base bg-slate-200 pt-1'>
           👩‍💻 Hi there. Thank you for checking in. I'm currently taking a short
           break on producing new materials due to my busy schedule. I will be
-          back soon! (~ December 2022) ❤️
+          back soon! (~ Feb 2023) ❤️
         </p>
 
-        <div id="blog-posts-catalog" className="pb-12">
+        <div id='blog-posts-catalog' className='pb-12'>
           <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
           <button
-            className="bg-orange-100 outline outline-offset-2 outline-orange-50 p-1 hover:bg-amber-200"
+            className='bg-orange-100 outline outline-offset-2 outline-orange-50 p-1 hover:bg-amber-200'
             onClick={() => setShowTopic(!showTopicsCatalog)}
           >
             <p
@@ -79,8 +79,8 @@ export default function Blog() {
             {Object.keys(grpBlogs).map((key, index) => (
               <div>
                 <h2 className={globalStyles.font_styles.h2 + " pb-3"}>{key}</h2>
-                <div className="container">
-                  <ul className="list-disc">
+                <div className='container'>
+                  <ul className='list-disc'>
                     {grpBlogs[key].map((b, i) => (
                       <li key={b.title + "-link"}>
                         <LinkWrapper external={b.external} href={b.page_path}>
@@ -102,8 +102,8 @@ export default function Blog() {
                               }
                             >
                               {b.covered.map((topic, index) => (
-                                <span className="inline-flex text-sm">
-                                  <span className="bg-amber-100 hover:bg-amber-200">
+                                <span className='inline-flex text-sm'>
+                                  <span className='bg-amber-100 hover:bg-amber-200'>
                                     {topic}
                                   </span>
                                   {index !== b.covered.length - 1 && ","} &nbsp;
@@ -121,15 +121,15 @@ export default function Blog() {
           </div>
         </div>
 
-        <div id="blog-posts-upcoming" className="pb-12 border-y-2">
+        <div id='blog-posts-upcoming' className='pb-12 border-y-2'>
           <h1 className={globalStyles.font_styles.h1}>
             Currently in the Works
           </h1>
           <p className={globalStyles.font_styles.p + " italic pb-3"}>
             Updated [July 18th 2022]
           </p>
-          <div className="container">
-            <ul className="list-disc">
+          <div className='container'>
+            <ul className='list-disc'>
               <li className={globalStyles.font_styles.p}>
                 <p>Shadow Maps</p>
               </li>
@@ -143,22 +143,22 @@ export default function Blog() {
           </div>
         </div>
 
-        <div id="blog-posts-all" className="pb-12">
+        <div id='blog-posts-all' className='pb-12'>
           <h1 className={globalStyles.font_styles.h1}>Browse All</h1>
           <p className={globalStyles.font_styles.p}>
             You can download full resolution exports in this{" "}
-            <StyledExternalLink href="https://drive.google.com/drive/folders/1jAJKYetzfq08U6fnZSKrEloT1Ye-ukWo?usp=sharing">
+            <StyledExternalLink href='https://drive.google.com/drive/folders/1jAJKYetzfq08U6fnZSKrEloT1Ye-ukWo?usp=sharing'>
               {" "}
               google drive folder
             </StyledExternalLink>
             .
           </p>
           {Object.keys(grpBlogs).map((key, index) => (
-            <div className="pr-6 pb-12 border-b-2">
+            <div className='pr-6 pb-12 border-b-2'>
               <h2 className={globalStyles.font_styles.h2 + " sm:pb-6 pb-3"}>
                 Topics Related To {key}
               </h2>
-              <div className="grid sm:grid-cols-3 sm:gap-12 gap-8 select-none">
+              <div className='grid sm:grid-cols-3 sm:gap-12 gap-8 select-none'>
                 {grpBlogs[key].map((b) => (
                   <LinkWrapper href={b.page_path} external={b.external}>
                     <div
@@ -197,7 +197,7 @@ export default function Blog() {
                         }
                       >
                         {b.covered.map((topic, index) => (
-                          <span className="inline-flex text-sm">
+                          <span className='inline-flex text-sm'>
                             {topic}
                             {index !== b.covered.length - 1 && ", "} &nbsp;
                           </span>
@@ -211,7 +211,7 @@ export default function Blog() {
           ))}
         </div>
 
-        <div id="blog-posts-paragraph" className="pb-6">
+        <div id='blog-posts-paragraph' className='pb-6'>
           <p className={globalStyles.font_styles.p}>
             If there are any topics you wish to see me cover, feel free to send
             me an email. <br />
