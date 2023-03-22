@@ -71,8 +71,8 @@ export default function Work() {
           <b>
             {" "}
             💖 I'm beyond excited to share the news that I am joining Adobe as a
-            Research Scientist/Engineer Intern in 2023 Summer, and starting my
-            CS masters at Stanford in 2023 Fall.
+            Research Engineer Intern in 2023 Summer, and starting my CS masters
+            at Stanford in 2023 Fall.
           </b>
         </h4>
         <div
