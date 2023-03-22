@@ -66,6 +66,14 @@ export default function Work() {
             Iris Rover
           </StyledExternalLink>
           .
+          <br />
+          <br />
+          <b>
+            {" "}
+            💖 I'm beyond excited to share the news that I will be interning at
+            Adobe as a Research Scientist/Engineer in 2023 Summer, and starting
+            my CS masters at Stanford in 2023 Fall.
+          </b>
         </h4>
         <div
           className='grid gap-4 md:grid-cols-2 pt-12 border-t-2'

@@ -49,8 +49,7 @@ export default function Blog() {
         <Image src={HeroImg} />
         <p className='text-base bg-slate-200 pt-1'>
           👩‍💻 Hi there. Thank you for checking in. I'm currently taking a short
-          break on producing new materials due to my busy schedule. I will be
-          back soon! (~ Feb 2023) ❤️
+          break on producing new materials due to my busy schedule.
         </p>
 
         <div id='blog-posts-catalog' className='pb-12'>
