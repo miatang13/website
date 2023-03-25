@@ -11,20 +11,20 @@ export default function GraphicsValentines() {
   return (
     <div
       className={globalStyles.div_styles.page_outer_wrapper}
-      id="page-container"
+      id='page-container'
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
-        <div className="pb-12 border-b-2">
-          <h1 className={globalStyles.font_styles.h1}>Valentines' Day Cards</h1>
+        <div className='pb-12 border-b-2'>
+          <h1 className={globalStyles.font_styles.h1}>Valentine's Day Cards</h1>
           <p className={globalStyles.font_styles.p}>
             Happy Valentine's♥️! Celebrate the day with some lighthearted
             graphics jokes to share with your graphics friends 💌
           </p>
         </div>
-        <div className="py-12 border-b-2">
+        <div className='py-12 border-b-2'>
           <h4 className={globalStyles.font_styles.h4}>Topics Covered</h4>
-          <div className="container">
-            <ul className="list-disc">
+          <div className='container'>
+            <ul className='list-disc'>
               {blogData["halfedge-mesh"].covered.map((topic) => (
                 <li
                   className={globalStyles.font_styles.p}
@@ -36,14 +36,14 @@ export default function GraphicsValentines() {
             </ul>
           </div>
         </div>
-        <div className="py-12 border-b-2 grid sm:grid-cols-2 gap-6">
+        <div className='py-12 border-b-2 grid sm:grid-cols-2 gap-6'>
           <Image src={GPU} />
           <Image src={Halfedge} />
           <Image src={World} />
           <Image src={NURBS} />
         </div>
-        <div className="pt-12">
-          <Tweet tweetId="1493238627572330496" />
+        <div className='pt-12'>
+          <Tweet tweetId='1493238627572330496' />
         </div>
       </div>
     </div>
