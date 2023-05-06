@@ -4,7 +4,7 @@ import teaPainting from "../public/assets/personal/painting-tea.png";
 import animalPainting from "../public/assets/personal/painting-animals.png";
 import mangoLeeze from "../public/assets/personal/doggo.png";
 import doggoSniff from "../public/assets/personal/doggo-sniff.png";
-import profilePic from "../public/assets/personal/bio-photo-side.jpg";
+import profilePic from "../public/assets/personal/bio-side-1.jpg";
 import StyledExternalLink from "../components/global/StyledExternalLink";
 
 export default function About() {
