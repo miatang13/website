@@ -70,8 +70,10 @@ export default function Work() {
           <br />
           <b>
             {" "}
-            💖 I'm beyond excited to share the news that I am joining Adobe as a
-            Research Engineer Intern in 2023 Summer.
+            💖 I'm extremely excited to announce that I'll be joining Adobe as a
+            Research Engineer Intern during the summer of 2023. Additionally,
+            I'll be starting my master's in Computer Science at Stanford in the
+            fall of 2023.
           </b>
         </h4>
         <div
