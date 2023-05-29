@@ -14,45 +14,45 @@ export default function About() {
       id='page-container'
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
-        <p className={globalStyles.font_styles.p}>
-          <br />I am Mia Tang, a student at Carnegie Mellon University's{" "}
+        <p className={globalStyles.font_styles.p + " mt-4"}>
+          I am Mia Tang, a recent graduate of Carnegie Mellon University's{" "}
           <StyledExternalLink href='https://www.cmu.edu/interdisciplinary/programs/bcsa.html'>
             BXA program
           </StyledExternalLink>
-          , majoring in Computer Science and Design. My Design concentration is
+          , where I majored in Computer Science and Design with a concentration
           in Communications Design.
           <br />
           <br />
-          Solving a problem I couldn't solve yesterday gives me the greatest
-          joy. I'm an avid learner and seek to understand the world through
-          various perspectives. The two schools of thought I follow closely are
-          Stoicism and Kaizen.
+          Finding solutions to challenging problems brings me immense joy. I
+          have a deep curiosity and strive to gain a diverse range of
+          perspectives. I am particularly drawn to the philosophies of Stoicism
+          and Kaizen, which shape my approach to personal and professional
+          growth.
           <br />
           <br />
-          Professionally speaking, I enjoy software development and wish to work
-          with graphics systems. I cherish the typography, color, and motion of
-          designed artifacts. Growing up, I only dreamt of becoming an artist or
-          a designer, but that took a turn when I was introduced to programming
-          at CMU. Even though now I wish to work as an engineer, I still very
-          much adore and love to be part of the creative community. Therefore, I
-          treasure professional environments where I get to collaborate with
-          creatives as a developer or work on projects building tools for
-          artists and designers.
+          Professionally, I have a strong passion for software development and a
+          keen interest in working with graphics systems. I appreciate the
+          intricacies of typography, color, and motion in design. Although my
+          childhood dreams revolved around becoming an artist or designer, my
+          introduction to programming at CMU changed my path. While I now pursue
+          a career as an engineer, I still hold a deep admiration for the
+          creative community. I value collaborative environments where I can
+          work alongside artists and designers, building tools to support their
+          craft.
           <br />
           <br />
-          In my free time, I like to experiment with my interest in
-          storytelling. In particular, I strive to find ways to explain complex
-          technical concepts. It all started in my sophomore year when I was a
-          teaching assistant for a Functional Programming class. It is an
-          introductory class with students from different majors, and naturally,
-          there are students with a weaker background in logical thinking and
-          programming. To help my students, I spent time thinking about how to
-          explain complicated topics in an accessible and engaging manner. I
-          strongly believe in that the process of acquiring new knowledge is one
-          of the most exhilarating and gratifying experiences that everyone
-          deserves to have. More importantly, the repeated victories of
-          conquering new intellectual challenges help us become more confident
-          and resilient.
+          In my free time, I explore my passion for storytelling. I am
+          particularly motivated to find ways to explain complex technical
+          concepts in accessible and engaging ways. This interest sparked during
+          my sophomore year when I served as a teaching assistant for an
+          introductory Functional Programming class. Many students came from
+          diverse academic backgrounds, and I dedicated time to finding
+          effective ways to explain intricate topics in a manner that resonated
+          with them. I firmly believe that the process of acquiring new
+          knowledge is exhilarating and rewarding, and I am committed to helping
+          others experience that same joy. Additionally, overcoming intellectual
+          challenges fosters confidence and resilience, shaping us into stronger
+          individuals.
           <br />
           <br /> Some fun facts: (1) My favorite artistic medium is oil on
           canvas.

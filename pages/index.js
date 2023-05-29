@@ -20,28 +20,28 @@ export default function Work() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <h4 className={globalStyles.font_styles.h2 + " work-text pb-4"}>
-          👋 Hi there! I'm Mia, a student at Carnegie Mellon studying Computer
-          Science and Design with interests in computer graphics, vision, and
-          generative visual systems. In particular, I hope to develop tools for
-          designers and artists. <br />
+          👋 Hi there, this is Mia. I'm currently working as a Research Engineer
+          Intern at Adobe. I'm thrilled to share that I'll be starting my
+          master's in Computer Science at Stanford in the fall of 2023.
           <br />
-          👩‍💻 Currently, I'm advised by Professor{" "}
+          <br />
+          🧑‍🎓 I recently graduated from Carnegie Mellon University, where I
+          pursued Computer Science and Design with a keen interest in graphics,
+          vision, and generative systems. During my undergraduate studies, I had
+          the privilege of being advised by Professor{" "}
           <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
             Jun-Yan Zhu
-          </StyledExternalLink>{" "}
-          as I work with wonderful people at the Generative Intelligence Lab.{" "}
-          <br />
-          <br />
-          🧑‍🏫 Teaching is also a passion of mine. You can find my educational
-          work in the blog page.
-          <br />
-          <br />
-          🛠️ In the past, I have met and collaborated with amazing people as a
-          software developer intern at{" "}
-          <StyledExternalLink href='https://cesium.com/'>
-            Cesium
           </StyledExternalLink>
-          , research developer at{" "}
+          . Additionally, I had invaluable experiences as a research assistant
+          at{" "}
+          <StyledExternalLink href='https://penrose.cs.cmu.edu/ '>
+            Penrose
+          </StyledExternalLink>
+          ,{" "}
+          <StyledExternalLink href='https://irislunarrover.space/'>
+            Iris Rover
+          </StyledExternalLink>
+          , and the{" "}
           <StyledExternalLink href='http://computational-creativity.org/'>
             Computational Creativity Lab
           </StyledExternalLink>{" "}
@@ -49,32 +49,28 @@ export default function Work() {
           <StyledExternalLink href='https://kyuhashim.com/'>
             Kyuha Shim
           </StyledExternalLink>
+          .
+          <br />
+          <br />
+          🛠️ Throughout my journey, I've had the opportunity to collaborate with
+          amazing professionals in various roles, such as a software developer
+          intern at{" "}
+          <StyledExternalLink href='https://cesium.com/'>
+            Cesium
+          </StyledExternalLink>
           , developer intern at{" "}
           <StyledExternalLink href='https://www.jam3.com/'>
             Jam3
           </StyledExternalLink>
-          , research assistant at{" "}
-          <StyledExternalLink href='https://penrose.cs.cmu.edu/ '>
-            Penrose
-          </StyledExternalLink>
-          , developer & brand designer at{" "}
+          , and developer & brand designer at{" "}
           <StyledExternalLink href='https://design.cmu.edu/content/school-design-debuts-new-logo-designed-students'>
             CMU School of Design
-          </StyledExternalLink>
-          , and frontend engineer at{" "}
-          <StyledExternalLink href='https://irislunarrover.space/'>
-            Iris Rover
           </StyledExternalLink>
           .
           <br />
           <br />
-          <b>
-            {" "}
-            💖 I'm extremely excited to announce that I'll be joining Adobe as a
-            Research Engineer Intern during the summer of 2023. Additionally,
-            I'll be starting my master's in Computer Science at Stanford in the
-            fall of 2023.
-          </b>
+          🧑‍🏫 Teaching is another passion of mine, and you can find my
+          educational work on the blog page.
         </h4>
         <div
           className='grid gap-4 md:grid-cols-2 pt-12 border-t-2'
