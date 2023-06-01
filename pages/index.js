@@ -77,7 +77,7 @@ export default function Work() {
           educational work on the blog page.
         </h4>
         <div
-          className='grid gap-4 md:grid-cols-2 pt-12 border-t-2'
+          className='grid gap-4 md:grid-cols-2 pt-12 border-t-2 hide'
           id='work-gallery-wrapper'
         >
           {projectByOrder.map((projectName) => {

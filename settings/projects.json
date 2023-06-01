@@ -10,7 +10,7 @@
     "project_summary": "3D photo",
     "skills": "Python, PyTorch, OpenCV",
     "role": "",
-    "show": true,
+    "show": false,
     "no-click": true,
     "gif-thumbnail": true
   },
@@ -25,7 +25,7 @@
     "project_summary": "Layout generation for 2D Documents",
     "skills": "Python, PyTorch, OpenCV",
     "role": "",
-    "show": true
+    "show": false
   },
   {
     "path": "Cesium",
