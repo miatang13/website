@@ -20,28 +20,32 @@ export default function Work() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <h4 className={globalStyles.font_styles.h2 + " work-text pb-4"}>
-          👋 Hi there, this is Mia. I'm currently working as a Research Engineer
-          Intern at Adobe. I'm thrilled to share that I'll be starting my
-          master's in Computer Science at Stanford in the fall of 2023.
+          👋 Hello there, I'm Mia. Currently, I am working as a Research
+          Engineer Intern at Adobe, and I'm incredibly excited to share that I
+          will be pursuing my master's degree in Computer Science at Stanford
+          starting in the fall of 2023.
+          <br />
+          <br />
+          🖼️ I am passionate about utilizing computer graphics, vision, and deep
+          learning to develop innovative creative tools for artists and
+          designers. By leveraging these technologies, I strive to enhance the
+          creative process and empower individuals to express their artistic
+          vision with greater ease and impact.
           <br />
           <br />
           🧑‍🎓 I recently graduated from Carnegie Mellon University, where I
-          pursued Computer Science and Design with a keen interest in graphics,
-          vision, and generative systems. During my undergraduate studies, I had
-          the privilege of being advised by Professor{" "}
+          studied Computer Science and Design. During my undergraduate journey,
+          I had the privilege of being advised by Professor{" "}
           <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
             Jun-Yan Zhu
           </StyledExternalLink>
-          . Additionally, I had invaluable experiences as a research assistant
-          at{" "}
+          , conducting research on generative visual systems.
+          {/* Additionally, I
+          gained invaluable experiences as a research assistant at{" "}
           <StyledExternalLink href='https://penrose.cs.cmu.edu/ '>
             Penrose
           </StyledExternalLink>
-          ,{" "}
-          <StyledExternalLink href='https://irislunarrover.space/'>
-            Iris Rover
-          </StyledExternalLink>
-          , and the{" "}
+          and the{" "}
           <StyledExternalLink href='http://computational-creativity.org/'>
             Computational Creativity Lab
           </StyledExternalLink>{" "}
@@ -49,7 +53,7 @@ export default function Work() {
           <StyledExternalLink href='https://kyuhashim.com/'>
             Kyuha Shim
           </StyledExternalLink>
-          .
+          . */}
           <br />
           <br />
           🛠️ Throughout my journey, I've had the opportunity to collaborate with
