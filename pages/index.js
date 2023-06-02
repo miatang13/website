@@ -34,8 +34,8 @@ export default function Work() {
           <br />
           <br />
           🧑‍🎓 I recently graduated from Carnegie Mellon University, where I
-          studied Computer Science and Design. During my undergraduate journey,
-          I had the privilege of being advised by Professor{" "}
+          studied Computer Science and Design. As an undergraduate, I had the
+          privilege of being advised by Professor{" "}
           <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
             Jun-Yan Zhu
           </StyledExternalLink>
