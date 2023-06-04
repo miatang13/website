@@ -86,7 +86,8 @@
     },
     "timeline": "January — August 2021",
     "project_summary": "Campaign to diversify future applicants",
-    "skills": "Cargo CMS, Javascript, Figma"
+    "skills": "Cargo CMS, Javascript, Figma",
+    "design": true
   },
   {
     "path": "Bechdel",
@@ -98,6 +99,7 @@
     },
     "timeline": "October — December 2021",
     "project_summary": "Data visualization of Bechdel approved film directors",
-    "skills": "WebGL, React, NYT API, RapidAPI"
+    "skills": "WebGL, React, NYT API, RapidAPI",
+    "design": true
   }
 ]
