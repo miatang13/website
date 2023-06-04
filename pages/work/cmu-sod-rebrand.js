@@ -84,7 +84,7 @@ export default function SoDRebrand() {
         <ProjectHeader page_data={page_data} />
 
         <div title='Overview'>
-          <div className='grid grid-cols-2 pb-6'>
+          <div className='grid md:grid-cols-2 pb-6'>
             <h2 className={globalStyles.font_styles.h2}>The Ask</h2>
             <p>
               The CMU School of Design wanted to reach diverse prospective
@@ -97,7 +97,7 @@ export default function SoDRebrand() {
               identity needed to be established.
             </p>
           </div>
-          <div className='grid grid-cols-2 pb-6'>
+          <div className='grid md:grid-cols-2 pb-6'>
             <h2 className={globalStyles.font_styles.h2}>Our Approach</h2>
             <p>
               To inspire those potential future designers to apply for CMU, we
@@ -125,7 +125,7 @@ export default function SoDRebrand() {
             width={500}
             height={300}
           />
-          <div className='grid grid-cols-2 pt-6'>
+          <div className='grid md:grid-cols-2 pt-6'>
             <p>
               We created a cheerful, young and exciting visual identity with the
               high contrast color combinations. Along with the color and
@@ -144,7 +144,7 @@ export default function SoDRebrand() {
             width={500}
             height={300}
           />
-          <div className='grid grid-cols-2 pt-6'>
+          <div className='grid md:grid-cols-2 pt-6'>
             <Image
               src={base_url + "web/mockup.gif"}
               alt='web motion mockup'
@@ -170,7 +170,7 @@ export default function SoDRebrand() {
               .{" "}
             </div>
           </ImageRow> */}
-          <div className='py-3 grid grid-cols-3 '>
+          <div className='py-3 grid md:grid-cols-3 '>
             {web_subpage_images.map((src) => (
               <div className='border-2'>
                 <Image
@@ -188,8 +188,7 @@ export default function SoDRebrand() {
         {misc_features.map((feat) => (
           <div className='py-3'>
             <h2 className={globalStyles.font_styles.h2}>{feat.title}</h2>
-            <div className={"grid grid-cols-2 pt-6"}>
-              {" "}
+            <div className='grid md:grid-cols-2 pt-6'>
               {feat.visuals.map((e) => (
                 <Image
                   src={base_url + feat.path_url + e.file_name + display_format}
@@ -216,7 +215,7 @@ export default function SoDRebrand() {
             />
           </div>
 
-          <div className='grid grid-cols-2 space-x-6 pt-6'>
+          <div className='grid md:grid-cols-2 md:space-x-6 pt-6'>
             <div>
               This project was fun from the very start as I got to work with
               some of my favorite classmates as colleagues and professors as
