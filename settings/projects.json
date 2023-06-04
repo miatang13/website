@@ -81,23 +81,30 @@
     "path": "SoD",
     "page_name": "/cmu-sod-rebrand",
     "landing": {
-      "title": "rebrand cmu school of design",
+      "title": "Rebrand CMU School of Design",
       "subtitle": "Playful Campaign for Prospective Students"
     },
     "timeline": "January — August 2021",
     "project_summary": "Campaign to diversify future applicants",
-    "skills": "Cargo CMS, Javascript, Figma"
+    "skills": "Cargo CMS, Javascript, Figma",
+    "role": "Designer, Developer",
+    "show": true,
+    "design": true,
+    "no-click": false
   },
   {
     "path": "Bechdel",
     "abv_name": "Data Visualization",
     "page_name": "/bechdel-directors-data-vis",
     "landing": {
-      "title": "the (bech)ideal",
+      "title": "(bech)ideal",
       "subtitle": "Interactive Data Visualization of Movie Directors"
     },
     "timeline": "October — December 2021",
     "project_summary": "Data visualization of Bechdel approved film directors",
-    "skills": "WebGL, React, NYT API, RapidAPI"
+    "skills": "WebGL, React, NYT API, RapidAPI",
+    "show": true,
+    "design": true,
+    "no-click": true
   }
 ]

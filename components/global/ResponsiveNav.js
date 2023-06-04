@@ -21,7 +21,9 @@ export default function ResponsiveNav() {
         onClick={() => setIsNavExpanded(false)}
       >
         <Link href='/'>
-          <span className={globalStyles.font_styles.nav_bar_logo}>M.T.</span>
+          <span className='font-mono font-black hover:cursor-pointer text-pink-300'>
+            M.T.
+          </span>
         </Link>
       </div>
 
@@ -74,9 +76,8 @@ export default function ResponsiveNav() {
             height: 60px;
             width: 100%;
             padding: 0.5rem 0.5rem;
-            color: black;
+            color: gray;
             background-color: white;
-            // background-color: rgb(255, 254, 249);
           }
 
           .navigation-menu {
@@ -130,7 +131,7 @@ export default function ResponsiveNav() {
               left: 0;
               width: 100%;
               height: calc(100vh - 60px);
-              background-color: rgb(255, 254, 249);
+              background-color: white;
               display: none;
             }
 

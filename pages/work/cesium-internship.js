@@ -22,12 +22,12 @@ export default function Cesium() {
         <FullLine />
         <div
           className={globalStyles.div_styles.work_project_container}
-          id="work-main-content"
+          id='work-main-content'
         >
           <Image src={unionStation} />
           <p className={globalStyles.font_styles.p + " place-self-center"}>
-            I work on the{" "}
-            <StyledExternalLink href="https://cesium.com/platform/cesium-for-unreal/">
+            I worked on the{" "}
+            <StyledExternalLink href='https://cesium.com/platform/cesium-for-unreal/'>
               Cesium for Unreal Plugin
             </StyledExternalLink>
             , which builds on open standards and APIs, allowing Unreal Engine

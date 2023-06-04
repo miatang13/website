@@ -1,151 +1,34 @@
-import projects from "../settings/projects.json";
-import Image from "next/image";
-import {
-  thumbnail_base_path,
-  thumbnail_filename,
-  thumbnail_gif_filename,
-} from "../settings/path";
 import globalStyles from "../settings/global-styles";
-import StyledExternalLink from "../components/global/StyledExternalLink";
-import LinkWrapper from "../components/global/LinkWrapper";
-import projectByOrder from "../settings/project-order";
-import PersonalImage from "../public/assets/personal/blue-bg-sm.jpg";
-
-const thumbnail_w = 1920;
+import LandingIntro from "../components/landing/Intro";
+import EngineeringProjects from "../components/landing/EngineeringProjects";
+import DesignProjects from "../components/landing/DesignProjects";
 
 export default function Work() {
+  const section_title_style = "text-xl font-bold text-pink-400";
+
   return (
     <div
       className={globalStyles.div_styles.page_outer_wrapper}
       id='page-container'
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
-        <div className='pb-6 max-h-min'>
-          <h4 className={globalStyles.font_styles.h2 + " work-text pb-4"}>
-            👋 Hello there, this is Mia. <br /> <br />
-            I currently work as a Research Engineer Intern at Adobe, and I will
-            be pursuing my master's degree in Computer Science at Stanford
-            starting in the fall of 2023.
-            <br />
-            <br />
-            I am passionate about utilizing computer graphics, vision, and deep
-            learning to develop innovative creative tools for artists and
-            designers. By leveraging these technologies, I strive to enhance the
-            creative process and empower individuals to express their artistic
-            vision with greater ease and impact.
-            <br />
-            <br />I recently graduated from Carnegie Mellon University, where I
-            studied Computer Science and Design. During my undergraduate
-            studies, I had the privilege of being advised by Professor{" "}
-            <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
-              Jun-Yan Zhu
-            </StyledExternalLink>
-            , conducting research on generative visual systems. Throughout my
-            journey, I've had the opportunity to collaborate with amazing
-            professionals in various roles, such as a software developer intern
-            at{" "}
-            <StyledExternalLink href='https://cesium.com/'>
-              Cesium
-            </StyledExternalLink>
-            , developer intern at{" "}
-            <StyledExternalLink href='https://www.jam3.com/'>
-              Jam3
-            </StyledExternalLink>
-            , and developer & brand designer at{" "}
-            <StyledExternalLink href='https://design.cmu.edu/content/school-design-debuts-new-logo-designed-students'>
-              CMU School of Design
-            </StyledExternalLink>
-            .
-            <br />
-            <br />
-            Teaching is another passion of mine. You can find my educational
-            work <StyledExternalLink href='/blog'>here</StyledExternalLink>.
-          </h4>
-        </div>
-
-        <div id='work-gallery-wrapper' className='pt-6 border-t-2'>
-          <p className='font-bold text-slate-500'>
-            Creative Engineering Experiences{" "}
-          </p>
-
-          <div className='grid gap-4 md:grid-cols-3 pt-6'>
-            {projectByOrder.map((projectName) => {
-              let p = projects.find((p) => {
-                return p.path === projectName;
-              });
-
-              return (
-                p.show && (
-                  <LinkWrapper
-                    href={p["no-click"] ? "/" : "work" + p.page_name}
-                    key={p.path}
-                  >
-                    <div
-                      className={
-                        p["no-click"]
-                          ? "cursor-not-allowed"
-                          : "cursor-pointer" +
-                            " h-full p-3 bg-gradient-to-r from-yellow-50 hover:from-yellow-100 hover:to-orange-100 outline outline-offset-2 outline-orange-50"
-                      }
-                    >
-                      <p
-                        className={
-                          globalStyles.font_styles.p +
-                          " text-slate-400  text-sm pb-3"
-                        }
-                      >
-                        {p.timeline}
-                      </p>
-                      <Image
-                        src={
-                          p["gif-thumbnail"]
-                            ? "/" +
-                              thumbnail_base_path +
-                              p.path +
-                              thumbnail_gif_filename
-                            : "/" +
-                              thumbnail_base_path +
-                              p.path +
-                              thumbnail_filename
-                        }
-                        alt='Thumbnail'
-                        width={thumbnail_w}
-                        height={(thumbnail_w / 16) * 9}
-                      />
-                      <h3
-                        className={
-                          globalStyles.font_styles.h2 +
-                          (p.complete
-                            ? " bg-gradient-to-r from-yellow-100"
-                            : " ")
-                        }
-                      >
-                        {p.landing.title}
-                      </h3>
-                      <p
-                        className={
-                          globalStyles.font_styles.p + " text-slate-400 text-sm"
-                        }
-                      >
-                        {p.skills}
-                      </p>
-                    </div>
-                  </LinkWrapper>
-                )
-              );
-            })}
-          </div>
-        </div>
+        <section>
+          <h2 className={section_title_style}>Hello there :)</h2>
+          <LandingIntro />
+        </section>
+        <section className='pt-3 pb-6 border-t-2'>
+          <h2 className={section_title_style}>
+            Creative Engineering Experiences
+          </h2>
+          <EngineeringProjects />
+        </section>
+        <section className='py-3 border-t-2'>
+          <h2 className={section_title_style}>
+            Graphic Design & Branding Projects
+          </h2>
+          <DesignProjects />
+        </section>
       </div>
-
-      <style jsx>
-        {`
-          .work-text,
-          a.external-link {
-            font-weight: 400;
-          }
-        `}
-      </style>
     </div>
   );
 }
