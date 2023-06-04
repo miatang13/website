@@ -2,7 +2,7 @@ import projects from "../../settings/projects";
 import projectByOrder from "../../settings/project-order";
 import ProjectThumbnail from "./ProjectThumbnail";
 
-export default function EngineeringProjects() {
+export default function DesignProjects() {
   return (
     <div className='grid gap-4 md:grid-cols-3 py-3'>
       {projectByOrder.map((projectName) => {
@@ -10,7 +10,7 @@ export default function EngineeringProjects() {
           return p.path === projectName;
         });
 
-        return p.show && !p.design && <ProjectThumbnail {...p} />;
+        return p.show && p.design && <ProjectThumbnail {...p} />;
       })}
     </div>
   );

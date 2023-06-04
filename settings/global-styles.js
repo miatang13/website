@@ -1,7 +1,7 @@
 const globalStyles = {
   font_styles: {
-    h1: "font-mono",
-    h2: "font-mono",
+    h1: "font-mono font-black",
+    h2: "font-mono font-bold",
     h3: "font-mono",
     h4: "font-mono",
     p: "font-mono font-medium",
