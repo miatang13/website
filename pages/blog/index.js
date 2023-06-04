@@ -55,7 +55,7 @@ export default function Blog() {
         <div id='blog-posts-catalog' className='pb-12'>
           <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
           <button
-            className='bg-orange-100 outline outline-offset-2 outline-orange-50 p-1 hover:bg-amber-200'
+            className='bg-pink-100 outline outline-offset-2 outline-pink-50 p-1 hover:bg-pink-200'
             onClick={() => setShowTopic(!showTopicsCatalog)}
           >
             <p
