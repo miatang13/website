@@ -15,26 +15,26 @@ export default function ResponsiveNav() {
   }, []);
 
   return (
-    <nav className="navigation container select-none fixed top-0 left-0 right-0 z-40">
+    <nav className='navigation container select-none fixed top-0 left-0 right-0 z-40'>
       <div
-        className="logo hover:cursor-pointer"
+        className='logo hover:cursor-pointer'
         onClick={() => setIsNavExpanded(false)}
       >
-        <Link href="/">
+        <Link href='/'>
           <span className={globalStyles.font_styles.nav_bar_logo}>M.T.</span>
         </Link>
       </div>
 
       <button
-        className="hamburger"
+        className='hamburger'
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}
       >
-        <svg viewBox="0 0 100 80" width="30" height="30">
-          <rect width="80" height="15"></rect>
-          <rect y="30" width="80" height="15"></rect>
-          <rect y="60" width="80" height="15"></rect>
+        <svg viewBox='0 0 100 80' width='30' height='30'>
+          <rect width='80' height='15'></rect>
+          <rect y='30' width='80' height='15'></rect>
+          <rect y='60' width='80' height='15'></rect>
         </svg>
       </button>
       <div
@@ -49,17 +49,17 @@ export default function ResponsiveNav() {
           onClick={() => setIsNavExpanded(false)}
         >
           <li className={isNavExpanded ? " " : "col-start-3"}>
-            <NavLink href="/" className="nav-link" exact>
+            <NavLink href='/' className='nav-link' exact>
               <span className={globalStyles.font_styles.nav_bar}>home</span>
             </NavLink>
           </li>
-          <li className="text-right">
-            <NavLink href="/blog" className="nav-link" exact>
+          <li className='text-right'>
+            <NavLink href='/blog' className='nav-link' exact>
               <span className={globalStyles.font_styles.nav_bar}>blog</span>
             </NavLink>
           </li>
-          <li className="text-right">
-            <NavLink href="/about" className="nav-link">
+          <li className='text-right'>
+            <NavLink href='/about' className='nav-link'>
               <span className={globalStyles.font_styles.nav_bar}>about</span>
             </NavLink>
           </li>
@@ -75,7 +75,8 @@ export default function ResponsiveNav() {
             width: 100%;
             padding: 0.5rem 0.5rem;
             color: black;
-            background-color: rgb(255, 254, 249);
+            background-color: white;
+            // background-color: rgb(255, 254, 249);
           }
 
           .navigation-menu {
