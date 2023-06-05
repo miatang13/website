@@ -38,7 +38,8 @@
     "project_summary": "Unreal game engine development to unleash the power of 3D data",
     "skills": "Unreal Engine, C++",
     "role": "Software Developer Intern",
-    "show": true
+    "show": true,
+    "is_internship": true
   },
   {
     "path": "CCL",
@@ -64,7 +65,8 @@
     "project_summary": "3D virtual party space for your favorite music playlist",
     "skills": "WebGL, React, Socket.io",
     "role": "Software Developer Intern",
-    "show": true
+    "show": true,
+    "is_internship": true
   },
   {
     "path": "AsOne",
@@ -97,14 +99,14 @@
     "abv_name": "Data Visualization",
     "page_name": "/bechdel-directors-data-vis",
     "landing": {
-      "title": "(bech)ideal",
+      "title": "bech(IDEAL)",
       "subtitle": "Interactive Data Visualization of Movie Directors"
     },
     "timeline": "October — December 2021",
     "project_summary": "Data visualization of Bechdel approved film directors",
     "skills": "WebGL, React, NYT API, RapidAPI",
+    "role": "Designer, Developer",
     "show": true,
-    "design": true,
-    "no-click": true
+    "design": true
   }
 ]

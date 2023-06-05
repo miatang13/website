@@ -1,7 +1,7 @@
 import globalStyles from "../settings/global-styles";
 import LandingIntro from "../components/landing/Intro";
-import EngineeringProjects from "../components/landing/EngineeringProjects";
-import DesignProjects from "../components/landing/DesignProjects";
+import InternProjects from "../components/landing/InternProjects";
+import NonInternProjects from "../components/landing/NonInternProjects";
 
 export default function Work() {
   const section_title_style = "text-xl font-bold text-pink-400";
@@ -17,16 +17,12 @@ export default function Work() {
           <LandingIntro />
         </section>
         <section className='pt-3 pb-6 border-t-2'>
-          <h2 className={section_title_style}>
-            Creative Engineering Experiences
-          </h2>
-          <EngineeringProjects />
+          <h2 className={section_title_style}>Engineering Internships</h2>
+          <InternProjects />
         </section>
-        <section className='py-3 border-t-2'>
-          <h2 className={section_title_style}>
-            Graphic Design & Branding Projects
-          </h2>
-          <DesignProjects />
+        <section className='pt-3 pb-6 border-t-2'>
+          <h2 className={section_title_style}>Design Projects</h2>
+          <NonInternProjects />
         </section>
       </div>
     </div>

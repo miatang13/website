@@ -14,7 +14,6 @@ import postProcessing1 from "../../public/assets/Jam3/process/post-processing/co
 import postProcessing2 from "../../public/assets/Jam3/process/post-processing/compressed/without2.png";
 import postProcessing3 from "../../public/assets/Jam3/process/post-processing/compressed/with1.png";
 import postProcessing4 from "../../public/assets/Jam3/process/post-processing/compressed/with2.png";
-import staging from "../../public/assets/Jam3//process/staging.png";
 
 const page_key = "Jam3";
 
@@ -34,7 +33,7 @@ export default function Jam3() {
         <FullLine />
         <div
           className={globalStyles.div_styles.work_project_container}
-          id="work-main-content"
+          id='work-main-content'
         >
           <h2 className={globalStyles.font_styles.h2}>Overview</h2>
           <div>
@@ -64,7 +63,7 @@ export default function Jam3() {
           </div>
           <FullLine />
           {/* APPEAR  */}
-          <div className="col-span-full">
+          <div className='col-span-full'>
             <h2> Digital Avatars </h2>
             <IndivVideo src={base_url + "appear" + display_format} />
           </div>
@@ -75,7 +74,7 @@ export default function Jam3() {
           </p>
           <FullLine />
           {/* NAVIGATION */}
-          <div className="col-span-full">
+          <div className='col-span-full'>
             <h2> Navigation in the Room </h2>
             <IndivVideo src={base_url + "navigation" + display_format} />
           </div>
@@ -89,7 +88,7 @@ export default function Jam3() {
           </p>
           <FullLine />
           {/* REACTIONS */}
-          <div className="col-span-full">
+          <div className='col-span-full'>
             <h2> Reactions as Communications </h2>
             <IndivVideo src={base_url + "reaction" + display_format} />
           </div>
@@ -108,7 +107,7 @@ export default function Jam3() {
           </p>
           <FullLine />
           {/* MULTI-PLAYER  */}
-          <div className="col-span-full">
+          <div className='col-span-full'>
             <h2> Multi-player </h2>
             <IndivVideo src={base_url + "multi_player" + display_format} />
           </div>
@@ -118,14 +117,14 @@ export default function Jam3() {
           </p>
           <FullLine />
           {/* POST-PROCESSING */}
-          <div className="col-span-full">
+          <div className='col-span-full'>
             <h2> Post-processing </h2>{" "}
           </div>
           <Image src={postProcessing1} /> <Image src={postProcessing3} />
           <Image src={postProcessing2} /> <Image src={postProcessing4} />
           <FullLine />
           {/* TAKE-AWAY */}
-          <div className="col-span-full">
+          <div className='col-span-full'>
             <h2> Reflection </h2>
           </div>
           <p>
