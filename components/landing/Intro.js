@@ -36,7 +36,7 @@ export default function LandingIntro() {
         <br />
         <br />
         Sharing knowledge through teaching is another passion of mine. Explore
-        my educational work here to delve into engaging resources.
+        my educational work on the blog page.
       </h4>
     </div>
   );
