@@ -38,9 +38,9 @@ export default function ComicBooklet() {
         <div className='grid grid-cols-2 py-6'>
           <h2 className={globalStyles.font_styles.h2}>Overview</h2>
           <p className={globalStyles.font_styles.p}>
-            This is a series of print and digital designs to tell the personal
-            story and work of the designer Brian Collins, who is the founder of
-            the brand agency
+            This is a series of print designs to tell the personal story and
+            work of the designer Brian Collins, who is the founder of the brand
+            agency
             <StyledExternalLink href='https://www.wearecollins.com/'>
               {" "}
               COLLINS{" "}
