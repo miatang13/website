@@ -17,7 +17,7 @@ export default function Work() {
           <h2 className={section_title_style}>Hello there :)</h2>
           <LandingIntro />
         </section>
-        <section className='pt-3 pb-6 border-t-2'>
+        <section className='pt-3 pb-3 border-t-2'>
           <h2 className={section_title_style}>
             <span className='text-pink-400 font-bold'>News &amp;</span>
             <span className='text-blue-400 font-bold'> Future</span>
