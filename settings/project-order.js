@@ -6,7 +6,8 @@ const projectByOrder = [
   "CCL",
   "Jam3",
   "AsOne",
-  "SoD",
   "Bechdel",
+  "SoD",
+  "BrianCollins",
 ];
 export default projectByOrder;

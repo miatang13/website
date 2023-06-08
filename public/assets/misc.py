@@ -48,8 +48,8 @@ def resize_images(output_path, images):
 
 def main():
     curpath = os.getcwd()
-    path = curpath + "/spreads_fullres/"
-    output_path = curpath + "/spreads_resized/"
+    path = curpath + "/BrianCollins/"
+    # output_path = curpath + "/spreads_resized/"
     images = glob.glob(path + "*.png")
     # resize_images(output_path, images)
 

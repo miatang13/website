@@ -121,5 +121,17 @@
     "role": "Designer, Developer",
     "show": true,
     "design": true
+  },
+  {
+    "path": "BrianCollins",
+    "page_name": "/brian-collins",
+    "landing": {
+      "title": "A Designer's Story"
+    },
+    "timeline": "Feb - April 2021",
+    "skills": "Indesign",
+    "role": "Designer",
+    "show": true,
+    "design": true
   }
 ]
