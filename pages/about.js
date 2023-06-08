@@ -25,9 +25,7 @@ export default function About() {
           <br />
           Finding solutions to challenging problems brings me immense joy. I
           have a deep curiosity and strive to gain a diverse range of
-          perspectives. I am particularly drawn to the philosophies of Stoicism
-          and Kaizen, which shape my approach to personal and professional
-          growth.
+          perspectives.
           <br />
           <br />
           Professionally, I have a strong passion for software development and a
