@@ -42,7 +42,7 @@ export default function ComicBooklet() {
         <Image src={hero_img} />
         <ProjectHeader page_data={page_data} />
         <FullLine />
-        <div className='grid grid-cols-2 py-6'>
+        <div className='grid md:grid-cols-2 py-6'>
           <h2 className={globalStyles.font_styles.h2}>Overview</h2>
           <p className={globalStyles.font_styles.p}>
             Upon my graduation from CMU, I self-published this booklet compiling
