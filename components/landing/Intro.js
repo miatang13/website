@@ -2,7 +2,7 @@ import StyledExternalLink from "../global/StyledExternalLink";
 
 export default function LandingIntro() {
   return (
-    <div className='pb-6 max-h-min'>
+    <div className='pb-3 max-h-min'>
       <h4 className='mono font-normal text-slate-800'>
         I am Mia — a Research Engineer Intern at Adobe, passionate about
         utilizing computer graphics, vision, and deep learning to develop

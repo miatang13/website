@@ -1,4 +1,5 @@
 const projectByOrder = [
+  "ComicBooklet",
   "3DP",
   "Layout",
   "Cesium",

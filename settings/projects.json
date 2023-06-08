@@ -1,5 +1,18 @@
 [
   {
+    "path": "ComicBooklet",
+    "page_name": "/comic-booklet",
+    "landing": {
+      "title": "Pixel Pals: Comics Booklet"
+    },
+    "timeline": "May 2023",
+    "project_summary": "Comic Booklet",
+    "skills": "Indesign, Illustration",
+    "role": "Writer, Editor, Illustrator, Designer",
+    "show": true,
+    "design": true
+  },
+  {
     "path": "3DP",
     "page_name": "/3D-photography-LDI",
     "landing": {
