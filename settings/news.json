@@ -48,7 +48,7 @@
         "year": 2022,
         "month": 1,
         "description": "Started to TA 15-462/662 Computer Graphics",
-        "emoji": "👩‍🏫"
+        "emoji": "📗"
     },
     {
         "year": 2021,
@@ -68,5 +68,17 @@
         "month": 5,
         "description": "Joined Jam3 as a Developer Intern",
         "emoji": "👩‍💻"
+    },
+    {
+        "year": 2021,
+        "month": 2,
+        "description": "Joined Penrose as a undergraduate researcher",
+        "emoji": "💻"
+    },
+    {
+        "year": 2020,
+        "month": 1,
+        "description": "Started to TA 15-150 Functional Programming",
+        "emoji": "📗"
     }
 ]
