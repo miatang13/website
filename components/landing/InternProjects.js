@@ -10,7 +10,9 @@ export default function InternProjects() {
           return p.path === projectName;
         });
 
-        return p.show && p.is_internship && <ProjectThumbnail {...p} />;
+        return (
+          p.show && p.is_internship && <ProjectThumbnail {...p} key={p.path} />
+        );
       })}
     </div>
   );

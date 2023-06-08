@@ -18,7 +18,8 @@ export default function LandingIntro() {
         <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
           Jun-Yan Zhu
         </StyledExternalLink>
-        , conducting research on generative visual systems. Along my journey,
+        , conducting research on generative visual systems.
+        {/* Along my journey,
         I've collaborated with amazing professionals in diverse roles, including
         software developer intern at{" "}
         <StyledExternalLink href='https://cesium.com/'>
@@ -31,8 +32,7 @@ export default function LandingIntro() {
         , and developer & brand designer at{" "}
         <StyledExternalLink href='https://design.cmu.edu/content/school-design-debuts-new-logo-designed-students'>
           CMU School of Design
-        </StyledExternalLink>
-        .
+        </StyledExternalLink>. */}
         <br />
         <br />
         Sharing knowledge through teaching is another passion of mine. Explore

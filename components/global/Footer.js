@@ -21,7 +21,7 @@ export default function Footer() {
         </li>
       </ul>
       <p className={globalStyles.font_styles.p + " text-sm text-neutral-500"}>
-        &copy; mia tang 2018-2022
+        &copy; mia tang 2018-2023
       </p>
     </footer>
   );

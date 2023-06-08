@@ -1,0 +1,72 @@
+[
+    {
+        "year": 2023,
+        "month": 8,
+        "description": "Workshop at SIGGRAPH on Generative AI",
+        "future": true,
+        "emoji": "👩‍🏫",
+        "link": "https://s2023.siggraph.org/presentation/?id=gensub_261&sess=sess158"
+    },
+    {
+        "year": 2023,
+        "month": 9,
+        "description": "Start master's in CS at Stanford",
+        "future": true,
+        "emoji": "✍️"
+    },
+    {
+        "year": 2023,
+        "month": 5,
+        "description": "Joined Adobe Research (RED Lab) as a Research Engineer Intern",
+        "emoji": "👩‍💻"
+    },
+    {
+        "year": 2023,
+        "month": 5,
+        "description": "Graduated from Carnegie Mellon with a degree in CS and Design",
+        "emoji": "🎓"
+    },
+    {
+        "year": 2023,
+        "month": 4,
+        "description": "Self-published my first-ever comic book",
+        "emoji": "📗"
+    },
+    {
+        "year": 2022,
+        "month": 9,
+        "description": "Joined Prof. Jun-Yan Zhu's lab as an undergraduate researcher",
+        "emoji": "💻"
+    },
+    {
+        "year": 2022,
+        "month": 6,
+        "description": "Joined Cesium as a Software Engineering Intern",
+        "emoji": "👩‍💻"
+    },
+    {
+        "year": 2022,
+        "month": 1,
+        "description": "Started to TA 15-462/662 Computer Graphics",
+        "emoji": "👩‍🏫"
+    },
+    {
+        "year": 2021,
+        "month": 9,
+        "description": "Joined Prof. Kyuha Shim's lab as an undergraduate researcher",
+        "emoji": "💻"
+    },
+    {
+        "year": 2021,
+        "month": 9,
+        "description": "Joined Lunar Gala as the Co-Head of Web Department",
+        "emoji": "💻",
+        "hide": true
+    },
+    {
+        "year": 2021,
+        "month": 5,
+        "description": "Joined Jam3 as a Developer Intern",
+        "emoji": "👩‍💻"
+    }
+]
