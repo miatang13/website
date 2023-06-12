@@ -47,12 +47,19 @@ export default function Blog() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <Image src={HeroImg} />
-        <p className='text-base bg-slate-200 pt-1'>
-          👩‍💻 Hi there. Thank you for checking in. I'm currently taking a short
-          break on producing new materials due to my busy schedule.
+        <p className='text-base bg-pink-100 p-2'>
+          👩‍💻 Hi there! <br /> <br />
+          <b>
+            I'm actively looking for a publisher to work with on my first comic
+            book{" "}
+          </b>{" "}
+          on Computer Graphics / Deep Learning / Linear Algebra (TBD).
+          <br /> <br />
+          If you're interested, please reach out to me at
+          miatang13[at]gmail[dot]com.
         </p>
 
-        <div id='blog-posts-catalog' className='pb-12'>
+        <div id='blog-posts-catalog' className='pb-12 border-b-2'>
           <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
           <button
             className='bg-pink-100 outline outline-offset-2 outline-pink-50 p-1 hover:bg-pink-200'
@@ -120,7 +127,7 @@ export default function Blog() {
           </div>
         </div>
 
-        <div id='blog-posts-upcoming' className='pb-12 border-y-2'>
+        {/* <div id='blog-posts-upcoming' className='pb-12 border-y-2'>
           <h1 className={globalStyles.font_styles.h1}>
             Currently in the Works
           </h1>
@@ -140,7 +147,7 @@ export default function Blog() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div id='blog-posts-all' className='pb-12'>
           <h1 className={globalStyles.font_styles.h1}>Browse All</h1>
