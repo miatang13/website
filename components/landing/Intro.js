@@ -13,12 +13,13 @@ export default function LandingIntro() {
         <br />
         In the fall of 2023, I'll be pursuing my master's degree in Computer
         Science at Stanford University. Recently, I graduated from Carnegie
-        Mellon University, where I studied Computer Science and Design under the
-        guidance of Professor{" "}
+        Mellon University, where I studied Computer Science and Design. During
+        my time at CMU, I had the privilege of conducting research on generative
+        visual systems under the guidance of Professor{` `}
         <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
           Jun-Yan Zhu
         </StyledExternalLink>
-        , conducting research on generative visual systems.
+        .
         {/* Along my journey,
         I've collaborated with amazing professionals in diverse roles, including
         software developer intern at{" "}
