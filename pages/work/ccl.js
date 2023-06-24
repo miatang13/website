@@ -18,9 +18,7 @@ import wyt5 from "../../public/assets/CCL/whatsyourtype_4_s.png";
 import wyt6 from "../../public/assets/CCL/whatsyourtype_5_s.png";
 
 const page_key = "CCL";
-
-const project_idx = projectByOrder.indexOf(page_key);
-const page_data = projects_data[project_idx];
+const page_data = projects_data[page_key];
 
 export default function CCL() {
   return (
@@ -34,7 +32,7 @@ export default function CCL() {
           <p>
             I had the pleasure of working as a full-stack developer for over a
             year at{" "}
-            <StyledExternalLink href="http://computational-creativity.org/">
+            <StyledExternalLink href='http://computational-creativity.org/'>
               {" "}
               Computational Creativity Lab
             </StyledExternalLink>{" "}
@@ -57,7 +55,7 @@ export default function CCL() {
               }
             >
               In Collaboration With{" "}
-              <StyledExternalLink href="https://www.census.gov/">
+              <StyledExternalLink href='https://www.census.gov/'>
                 {" "}
                 US Census Bureau
               </StyledExternalLink>{" "}
@@ -104,7 +102,7 @@ export default function CCL() {
               }
             >
               Funded By{" "}
-              <StyledExternalLink href="https://studioforcreativeinquiry.org/">
+              <StyledExternalLink href='https://studioforcreativeinquiry.org/'>
                 {" "}
                 The Frank-Ratchye STUDIO for Creative Inquiry
               </StyledExternalLink>{" "}

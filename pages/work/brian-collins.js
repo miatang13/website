@@ -8,9 +8,7 @@ import FullLine from "../../components/project/FullLine";
 import StyledExternalLink from "../../components/global/StyledExternalLink";
 
 const page_key = "BrianCollins";
-
-const project_idx = projectByOrder.indexOf(page_key);
-const page_data = projects_data[project_idx];
+const page_data = projects_data[page_key];
 
 const images = [
   "cover.png",

@@ -73,9 +73,7 @@ export default function SoDRebrand() {
   ];
 
   const page_key = "SoD";
-
-  const project_idx = projectByOrder.indexOf(page_key);
-  const page_data = projects_data[project_idx];
+  const page_data = projects_data[page_key];
 
   return (
     <div className={globalStyles.div_styles.page_outer_wrapper}>

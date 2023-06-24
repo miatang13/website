@@ -1,5 +1,5 @@
-[
-  {
+{
+  "ComicBooklet": {
     "path": "ComicBooklet",
     "page_name": "/comic-booklet",
     "landing": {
@@ -12,7 +12,7 @@
     "show": true,
     "design": true
   },
-  {
+  "3DP": {
     "path": "3DP",
     "page_name": "/3D-photography-LDI",
     "landing": {
@@ -27,7 +27,7 @@
     "no-click": true,
     "gif-thumbnail": true
   },
-  {
+  "Layout": {
     "path": "Layout",
     "page_name": "/layout-generation",
     "landing": {
@@ -40,7 +40,7 @@
     "role": "",
     "show": false
   },
-  {
+  "Cesium": {
     "path": "Cesium",
     "page_name": "/cesium-internship",
     "landing": {
@@ -54,7 +54,7 @@
     "show": true,
     "is_internship": true
   },
-  {
+  "CCL": {
     "path": "CCL",
     "page_name": "/ccl",
     "landing": {
@@ -67,7 +67,7 @@
     "role": "Undergrad Developer Researcher",
     "show": true
   },
-  {
+  "Jam3": {
     "path": "Jam3",
     "page_name": "/jam3-internship",
     "landing": {
@@ -81,7 +81,7 @@
     "show": true,
     "is_internship": true
   },
-  {
+  "AsOne": {
     "path": "AsOne",
     "page_name": "/as-one-narrative-game",
     "landing": {
@@ -92,7 +92,7 @@
     "project_summary": "Indie narrative game where you explore as a tiny fish",
     "skills": "Unity, Blender, Inky"
   },
-  {
+  "SoD": {
     "path": "SoD",
     "page_name": "/cmu-sod-rebrand",
     "landing": {
@@ -107,7 +107,7 @@
     "design": true,
     "no-click": false
   },
-  {
+  "Bechdel": {
     "path": "Bechdel",
     "abv_name": "Data Visualization",
     "page_name": "/bechdel-directors-data-vis",
@@ -122,7 +122,7 @@
     "show": true,
     "design": true
   },
-  {
+  "BrianCollins": {
     "path": "BrianCollins",
     "page_name": "/brian-collins",
     "landing": {
@@ -134,4 +134,4 @@
     "show": true,
     "design": true
   }
-]
+}

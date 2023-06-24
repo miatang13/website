@@ -7,9 +7,7 @@ import ProjectHeader from "../../components/project/ProjectHeader";
 import FullLine from "../../components/project/FullLine";
 
 const page_key = "ComicBooklet";
-
-const project_idx = projectByOrder.indexOf(page_key);
-const page_data = projects_data[project_idx];
+const page_data = projects_data[page_key];
 
 const images = [
   "cover+1spread.png",

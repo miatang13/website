@@ -26,8 +26,7 @@ export default function Bechdel() {
   const code_url = base_url + "code/";
 
   const page_key = "Bechdel";
-  const project_idx = projectByOrder.indexOf(page_key);
-  const page_data = projects_data[project_idx];
+  const page_data = projects_data[page_key];
 
   return (
     <div className={globalStyles.div_styles.page_outer_wrapper}>

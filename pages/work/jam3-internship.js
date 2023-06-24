@@ -17,8 +17,7 @@ import postProcessing4 from "../../public/assets/Jam3/process/post-processing/co
 
 const page_key = "Jam3";
 
-const project_idx = projectByOrder.indexOf(page_key);
-const page_data = projects_data[project_idx];
+const page_data = projects_data[page_key];
 
 // videos
 const base_url = "/assets/Jam3/video/compressed/";
