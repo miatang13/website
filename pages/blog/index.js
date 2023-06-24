@@ -46,7 +46,7 @@ export default function Blog() {
       id='page-container'
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
-        <Image src={HeroImg} />
+        <Image src={HeroImg} priority={true} />
         <p className='text-base bg-pink-100 p-2'>
           👩‍💻 Hi there! <br /> <br />
           <b>
@@ -83,7 +83,7 @@ export default function Blog() {
             }
           >
             {Object.keys(grpBlogs).map((key, index) => (
-              <div>
+              <div key={key}>
                 <h2 className={globalStyles.font_styles.h2 + " pb-3"}>{key}</h2>
                 <div className='container'>
                   <ul className='list-disc'>
@@ -108,7 +108,10 @@ export default function Blog() {
                               }
                             >
                               {b.covered.map((topic, index) => (
-                                <span className='inline-flex text-sm'>
+                                <span
+                                  className='inline-flex text-sm'
+                                  key={topic}
+                                >
                                   <span className='bg-amber-100 hover:bg-amber-200'>
                                     {topic}
                                   </span>
@@ -127,28 +130,6 @@ export default function Blog() {
           </div>
         </div>
 
-        {/* <div id='blog-posts-upcoming' className='pb-12 border-y-2'>
-          <h1 className={globalStyles.font_styles.h1}>
-            Currently in the Works
-          </h1>
-          <p className={globalStyles.font_styles.p + " italic pb-3"}>
-            Updated [July 18th 2022]
-          </p>
-          <div className='container'>
-            <ul className='list-disc'>
-              <li className={globalStyles.font_styles.p}>
-                <p>Shadow Maps</p>
-              </li>
-              <li className={globalStyles.font_styles.p}>
-                <p> Shadows in Ray Tracing</p>
-              </li>
-              <li className={globalStyles.font_styles.p}>
-                <p> Bounding Volume Hierarchy </p>
-              </li>
-            </ul>
-          </div>
-        </div> */}
-
         <div id='blog-posts-all' className='pb-12'>
           <h1 className={globalStyles.font_styles.h1}>Browse All</h1>
           <p className={globalStyles.font_styles.p}>
@@ -160,13 +141,17 @@ export default function Blog() {
             .
           </p>
           {Object.keys(grpBlogs).map((key, index) => (
-            <div className='pr-6 pb-12 border-b-2'>
+            <div className='pr-6 pb-12 border-b-2' key={key}>
               <h2 className={globalStyles.font_styles.h2 + " sm:pb-6 pb-3"}>
                 Topics Related To {key}
               </h2>
               <div className='grid sm:grid-cols-3 sm:gap-12 gap-8 select-none'>
                 {grpBlogs[key].map((b) => (
-                  <LinkWrapper href={b.page_path} external={b.external}>
+                  <LinkWrapper
+                    href={b.page_path}
+                    external={b.external}
+                    key={b.title}
+                  >
                     <div
                       className={
                         "p-3 bg-gradient-to-r from-yellow-50 hover:from-yellow-100 hover:to-orange-100 outline outline-offset-2 " +
@@ -203,7 +188,7 @@ export default function Blog() {
                         }
                       >
                         {b.covered.map((topic, index) => (
-                          <span className='inline-flex text-sm'>
+                          <span className='inline-flex text-sm' key={topic}>
                             {topic}
                             {index !== b.covered.length - 1 && ", "} &nbsp;
                           </span>
