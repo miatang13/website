@@ -71,8 +71,8 @@ export default function About() {
 
         <p className={globalStyles.font_styles.p}>
           That's about it for now. I'm always looking for fun opportunities, so
-          feel free to contact me. The best way to reach me is at my email:
-          miatang13[at]gmail[dot]com
+          feel free to contact me. The best way to reach me is: miatang13 [at]
+          gmail.
         </p>
 
         <div className='grid sm:grid-cols-3 py-6'>

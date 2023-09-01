@@ -3,7 +3,7 @@
         "year": 2023,
         "month": 8,
         "description": "Workshop at SIGGRAPH on Generative AI",
-        "future": true,
+        "future": false,
         "emoji": "👩‍🏫",
         "link": "https://s2023.siggraph.org/presentation/?id=gensub_261&sess=sess158"
     },

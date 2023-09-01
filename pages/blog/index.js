@@ -47,17 +47,6 @@ export default function Blog() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <Image src={HeroImg} priority={true} />
-        <p className='text-base bg-pink-100 p-2'>
-          👩‍💻 Hi there! <br /> <br />
-          <b>
-            I'm actively looking for a publisher to work with on my first comic
-            book{" "}
-          </b>{" "}
-          on Computer Graphics / Deep Learning / Linear Algebra (TBD).
-          <br /> <br />
-          If you're interested, please reach out to me at
-          miatang13[at]gmail[dot]com.
-        </p>
 
         <div id='blog-posts-catalog' className='pb-12 border-b-2'>
           <h1 className={globalStyles.font_styles.h1}>Catalog</h1>
@@ -200,14 +189,6 @@ export default function Blog() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div id='blog-posts-paragraph' className='pb-6'>
-          <p className={globalStyles.font_styles.p}>
-            If there are any topics you wish to see me cover, feel free to send
-            me an email. <br />
-            <br /> 📮: miatang13[at]gmail[dot]com
-          </p>
         </div>
       </div>
     </div>

@@ -1,43 +1,42 @@
+import ExternalLink from "../global/ExternalLink";
 import StyledExternalLink from "../global/StyledExternalLink";
 
 export default function LandingIntro() {
   return (
     <div className='pb-3 max-h-min'>
       <h4 className='mono font-normal text-slate-800'>
-        I am Mia — a Research Engineer Intern at Adobe, passionate about
-        utilizing computer graphics, vision, and deep learning to develop
-        innovative creative tools for artists and designers. With these
-        technologies, I aim to enhance the creative process and empower
-        individuals to express their artistic vision more effectively.
+        I am Mia — an incoming MS CS student at Stanford University, and a
+        Research Engineer Intern at Adobe. I am passionate about developing
+        innovative creative tools for artists and designers, using graphics,
+        HCI, and machine learning.
         <br />
         <br />
-        In the fall of 2023, I'll be pursuing my master's degree in Computer
-        Science at Stanford University. Recently, I graduated from Carnegie
-        Mellon University, where I studied Computer Science and Design. During
-        my time at CMU, I had the privilege of conducting research on generative
-        visual systems under the guidance of Professor{` `}
+        During my time at Carnegie Mellon University, where I received my BCSA —
+        Bachelors of Computer Science and Arts, I had the privilege of
+        conducting research on (1) generative systems under the guidance of
+        Professor
+        {` `}
         <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
           Jun-Yan Zhu
         </StyledExternalLink>
+        , and (2) computational design under the guidance of Professor {` `}
+        <StyledExternalLink href='https://kyuhashim.com/'>
+          Kyuha Shim
+        </StyledExternalLink>
         .
-        {/* Along my journey,
-        I've collaborated with amazing professionals in diverse roles, including
-        software developer intern at{" "}
-        <StyledExternalLink href='https://cesium.com/'>
-          Cesium
-        </StyledExternalLink>
-        , developer intern at{" "}
-        <StyledExternalLink href='https://www.jam3.com/'>
-          Jam3
-        </StyledExternalLink>
-        , and developer & brand designer at{" "}
-        <StyledExternalLink href='https://design.cmu.edu/content/school-design-debuts-new-logo-designed-students'>
-          CMU School of Design
-        </StyledExternalLink>. */}
         <br />
         <br />
-        Sharing knowledge through teaching is another passion of mine. Explore
-        my educational work on the blog page.
+        Teaching is a passion of mine. At CMU, I helped students learn about
+        computer graphics and functional programming. I believe in the power of
+        visual storytelling as a vessel for knowledge sharing. In my free time,
+        I experiment as a comic artist, curating accessible educational
+        illustrations on technical topics. I have had the honor to co-teach a
+        course on Generative Machine Learning at SIGGRAPH 2023, incorporating
+        visual narratives in the teaching material.
+        <br />
+        <br />
+        If you'd like to chat about design, generative systems, or education,
+        feel free to reach me at miatang13 [at] gmail.
       </h4>
     </div>
   );
