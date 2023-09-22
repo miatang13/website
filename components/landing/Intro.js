@@ -3,12 +3,12 @@ import StyledExternalLink from "../global/StyledExternalLink";
 
 export default function LandingIntro() {
   return (
-    <div className='pb-3 max-h-min'>
-      <h4 className='mono font-normal text-slate-800'>
-        I am Mia — an incoming MS CS student at Stanford University, and a
-        Research Engineer Intern at Adobe. I am passionate about developing
-        innovative creative tools for artists and designers, using graphics,
-        HCI, and machine learning.
+    <div className="pb-3 max-h-min">
+      <h4 className="mono font-normal text-slate-800">
+        I am Mia — a MS CS student at Stanford University, and a Research
+        Engineer Intern at Adobe. I am passionate about developing innovative
+        creative tools for artists and designers, using graphics, HCI, and
+        machine learning.
         <br />
         <br />
         During my time at Carnegie Mellon University, where I received my BCSA —
@@ -16,11 +16,11 @@ export default function LandingIntro() {
         conducting research on (1) generative systems under the guidance of
         Professor
         {` `}
-        <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
+        <StyledExternalLink href="https://www.cs.cmu.edu/~junyanz/">
           Jun-Yan Zhu
         </StyledExternalLink>
         , and (2) computational design under the guidance of Professor {` `}
-        <StyledExternalLink href='https://kyuhashim.com/'>
+        <StyledExternalLink href="https://kyuhashim.com/">
           Kyuha Shim
         </StyledExternalLink>
         .
