@@ -1,13 +1,14 @@
 import globalStyles from "../../settings/global-styles";
-import frame1 from "../../public/blog/LLMs/LLM-1.png";
-import frame2 from "../../public/blog/LLMs/LLM-2.png";
-import frame3 from "../../public/blog/LLMs/LLM-3.png";
-import frame4 from "../../public/blog/LLMs/LLM-4.png";
+import frame1 from "../../public/blog/large-language-models/LLM-1.png";
+import frame2 from "../../public/blog/large-language-models/LLM-2.png";
+import frame3 from "../../public/blog/large-language-models/LLM-3.png";
+import frame4 from "../../public/blog/large-language-models/LLM-4.png";
 import Image from "next/image";
 import blogData from "../../settings/blogs.json";
 import { Tweet } from "react-twitter-widgets";
 
 export default function LLMs() {
+  const key = "large-language-models";
   return (
     <div
       className={globalStyles.div_styles.page_outer_wrapper}
@@ -15,9 +16,7 @@ export default function LLMs() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <div className='pb-12 border-b-2'>
-          <h1 className={globalStyles.font_styles.h1}>
-            {blogData["llms"].title}
-          </h1>
+          <h1 className={globalStyles.font_styles.h1}>{blogData[key].title}</h1>
           <p className={globalStyles.font_styles.p}>
             Have you ever wondered about the magic behind ChatGPT? As more
             LLM-based generative AI tools become part of our lives, they don’t
@@ -30,7 +29,7 @@ export default function LLMs() {
           <h4 className={globalStyles.font_styles.h4}>Topics Covered</h4>
           <div className='container'>
             <ul className='list-disc'>
-              {blogData["llms"].covered.map((topic) => (
+              {blogData[key].covered.map((topic) => (
                 <li
                   className={globalStyles.font_styles.p}
                   key={"topic-" + topic}

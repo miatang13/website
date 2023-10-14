@@ -1,5 +1,5 @@
 {
-  "llms": {
+  "large-language-models": {
     "covered": [
       "LLM Basics",
       "Fine-tuning",
