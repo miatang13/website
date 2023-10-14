@@ -38,6 +38,7 @@ export default function News() {
     .sort()
     .reverse();
 
+  console.log(news_by_year_keys);
   return (
     <ul className='list-none list-inside'>
       {news_by_year_keys.map((year) => {

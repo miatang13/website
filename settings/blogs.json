@@ -1,6 +1,22 @@
 {
+  "llms": {
+    "covered": [
+      "LLM Basics",
+      "Fine-tuning",
+      "RLHF"
+    ],
+    "title": "Large Language Models",
+    "category": "Machine Learning",
+    "date": "Oct 14, 2023",
+    "complete": true
+  },
   "ml-models": {
-    "covered": ["Autoencoder", "Diffusion", "GAN", "Transformer"],
+    "covered": [
+      "Autoencoder",
+      "Diffusion",
+      "GAN",
+      "Transformer"
+    ],
     "title": "Machine Learning Models",
     "category": "Machine Learning",
     "date": "July 23, 2022",
@@ -77,14 +93,24 @@
     "complete": true
   },
   "graphics-valentines": {
-    "covered": ["GPU", "Halfedge", "World Coordinates", "NURBS Surface"],
+    "covered": [
+      "GPU",
+      "Halfedge",
+      "World Coordinates",
+      "NURBS Surface"
+    ],
     "title": "Valentine's Day Cards",
     "category": "Computer Graphics",
     "date": "Feb 14, 2022",
     "complete": true
   },
   "anti-aliasing": {
-    "covered": ["MSAA", "SSAA", "TXAA", "FXAA"],
+    "covered": [
+      "MSAA",
+      "SSAA",
+      "TXAA",
+      "FXAA"
+    ],
     "title": "4 Kinds of Anti-Aliasing",
     "category": "Computer Graphics",
     "date": "Feb 6, 2022",
@@ -103,14 +129,24 @@
     "complete": true
   },
   "graphics-history": {
-    "covered": ["1960s", "1970s", "1980s", "1990s", "2000s"],
+    "covered": [
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
     "title": "Graphics History",
     "category": "Computer Graphics",
     "date": "Jan 23, 2022",
     "complete": true
   },
   "z-buffer": {
-    "covered": ["Occlusion", "Z-buffer", "Depth Test"],
+    "covered": [
+      "Occlusion",
+      "Z-buffer",
+      "Depth Test"
+    ],
     "title": "Occlusion with Z-buffer",
     "category": "Computer Graphics",
     "date": "Oct 29, 2021",
@@ -129,7 +165,10 @@
     "complete": true
   },
   "super-sampling": {
-    "covered": ["Supersampling", "Box Filter"],
+    "covered": [
+      "Supersampling",
+      "Box Filter"
+    ],
     "title": "Supersampling",
     "category": "Computer Graphics",
     "date": "Oct 1, 2021",
@@ -151,7 +190,12 @@
     "complete": true
   },
   "hof": {
-    "covered": ["Map", "Filter", "Foldl", "Foldr"],
+    "covered": [
+      "Map",
+      "Filter",
+      "Foldl",
+      "Foldr"
+    ],
     "title": "Higher Order Functions",
     "category": "Functional Programming",
     "date": "March 9, 2020",
