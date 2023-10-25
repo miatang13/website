@@ -15,7 +15,7 @@ const project_link_style =
 export default function PublicationPaper(props) {
   return (
     <section className='grid grid-cols-1 lg:grid-cols-3 3xl:grid-cols-1  h-max'>
-      <div className='h-full grid place-content-center p-4'>
+      <div className='h-full grid place-content-center lg:p-4'>
         {props.thumbnail && (
           <Image
             src={"/assets/publication/" + props.thumbnail}
