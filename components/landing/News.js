@@ -32,11 +32,9 @@ export default function News() {
     let intMonths = months.map((item) => parseInt(item));
     intMonths.sort((a, b) => a - b);
     intMonths = intMonths.reverse();
-    console.log(intMonths);
     for (let i = 0; i < intMonths.length; i++) {
       ordered_events.push(news_by_year[year][intMonths[i]]);
     }
-    console.log(ordered_events);
     all_events[year] = ordered_events;
   }
 
