@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Content-Based Search for Deep Generative Models",
+        "Topics": "",
+        "acronym": "Modelverse",
+        "thumbnail": "modelverse-teaser.png",
+        "arxiv_year": "SIGGRAPH Asia 2023",
+        "code_link": " ",
+        "website_link": "https://modelverse.cs.cmu.edu/",
+        "paper_link": "https://arxiv.org/abs/2210.03116",
+        "demo_link": "",
+        "authors_links": "",
+        "authors": [
+            {
+                "name": "Daohan Lu",
+                "link": "https://daohanlu.github.io/",
+                "has_asterisk": true
+            },
+            {
+                "name": "Sheng-Yu Wang",
+                "link": "https://peterwang512.github.io/",
+                "has_asterisk": true
+            },
+            {
+                "name": "Nupur Kumari",
+                "link": "https://nupurkmr9.github.io/",
+                "has_asterisk": true
+            },
+            {
+                "name": "Rohan Agarwal",
+                "link": "https://rohana96.github.io/",
+                "has_asterisk": true
+            },
+            {
+                "name": "Mia Tang",
+                "link": "",
+                "has_asterisk": false
+            },
+            {
+                "name": "David Bau",
+                "link": "https://people.csail.mit.edu/davidbau/home/",
+                "has_asterisk": false
+            },
+            {
+                "name": "Jun-Yan Zhu",
+                "link": "https://www.cs.cmu.edu/~junyanz/",
+                "has_asterisk": false
+            }
+        ]
+    }
+]

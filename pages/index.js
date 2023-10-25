@@ -3,6 +3,7 @@ import LandingIntro from "../components/landing/Intro";
 import InternProjects from "../components/landing/InternProjects";
 import NonInternProjects from "../components/landing/NonInternProjects";
 import News from "../components/landing/News";
+import Publications from "../components/landing/Publication";
 
 export default function Work() {
   const section_title_style = "text-xl font-bold text-pink-400";
@@ -24,6 +25,11 @@ export default function Work() {
           </h2>
           <News />
         </section>
+        <section className='pt-3 pb-3 border-t-2'>
+          <h2 className={section_title_style}>Publication</h2>
+          <Publications />
+        </section>
+
         <section className='pt-3 pb-6 border-t-2'>
           <h2 className={section_title_style}>Engineering Internships</h2>
           <InternProjects />
