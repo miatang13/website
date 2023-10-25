@@ -21,7 +21,6 @@ export default function News() {
       news_by_year[year][month] = [item];
     }
   });
-  console.log("news_by_year", news_by_year);
 
   // now we want to put all events in order for each year
   let all_events = {};
@@ -40,7 +39,6 @@ export default function News() {
     console.log(ordered_events);
     all_events[year] = ordered_events;
   }
-  console.log("all_events", all_events);
 
   return (
     <ul className='list-none list-inside'>
