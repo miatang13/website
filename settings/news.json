@@ -1,6 +1,20 @@
 [
     {
         "year": 2023,
+        "month": 12,
+        "description": "Workshop at SIGGRAPH Asia on Generative AI",
+        "future": true,
+        "emoji": "👩‍🏫",
+        "link": ""
+    },
+    {
+        "year": 2023,
+        "month": 9,
+        "description": "Started to TA CS 148 Intro to Computer Graphics and Imaging @ Stanford",
+        "emoji": "📗"
+    },
+    {
+        "year": 2023,
         "month": 8,
         "description": "Workshop at SIGGRAPH on Generative AI",
         "future": false,
@@ -12,19 +26,21 @@
         "month": 9,
         "description": "Start master's in CS at Stanford",
         "future": false,
-        "emoji": "✍️"
+        "emoji": "✍️",
+        "hide": true
     },
     {
         "year": 2023,
         "month": 5,
-        "description": "Joined Adobe Research (RED Lab) as a Research Engineer Intern",
+        "description": "Joined Adobe Research as a Research Engineer Intern",
         "emoji": "👩‍💻"
     },
     {
         "year": 2023,
         "month": 5,
         "description": "Graduated from Carnegie Mellon with a degree in CS and Design",
-        "emoji": "🎓"
+        "emoji": "🎓",
+        "hide": true
     },
     {
         "year": 2023,
@@ -36,25 +52,29 @@
         "year": 2022,
         "month": 9,
         "description": "Joined Prof. Jun-Yan Zhu's lab as an undergraduate researcher",
-        "emoji": "💻"
+        "emoji": "💻",
+        "hide": true
     },
     {
         "year": 2022,
         "month": 6,
         "description": "Joined Cesium as a Software Engineering Intern",
-        "emoji": "👩‍💻"
+        "emoji": "👩‍💻",
+        "hide": true
     },
     {
         "year": 2022,
         "month": 1,
         "description": "Started to TA 15-462/662 Computer Graphics",
-        "emoji": "📗"
+        "emoji": "📗",
+        "hide": true
     },
     {
         "year": 2021,
         "month": 9,
         "description": "Joined Prof. Kyuha Shim's lab as an undergraduate researcher",
-        "emoji": "💻"
+        "emoji": "💻",
+        "hide": true
     },
     {
         "year": 2021,
@@ -67,18 +87,21 @@
         "year": 2021,
         "month": 5,
         "description": "Joined Jam3 as a Developer Intern",
-        "emoji": "👩‍💻"
+        "emoji": "👩‍💻",
+        "hide": true
     },
     {
         "year": 2021,
         "month": 2,
         "description": "Joined Penrose as a undergraduate researcher",
-        "emoji": "💻"
+        "emoji": "💻",
+        "hide": true
     },
     {
         "year": 2020,
         "month": 1,
         "description": "Started to TA 15-150 Functional Programming",
-        "emoji": "📗"
+        "emoji": "📗",
+        "hide": true
     }
 ]
