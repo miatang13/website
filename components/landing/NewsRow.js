@@ -19,7 +19,7 @@ export default function NewsRow(props) {
   return (
     !props.hide && (
       <div className='grid md:grid-cols-5 my-1' key={props.description}>
-        <div className='p-2'>
+        <div className='md:p-2'>
           {/* <span className='pr-2'> {props.emoji}</span> */}
           <span className={props.future ? "text-blue-400" : "text-pink-400"}>
             {months[props.month - 1]}
