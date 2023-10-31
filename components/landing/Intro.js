@@ -1,4 +1,3 @@
-import ExternalLink from "../global/ExternalLink";
 import StyledExternalLink from "../global/StyledExternalLink";
 
 export default function LandingIntro() {
