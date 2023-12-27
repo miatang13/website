@@ -25,6 +25,10 @@ export default function News() {
   // now we want to put all events in order for each year
   let all_events = {};
   let years = Object.keys(news_by_year);
+  // sort years in descending order
+  years.sort((a, b) => a - b);
+  years = years.reverse();
+
   for (let i = 0; i < years.length; i++) {
     let year = years[i];
     let ordered_events = [];
@@ -40,7 +44,7 @@ export default function News() {
 
   return (
     <ul className='list-none list-inside'>
-      {Object.keys(all_events).map((year) => {
+      {years.map((year) => {
         return (
           <li className='grid md:grid-cols-6 pb-6' key={year}>
             <h4 className={dates_style}>{year}</h4>

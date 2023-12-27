@@ -4,8 +4,8 @@ export default function LandingIntro() {
   return (
     <div className='pb-3 max-h-min'>
       <h4 className='mono font-normal text-slate-800'>
-        I am Mia — an MS CS student at Stanford University, and a Research
-        Engineer Intern at Adobe. I am passionate about developing innovative
+        I am Mia — an MS CS student at Stanford University.
+        I am passionate about developing innovative
         creative tools for artists and designers, using graphics, HCI, and
         machine learning.
         <br />
@@ -29,9 +29,8 @@ export default function LandingIntro() {
         computer graphics and functional programming. I believe in the power of
         visual storytelling as a vessel for knowledge sharing. In my free time,
         I experiment as a comic artist, curating accessible educational
-        illustrations on technical topics. I have had the honor to co-teach a
-        course on Generative Machine Learning at SIGGRAPH 2023, incorporating
-        visual narratives in the teaching material.
+        illustrations on technical topics. I have had the honor to co-teach courses at SIGGRAPH and
+        SIGGRAPH Asia on Generative AI, incorporating visual narratives in the teaching material.
         <br />
         <br />
         If you'd like to chat about design, generative systems, or education,

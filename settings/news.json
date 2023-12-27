@@ -1,16 +1,25 @@
 [
     {
+        "year": 2024,
+        "month": 1,
+        "description": "TA CS248A: Computer Graphics: Rendering, Geometry, and Image Manipulation",
+        "future": true,
+        "emoji": "📗",
+        "link": "https://gfxcourses.stanford.edu/cs248a/winter24"
+    },
+    {
         "year": 2023,
         "month": 12,
         "description": "Workshop at SIGGRAPH Asia on Generative AI",
-        "future": true,
+        "future": false,
         "emoji": "👩‍🏫",
         "link": "https://asia.siggraph.org/2023/presentation/?id=crs_120&sess=sess109"
     },
     {
         "year": 2023,
         "month": 9,
-        "description": "Started to TA CS 148 Intro to Computer Graphics and Imaging @ Stanford",
+        "description": "TA CS148: Intro to Computer Graphics and Imaging @ Stanford",
+        "link": "https://web.stanford.edu/class/cs148/",
         "emoji": "📗"
     },
     {
