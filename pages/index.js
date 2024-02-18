@@ -48,7 +48,7 @@ export default function Work() {
           <InternProjects />
         </section> */}
         <section className='pt-3 pb-6 border-t-2'>
-          <h2 className={section_title_style}>Projects</h2>
+          <h2 className={section_title_style}>Project</h2>
           <AllProjects />
         </section>
       </div>
