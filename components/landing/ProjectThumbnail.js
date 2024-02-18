@@ -17,13 +17,12 @@ export default function ProjectThumbnail(p) {
           p["no-click"]
             ? "cursor-not-allowed"
             : "cursor-pointer" +
-              " h-full p-3 bg-gradient-to-r from-pink-50 to-white-500 transition ease-in-out duration-300 \
-                hover:from-orange-50 hover:to-pink-100 outline outline-offset-2 outline-pink-50"
+            " h-full p-3 bg-gradient-to-r from-pink-50 to-white-500 transition duration-300 ease-in-out hover:from-orange-50 hover:to-pink-100 outline outline-offset-2 outline-pink-50"
         }
       >
         <p
           className={
-            globalStyles.font_styles.p + " text-slate-400  text-sm pb-3"
+            globalStyles.font_styles.p + " text-slate-400 text-sm pb-3"
           }
         >
           {p.timeline}

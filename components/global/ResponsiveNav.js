@@ -22,7 +22,7 @@ export default function ResponsiveNav() {
       >
         <Link href='/'>
           <span className='font-mono font-black hover:cursor-pointer text-pink-300'>
-            M.T.
+            mia t.
           </span>
         </Link>
       </div>

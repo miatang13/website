@@ -6,27 +6,25 @@ export default function LandingIntro() {
       <h4 className='mono font-normal text-slate-800'>
         I am Mia — an MS CS student at Stanford University.
         I am passionate about developing innovative
-        creative tools for artists and designers, using graphics, HCI, and
-        machine learning.
+        creative tools for artists and designers.
         <br />
         <br />
-        During my time at Carnegie Mellon University, where I received my BCSA —
+        During my time at Carnegie Mellon University, where I received
         Bachelors of Computer Science and Arts, I had the privilege of
-        conducting research on (1) generative systems under the guidance of
-        Professor
+        conducting research on generative systems under the guidance of
+        Prof.
         {` `}
         <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
           Jun-Yan Zhu
         </StyledExternalLink>
-        , and (2) computational design under the guidance of Professor {` `}
+        , and computational design under the guidance of Prof. {` `}
         <StyledExternalLink href='https://kyuhashim.com/'>
           Kyuha Shim
         </StyledExternalLink>
         .
         <br />
         <br />
-        Teaching is a passion of mine. At CMU, I helped students learn about
-        computer graphics and functional programming. I believe in the power of
+        Teaching is a passion of mine. I believe in the power of
         visual storytelling as a vessel for knowledge sharing. In my free time,
         I experiment as a comic artist, curating accessible educational
         illustrations on technical topics. I have had the honor to co-teach courses at SIGGRAPH and

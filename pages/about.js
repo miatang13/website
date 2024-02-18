@@ -15,12 +15,11 @@ export default function About() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <p className={globalStyles.font_styles.p + " mt-4"}>
-          I am Mia Tang, a recent graduate of Carnegie Mellon University's{" "}
+          I am Mia Tang, an MS CS student at Stanford. During undergrad, I studied Computer
+          Science and Design within Carnegie Mellon University's{" "}
           <StyledExternalLink href='https://www.cmu.edu/interdisciplinary/programs/bcsa.html'>
             BXA program
-          </StyledExternalLink>
-          , where I majored in Computer Science and Design with a concentration
-          in Communications Design.
+          </StyledExternalLink>.
           <br />
           <br />
           Finding solutions to challenging problems brings me immense joy. I

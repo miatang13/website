@@ -22,10 +22,10 @@ export default function Footer() {
       </ul>
       <p
         className={
-          globalStyles.font_styles.p + " text-sm text-neutral-500 py-3"
+          globalStyles.font_styles.p + " text-sm text-slate-400 py-3"
         }
       >
-        &copy; mia tang 2018-2023
+        &copy; mia tang 2018-2024
       </p>
     </footer>
   );
