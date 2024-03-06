@@ -24,11 +24,10 @@ export default function LandingIntro() {
         .
         <br />
         <br />
-        Teaching is a passion of mine. I believe in the power of
-        visual storytelling as a vessel for knowledge sharing. In my free time,
-        I experiment as a comic artist, curating accessible educational
+        Teaching is a passion of mine. I experiment as a comic artist, curating accessible educational
         illustrations on technical topics. I have had the honor to co-teach courses at SIGGRAPH and
-        SIGGRAPH Asia on Generative AI, incorporating visual narratives in the teaching material.
+        SIGGRAPH Asia on Generative AI, incorporating visual narratives in the teaching material. In my free time, I also
+        volunteer as a math tutor for preschool children at local schools in Palo Alto.
         <br />
         <br />
         If you'd like to chat about design, generative systems, or education,
