@@ -34,7 +34,7 @@ export default function Work() {
         </section>
 
         <section className='pt-3 pb-3 border-t-2'>
-          <h2 className={section_title_style}>Teaching </h2>
+          <h2 className={section_title_style}>Teaching</h2>
           <Teaching />
         </section>
         <section className='pt-3 pb-3 border-t-2'>
