@@ -5,7 +5,7 @@
         "acronym": "Modelverse",
         "thumbnail": "modelverse-teaser-sm.png",
         "arxiv_year": "SIGGRAPH Asia 2023",
-        "code_link": " ",
+        "code_link": "https://github.com/generative-intelligence-lab/modelverse",
         "website_link": "https://modelverse.cs.cmu.edu/",
         "paper_link": "https://arxiv.org/abs/2210.03116",
         "demo_link": "",
