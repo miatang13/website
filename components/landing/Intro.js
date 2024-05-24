@@ -19,11 +19,10 @@ export default function LandingIntro() {
         My primary goal in creating effective visuals is educational.
         I am passionate about teaching and express this through my work as a comic artist,
         developing accessible educational illustrations on technical topics.
-        I have had the privilege of co-teaching courses on Generative AI at SIGGRAPH and SIGGRAPH Asia.
-        Additionally, I volunteer as a math tutor for preschool children at local schools in Palo Alto in my free time.
-        <br /><br />
+        I have had the privilege of co-teaching courses on Generative AI at SIGGRAPH. In my free time, I volunteer as a math tutor for preschool children at local schools in Palo Alto.
 
-        If you'd like to discuss generative models, design, or education, feel free to contact me at miatang13 [at] gmail.com.
+        <br /><br />
+        🐰 I currently co-organize Stanford Graphics Cafe Seminar. Subscribe to our  <StyledExternalLink href="https://mailman.stanford.edu/mailman/listinfo/graphics-cafe">mailing list  </StyledExternalLink> for updates on our weekly talks!
 
       </h4>
     </div>
