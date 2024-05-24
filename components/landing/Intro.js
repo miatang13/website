@@ -22,7 +22,7 @@ export default function LandingIntro() {
         I have had the privilege of co-teaching courses on Generative AI at SIGGRAPH. In my free time, I volunteer as a math tutor for preschool children at local schools in Palo Alto.
 
         <br /><br />
-        🐰 I currently co-organize Stanford Graphics Cafe Seminar. Subscribe to our  <StyledExternalLink href="https://mailman.stanford.edu/mailman/listinfo/graphics-cafe">mailing list  </StyledExternalLink> for updates on our weekly talks!
+        🐰 I currently co-organize Stanford Graphics Cafe Seminar. Subscribe to our  <StyledExternalLink href="https://mailman.stanford.edu/mailman/listinfo/graphics-cafe">mailing list</StyledExternalLink> for updates on our weekly talks!
 
       </h4>
     </div>
