@@ -15,41 +15,12 @@ export default function About() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <p className={globalStyles.font_styles.p + " mt-4"}>
-          I am Mia Tang, an MS CS student at Stanford. During undergrad, I studied Computer
-          Science and Design within Carnegie Mellon University's{" "}
-          <StyledExternalLink href='https://www.cmu.edu/interdisciplinary/programs/bcsa.html'>
-            BXA program
-          </StyledExternalLink>.
-          <br />
-          <br />
-          Finding solutions to challenging problems brings me immense joy. I
-          have a deep curiosity and strive to gain a diverse range of
-          perspectives.
-          <br />
-          <br />
-          Professionally, I have a strong passion for software development and a
-          keen interest in working with graphics systems. I appreciate the
-          intricacies of typography, color, and motion in design. Although my
-          childhood dreams revolved around becoming an artist or designer, my
-          introduction to programming at CMU changed my path. While I now pursue
-          a career as an engineer, I still hold a deep admiration for the
-          creative community. I value collaborative environments where I can
-          work alongside artists and designers, building tools to support their
-          craft.
-          <br />
-          <br />
-          In my free time, I explore my passion for storytelling. I am
-          particularly motivated to find ways to explain complex technical
-          concepts in accessible and engaging ways. This interest sparked during
-          my sophomore year when I served as a teaching assistant for an
-          introductory Functional Programming class. Many students came from
-          diverse academic backgrounds, and I dedicated time to finding
-          effective ways to explain intricate topics in a manner that resonated
-          with them. I firmly believe that the process of acquiring new
-          knowledge is exhilarating and rewarding, and I am committed to helping
-          others experience that same joy. Additionally, overcoming intellectual
-          challenges fosters confidence and resilience, shaping us into stronger
-          individuals.
+          If you're curious about my journey and what drives my work, here's a little about why I do what I do and why it matters to me. :)  <br /> <br />
+          Ever since I was a kid, I wanted to be an artist or designer. My afternoons were spent in an art studio exploring all sorts of artistic mediums—from sketching and painting to sculpting. I started college as a Graphic Design major, which I still really love, but an introductory programming class opened my eyes to new possibilities. Thankfully, Carnegie Mellon's BXA program let me keep both my technical and artistic interests alive. <br /> <br />
+          Ultimately, I believe it's crucial to understand the underlying motivations for any claimed passion. Yes, I enjoy beautiful pictures, and I love the feel of a brush gliding over canvas, but the consistent thread across all my interests is my fascination with visuals that grab people's attention and make them think. Accessible and engaging visuals have the immense ability to captivate audiences and convey messages effectively.
+          <br /> <br />
+          This clicked for me when I was a teaching assistant for a Functional Programming class during my sophomore year. My students had all kinds of backgrounds, which challenged me to make the material clear and fun. That's when I came up with the idea to create educational comics. It was so rewarding to see students have those “aha” moments—it made teaching and learning really enjoyable.
+          Now, in my research, I'm looking to make creating easier for everyone.
           <br />
           <br /> Some fun facts: (1) My favorite artistic medium is oil on
           canvas.
