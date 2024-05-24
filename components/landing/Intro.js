@@ -16,7 +16,6 @@ export default function LandingIntro() {
         My research interests are at the intersection of computer graphics, computational 2D and 3D design, and storytelling.
         I aim to create compelling and engaging visual content by introducing new forms of control into vision-language models.<br /><br />
 
-        My primary goal in creating effective visuals is educational.
         I am passionate about teaching and express this through my work as a comic artist,
         developing accessible educational illustrations on technical topics.
         I have had the privilege of co-teaching courses on Generative AI at SIGGRAPH. In my free time, I volunteer as a math tutor for preschool children at local schools in Palo Alto.
