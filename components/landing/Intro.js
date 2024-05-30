@@ -14,7 +14,7 @@ export default function LandingIntro() {
         </StyledExternalLink> on computational design.<br /><br />
 
         My research interests are at the intersection of computer graphics, computational 2D and 3D design, and storytelling.
-        I am interested in leveraging generative models to create visual content and tools for artists and designers.<br /><br />
+        I am interested in leveraging generative models to create visual content and tools.<br /><br />
 
         I am passionate about teaching and express this through my work as a comic artist,
         developing accessible educational illustrations on technical topics.
