@@ -15,14 +15,19 @@ export default function About() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <p className={globalStyles.font_styles.p + " mt-4"}>
-          If you're curious about my journey and what drives my work, here's a little about why I do what I do and why it matters to me. :)  <br /> <br />
-          Ever since I was a kid, I wanted to be an artist or designer. My afternoons were spent in an art studio exploring all sorts of artistic mediums—from sketching and painting to sculpting. I started college as a Graphic Design major, which I still really love, but an introductory programming class opened my eyes to new possibilities. Thankfully, Carnegie Mellon's BXA program let me keep both my technical and artistic interests alive. <br /> <br />
-          Ultimately, I believe it's crucial to understand the underlying motivations for any claimed passion. Yes, I enjoy beautiful pictures, and I love the feel of a brush gliding over canvas, but the consistent thread across all my interests is my fascination with visuals that grab people's attention and make them think. Accessible and engaging visuals have the immense ability to captivate audiences and convey messages effectively.
-          <br /> <br />
-          This clicked for me when I was a teaching assistant for a Functional Programming class during my sophomore year. My students had all kinds of backgrounds, which challenged me to make the material clear and fun. That's when I came up with the idea to create educational comics. It was so rewarding to see students have those “aha” moments—it made teaching and learning really enjoyable.
-          Now, in my research, I'm looking to make creating easier for everyone.
+          If you're curious about my journey and what drives my work, here’s a bit about why I do what I do and why it matters to me. :)
           <br />
-          <br /> Some fun facts: (1) My favorite artistic medium is oil on
+          <br />
+          From a young age, I've been drawn to the world of art and design. I spent afternoons in art studios, dabbling in everything from sketching and painting to sculpting. Initially, I pursued a major in Graphic Design in college. However, an introductory programming class soon broadened my horizons, revealing new possibilities at the intersection of technology and art. Fortunately, Carnegie Mellon’s BXA program allowed me to nurture both my technical skills and artistic passions. This led me to discover Computer Graphics, which perfectly blended these interests.
+          <br />
+          <br />
+          My deep appreciation for creating beautiful visuals—whether through a traditional brush on canvas, digital tools or a shader program—has always been a part of me. But the true unifying theme across all my pursuits is my passion for visuals that captivate and stimulate thought. This passion became even more apparent when I was a teaching assistant for a Functional Programming class during my sophomore year. Teaching students from diverse backgrounds challenged me to present complex material in an engaging and accessible way. That's when I started creating educational comics, which proved incredibly rewarding as I watched students experience their "aha" moments. These experiences have fueled my current research focus: simplifying the creative process to empower everyone to produce impactful visual content.
+          <br />
+          <br />
+          As an educational comic artist (yes, that's definitely a thing!), I am incredibly grateful for the opportunity to teach complex technical content in an approachable way. Over the years, my educational artwork has been featured in tech community blogs and used in university teaching materials. After graduating from CMU, I self-published a booklet compiling all my work up to that point. While I'm currently focused on growing as a researcher, I'm excited to resume creating educational content soon.
+          <br />
+          <br />
+          Some fun facts: (1) My favorite artistic medium is oil on
           canvas.
         </p>
         <div class='grid sm:grid-cols-2 gap-4 py-6'>
