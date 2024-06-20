@@ -1,4 +1,5 @@
 const projectByOrder = [
+  "GCafe",
   "ComicBooklet",
   "3DP",
   "Layout",

@@ -9,7 +9,7 @@ export default function ProjectHeader(props) {
       <h1 className={globalStyles.font_styles.h1}>
         {props.page_data.landing.subtitle}
       </h1>
-      <div className="grid sm:grid-cols-2 sm:gap-12 gap-6">
+      <div className="grid sm:grid-cols-2">
         <div>
           <h3 className={globalStyles.font_styles.h3}>
             <b>skills</b> <br />

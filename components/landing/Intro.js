@@ -4,7 +4,7 @@ export default function LandingIntro() {
   return (
     <div className='pb-3 max-h-min'>
       <h4 className='mono font-normal text-slate-800'>
-        I am Mia — a first-year master’s student in computer science at Stanford University, advised by Professor  {" "}
+        I am Mia — a master's student in computer science at Stanford University, advised by Professor  {" "}
         <StyledExternalLink href="https://graphics.stanford.edu/~maneesh/"> Maneesh Agrawala</StyledExternalLink>.
         Previously, I earned my BCSA (Bachelor of Computer Science and Arts) at Carnegie Mellon University,
         where I was fortunate to be advised by Professor <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>

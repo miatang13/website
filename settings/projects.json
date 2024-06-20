@@ -1,4 +1,17 @@
 {
+  "GCafe": {
+    "path": "GCafe",
+    "page_name": "/gcafe",
+    "landing": {
+      "title": "Stanford Graphics Cafe Bunnies"
+    },
+    "timeline": "Jan 2024 - Present",
+    "project_summary": "Comic Booklet",
+    "skills": "Illustration",
+    "role": "Illustrator, Designer",
+    "show": true,
+    "design": true
+  },
   "ComicBooklet": {
     "path": "ComicBooklet",
     "page_name": "/comic-booklet",
