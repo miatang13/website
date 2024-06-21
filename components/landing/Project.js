@@ -8,7 +8,7 @@ export default function AllProjects() {
             {projectByOrder.map((projectName) => {
                 let p = projects[projectName];
 
-                return p.show && <ProjectThumbnail {...p} />;
+                return p.show && <ProjectThumbnail {...p} key={projectName} />;
             })}
         </div>
     );

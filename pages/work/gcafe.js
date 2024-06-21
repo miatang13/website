@@ -24,7 +24,7 @@ const images = [
     "Jiaju_Ma.png",
 ];
 
-export default function ComicBooklet() {
+export default function GCafe() {
     return (
         <div className={globalStyles.div_styles.page_outer_wrapper}>
             <div className={globalStyles.div_styles.page_inner_wrapper}>

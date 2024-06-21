@@ -53,7 +53,7 @@ export default function ComicBooklet() {
         <div className='py-6 flex flex-col space-y-4 place-items-center'>
           {images.map((image) => {
             return (
-              <div className='py-3 md:w-5/6'>
+              <div className='py-3 md:w-5/6' key={image}>
                 <Image
                   width={4500 / 3}
                   height={3000 / 3}
