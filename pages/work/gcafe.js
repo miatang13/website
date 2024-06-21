@@ -1,6 +1,6 @@
 import Image from "next/image";
 import globalStyles from "../../settings/global-styles";
-import hero_img from "../../public/assets/Gcafe/thumbnail.png";
+import hero_img from "../../public/assets/GCafe/thumbnail.png";
 import projects_data from "../../settings/projects.json";
 import ProjectHeader from "../../components/project/ProjectHeader";
 import FullLine from "../../components/project/FullLine";
