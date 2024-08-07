@@ -6,16 +6,14 @@ const teachingData = [
         "venue": "ACM SIGGRAPH",
         "link": "https://s2024.conference-program.org/presentation/?id=gensub_279&sess=sess166",
         "semesters": ["July 2024"],
-        "role": "Instructor",
-        "future": true
+        "role": "Instructor"
     },
     {
         "name": "Introduction to Generative Machine Learning",
         "venue": "ACM SIGGRAPH",
         "link": "https://s2024.conference-program.org/presentation/?id=gensub_449&sess=sess153",
         "semesters": ["July 2024"],
-        "role": "Instructor",
-        "future": true
+        "role": "Instructor"
     },
     {
         "name": "The Future of Generative Visual Art",
