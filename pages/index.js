@@ -15,7 +15,6 @@ export default function Work() {
     >
       <div className={globalStyles.div_styles.page_inner_wrapper}>
         <section>
-          <h2 className={section_title_style}>Hello there :)</h2>
           <LandingIntro />
         </section>
         {/* <section className='pt-3 pb-3 border-t-2'>
