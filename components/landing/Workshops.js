@@ -2,40 +2,47 @@ import StyledExternalLink from "../global/StyledExternalLink";
 
 const teachingData = [
     {
-        "name": "CS 248A: Computer Graphics: Rendering, Geometry, and Image Manipulation",
-        "venue": "Stanford University",
-        "link": "https://gfxcourses.stanford.edu/cs248a/winter24/",
-        "semesters": ["Winter 2024"],
-        "role": "Course Assistant"
+        "name": "Generative Models for Visual Content Editing and Creation",
+        "venue": "SIGGRAPH 2024",
+        "link": "https://s2024.conference-program.org/presentation/?id=gensub_279&sess=sess166",
+        "semesters": ["July 2024"],
+        "role": "Instructor"
     },
     {
-        "name": "CS 148: Introduction to Computer Graphics and Imaging",
-        "venue": "Stanford University",
-        "link": "https://web.stanford.edu/class/cs148/",
-        "semesters": ["Fall 2023"],
-        "role": "Course Assistant"
+        "name": "Introduction to Generative Machine Learning",
+        "venue": "SIGGRAPH 2024",
+        "link": "https://s2024.conference-program.org/presentation/?id=gensub_449&sess=sess153",
+        "semesters": ["July 2024"],
+        "role": "Instructor"
     },
     {
-        "name": "15-462/662: Computer Graphics",
-        "venue": "Carnegie Mellon University",
-        "link": "https://csd.cmu.edu/course/15462/s24",
-        "semesters": ["Spring 2022", "Fall 2022"],
-        "role": "Teaching Assistant"
+        "name": "The Future of Generative Visual Art",
+        "venue": "CVPR 2024",
+        "link": "https://cveu.github.io/event/cvpr2024.html",
+        "semesters": ["June 2024"],
+        "role": "Workshop Organizer"
     },
     {
-        "name": "15-150: Principles of Functional Programming",
-        "venue": "Carnegie Mellon University",
-        "link": "https://csd.cmu.edu/15150-principles-of-functional-programming",
-        "semesters": ["Spring 2020", "Summer 2020"],
-        "role": "Teaching Assistant"
-    }
+        "name": "Introduction to Generative Machine Learning",
+        "venue": "SIGGRAPH Asia 2023",
+        "link": "https://asia.siggraph.org/2023/presentation/?id=crs_120&sess=sess109",
+        "semesters": ["December 2023"],
+        "role": "Instructor"
+    },
+    {
+        "name": "Introduction to Generative Machine Learning",
+        "venue": "SIGGRAPH 2023",
+        "link": "https://s2023.siggraph.org/presentation/?id=gensub_261&sess=sess158",
+        "semesters": ["August 2023"],
+        "role": "Instructor"
+    },
 ]
 
 const descriptions_style = "mono font-bold";
 const div_style = "bg-gradient-to-r from-pink-50 to-white-500 p-4 outline outline-offset-2 outline-pink-50 "
 const future_div_style = "bg-gradient-to-r from-blue-100 to-white-500 p-4 outline outline-offset-2 outline-blue-50 "
 
-export default function Teaching() {
+export default function Workshops() {
     return (
         <div>
             {teachingData.map((details, index) => (
@@ -61,7 +68,7 @@ export default function Teaching() {
                                 >
                                     <p className={descriptions_style}>{details.name}</p>
                                 </a>
-                                <p className="text-slate-400 text-sm">{details.role} for {details.semesters.join(', ')}</p>
+                                {/* <p className="text-slate-400 text-sm">{details.role} for {details.semesters.join(', ')}</p> */}
                             </div>
                     }
 

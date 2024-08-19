@@ -2,6 +2,7 @@ import globalStyles from "../settings/global-styles";
 import LandingIntro from "../components/landing/Intro";
 import Publications from "../components/landing/Publication";
 import AllProjects from "../components/landing/Project";
+import Workshops from "../components/landing/Workshops";
 import Teaching from "../components/landing/Teaching";
 import WorkExperience from "../components/landing/WorkExperience";
 
@@ -28,7 +29,10 @@ export default function Work() {
           <h2 className={section_title_style}>Publication</h2>
           <Publications />
         </section>
-
+        <section className='pt-3 pb-3 border-t-2'>
+          <h2 className={section_title_style}>Conference Workshop</h2>
+          <Workshops />
+        </section>
         <section className='pt-3 pb-3 border-t-2'>
           <h2 className={section_title_style}>Teaching</h2>
           <Teaching />
