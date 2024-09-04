@@ -9,8 +9,12 @@ const my_author_link_style =
   "bg-blue-200 rounded-lg p-2 transition duration-200 ease-in-out  \
 flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
 const project_link_style =
-  "font-normal italic bg-blue-50 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out \
+  "font-normal bg-blue-50 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out \
   flex flex-row space-x-2 text-slate-800";
+const project_link_disabled_style =
+  "font-normal italic bg-slate-50 rounded-lg p-2  \
+  flex flex-row space-x-2 text-slate-300 cursor-not-allowed";
+
 
 export default function PublicationPaper(props) {
   return (
@@ -59,7 +63,7 @@ export default function PublicationPaper(props) {
             {props.code_link && (
               <a
                 target={props.code_link == " " ? "" : "_blank"}
-                className={project_link_style}
+                className={props.code_link == " " ? project_link_disabled_style : project_link_style}
                 href={props.code_link}
               >
                 <p>{props.code_link == " " ? "Code (Coming Soon)" : "Code"}</p>
@@ -68,7 +72,7 @@ export default function PublicationPaper(props) {
             {props.website_link && (
               <a
                 target={props.website_link == " " ? "" : "_blank"}
-                className={project_link_style}
+                className={props.website_link == " " ? project_link_disabled_style : project_link_style}
                 href={props.website_link}
               >
                 <p>{props.website_link == " " ? "Website (Coming Soon)" : "Website"}</p>
@@ -76,11 +80,11 @@ export default function PublicationPaper(props) {
             )}
             {props.paper_link && (
               <a
-                target='_blank'
-                className={project_link_style}
+                target={props.paper_link == " " ? "" : "_blank"}
+                className={props.paper_link == " " ? project_link_disabled_style : project_link_style}
                 href={props.paper_link}
               >
-                <p>Paper</p>
+                <p>{props.paper_link == " " ? "Paper (Coming Soon)" : "Paper"}</p>
               </a>
             )}
             {props.demo_link && (

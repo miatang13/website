@@ -1,5 +1,41 @@
 [
     {
+        "title": "ShapeCraft: Body-Aware and Semantics-Aware 3D Object Design",
+        "Topics": "",
+        "acronym": "",
+        "thumbnail": "shapecraft-teaser-sm.png",
+        "arxiv_year": "WACV 2025 (To Appear)",
+        "code_link": " ",
+        "website_link": " ",
+        "paper_link": " ",
+        "demo_link": "",
+        "authors_links": "",
+        "authors": [
+            {
+                "name": "Michelle Guo",
+                "link": "https://shellguo.com/",
+                "has_asterisk": true
+            },
+            {
+                "name": "Mia Tang",
+                "link": "/",
+                "has_asterisk": true
+            },
+            {
+                "name": "Hannah Cha",
+                "link": "https://www.hannahcha.com/"
+            },
+            {
+                "name": "C. Karen Liu",
+                "link": "https://profiles.stanford.edu/c-karen-liu"
+            },
+            {
+                "name": "Jiajun Wu",
+                "link": "https://jiajunwu.com/"
+            }
+        ]
+    },
+    {
         "title": "Block and Detail: Scaffolding Sketch-to-Image Generation",
         "Topics": "",
         "acronym": "",
