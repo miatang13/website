@@ -6,10 +6,10 @@ export default function LandingIntro() {
   const section_title_style = "text-xl font-bold text-pink-400";
   return (
     <div className='pb-3 max-h-min grid md:grid-cols-6'>
-      <div className="md:col-span-2 md:p-12 grid place-content-center">
+      <div className="md:col-span-2 md:mx-4 grid place-content-center">
         <Image src={landingPic} />
       </div>
-      <div className="md:col-span-4 grid place-content-center">
+      <div className="md:col-span-4 grid place-content-center md:pl-2">
         <h2 className={section_title_style}>Hello there :)</h2> <h4 className='mono font-normal text-slate-800'>
           I am Mia — a master's student in computer science at Stanford University, where I'm fortunate to be advised by Professor {" "}
           <StyledExternalLink href="https://graphics.stanford.edu/~maneesh/"> Maneesh Agrawala</StyledExternalLink>. I have also had the privilege of working at the <StyledExternalLink href="https://svl.stanford.edu/"> Stanford Vision and Learning Lab (SVL)</StyledExternalLink>.
