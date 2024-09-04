@@ -6,7 +6,7 @@ const author_link_style =
   "font-normal bg-blue-100 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out  \
   flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
 const my_author_link_style =
-  "bg-blue-200 rounded-lg p-2 transition duration-200 ease-in-out  \
+  "bg-blue-300 rounded-lg p-2 transition duration-200 ease-in-out  \
 flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
 const project_link_style =
   "font-normal bg-blue-50 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out \
