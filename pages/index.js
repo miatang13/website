@@ -8,6 +8,7 @@ import WorkExperience from "../components/landing/WorkExperience";
 
 export default function Work() {
   const section_title_style = "text-xl font-bold text-pink-400";
+  const section_title_style_blue = "text-xl font-bold text-blue-400";
 
   return (
     <div
@@ -26,11 +27,11 @@ export default function Work() {
           <News />
         </section> */}
         <section className='pt-3 pb-3 border-t-2'>
-          <h2 className={section_title_style}>Publication</h2>
+          <h2 className={section_title_style_blue}>Publication</h2>
           <Publications />
         </section>
         <section className='pt-3 pb-3 border-t-2'>
-          <h2 className={section_title_style}>Conference Workshop</h2>
+          <h2 className={section_title_style_blue}>Conference Workshop</h2>
           <Workshops />
         </section>
         <section className='pt-3 pb-3 border-t-2'>

@@ -1,5 +1,41 @@
 [
     {
+        "title": "Block and Detail: Scaffolding Sketch-to-Image Generation",
+        "Topics": "",
+        "acronym": "",
+        "thumbnail": "blockndetail-teaser-sm-169.png",
+        "arxiv_year": "UIST 2024",
+        "code_link": "https://github.com/BlockDetail/Block-and-Detail",
+        "website_link": " ",
+        "paper_link": "https://arxiv.org/abs/2402.18116",
+        "demo_link": "",
+        "authors_links": "",
+        "authors": [
+            {
+                "name": "Vishnu Sarukkai",
+                "link": "https://vsanimator.github.io/"
+            },
+            {
+                "name": "Lu Yuan",
+                "link": "https://www.linkedin.com/in/sylvia-yuan-38792a193/",
+                "has_asterisk": true
+            },
+            {
+                "name": "Mia Tang",
+                "link": "/",
+                "has_asterisk": true
+            },
+            {
+                "name": "Maneesh Agrawal",
+                "link": "https://graphics.stanford.edu/~maneesh/"
+            },
+            {
+                "name": "Kayvon Fatahalian",
+                "link": "https://graphics.stanford.edu/~kayvonf/"
+            }
+        ]
+    },
+    {
         "title": "Content-Based Search for Deep Generative Models",
         "Topics": "",
         "acronym": "Modelverse",

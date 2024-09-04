@@ -39,7 +39,7 @@ const teachingData = [
 ]
 
 const descriptions_style = "mono font-bold";
-const div_style = "bg-gradient-to-r from-pink-50 to-white-500 p-4 outline outline-offset-2 outline-pink-50 "
+const div_style = "bg-gradient-to-r from-blue-50 to-white-500 p-4 outline outline-offset-2 outline-blue-50 "
 const future_div_style = "bg-gradient-to-r from-blue-100 to-white-500 p-4 outline outline-offset-2 outline-blue-50 "
 
 export default function Workshops() {
@@ -60,7 +60,7 @@ export default function Workshops() {
                                     <p className={descriptions_style}>{details.name}</p>
                                 </a>
                                 <p className="text-slate-400 text-sm">{details.role} for {details.semesters.join(', ')}</p> </div> :
-                            <div className={div_style + "p-2 md:col-span-2 rounded-sm hover:bg-pink-200 hover:text-pink-500 cursor-pointer transition duration-100 ease-in-out"}>
+                            <div className={div_style + "p-2 md:col-span-2 rounded-sm hover:bg-blue-200 hover:text-blue-500 cursor-pointer transition duration-100 ease-in-out"}>
                                 <a
                                     href={details.link}
                                     target='_blank'

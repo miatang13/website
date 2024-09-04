@@ -3,24 +3,23 @@
 import Image from "next/image";
 const img_size = 600;
 const author_link_style =
-  "font-normal bg-blue-50 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out  \
+  "font-normal bg-blue-100 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out  \
   flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
 const my_author_link_style =
   "bg-blue-200 rounded-lg p-2 transition duration-200 ease-in-out  \
 flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
 const project_link_style =
-  "font-normal italic bg-pink-50 rounded-lg p-2 hover:bg-pink-300 transition duration-200 ease-in-out \
+  "font-normal italic bg-blue-50 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out \
   flex flex-row space-x-2 text-slate-800";
 
 export default function PublicationPaper(props) {
   return (
-    <section className='grid grid-cols-1 lg:grid-cols-3 3xl:grid-cols-1 h-max'>
-      <div className='h-full grid place-content-center lg:p-4'>
+    <section className='grid grid-cols-1 lg:grid-cols-3 3xl:grid-cols-1 px-4 py-2 outline outline-offset-2 outline-blue-50 rounded-sm'>
+      <div className='h-full grid place-content-center lg:pr-4'>
         {props.thumbnail && (
           <Image
             src={"/assets/publication/" + props.thumbnail}
             alt={props.title}
-            className='rounded-lg'
             width={img_size}
             height={(img_size / 16) * 9}
             loading='lazy'
@@ -39,7 +38,7 @@ export default function PublicationPaper(props) {
         </div>
 
         <div>
-          <div className='authors flex flex-row flex-wrap gap-x-1.5 gap-y-1.5 pt-4'>
+          <div className='authors flex flex-row flex-wrap gap-x-1.5 gap-y-1.5 pt-2'>
             {props.authors.map((author) => (
               <a
                 target='_blank'
@@ -68,11 +67,11 @@ export default function PublicationPaper(props) {
             )}
             {props.website_link && (
               <a
-                target='_blank'
+                target={props.website_link == " " ? "" : "_blank"}
                 className={project_link_style}
                 href={props.website_link}
               >
-                <p> Website</p>
+                <p>{props.website_link == " " ? "Website (Coming Soon)" : "Website"}</p>
               </a>
             )}
             {props.paper_link && (
