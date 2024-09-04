@@ -14,7 +14,7 @@ export default function LandingIntro() {
           I am Mia — a master's student in computer science at Stanford University, where I'm fortunate to be advised by Professor {" "}
           <StyledExternalLink href="https://graphics.stanford.edu/~maneesh/"> Maneesh Agrawala</StyledExternalLink>. I have also had the privilege of working at the <StyledExternalLink href="https://svl.stanford.edu/"> Stanford Vision and Learning Lab (SVL)</StyledExternalLink>.
           Previously, I earned my BCSA (Bachelor of Computer Science and Arts) at Carnegie Mellon University,
-          where I was fortunate to be advised by Professor <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
+          where I was grateful to work with Professor <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
             Jun-Yan Zhu
           </StyledExternalLink> on generative visual systems and Professor <StyledExternalLink href='https://kyuhashim.com/'>
             Kyuha Shim
