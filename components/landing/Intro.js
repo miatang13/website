@@ -11,8 +11,8 @@ export default function LandingIntro() {
       </div>
       <div className="md:col-span-4 grid place-content-center">
         <h2 className={section_title_style}>Hello there :)</h2> <h4 className='mono font-normal text-slate-800'>
-          I am Mia — a master's student in computer science at Stanford University, advised by Professor  {" "}
-          <StyledExternalLink href="https://graphics.stanford.edu/~maneesh/"> Maneesh Agrawala</StyledExternalLink>.
+          I am Mia — a master's student in computer science at Stanford University, where I'm fortunate to be advised by Professor {" "}
+          <StyledExternalLink href="https://graphics.stanford.edu/~maneesh/"> Maneesh Agrawala</StyledExternalLink>. I have also had the privilege of working at the <StyledExternalLink href="https://svl.stanford.edu/"> Stanford Vision and Learning Lab (SVL)</StyledExternalLink>.
           Previously, I earned my BCSA (Bachelor of Computer Science and Arts) at Carnegie Mellon University,
           where I was fortunate to be advised by Professor <StyledExternalLink href='https://www.cs.cmu.edu/~junyanz/'>
             Jun-Yan Zhu
