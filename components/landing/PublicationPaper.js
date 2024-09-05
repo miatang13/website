@@ -19,7 +19,7 @@ const project_link_disabled_style =
 export default function PublicationPaper(props) {
   return (
     <section className='grid grid-cols-1 lg:grid-cols-3 3xl:grid-cols-1 px-4 py-2 outline outline-offset-2 outline-blue-50 rounded-sm'>
-      <div className='h-full grid place-content-center lg:pr-4'>
+      <div className='h-full grid place-content-center lg:pr-4 '>
         {props.thumbnail && (
           <Image
             src={"/assets/publication/" + props.thumbnail}
@@ -32,7 +32,7 @@ export default function PublicationPaper(props) {
         )}
       </div>
 
-      <div className='full-h lg:col-span-2'>
+      <div className='h-full lg:col-span-2 md:pl-2'>
         <div>
           {/* <DocumentTextIcon className='h-8 w-8 text-slate-800' /> */}
           <h2 className='text-xl font-bold text-slate-800'>{props.title}</h2>
@@ -41,62 +41,60 @@ export default function PublicationPaper(props) {
           )}
         </div>
 
-        <div>
-          <div className='authors flex flex-row flex-wrap gap-x-1.5 gap-y-1.5 pt-2'>
-            {props.authors.map((author) => (
-              <a
-                target='_blank'
-                className={
-                  author.name == "Mia Tang"
-                    ? my_author_link_style
-                    : author_link_style
-                }
-                href={author.link}
-                key={author.name}
-              >
-                {author.has_asterisk && <p>{author.name} &#42;</p>}
-                {!author.has_asterisk && <p>{author.name}</p>}
-              </a>
-            ))}
-          </div>
-          <div className='flex flex-row flex-wrap gap-x-1.5 gap-y-1.5 pt-4'>
-            {props.code_link && (
-              <a
-                target={props.code_link == " " ? "" : "_blank"}
-                className={props.code_link == " " ? project_link_disabled_style : project_link_style}
-                href={props.code_link}
-              >
-                <p>{props.code_link == " " ? "Code (Coming Soon)" : "Code"}</p>
-              </a>
-            )}
-            {props.website_link && (
-              <a
-                target={props.website_link == " " ? "" : "_blank"}
-                className={props.website_link == " " ? project_link_disabled_style : project_link_style}
-                href={props.website_link}
-              >
-                <p>{props.website_link == " " ? "Website (Coming Soon)" : "Website"}</p>
-              </a>
-            )}
-            {props.paper_link && (
-              <a
-                target={props.paper_link == " " ? "" : "_blank"}
-                className={props.paper_link == " " ? project_link_disabled_style : project_link_style}
-                href={props.paper_link}
-              >
-                <p>{props.paper_link == " " ? "Paper (Coming Soon)" : "Paper"}</p>
-              </a>
-            )}
-            {props.demo_link && (
-              <a
-                target='_blank'
-                className={project_link_style}
-                href={props.demo_link}
-              >
-                <p>Demo</p>
-              </a>
-            )}
-          </div>
+        <div className='authors flex flex-row flex-wrap gap-x-1.5 gap-y-1'>
+          {props.authors.map((author) => (
+            <a
+              target='_blank'
+              className={
+                author.name == "Mia Tang"
+                  ? my_author_link_style
+                  : author_link_style
+              }
+              href={author.link}
+              key={author.name}
+            >
+              {author.has_asterisk && <p>{author.name} &#42;</p>}
+              {!author.has_asterisk && <p>{author.name}</p>}
+            </a>
+          ))}
+        </div>
+        <div className='flex flex-row flex-wrap gap-x-1.5 gap-y-1.5 pt-2  mb-2'>
+          {props.code_link && (
+            <a
+              target={props.code_link == " " ? "" : "_blank"}
+              className={props.code_link == " " ? project_link_disabled_style : project_link_style}
+              href={props.code_link}
+            >
+              <p>{props.code_link == " " ? "Code (Coming Soon)" : "Code"}</p>
+            </a>
+          )}
+          {props.website_link && (
+            <a
+              target={props.website_link == " " ? "" : "_blank"}
+              className={props.website_link == " " ? project_link_disabled_style : project_link_style}
+              href={props.website_link}
+            >
+              <p>{props.website_link == " " ? "Website (Coming Soon)" : "Website"}</p>
+            </a>
+          )}
+          {props.paper_link && (
+            <a
+              target={props.paper_link == " " ? "" : "_blank"}
+              className={props.paper_link == " " ? project_link_disabled_style : project_link_style}
+              href={props.paper_link}
+            >
+              <p>{props.paper_link == " " ? "Paper (Coming Soon)" : "Paper"}</p>
+            </a>
+          )}
+          {props.demo_link && (
+            <a
+              target='_blank'
+              className={project_link_style}
+              href={props.demo_link}
+            >
+              <p>Demo</p>
+            </a>
+          )}
         </div>
       </div>
     </section>
