@@ -20,8 +20,7 @@ export default function LandingIntro() {
             Kyuha Shim
           </StyledExternalLink> on computational design.<br /><br />
 
-          My research focuses on exploring generative vision-language models and developing techniques for controllable 2D and 3D generation.
-          I am particularly interested in creating tools that empower artists and designers.<br /><br />
+          My research focuses on vision-language models for controllable 2D and 3D generation. I am particularly interested in developing algorithms and systems that facilitate the creative processes of designers and artists.<br /><br />
 
           I am passionate about teaching and express this through my work as a comic artist,
           developing accessible educational illustrations on technical topics. In my free time, I volunteer as a math tutor for preschool children at local schools in Palo Alto.
