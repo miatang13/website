@@ -23,13 +23,16 @@ export default function ConfTeachingHighlights() {
                 <div className='grid md:grid-cols-2 py-6'>
                     <h2 className={globalStyles.font_styles.h2}>Overview</h2>
                     <p className={globalStyles.font_styles.p}>
-                        Teaching at SIGGRAPH and SIGGRAPH Asia has been one of the most rewarding experiences of my career, allowing me to connect with incredible minds and share my love for generative machine learning. It all began in the summer of 2022, thanks to the invitation from <StyledExternalLink href="https://www.linkedin.com/in/rajeshxsharma/">Rajesh Sharma</StyledExternalLink>,  who gave me the chance to co-create teaching content for a course introducing machine learning. <br /><br />
+                        Teaching at conferences has been one of the most rewarding experiences of my career, allowing me to connect with incredible minds and share my fascination with the topics. It all began in the summer of 2022, thanks to the invitation from <StyledExternalLink href="https://www.linkedin.com/in/rajeshxsharma/">Rajesh Sharma</StyledExternalLink>,  who gave me the chance to co-create teaching content for a course introducing machine learning. <br /><br />
 
-                        What started as a collaborative project quickly grew into something special{" "} — {" "}I co-taught the course in-person at SIGGRAPH 2023 in LA, followed by SIGGRAPH Asia in Sydney, and SIGGRAPH 2024 in Denver, where we welcomed over 600 enthusiastic attendees. At SIGGRAPH 2024, I also had the pleasure of contributing to another course on diffusion models for content creation. <br /><br />
+                        What started as a collaborative project evolved into a recurring and deeply rewarding teaching journey. I co-taught the course with Rajesh in-person at SIGGRAPH 2023 in LA, followed by SIGGRAPH Asia in Sydney, and SIGGRAPH 2024 in Denver, where we welcomed over 600 enthusiastic attendees. At SIGGRAPH 2024, I also had the pleasure of co-teaching another course on diffusion models for content creation with other wonderful collaborators. <br /><br />
 
-                        This page gives you a sneak peek into the materials I poured my heart (and some hours) into, along with some merch, the bookmarks, that I made as little thank-you gifts for our audience.<br /><br />
+                        This page gives you a sneak peek into the materials I created, along with some merch, the bookmarks, that I made as little thank-you gifts for our audience.<br /><br />
 
-                        Teaching is more than just sharing knowledge — it's about weaving creative stories into complex concepts, and I hope that my passion shines through in every lecture, making the learning experience as inspiring and enjoyable as it's been for me.
+                        Teaching is more than just sharing knowledge — it's about weaving creative stories into complex concepts, and I hope that my passion shines through in every lecture, making the learning experience as inspiring and enjoyable as it's been for me.<br /><br />
+
+                        <b>Just a note:</b> these are not meant to be teaching materials that are comprehensible on their own (like my comics), but rather to give you a sense of the visual style and content of the course materials that were used at these conference lectures :).
+
                     </p>
                 </div>
                 <FullLine />
