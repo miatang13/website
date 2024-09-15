@@ -1,4 +1,17 @@
 {
+  "ConfTeachingHighlight": {
+    "path": "ConfTeachHighlight",
+    "page_name": "/conference-teaching-highlights",
+    "landing": {
+      "title": "Conference Teaching Highlights"
+    },
+    "timeline": "Aug 2022 - Present",
+    "project_summary": "Comic Booklet",
+    "skills": "Teaching, Illustration",
+    "role": "Instructor, Illustrator, Designer",
+    "show": true,
+    "design": false
+  },
   "GCafe": {
     "path": "GCafe",
     "page_name": "/gcafe",
