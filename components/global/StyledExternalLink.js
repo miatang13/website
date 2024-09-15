@@ -3,7 +3,7 @@ export default function StyledExternalLink(props) {
     <a
       href={props.href}
       target='_blank'
-      className='underline hover:cursor-pointer hover:bg-pink-200 hover:text-white'
+      className='underline hover:cursor-pointer hover:bg-pink-100 hover:text-pink-500'
     >
       {props.children}
     </a>
