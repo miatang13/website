@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <main>
-        <div className='relative'>
+        <div class="max-w-[90rem] mx-auto">
           <ResponsiveNav />
           <Component {...pageProps} />
         </div>
