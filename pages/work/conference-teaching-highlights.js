@@ -9,11 +9,11 @@ import StyledExternalLink from "../../components/global/StyledExternalLink";
 const page_key = "ConfTeachingHighlight";
 const page_data = projects_data[page_key];
 
-const images = [
-    "Elliott_Wu.png",
-];
+const images = ['bookmark_mockup.png', 'transformer_origin.png', 'attention.png', 'transformer_fast.png', 'batch_norm.png', 'rnn.png', 'layers1.png', 'layers2.png', 'lost.png', 'convo_watermelon.png', 'res_connection.png', 'res_connection1.png', 'gen_data0.png', 'gen_data1.png', 'gen_data2.png', 'gen_data3.png', 'gaussian_distribution.png', 'distribution.png', 'forward_diffuse.png', 'repara_motivation.png', 'cfg.png']
 
 export default function ConfTeachingHighlights() {
+    const width = 1080 * 0.8;
+    const height = width / 16 * 9;
     return (
         <div className={globalStyles.div_styles.page_outer_wrapper}>
             <div className={globalStyles.div_styles.page_inner_wrapper}>
@@ -31,29 +31,24 @@ export default function ConfTeachingHighlights() {
 
                         Teaching is more than just sharing knowledge — it's about weaving creative stories into complex concepts, and I hope that my passion shines through in every lecture, making the learning experience as inspiring and enjoyable as it's been for me.<br /><br />
 
-                        <b>Just a note:</b> these are not meant to be teaching materials that are comprehensible on their own (like my comics), but rather to give you a sense of the visual style and content of the course materials that were used at these conference lectures :).
-
+                        <span class="text-pink-400"><b>Just a note ◡̈ — </b></span> these are not intended to be stand-alone teaching materials (like my comics) but are meant to give you a glimpse of the visual style and content used in these lectures. I have purposefully omitted math-heavy slides to avoid any out-of-context misunderstandings.
                     </p>
                 </div>
                 <FullLine />
-                <div className='py-6 grid sm:grid-cols-2 gap-3'>
+                <div className='mt-4 w-full flex flex-col gap-y-4 w-fit items-center space-y-2'>
                     {images.map((image) => {
                         return (
-                            <div>
-                                <Image
-                                    width={3000 / 3}
-                                    height={3000 / 3}
-                                    src={"/assets/GCafe/" + image}
+                            <div class="drop-shadow-lg rounded-md">
+                                <Image // 16:9 aspect ratio
+                                    width={width}
+                                    height={height}
+                                    src={"/assets/ConfTeachHighlight/" + image}
+                                    class="border border-2"
                                 />
                             </div>
                         );
                     })}
                 </div>
-                <Image
-                    width={1920}
-                    height={1080}
-                    src={"/assets/GCafe/Bunnyfarm_16_9.png"}
-                />
             </div>
         </div>
     );
