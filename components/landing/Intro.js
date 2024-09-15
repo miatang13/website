@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function LandingIntro() {
   const section_title_style = "text-xl font-bold text-pink-400";
   return (
-    <div className='pb-3 max-h-min grid md:grid-cols-6'>
-      <div className="md:col-span-2 md:mx-4 grid place-content-center">
+    <div className='pb-3 max-h-min grid lg:grid-cols-6'>
+      <div className="md:col-span-2  md:mx-[10px]">
         <Image src={landingPic} />
       </div>
       <div className="md:col-span-4 grid place-content-center md:pl-2">

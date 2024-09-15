@@ -21,7 +21,7 @@ export default function ResponsiveNav() {
         onClick={() => setIsNavExpanded(false)}
       >
         <Link href='/'>
-          <span className='font-mono font-black hover:cursor-pointer text-pink-300'>
+          <span className='font-mono font-black hover:cursor-pointer text-pink-300' id="nav-logo">
             mia t.
           </span>
         </Link>
@@ -43,7 +43,7 @@ export default function ResponsiveNav() {
         className={
           isNavExpanded
             ? "navigation-menu expanded w-screen z-40"
-            : "navigation-menu grid sm:grid-col-5"
+            : "navigation-menu grid sm:grid-col-6"
         }
       >
         <ul
@@ -63,6 +63,12 @@ export default function ResponsiveNav() {
           <li className='text-right'>
             <NavLink href='/about' className='nav-link'>
               <span className={globalStyles.font_styles.nav_bar}>about</span>
+            </NavLink>
+          </li>
+          <li className='text-right'>
+            <NavLink href='/cv' className='nav-link'>
+              <span className={globalStyles.font_styles.nav_bar}>
+                curriculum vitae </span>
             </NavLink>
           </li>
         </ul>
@@ -148,6 +154,11 @@ export default function ResponsiveNav() {
 
             .logo {
               margin-left: 1.5rem;
+            }
+
+            #nav-logo { 
+             flex-shrink: 0; /* Prevents the links from shrinking */
+              white-space: nowrap; /* Prevents the text from breaking */
             }
           }
         `}

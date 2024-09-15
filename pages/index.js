@@ -19,13 +19,6 @@ export default function Work() {
         <section>
           <LandingIntro />
         </section>
-        {/* <section className='pt-3 pb-3 border-t-2'>
-          <h2 className={section_title_style}>
-            <span className='text-pink-400 font-bold'>News &amp;</span>
-            <span className='text-blue-400 font-bold'> Future</span>
-          </h2>
-          <News />
-        </section> */}
         <section className='pt-3 pb-3 border-t-2'>
           <h2 className={section_title_style_blue}>Publication</h2>
           <Publications />
@@ -42,12 +35,6 @@ export default function Work() {
           <h2 className={section_title_style}>Experience</h2>
           <WorkExperience />
         </section>
-
-
-        {/* <section className='pt-3 pb-6 border-t-2'>
-          <h2 className={section_title_style}>Engineering Internships</h2>
-          <InternProjects />
-        </section> */}
         <section className='pt-3 pb-6 border-t-2'>
           <h2 className={section_title_style}>Project</h2>
           <AllProjects />

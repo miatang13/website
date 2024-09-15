@@ -3,7 +3,6 @@ import Footer from "../components/global/Footer";
 import Head from "next/head";
 import ResponsiveNav from "../components/global/ResponsiveNav";
 import { Analytics } from "@vercel/analytics/react";
-
 function MyApp({ Component, pageProps }) {
   return (
     <>
