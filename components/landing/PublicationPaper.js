@@ -3,16 +3,16 @@
 import Image from "next/image";
 const img_size = 600;
 const author_link_style =
-  "text-sm font-normal bg-blue-100 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out  \
-  flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
+  "text-normal font-normal bg-blue-100 rounded-lg p-2 hover:bg-blue-200 transition duration-200 ease-in-out hover:text-blue-400 \
+  flex flex-col space-x-2 place-items-center px-2 py-2 text-center place-content-center text-slate-800";
 const my_author_link_style =
-  "text-sm bg-blue-300 rounded-lg p-2 transition duration-200 ease-in-out  \
-flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
+  "text-normal bg-blue-300 rounded-lg p-2 transition duration-200 ease-in-out  \
+flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800 hover:text-pink-400 hover:bg-pink-100";
 const project_link_style =
-  "text-sm font-normal bg-blue-50 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out \
+  "text-normal font-normal text-blue-300 outline outline-blue-50 rounded-lg p-2 hover:bg-blue-300 hover:text-white transition duration-200 ease-in-out \
   flex flex-row space-x-2 text-slate-800";
 const project_link_disabled_style =
-  "text-sm font-normal italic bg-slate-50 rounded-lg p-2  \
+  "text-normal font-normal italic bg-slate-50 rounded-lg p-2  \
   flex flex-row space-x-2 text-slate-300 cursor-not-allowed";
 
 
@@ -32,7 +32,7 @@ export default function PublicationPaper(props) {
         )}
       </div>
 
-      <div className='h-full lg:col-span-2 md:pl-2'>
+      <div className='h-full lg:col-span-2 md:pl-2 flex flex-wrap items-center'>
         <div>
           {/* <DocumentTextIcon className='h-8 w-8 text-slate-800' /> */}
           <h2 className='text-xl font-bold text-slate-800 pb-0 mb-0'>{props.title}</h2>
@@ -58,7 +58,7 @@ export default function PublicationPaper(props) {
             </a>
           ))}
         </div>
-        <div className='flex flex-row flex-wrap gap-x-1.5 gap-y-1.5 pt-2  mb-2'>
+        <div className='flex flex-row flex-wrap gap-x-3 gap-y-1.5 pt-2 mb-2'>
           {props.code_link && (
             <a
               target={props.code_link == " " ? "" : "_blank"}
