@@ -3,16 +3,16 @@
 import Image from "next/image";
 const img_size = 600;
 const author_link_style =
-  "font-normal bg-blue-100 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out  \
+  "text-sm font-normal bg-blue-100 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out  \
   flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
 const my_author_link_style =
-  "bg-blue-300 rounded-lg p-2 transition duration-200 ease-in-out  \
+  "text-sm bg-blue-300 rounded-lg p-2 transition duration-200 ease-in-out  \
 flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800";
 const project_link_style =
-  "font-normal bg-blue-50 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out \
+  "text-sm font-normal bg-blue-50 rounded-lg p-2 hover:bg-blue-300 transition duration-200 ease-in-out \
   flex flex-row space-x-2 text-slate-800";
 const project_link_disabled_style =
-  "font-normal italic bg-slate-50 rounded-lg p-2  \
+  "text-sm font-normal italic bg-slate-50 rounded-lg p-2  \
   flex flex-row space-x-2 text-slate-300 cursor-not-allowed";
 
 
@@ -35,9 +35,9 @@ export default function PublicationPaper(props) {
       <div className='h-full lg:col-span-2 md:pl-2'>
         <div>
           {/* <DocumentTextIcon className='h-8 w-8 text-slate-800' /> */}
-          <h2 className='text-xl font-bold text-slate-800'>{props.title}</h2>
+          <h2 className='text-xl font-bold text-slate-800 pb-0 mb-0'>{props.title}</h2>
           {props.arxiv_year && (
-            <h4 className='xl:text-lg text-slate-400'>{props.arxiv_year}</h4>
+            <h4 className='xl:text-lg text-slate-400 pt-0 mt-1'>{props.arxiv_year}</h4>
           )}
         </div>
 
@@ -97,6 +97,7 @@ export default function PublicationPaper(props) {
           )}
         </div>
       </div>
+
     </section>
   );
 }
