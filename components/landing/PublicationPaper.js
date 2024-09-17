@@ -9,7 +9,7 @@ const my_author_link_style =
   "text-normal bg-blue-300 rounded-lg p-2 transition duration-200 ease-in-out  \
 flex flex-col space-x-2 place-items-center px-4 py-2 text-center place-content-center text-slate-800 hover:text-pink-400 hover:bg-pink-100";
 const project_link_style =
-  "text-normal font-normal text-blue-300 outline outline-blue-50 rounded-lg p-2 hover:bg-blue-300 hover:text-white transition duration-200 ease-in-out \
+  "text-normal font-normal text-blue-500 outline outline-blue-100 rounded-lg p-2 hover:bg-blue-300 hover:text-white transition duration-200 ease-in-out \
   flex flex-row space-x-2 text-slate-800";
 const project_link_disabled_style =
   "text-normal font-normal italic bg-slate-50 rounded-lg p-2  \
