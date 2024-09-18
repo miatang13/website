@@ -47,17 +47,9 @@ export default function About() {
         <p className={globalStyles.font_styles.p}>
           That's about it for now. I'm always looking for fun opportunities, so
           feel free to contact me. The best way to reach me is: miatang [at]
-          cs.stanford.edu
+          cs.stanford.edu <br /><br />
+          <span class="text-pink-400"><b>Thanks for visiting ◡̈!  </b></span>
         </p>
-
-        <div className='grid sm:grid-cols-3 py-6'>
-          <div className='sm:col-start-2'>
-            <Image src={profilePic} />
-            <p className={globalStyles.font_styles.p}>
-              Thanks for visiting. :-)
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );

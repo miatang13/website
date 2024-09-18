@@ -9,7 +9,7 @@ export default function LandingIntro() {
       <div class="grid lg:grid-cols-6">
 
         {/* Left Image */}
-        <div className="lg:col-span-2 lg:mx-[10px] lg:px-12 lg:pt-3 w-full">
+        <div className="lg:col-span-2 lg:mx-[10px] lg:px-20 lg:pt-3 w-full">
           <Image
             src={landingPic}
             className="w-full h-auto object-cover rounded-full"
