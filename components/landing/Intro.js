@@ -1,5 +1,5 @@
 import StyledExternalLink from "../global/StyledExternalLink";
-import landingPic from "../../public/assets/personal/sig_bio_sqr.png";
+import landingPic from "../../public/assets/personal/bio-front-profile.png";
 import Image from "next/image";
 
 export default function LandingIntro() {
@@ -13,7 +13,7 @@ export default function LandingIntro() {
           <Image
             src={landingPic}
             className="w-full h-auto object-cover rounded-full"
-            alt="Mia presenting at SIGGRAPH 2024"
+            alt="Mia Bio Picture"
           />
         </div>
         {/* Right Text Content */}
@@ -29,16 +29,21 @@ export default function LandingIntro() {
                 Kyuha Shim
               </StyledExternalLink> on computational design.<br /><br />
 
-              My research focuses on vision-language models for controllable 2D and 3D generation. I am particularly interested in developing algorithms and systems that facilitate the creative processes of designers and artists.<br /><br />
-
               I am passionate about teaching and express this through my work as a comic artist,
               developing accessible educational illustrations on technical topics. In my free time, I volunteer as a math tutor for preschool children at local schools in Palo Alto.
 
               <br /><br />
-              <span class="text-pink-400 lg:text-sm">  🐰 I currently co-organize Stanford Graphics Cafe Seminar. Subscribe to our  <StyledExternalLink href="https://mailman.stanford.edu/mailman/listinfo/graphics-cafe">mailing list</StyledExternalLink> for updates! </span>
+              <span class="text-pink-400 lg:text-sm">  🐰 I currently co-organize Stanford Graphics Cafe Seminar. Subscribe to our  <StyledExternalLink href="https://mailman.stanford.edu/mailman/listinfo/graphics-cafe">mailing list</StyledExternalLink> for updates! <br />
+                📧 You can reach me personally at miatang [at] cs [dot] stanford [dot] edu.  </span>
             </h4>
           </div>
         </div>
+      </div>
+      <div id="research-details">
+        <h2 className={section_title_style}>Research Interest</h2>
+        <h4 className='mono font-normal text-slate-800'>
+          My research focuses on vision-language models for controllable 2D and 3D generation. I am particularly interested in developing algorithms and systems that facilitate the creative processes of designers and artists.<br /><br />
+        </h4>
       </div>
     </div>
   );
