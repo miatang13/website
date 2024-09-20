@@ -41,7 +41,7 @@ export default function LandingIntro() {
         <div class='flex flex-col col-start-2 col-span-2 '>
           <h2 className={section_title_style + " mb-2"}> Research Interest</h2>
           <h4 className='mono font-normal text-slate-800 mt-0 pt-0'>
-            My research focuses on vision-language models for controllable 2D and 3D generation. <br />I am particularly interested in developing algorithms and systems that facilitate the creative processes of designers and artists.<br /><br />
+            My research centers on vision-language models for controllable 2D and 3D generation, with a particular focus on developing algorithms and systems that enhance the creative workflows of designers and artists.<br /><br />
           </h4>
         </div>
 
