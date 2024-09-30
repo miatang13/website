@@ -1,5 +1,5 @@
 import StyledExternalLink from "../global/StyledExternalLink";
-import landingPic from "../../public/assets/personal/sig_bio_sqr_sm.png";
+import landingPic from "../../public/assets/personal/bio_stanford_sqr_sm.png";
 import Image from "next/image";
 
 export default function LandingIntro() {
