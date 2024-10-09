@@ -22,6 +22,8 @@ const images = [
     "Jiaman_Li.png",
     "Brennan_Shacklett.png",
     "Jiaju_Ma.png",
+    "Koven_Yu.png",
+    "Vishnu_Sarukkai.png",
 ];
 
 export default function GCafe() {
