@@ -39,9 +39,10 @@ export default function LandingIntro() {
       </div>
       <div id="research-details" className="grid lg:grid-cols-3">
         <div class='flex flex-col col-start-2 col-span-2 '>
-          <h2 className={section_title_style + " mb-2"}> Research Interest</h2>
+          <h2 className={section_title_style}> Research Interest</h2>
           <h4 className='mono font-normal text-slate-800 mt-0 pt-0'>
-            My research centers on vision-language models for controllable 2D and 3D generation, with a particular focus on developing algorithms and systems that enhance the creative workflows of designers and artists.<br /><br />
+            My research explores the intersection of computer graphics, vision, and AI, with a focus on developing controllable and interactive algorithms for visual expression.<br /><br />
+            <hr />
           </h4>
         </div>
 
