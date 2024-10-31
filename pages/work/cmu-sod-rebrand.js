@@ -162,7 +162,7 @@ export default function SoDRebrand() {
               the website. <br />
               <br />
               The website is designed and made to be{" "}
-              <span class='highlight_text'>
+              <span className='highlight_text'>
                 playful, interactive, and engaging
               </span>
               .{" "}

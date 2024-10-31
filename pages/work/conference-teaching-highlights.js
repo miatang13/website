@@ -31,19 +31,19 @@ export default function ConfTeachingHighlights() {
 
                         Teaching is more than just sharing knowledge — it's about weaving creative stories into complex concepts, and I hope that my passion shines through in every lecture, making the learning experience as inspiring and enjoyable as it's been for me.<br /><br />
 
-                        <span class="text-pink-400"><b>Just a note ◡̈ — </b></span> these are not intended to be stand-alone teaching materials (like my comics) but are meant to give you a glimpse of the visual style and content used in these lectures. I have purposefully omitted math-heavy slides to avoid any out-of-context misunderstandings.
+                        <span className="text-pink-400"><b>Just a note ◡̈ — </b></span> these are not intended to be stand-alone teaching materials (like my comics) but are meant to give you a glimpse of the visual style and content used in these lectures. I have purposefully omitted math-heavy slides to avoid any out-of-context misunderstandings.
                     </p>
                 </div>
                 <FullLine />
                 <div className='mt-4 w-full flex flex-col gap-y-4 w-fit items-center space-y-2'>
                     {images.map((image) => {
                         return (
-                            <div class="drop-shadow-lg rounded-md">
+                            <div className="drop-shadow-lg rounded-md">
                                 <Image // 16:9 aspect ratio
                                     width={width}
                                     height={height}
                                     src={"/assets/ConfTeachHighlight/" + image}
-                                    class="border border-2"
+                                    className="border border-2"
                                 />
                             </div>
                         );

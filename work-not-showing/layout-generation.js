@@ -68,7 +68,7 @@ export default function LayoutGeneration() {
           className='grid place-items-center auto-rows-max py-12 '
           id='work-main-content'
         >
-          <div class='sm:w-4/5'>
+          <div className='sm:w-4/5'>
             {/* Section 1 */}
             <h2 className={globalStyles.font_styles.h2}>1. Introduction</h2>
             <p>
@@ -117,7 +117,7 @@ export default function LayoutGeneration() {
               graphic layouts of a document. Its major downside is that it was
               really difficult to train.
             </p>
-            <div class='py-4 md:px-20'>
+            <div className='py-4 md:px-20'>
               <Image src={layoutArchitecture} />
               <span>Layout Transformer Architecture</span>
             </div>
@@ -176,7 +176,7 @@ export default function LayoutGeneration() {
               model's performance and used these models as baseline to compare
               with the results from the second method.
             </p>
-            <div class='py-4'>
+            <div className='py-4'>
               <Image src={Pipeline} />
             </div>
             <h3 className={globalStyles.font_styles.h3}>
@@ -274,49 +274,49 @@ export default function LayoutGeneration() {
 
             {/* Section 5 */}
             <h2 className={globalStyles.font_styles.h2}>5. Results</h2>
-            <div class='grid md:grid-cols-3'>
-              <h3 class={globalStyles.font_styles.h3 + " col-span-full"}>
+            <div className='grid md:grid-cols-3'>
+              <h3 className={globalStyles.font_styles.h3 + " col-span-full"}>
                 Method 1 Generated Output Epoch 0{" "}
               </h3>
-              <div class='grid place-content-center'>
+              <div className='grid place-content-center'>
                 <span>Financial Report</span>
                 <Image src={financial_epoch0_sample} />
               </div>
-              <div class='grid place-content-center'>
+              <div className='grid place-content-center'>
                 <span>Scientific Articles</span>
                 <Image src={sci_epoch0_sample} />
               </div>
-              <div class='grid place-content-center'>
-                <span class='block'>Patents</span>
+              <div className='grid place-content-center'>
+                <span className='block'>Patents</span>
                 <Image src={patent_epoch0_sample} />
               </div>
               <FullLinePadded />
-              <h3 class='col-span-full'>
+              <h3 className='col-span-full'>
                 {" "}
                 Method 1 Generated Output Epoch 10{" "}
               </h3>
-              <div class='grid place-content-center'>
+              <div className='grid place-content-center'>
                 <span>Financial Report</span>
                 <Image src={financial_epoch10_sample} />
               </div>
-              <div class='grid place-content-center'>
+              <div className='grid place-content-center'>
                 <span>Scientific Articles</span>
                 <Image src={sci_epoch10_sample} />
               </div>
-              <div class='grid place-content-center'>
-                <span class='block'>Patents</span>
+              <div className='grid place-content-center'>
+                <span className='block'>Patents</span>
                 <Image src={patent_epoch10_sample} />
               </div>
             </div>
             <FullLinePadded />
-            <div class='grid place-content-center'>
+            <div className='grid place-content-center'>
               {" "}
               <Image src={epochs} />
             </div>
 
             <FullLinePadded />
 
-            <h3 class='col-span-full'> Method 1 Evaluations </h3>
+            <h3 className='col-span-full'> Method 1 Evaluations </h3>
             <span>Financial Report</span>
             <Image src={financial_metrics} />
             <FullLinePadded />
@@ -327,42 +327,42 @@ export default function LayoutGeneration() {
             <Image src={patent_metrics} />
             <FullLinePadded />
 
-            <div class='grid md:grid-cols-3'>
-              <h3 class={globalStyles.font_styles.h3 + " col-span-full"}>
+            <div className='grid md:grid-cols-3'>
+              <h3 className={globalStyles.font_styles.h3 + " col-span-full"}>
                 Method 2 Generated Output Epoch 0{" "}
               </h3>
-              <div class='grid place-content-center'>
-                <span class='block'>Financial Report</span>
+              <div className='grid place-content-center'>
+                <span className='block'>Financial Report</span>
                 <Image src={financial_epoch0_sample2} />
               </div>
-              <div class='grid place-content-center'>
-                <span class='block'>Scientific Articles</span>
+              <div className='grid place-content-center'>
+                <span className='block'>Scientific Articles</span>
                 <Image src={sci_epoch0_sample2} />
               </div>
-              <div class='grid place-content-center'>
-                <span class='block'>Patents</span>
+              <div className='grid place-content-center'>
+                <span className='block'>Patents</span>
                 <Image src={patent_epoch0_sample2} />
               </div>
               <FullLinePadded />
-              <h3 class='col-span-full'>
+              <h3 className='col-span-full'>
                 {" "}
                 Method 2 Generated Output Epoch 10{" "}
               </h3>
-              <div class='grid place-content-center'>
-                <span class='block'>Financial Report</span>
+              <div className='grid place-content-center'>
+                <span className='block'>Financial Report</span>
                 <Image src={financial_epoch10_sample2} />
               </div>
-              <div class='grid place-content-center'>
-                <span class='block'>Scientific Articles</span>
+              <div className='grid place-content-center'>
+                <span className='block'>Scientific Articles</span>
                 <Image src={sci_epoch10_sample2} />
               </div>
-              <div class='grid place-content-center'>
-                <span class='block'>Patents</span>
+              <div className='grid place-content-center'>
+                <span className='block'>Patents</span>
                 <Image src={patent_epoch10_sample2} />
               </div>
             </div>
 
-            <h3 class='col-span-full'> Method 2 Evaluation </h3>
+            <h3 className='col-span-full'> Method 2 Evaluation </h3>
             <Image src={method2_metrics} />
             <FullLinePadded />
 
@@ -374,7 +374,7 @@ export default function LayoutGeneration() {
             <Image src={baseline_eval} />
             <FullLinePadded />
             <h3>Comparison Results</h3>
-            <div class='md:px-20'>
+            <div className='md:px-20'>
               <Image src={comparison_plot} />
             </div>
 
@@ -430,7 +430,7 @@ export default function LayoutGeneration() {
 
             <FullLinePadded />
             <h2 className={globalStyles.font_styles.h2}>7. References</h2>
-            <ul class='list-disc'>
+            <ul className='list-disc'>
               <li>
                 {" "}
                 <StyledExternalLink href='https://github.com/DS4SD/DocLayNet'>

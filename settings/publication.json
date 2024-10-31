@@ -82,9 +82,9 @@
         "thumbnail": "modelverse-teaser-sm.png",
         "arxiv_year": "SIGGRAPH Asia 2023",
         "code_link": "https://github.com/generative-intelligence-lab/modelverse",
-        "website_link": "https://modelverse.cs.cmu.edu/",
+        "website_link": "https://modelverse.cs.cmu.edu/paper",
         "paper_link": "https://arxiv.org/abs/2210.03116",
-        "demo_link": "",
+        "demo_link": "https://modelverse.cs.cmu.edu/",
         "authors_links": "",
         "authors": [
             {

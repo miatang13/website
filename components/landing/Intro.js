@@ -6,7 +6,7 @@ export default function LandingIntro() {
   const section_title_style = "text-xl font-bold text-pink-400";
   return (
     <div className='pb-3 max-h-min'>
-      <div class="grid lg:grid-cols-6">
+      <div className="grid lg:grid-cols-6">
 
         {/* Left Image */}
         <div className="lg:col-span-2 lg:mx-[10px] lg:pr-28 lg:pl-0 lg:pb-0 lg:pt-3 p-14 w-full">
@@ -38,7 +38,7 @@ export default function LandingIntro() {
         </div>
       </div>
       <div id="research-details" className="grid lg:grid-cols-3">
-        <div class='flex flex-col col-start-2 col-span-2 '>
+        <div className='flex flex-col col-start-2 col-span-2 '>
           <h2 className={section_title_style}> Research Interest</h2>
           <h4 className='mono font-normal text-slate-800 mt-0 pt-0'>
             My research explores the intersection of computer graphics, vision, and AI, with a focus on developing controllable and interactive algorithms for visual expression.<br /><br />
@@ -49,10 +49,10 @@ export default function LandingIntro() {
       </div>
 
       <div className="grid lg:grid-cols-3 mb-4">
-        <div id="intro-call-outs" class='flex flex-col gap-y-2 col-start-2 col-span-2'>
-          <p class="text-pink-400 lg:text-sm mono font-bold">  🐰 I currently co-organize Stanford Graphics Cafe Seminar. Subscribe to our  <StyledExternalLink href="https://mailman.stanford.edu/mailman/listinfo/graphics-cafe">mailing list</StyledExternalLink> for updates!
+        <div id="intro-call-outs" className='flex flex-col gap-y-2 col-start-2 col-span-2'>
+          <p className="text-pink-400 lg:text-sm mono font-bold">  🐰 I currently co-organize Stanford Graphics Cafe Seminar. Subscribe to our  <StyledExternalLink href="https://mailman.stanford.edu/mailman/listinfo/graphics-cafe">mailing list</StyledExternalLink> for updates!
           </p>
-          <p class="lg:text-sm  mono font-bold text-blue-400"> 📧 You can reach me personally at miatang [at] cs [dot] stanford [dot] edu. </p>
+          <p className="lg:text-sm  mono font-bold text-blue-400"> 📧 You can reach me personally at miatang [at] cs [dot] stanford [dot] edu. </p>
         </div>
 
 

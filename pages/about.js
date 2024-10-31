@@ -30,7 +30,7 @@ export default function About() {
           Some fun facts: (1) My favorite artistic medium is oil on
           canvas.
         </p>
-        <div class='grid sm:grid-cols-2 gap-4 py-6'>
+        <div className='grid sm:grid-cols-2 gap-4 py-6'>
           <Image src={teaPainting} />
           <Image src={animalPainting} />
         </div>
@@ -48,7 +48,7 @@ export default function About() {
           That's about it for now. I'm always looking for fun opportunities, so
           feel free to contact me. The best way to reach me is: miatang [at]
           cs.stanford.edu <br /><br />
-          <span class="text-pink-400"><b>Thanks for visiting ◡̈!  </b></span>
+          <span className="text-pink-400"><b>Thanks for visiting ◡̈!  </b></span>
         </p>
       </div>
     </div>
