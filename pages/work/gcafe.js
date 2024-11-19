@@ -24,7 +24,7 @@ const images = [
     "Jiaju_Ma.png",
     "Koven_Yu.png",
     "Vishnu_Sarukkai.png",
-    "Guy_Tevet.png",
+    // "Guy_Tevet.png",
     "Sarah_Jobalia.png",
     "Zander_Majercik.png",
 ];
