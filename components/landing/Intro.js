@@ -41,7 +41,7 @@ export default function LandingIntro() {
         <div className='flex flex-col col-start-2 col-span-2 '>
           <h2 className={section_title_style}> Research Interest</h2>
           <h4 className='mono font-normal text-slate-800 mt-0 pt-0'>
-            My research explores the intersection of computer graphics, vision, and AI, with a focus on developing controllable and interactive systems for visual expression.<br /><br />
+            My research explores the intersection of computer graphics, vision, and AI, with a focus on developing interactive, controllable AI systems for visual expression by aligning machine capabilities with natural creative processes.<br /><br />
             <hr />
           </h4>
         </div>
