@@ -76,7 +76,6 @@ export default function ResponsiveNav() {
       <style jsx>
         {`
           .navigation {
-            // position: relative;
             display: flex;
             align-items: center;
             height: 60px;
@@ -93,6 +92,7 @@ export default function ResponsiveNav() {
           .navigation-menu ul {
             display: flex;
             padding: 0;
+            margin: 0;
           }
 
           .navigation-menu li {
@@ -121,7 +121,21 @@ export default function ResponsiveNav() {
             display: none;
           }
 
-          @media screen and (max-width: 550px) {
+          @media screen and (min-width: 851px) {
+            .navigation-menu {
+              display: block !important;
+              height: auto !important;
+            }
+            
+            .navigation-menu ul {
+              position: static !important;
+              background-color: transparent !important;
+              height: auto !important;
+              width: auto !important;
+            }
+          }
+
+          @media screen and (max-width: 850px) {
             .hamburger {
               display: block;
             }
@@ -157,8 +171,8 @@ export default function ResponsiveNav() {
             }
 
             #nav-logo { 
-             flex-shrink: 0; /* Prevents the links from shrinking */
-              white-space: nowrap; /* Prevents the text from breaking */
+              flex-shrink: 0;
+              white-space: nowrap;
             }
           }
         `}
