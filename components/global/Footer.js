@@ -34,7 +34,7 @@ export default function Footer() {
           globalStyles.font_styles.p + " text-sm text-slate-400 py-3"
         }
       >
-        &copy; mia tang 2018-2024
+        &copy; mia tang 2018-2025
       </p>
     </footer>
   );
