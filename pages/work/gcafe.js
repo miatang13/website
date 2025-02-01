@@ -39,7 +39,7 @@ export default function GCafe() {
                 <div className='grid md:grid-cols-2 py-6'>
                     <h2 className={globalStyles.font_styles.h2}>Overview</h2>
                     <p className={globalStyles.font_styles.p}>
-                        I co-organize the Stanford Graphics Cafe Seminar, a weekly event showcasing the amazing work of PhD students, faculty, and visiting speakers in the field of computer graphics. <br /> <br />
+                        I co-organized the Stanford Graphics Cafe Seminar, a weekly event showcasing the amazing work of PhD students, faculty, and visiting speakers in the field of computer graphics. <br /> <br />
 
                         Each week, we welcome a speaker to share their research. I also design a unique bunny character for each speaker, inspired by their research interests. Here are some of the bunnies I've created :). <br /> <br />
 

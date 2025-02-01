@@ -50,8 +50,7 @@ export default function LandingIntro() {
 
       <div className="grid lg:grid-cols-3 mb-4">
         <div id="intro-call-outs" className='flex flex-col gap-y-2 col-start-2 col-span-2'>
-          <p className="text-pink-400 lg:text-sm mono font-bold">  🐰 I currently co-organize Stanford Graphics Cafe Seminar. Subscribe to our  <StyledExternalLink href="https://mailman.stanford.edu/mailman/listinfo/graphics-cafe">mailing list</StyledExternalLink> for updates!
-          </p>
+
           <p className="lg:text-sm  mono font-bold text-blue-400"> 📧 You can reach me personally at miatang [at] cs [dot] stanford [dot] edu. </p>
         </div>
 
