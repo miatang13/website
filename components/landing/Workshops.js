@@ -2,6 +2,13 @@ import StyledExternalLink from "../global/StyledExternalLink";
 
 const teachingData = [
     {
+        "name": "AI for Creative Visual Content Generation Editing and Understanding",
+        "venue": "CVPR 2025",
+        "link": "https://cveu.github.io/",
+        "semesters": ["June 2025"],
+        "role": "Workshop Organizer"
+    },
+    {
         "name": "Generative Models for Visual Content Editing and Creation",
         "venue": "SIGGRAPH 2024",
         "link": "https://s2024.conference-program.org/presentation/?id=gensub_279&sess=sess166",
