@@ -60,11 +60,11 @@ export default function ResponsiveNav() {
               <span className={globalStyles.font_styles.nav_bar}>blog</span>
             </NavLink>
           </li>
-          <li className='text-right'>
+          {/* <li className='text-right'>
             <NavLink href='/about' className='nav-link'>
               <span className={globalStyles.font_styles.nav_bar}>about</span>
             </NavLink>
-          </li>
+          </li> */}
           <li className='text-right'>
             <NavLink href='/cv' className='nav-link'>
               <span className={globalStyles.font_styles.nav_bar}>
