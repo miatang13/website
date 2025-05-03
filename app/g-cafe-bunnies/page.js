@@ -4,6 +4,7 @@ import Link from "next/link";
 import HeaderBlog from "@/components/HeaderBlog";
 import { linkStyle } from "@/constants/styles";
 import hero_img from "@/public/assets/GCafe/thumbnail.png";
+import BackToMain from "@/components/BackToMain";
 
 const images = [
     "Elliott_Wu.png",
@@ -32,11 +33,7 @@ export default function GCafe() {
                 <HeaderBlog />
 
                 {/* Back link */}
-                <div className="my-4">
-                    <Link href="/" className={linkStyle}>
-                        ← Back to all main page
-                    </Link>
-                </div>
+                <BackToMain />
 
                 {/* Page Content */}
                 <main className="pt-2">

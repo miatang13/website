@@ -4,6 +4,7 @@ import Link from "next/link";
 import HeaderBlog from "@/components/HeaderBlog";
 import { linkStyle } from "@/constants/styles";
 import hero_img from "@/public/assets/ComicBooklet/cover_onspread.jpg";
+import BackToMain from "@/components/BackToMain";
 
 const images = [
     "cover+1spread.png",
@@ -37,11 +38,7 @@ export default function ComicBooklet() {
                 <HeaderBlog />
 
                 {/* Back link */}
-                <div className="my-4">
-                    <Link href="/" className={linkStyle}>
-                        ← Back to all main page
-                    </Link>
-                </div>
+                <BackToMain />
 
                 {/* Page Content */}
                 <main className="pt-2">

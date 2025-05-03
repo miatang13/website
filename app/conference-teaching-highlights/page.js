@@ -4,6 +4,7 @@ import Link from "next/link";
 import HeaderBlog from "@/components/HeaderBlog";
 import { linkStyle } from "@/constants/styles";
 import hero_img from "@/public/assets/ConfTeachHighlight/thumbnail.png";
+import BackToMain from "@/components/BackToMain";
 
 const images = [
     "bookmark_mockup.png", "transformer_origin.png", "attention.png", "transformer_fast.png",
@@ -21,11 +22,7 @@ export default function ConfTeachingHighlights() {
                 <HeaderBlog />
 
                 {/* Back link */}
-                <div className="my-4">
-                    <Link href="/" className={linkStyle}>
-                        ← Back to all main page
-                    </Link>
-                </div>
+                <BackToMain />
 
                 {/* Page Content */}
                 <main className="pt-2">

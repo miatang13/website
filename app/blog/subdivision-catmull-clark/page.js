@@ -4,6 +4,7 @@ import blogData from "@/constants/blogs.json";
 import HeaderBlog from "@/components/HeaderBlog";
 import Link from "next/link";
 import { linkStyle } from "@/constants/styles";
+import BackToMain from "@/components/BackToMain";
 
 export default function Subdivision() {
   const key = "subdivision-catmull-clark";
@@ -15,11 +16,7 @@ export default function Subdivision() {
         <HeaderBlog />
 
         {/* Back navigation */}
-        <div className="my-4">
-          <Link href="/" className={linkStyle}>
-            ← Back to all main page
-          </Link>
-        </div>
+        <BackToMain />
 
         {/* Header Section */}
         <main className="pt-2">
