@@ -1,4 +1,8 @@
 // components/Publications.js
+'use client';
+import { motion, useInView } from 'framer-motion';
+import { useRef } from 'react';
+
 import Image from "next/image";
 import { publicationLinkStyle, publicationAuthorStyle, publicationLinkMyselfStyle } from "@/constants/styles";
 
@@ -93,96 +97,95 @@ export default function Publications() {
         },
     ];
 
-    return (
-        <div id='publications'>
-            <h2 className='text-xl font-medium mb-4'>Publications</h2>
+    return publications.map((pub, index) => {
+        const ref = useRef(null);
+        const inView = useInView(ref, { once: true, margin: '0px 0px -50px 0px' });
 
-            <div className='space-y-6 py-0'>
-                {publications.map((pub) => (
-                    <div key={pub.id} className='grid grid-cols-1 md:grid-cols-4 gap-8'>
-                        {/* Publication image - 1 column */}
-                        <div className='col-span-1'>
-                            <div className="relative w-full mb-1 aspect-video">
-                                <Image
-                                    src={pub.imagePath}
-                                    alt={pub.title}
-                                    fill
-                                    className="object-cover"
-                                />
-                            </div>
-                        </div >
+        return (
+            <motion.div
+                key={pub.id}
+                ref={ref}
+                initial={{ opacity: 0, y: 20 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className='grid grid-cols-1 md:grid-cols-4 gap-8 py-4'
+            >
+                {/* Publication image - 1 column */}
+                <div className='col-span-1'>
+                    <div className="relative w-full mb-1 aspect-video">
+                        <Image
+                            src={pub.imagePath}
+                            alt={pub.title}
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
+                </div>
 
-                        {/* Publication details - 3 columns */}
-                        < div className='md:col-span-3' >
-                            <p className='text-sm text-gray-600'>{pub.venue}</p>
-                            <h3 className='text-lg font-medium mb-2'>{pub.title}</h3>
+                {/* Publication details - 3 columns */}
+                <div className='md:col-span-3'>
+                    <p className='text-sm text-gray-600'>{pub.venue}</p>
+                    <h3 className='text-lg font-medium mb-2'>{pub.title}</h3>
 
-                            <p className='text-xs mb-2'>
-                                {pub.authors.map((author, index) => (
-                                    <span key={index}>
-                                        <a
-                                            href={author.link}
-                                            className={author.name.includes("Mia Tang") ? publicationLinkMyselfStyle : publicationAuthorStyle}
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                        >
-                                            {author.name}
-                                        </a>
-                                        {index < pub.authors.length - 1 ? " / " : ""}
-                                        {/* {index == 4 && (<br />)} */}
-                                    </span>
-                                ))}
-                            </p>
-
-                            <div className='mt-2'>
-                                <p className='italic text-sm'>{pub.description}</p>
-                            </div>
-
-                            <div className='mt-2 text-sm'>
+                    <p className='text-xs mb-2'>
+                        {pub.authors.map((author, index) => (
+                            <span key={index}>
                                 <a
-                                    href={pub.projectPage}
+                                    href={author.link}
+                                    className={author.name.includes("Mia Tang") ? publicationLinkMyselfStyle : publicationAuthorStyle}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    {author.name}
+                                </a>
+                                {index < pub.authors.length - 1 ? " / " : ""}
+                            </span>
+                        ))}
+                    </p>
+
+                    <div className='mt-2'>
+                        <p className='italic text-sm'>{pub.description}</p>
+                    </div>
+
+                    {/* Project Links */}
+                    <div className='mt-2 text-sm'>
+                        <a
+                            href={pub.projectPage}
+                            className={publicationLinkStyle}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                            Project Page
+                        </a>{" "}
+                        /{" "}
+                        <a href={pub.arxiv} className={publicationLinkStyle} target='_blank' rel='noopener noreferrer'>
+                            arXiv
+                        </a>{" "}
+                        /{" "}
+                        {pub.code ? (
+                            <a href={pub.code} className={publicationLinkStyle} target='_blank' rel='noopener noreferrer'>
+                                Code
+                            </a>
+                        ) : (
+                            <span className='text-gray-300'>Code (Coming Soon)</span>
+                        )}
+                        {pub.dataset && (
+                            <>
+                                {" "}
+                                /{" "}
+                                <a
+                                    href={pub.dataset}
                                     className={publicationLinkStyle}
                                     target='_blank'
                                     rel='noopener noreferrer'
                                 >
-                                    Project Page
-                                </a>{" "}
-                                /{" "}
-                                <a href={pub.arxiv} className={publicationLinkStyle} target='_blank'
-                                    rel='noopener noreferrer'>
-                                    arXiv
-                                </a>{" "}
-                                /{" "}
-                                {pub.code && (
-                                    <a href={pub.code} className={publicationLinkStyle} target='_blank'
-                                        rel='noopener noreferrer'>
-                                        Code
-                                    </a>
-                                )}
-                                {!pub.code && (
-                                    <a href={pub.code} className='text-gray-300'>
-                                        Code (Coming Soon)
-                                    </a>
-                                )}
-                                {pub.dataset && (
-                                    <>
-                                        {" "}
-                                        /{" "}
-                                        <a
-                                            href={pub.dataset}
-                                            className={publicationLinkStyle} target='_blank'
-                                            rel='noopener noreferrer'
-                                        >
-                                            Dataset
-                                        </a>
-                                    </>
-                                )}
-                            </div>
-                        </div >
-                    </div >
-                ))
-                }
-            </div >
-        </div >
-    );
+                                    Dataset
+                                </a>
+                            </>
+                        )}
+                    </div>
+                </div>
+            </motion.div>
+        );
+    })
 }

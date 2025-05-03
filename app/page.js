@@ -35,13 +35,13 @@ export default function Home() {
 
         <main className="pt-2">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-            <div className="lg:col-span-3 border-b border-gray-200">
+            <div className="lg:col-span-3">
 
               <motion.div {...fadeInProps(0)}>
                 <Bio />
               </motion.div>
-
               <motion.div {...fadeInProps(0.1)} className={main_section_style}>
+                <h2 className="text-xl font-medium mb-2 italic">Publications</h2>
                 <Publications />
               </motion.div>
 
