@@ -5,10 +5,10 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { linkStyle } from "@/constants/styles";
 export default function Bio() {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
+        <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8'>
             {/* Profile photo - 1 column */}
             <div className='col-span-1'>
-                <div className='relative h-42 w-42 my-8 mx-auto'>
+                <div className='relative h-42 w-42 my-4 lg:my-8 mx-auto'>
                     <Image
                         src='/assets/personal/bio_stanford_sqr_sm.png'
                         alt='Mia Tang'
@@ -29,8 +29,8 @@ export default function Bio() {
 
             {/* Bio information - 3 columns */}
             <div className='md:col-span-3'>
-                <div className='mt-3'>
-                    <p className='mb-3'>
+                <div className='lg:mt-3'>
+                    <p className='mb-3 lg:text-base text-sm'>
                         I am an incoming CS Ph.D. + current Master's student at Stanford
                         University. I have been fortunate to be advised by Professor{" "}
                         <a

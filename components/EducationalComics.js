@@ -56,7 +56,7 @@ export default function EducationalComics() {
                 </div>
 
 
-                <div className="grid grid-cols-2">
+                <div className="grid md:grid-cols-2">
                     {Array.from({ length: 2 }, (_, col) => (
                         <div key={col}>
                             {Object.entries(grpBlogs)
