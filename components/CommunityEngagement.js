@@ -45,6 +45,21 @@ export default function CommunityEngagement() {
                     </div>
                 ))}
             </div>
+
+
+            <p className={sideColSubtext}>Or sometimes, just for fun. (˶ᵔ ᵕ ᵔ˶) </p>
+            <div className="relative w-full aspect-video mt-2">
+                <Image
+                    src="/assets/personal/painting-tea.png"
+                    alt="Tea Painting"
+                    width={1200} // or your preferred max width
+                    height={800} // or let it scale naturally with Tailwind
+                    className="w-full h-auto"
+                />
+            </div>
+            <span className="text-xs text-gray-500 italic">
+                Father's Tea Set, oil on canvas, 2017
+            </span>
         </div>
     );
 }

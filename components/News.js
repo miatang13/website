@@ -9,7 +9,7 @@ export default function News() {
             upcoming: true,
         },
         {
-            text: "Our recent work on Scene Sketch Segmentation (InkLayer) has been accepted to SIGGRAPH 2025. See you in Vancouver °◡°♡!",
+            text: "Our recent work on Scene Sketch Segmentation has been accepted to SIGGRAPH 2025. See you in Vancouver!",
             upcoming: true,
         },
         {
