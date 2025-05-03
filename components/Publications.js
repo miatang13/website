@@ -60,7 +60,6 @@ export default function Publications() {
                 { name: "Vishnu Sarukkai", link: "https://vsanimator.github.io/" },
                 { name: "Lu Yuan*", link: "https://sylviayuan-sy.github.io/" },
                 { name: "Mia Tang*", link: "/" },
-                { name: "Raohan Zhang", link: "https://ai.stanford.edu/~zharu/" },
                 { name: "Maneesh Agrawala", link: "https://graphics.stanford.edu/~maneesh/" },
                 { name: "Kayvon Fatahalian", link: "https://graphics.stanford.edu/~kayvonf/" },
             ],
