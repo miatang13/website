@@ -69,7 +69,7 @@ export default function Bio() {
                         </a>  on computational design.
                     </p>
 
-                    <p className='mb-4'>
+                    <p className='mb-4 lg:text-base text-sm'>
                         My research explores the intersection of computer graphics, vision,
                         and AI, with a focus on developing{" "}
                         <strong>
