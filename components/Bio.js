@@ -1,0 +1,113 @@
+// components/Bio.js
+import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { linkStyle } from "@/constants/styles";
+export default function Bio() {
+    return (
+        <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
+            {/* Profile photo - 1 column */}
+            <div className='col-span-1'>
+                <div className='relative h-42 w-42 my-8 mx-auto'>
+                    <Image
+                        src='/assets/personal/bio_stanford_sqr_sm.png'
+                        alt='Mia Tang'
+                        className='rounded-full'
+                        fill
+                        style={{ objectFit: "cover" }}
+                    />
+                </div>
+                <h2 className='text-xl font-medium mb-1 text-center italic'>Mia Tang</h2>
+                <p className='text-xs text-gray-600 mb-2 text-center'>
+                    Master's Student,
+                    <br />
+                    Computer Science Department
+                    <br />
+                    Stanford University
+                </p>
+            </div>
+
+            {/* Bio information - 3 columns */}
+            <div className='md:col-span-3'>
+                <div className='mt-3'>
+                    <p className='mb-3'>
+                        I am an incoming CS Ph.D. + current Master's student at Stanford
+                        University. I have been fortunate to be advised by Professor{" "}
+                        <a
+                            href='https://graphics.stanford.edu/~maneesh/'
+                            className={linkStyle}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                            Maneesh Agrawala
+                        </a>
+                        . I have also had the privilege of working at the{" "}
+                        <a
+                            href='https://svl.stanford.edu/'
+                            className={linkStyle}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                            Stanford Vision and Learning Lab (SVL)
+                        </a>
+                        . Previously, I earned my BCSA (Bachelor of Computer Science and
+                        Arts) at Carnegie Mellon University, where I was grateful to be
+                        advised by Professor{" "}<a
+                            href='https://www.cs.cmu.edu/~junyanz/'
+                            className={linkStyle}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                            Jun-Yan Zhu
+                        </a> on generative systems and Professor{" "}
+                        <a
+                            href='https://kyuhashim.com/'
+                            className={linkStyle}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >Kyuha Shim
+                        </a>  on computational design.
+                    </p>
+
+                    <p className='mb-4'>
+                        My research explores the intersection of computer graphics, vision,
+                        and AI, with a focus on developing{" "}
+                        <strong>
+                            interactive, controllable AI systems for visual expression
+                        </strong>{" "}
+                        by aligning machine capabilities with natural creative processes.
+                    </p>
+
+                    <div className='mt-4 text-sm'>
+                        <p>
+                            <strong>Email:</strong> miatang at cs.stanford.edu
+                        </p>
+                        <p>
+                            <strong>Links:</strong>{" "}
+                            <a
+                                href='https://scholar.google.com/citations?user=4uGB3NsAAAAJ'
+                                className={linkStyle}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                Google Scholar
+                            </a>{" "}
+                            |{" "}
+                            <a
+                                href='https://x.com/Miamiamia0103'
+                                className={linkStyle}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <FontAwesomeIcon icon={faTwitter} className='fa-fw' />
+                            </a>
+                        </p>
+                        <p>
+                            <strong>Office:</strong> Stanford CoDa Building Room E368
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}

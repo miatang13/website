@@ -1,0 +1,92 @@
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import { scrollToSection } from '../utils/scrollUtils';
+import { Menu, X } from 'lucide-react'; // or any icon library
+import { motion, AnimatePresence } from "framer-motion";
+
+export default function Header() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleSectionClick = (e, sectionId) => {
+        e.preventDefault();
+        scrollToSection(sectionId);
+        setMenuOpen(false); // close menu on click
+    };
+
+    return (
+        <header className="py-3 lg:pt-6 border-b border-gray-200">
+            <div className="flex justify-between items-center">
+                <Link href="/">
+                    <h1 className="text-xl font-serif italic font-medium text-gray-800">mia t.</h1>
+                </Link>
+
+                {/* Desktop Nav */}
+                <nav className="hidden md:flex space-x-6 text-sm">
+                    <a href="#publications" onClick={(e) => handleSectionClick(e, 'publications')} className="text-gray-600 hover:text-gray-900">
+                        publications
+                    </a>
+                    <a href="#rd-experiences" onClick={(e) => handleSectionClick(e, 'rd-experiences')} className="text-gray-600 hover:text-gray-900">
+                        r&d
+                    </a>
+                    <a href="#educational-comics" onClick={(e) => handleSectionClick(e, 'educational-comics')} className="text-gray-600 hover:text-gray-900">
+                        comics
+                    </a>
+                    <Link href="/MiaTangCV.pdf" className="text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">
+                        curriculum vitae
+                    </Link>
+                </nav>
+
+                {/* Mobile Hamburger Button */}
+                <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-gray-600 hover:text-gray-900">
+                    {menuOpen ? <X size={20} /> : <Menu size={20} />}
+                </button>
+            </div>
+
+            {/* Mobile Menu */}
+            {menuOpen && (
+                <AnimatePresence>
+                    {menuOpen && (
+                        <motion.nav
+                            initial={{ opacity: 0, y: -5 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -5 }}
+                            transition={{ duration: 0.2 }}
+                            className="md:hidden mt-4 flex flex-col space-y-4 text-sm"
+                        >
+                            <a
+                                href="#publications"
+                                onClick={(e) => handleSectionClick(e, 'publications')}
+                                className="text-gray-600 hover:text-gray-900"
+                            >
+                                publications
+                            </a>
+                            <a
+                                href="#rd-experiences"
+                                onClick={(e) => handleSectionClick(e, 'rd-experiences')}
+                                className="text-gray-600 hover:text-gray-900"
+                            >
+                                r&d
+                            </a>
+                            <a
+                                href="#educational-comics"
+                                onClick={(e) => handleSectionClick(e, 'educational-comics')}
+                                className="text-gray-600 hover:text-gray-900"
+                            >
+                                comics
+                            </a>
+                            <Link
+                                href="/MiaTangCV.pdf"
+                                className="text-gray-600 hover:text-gray-900"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                curriculum vitae
+                            </Link>
+                        </motion.nav>
+                    )}
+                </AnimatePresence>
+
+            )}
+        </header>
+    );
+}
