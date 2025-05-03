@@ -38,7 +38,7 @@ export default function Publications() {
                 { name: "Michelle Guo*", link: "https://shellguo.com/" },
                 { name: "Mia Tang*", link: "/" },
                 { name: "Hannah Cha", link: "https://www.hannahcha.com/" },
-                { name: "Raohan Zhang", link: "https://ai.stanford.edu/~zharu/" },
+                { name: "Ruohan Zhang", link: "https://ai.stanford.edu/~zharu/" },
                 {
                     name: "C. Karen Liu",
                     link: "https://profiles.stanford.edu/c-karen-liu",
