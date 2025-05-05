@@ -8,27 +8,27 @@ export default function ConferenceWorkshops() {
         {
             id: 1,
             text: "AI for Creative Visual Content Generation Editing and Understanding",
-            venue: "CVPR 25'",
+            venue: "CVPR '25",
             type: "Workshop",
         },
         {
             id: 2,
             text: "Introduction to Generative Machine Learning",
-            venue: "SIGGRAPH 23', SIGGRAPH ASIA 23', SIGGRAPH 24'",
+            venue: "SIGGRAPH '23, SIGGRAPH ASIA '23, SIGGRAPH '24",
             notes_link: "https://dl.acm.org/doi/10.1145/3680532.3689591",
             type: "Course",
         },
         {
             id: 3,
             text: "Generative Models for Visual Content Creation",
-            venue: "SIGGRAPH 24'",
+            venue: "SIGGRAPH '24",
             notes_link: "https://dl.acm.org/doi/abs/10.1145/3664475.3664553",
             type: "Course",
         },
         {
             id: 4,
             text: "The Future of Generative Visual Art",
-            venue: "CVPR 24'",
+            venue: "CVPR '24",
             type: "Workshop",
         },
     ];
