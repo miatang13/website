@@ -2,14 +2,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { publicationLinkStyle } from "@/constants/styles";
+import Image from "next/image";
 export default function News() {
     const newsItems = [
         {
-            text: "We are teaching a hands-on lab on generative systems at SIGGRAPH 2025. Details coming soon.",
+            text: "Our recent work on Scene Sketch Segmentation has been accepted to SIGGRAPH 2025. See you in Vancouver!",
             upcoming: true,
         },
         {
-            text: "Our recent work on Scene Sketch Segmentation has been accepted to SIGGRAPH 2025. See you in Vancouver!",
+            text: "We are teaching a hands-on lab on generative systems at SIGGRAPH 2025. Details coming soon.",
             upcoming: true,
         },
         {
@@ -28,6 +29,15 @@ export default function News() {
     return (
         <div>
             <h2 className='text-lg font-medium italic mb-1'>Recent News</h2>
+            <div className="w-6/8 mx-auto mb-2">
+                <Image
+                    src='/assets/GCafe_Mia_Tang_sm.png'
+                    alt='News'
+                    width={400}
+                    height={300}
+                    className='rounded-lg mb-2'
+                />
+            </div>
             <ul className='space-y-2 text-xs'>
                 {newsItems.map((item, id) => (
                     <li key={id} className='flex items-start'>
