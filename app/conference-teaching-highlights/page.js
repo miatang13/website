@@ -17,7 +17,7 @@ const images = [
 export default function ConfTeachingHighlights() {
     return (
         <div className="min-h-screen bg-white">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-6xl">
                 {/* Header */}
                 <HeaderBlog />
 
@@ -53,7 +53,7 @@ export default function ConfTeachingHighlights() {
                     {/* <FullLine /> */}
 
                     {/* Visuals */}
-                    <div className="mt-6 flex flex-col items-center gap-y-6 w-5/7 mx-auto">
+                    <div className="mt-6 flex flex-col items-center gap-y-6 md:w-5/7 mx-auto">
                         {images.map((image, idx) => (
                             <div key={idx} className="drop-shadow-lg rounded-md relative w-full mb-1 aspect-video">
                                 <Image

@@ -5,8 +5,8 @@ import HeaderBlog from '@/components/HeaderBlog';
 
 export default function NotFound() {
     return (
-        <div className="min-h-screen bg-white text-gray-700">
-            <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-5xl">
+        <div className="min-h-screen bg-white">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-6xl">
                 <HeaderBlog />
 
                 <main className="pt-10 pb-20 text-center">

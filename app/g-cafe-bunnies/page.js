@@ -28,7 +28,7 @@ const images = [
 export default function GCafe() {
     return (
         <div className="min-h-screen bg-white">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-6xl">
                 {/* Header */}
                 <HeaderBlog />
 
@@ -65,7 +65,7 @@ export default function GCafe() {
                     </div>
 
                     {/* Gallery */}
-                    <div className="mt-6 grid md:grid-cols-2 gap-6 w-5/7 mx-auto">
+                    <div className="mt-6 grid md:grid-cols-2 gap-6 md:w-5/7 mx-auto">
                         {images.map((image, idx) => (
                             <div
                                 key={idx}
