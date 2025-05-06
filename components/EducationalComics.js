@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import blogData from "@/constants/blogs.json";
 import Link from "next/link";
 import { blogTitleStyle, mainSmallDescriptionStyle } from '@/constants/styles';
-
+import { motion } from 'framer-motion';
 export default function EducationalComics() {
     const [grpBlogs, setGrpBlogs] = useState({});
     const base_url = "/blog/";
@@ -13,7 +13,7 @@ export default function EducationalComics() {
     useEffect(() => {
         let blogsToDisplay = [];
         let categories = {};
-        Object.keys(blogData).forEach((key) => {
+        Object.keys(blogData).forEach((key, index) => {
             let blog = blogData[key];
             let curBlog = JSON.parse(JSON.stringify(blog));
             curBlog.img_path = base_url + key + "/thumbnail.png";
@@ -22,6 +22,7 @@ export default function EducationalComics() {
                 curBlog.page_path = "/blog";
             }
             curBlog.format = blog.format ? blog.format : "Comics";
+            curBlog.id = index;
             blogsToDisplay.push(curBlog);
             categories[blog.category] = 0;
         });
@@ -36,6 +37,14 @@ export default function EducationalComics() {
         });
         setGrpBlogs(groupedBlogs);
     }, []);
+
+    const fadeInProps = (delay = 0) => ({
+        initial: { opacity: 0, y: 10 },
+        whileInView: { opacity: 1, y: 0 },
+        transition: { duration: 0.15, delay },
+        viewport: { once: true, amount: 0.2 },
+    });
+
 
     return (
         <div id="educational-comics">
@@ -65,12 +74,15 @@ export default function EducationalComics() {
                                 .map(([category, blogs]) => (
                                     <ul key={category}>
                                         {blogs.map(blog => (
-                                            <li key={blog.title}>
-                                                <Link href={blog.page_path} className={blogTitleStyle} target='_blank' rel="noopener noreferrer">
-                                                    ↳ {blog.title}
-                                                </Link>
-                                            </li>
-                                        ))}
+                                            (<motion.div
+                                                key={blog.id}
+                                                {...fadeInProps(blog.id * 0.1)}>
+                                                <li key={blog.title}>
+                                                    <Link href={blog.page_path} className={blogTitleStyle} target='_blank' rel="noopener noreferrer">
+                                                        ↳ {blog.title}
+                                                    </Link>
+                                                </li>
+                                            </motion.div>)))}
                                     </ul>
                                 ))}
                         </div>

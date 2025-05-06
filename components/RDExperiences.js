@@ -1,7 +1,7 @@
 // components/RDExperiences.js
 import { mainSmallDescriptionStyle } from '@/constants/styles';
 import Image from 'next/image';
-
+import { motion } from 'framer-motion';
 export default function RDExperiences() {
     const experiences = [
         {
@@ -33,6 +33,13 @@ export default function RDExperiences() {
             imagePath: "/assets/SoD/thumbnail.png"
         }
     ];
+    const fadeInProps = (delay = 0) => ({
+        initial: { opacity: 0, scaleY: 0.8 },
+        whileInView: { opacity: 1, scaleY: 1 },
+        transition: { duration: 0.4, delay, ease: 'easeOut' },
+        viewport: { once: true, amount: 0.3 },
+    });
+
 
     return (
         <div id="rd-experiences">
@@ -42,8 +49,10 @@ export default function RDExperiences() {
             </div>
 
 
-            <div className="grid md:grid-cols-4 gap-4">
-                {experiences.map((exp) => (
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {experiences.map((exp) => (<motion.div
+                    key={exp.id}
+                    {...fadeInProps(exp.id * 0.1)}>
                     <div key={exp.id} className="flex flex-col">
                         <span className="text-xs text-gray-600 mb-2">[{exp.time}]</span>
                         <div className="relative w-full mb-1 aspect-video">
@@ -57,9 +66,10 @@ export default function RDExperiences() {
                         <p className="text-sm">{exp.company} </p>
                         <p className="text-xs italic text-gray-600">{exp.role}</p>
 
+
                     </div>
-                ))}
+                </motion.div>))}
             </div>
-        </div>
+        </div >
     );
 }

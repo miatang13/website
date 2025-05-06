@@ -3,7 +3,17 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { linkStyle } from "@/constants/styles";
+import { motion } from 'framer-motion';
+
 export default function Bio() {
+    const fadeInProps = (delay = 0) => ({
+        initial: { opacity: 0, scaleY: 0. },
+        whileInView: { opacity: 1, scaleY: 1 },
+        transition: { duration: 0.4, delay, ease: 'easeOut' },
+        viewport: { once: true, amount: 0.3 },
+    });
+
+
     return (
         <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8'>
             {/* Profile photo - 1 column */}
@@ -79,32 +89,44 @@ export default function Bio() {
                     </p>
 
                     <div className='mt-4 text-sm'>
-                        <p>
-                            <strong>Email:</strong> miatang at cs.stanford.edu
-                        </p>
-                        <p>
-                            <strong>Links:</strong>{" "}
-                            <a
-                                href='https://scholar.google.com/citations?user=4uGB3NsAAAAJ'
-                                className={linkStyle}
-                                target='_blank'
-                                rel='noopener noreferrer'
-                            >
-                                Google Scholar
-                            </a>{" "}
-                            |{" "}
-                            <a
-                                href='https://x.com/Miamiamia0103'
-                                className={linkStyle}
-                                target='_blank'
-                                rel='noopener noreferrer'
-                            >
-                                <FontAwesomeIcon icon={faTwitter} className='fa-fw' />
-                            </a>
-                        </p>
-                        <p>
-                            <strong>Office:</strong> Stanford CoDa Building Room E368
-                        </p>
+                        <motion.div
+                            key={0}
+                            {...fadeInProps(0 * 0.1)}>
+                            <p>
+                                <strong>Email:</strong> miatang at cs.stanford.edu
+                            </p>
+                        </motion.div>
+                        <motion.div
+                            key={1}
+                            {...fadeInProps(1 * 0.1)}>
+                            <p>
+                                <strong>Links:</strong>{" "}
+                                <a
+                                    href='https://scholar.google.com/citations?user=4uGB3NsAAAAJ'
+                                    className={linkStyle}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    Google Scholar
+                                </a>{" "}
+                                |{" "}
+                                <a
+                                    href='https://x.com/Miamiamia0103'
+                                    className={linkStyle}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    <FontAwesomeIcon icon={faTwitter} className='fa-fw' />
+                                </a>
+                            </p>
+                        </motion.div>
+                        <motion.div
+                            key={2}
+                            {...fadeInProps(2 * 0.1)}>
+                            <p>
+                                <strong>Office:</strong> Stanford CoDa Building Room E368
+                            </p>
+                        </motion.div>
                     </div>
                 </div>
             </div>
