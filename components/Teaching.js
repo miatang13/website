@@ -73,7 +73,9 @@ export default function Teaching() {
                                         </div>
                                     )}>
                                     <li key={course.id}>
-                                        <a href={course.course_link} className="hover:underline">  {course.code} <span className={sideColSubtext}>({course.term})</span> </a>
+                                        <a href={course.course_link} className="hover:underline"
+                                            target="_blank" rel="noopener noreferrer"
+                                        >  {course.code} <span className={sideColSubtext}>({course.term})</span> </a>
                                     </li>
                                 </HoverInfo>
                             ))}
