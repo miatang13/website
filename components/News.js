@@ -13,12 +13,12 @@ export default function News() {
                         rel="noopener noreferrer"
                         className={newLinkStyle}
                     >sketch segmentation
-                    </a>  has been accepted to <em>SIGGRAPH 2025</em>. See you in Vancouver!
+                    </a>  has been accepted to SIGGRAPH 2025. See you in Vancouver!
                 </span>
             )
         },
         {
-            content: <span><b>Upcoming: </b>We are teaching a hands-on lab on generative systems at SIGGRAPH 2025. Details coming soon...</span>
+            content: <span><b>Upcoming: </b>We are teaching a hands-on lab on generative systems at SIGGRAPH 2025. Details coming soon.</span>
         },
         {
             content: (

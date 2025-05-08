@@ -5,6 +5,7 @@ import blogData from "@/constants/blogs.json";
 import Link from "next/link";
 import { blogTitleStyle, mainSmallDescriptionStyle } from '@/constants/styles';
 import { motion } from 'framer-motion';
+import HoverInfo from './HoverInfo';
 export default function EducationalComics() {
     const [grpBlogs, setGrpBlogs] = useState({});
     const base_url = "/blog/";
@@ -78,9 +79,22 @@ export default function EducationalComics() {
                                                 key={blog.id}
                                                 {...fadeInProps(blog.id * 0.1)}>
                                                 <li key={blog.title}>
-                                                    <Link href={blog.page_path} className={blogTitleStyle} target='_blank' rel="noopener noreferrer">
-                                                        ↳ {blog.title}
-                                                    </Link>
+                                                    <HoverInfo tooltip={(
+                                                        <>
+                                                            <span className="mr-1 font-bold">Topics:</span>
+                                                            {blog.covered.map((covered, index) => (
+                                                                <span key={index} className="italic">
+                                                                    {index > 0 && ", "}
+                                                                    {covered}
+                                                                </span>
+                                                            ))}
+                                                        </>
+                                                    )}
+                                                    >
+                                                        <Link href={blog.page_path} className={blogTitleStyle} target='_blank' rel="noopener noreferrer">
+                                                            ↳ {blog.title}
+                                                        </Link>
+                                                    </HoverInfo>
                                                 </li>
                                             </motion.div>)))}
                                     </ul>
