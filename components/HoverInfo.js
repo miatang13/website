@@ -5,7 +5,7 @@ export default function HoverInfo({ children, tooltip }) {
 
     return (
         <span
-            className="relative group cursor-help"
+            className="relative group cursor-pointer"
             onMouseEnter={() => setShow(true)}
             onMouseLeave={() => setShow(false)}
         >
@@ -17,7 +17,7 @@ export default function HoverInfo({ children, tooltip }) {
             {/* Tooltip above trigger */}
             <div
                 className={`absolute left-1/2 -translate-x-1/2 bottom-full mb-2 z-50 w-max max-w-xs
-                    rounded-lg bg-yellow-50 px-3 py-2 text-xs text-slate-700 shadow-sm border border-dashed transition-opacity duration-200
+                    rounded-lg bg-white px-3 py-2 text-xs text-slate-700 shadow-sm border border-dashed transition-opacity duration-200
                     ${show ? 'opacity-100' : 'opacity-0 pointer-events-none'}
                     hidden md:block`}
             >
