@@ -2,6 +2,7 @@
 import { sideColSubtext } from "@/constants/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
+import HoverInfo from "./HoverInfo";
 
 export default function ConferenceWorkshops() {
     const conferences = [
@@ -35,9 +36,18 @@ export default function ConferenceWorkshops() {
 
     return (
         <div>
-            <h2 className='text-lg font-medium italic mb-2'>
-                Conference Involvements
-            </h2>
+
+            <HoverInfo
+                tooltip={
+                    <span>
+                        Thanks to the wonderful co-instructors and co-organizers who've made these workshops possible—bringing together like-minded, inspiring researchers at conferences has always been such a joy. Always up for new ideas, so feel free to reach out if you're cooking up something interesting 🍽️!
+                    </span>
+                }
+            > <h2 className='text-lg font-medium italic mb-2'>
+                    Conference Involvements
+                </h2>
+            </HoverInfo>
+
             <ul className='space-y-2 text-xs'>
                 {conferences.map((item) => (
                     <li key={item.id} className='flex items-start flex flex-col'>
@@ -46,7 +56,7 @@ export default function ConferenceWorkshops() {
                             <b>
                                 {item.type}
                                 {item.notes_link && (
-                                    <span className='text-orange-300 hover:underline'>{" "}
+                                    <span className='text-orange-400 hover:underline'>{" "}
                                         [<FontAwesomeIcon icon={faLink} className='fa-fw' />{" "}
                                         <a
                                             href={item.notes_link}
