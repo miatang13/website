@@ -70,21 +70,21 @@ export default function RDExperiences() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {experiences.map((exp) => {
                     const content = (
-                        <div key={exp.id} className="flex flex-col">
-                            <span className="text-xs text-gray-600 mb-2">[{exp.time}]</span>
-                            <div className="relative w-full mb-1 aspect-video">
-                                <Image
-                                    src={exp.imagePath}
-                                    alt={`${exp.company} experience`}
-                                    fill
-                                    className="object-cover"
-                                />
-                            </div>
-                            <a href={exp.link} target='_blank' rel="noopener noreferrer" >
+                        <a href={exp.link} target='_blank' rel="noopener noreferrer" >
+                            <div key={exp.id} className="flex flex-col">
+                                <span className="text-xs text-gray-600 mb-2">[{exp.time}]</span>
+                                <div className="relative w-full mb-1 aspect-video">
+                                    <Image
+                                        src={exp.imagePath}
+                                        alt={`${exp.company} experience`}
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
                                 <p className="text-sm">{exp.company} </p>
-                            </a>
-                            <p className="text-xs italic text-gray-600">{exp.role}</p>
-                        </div>
+                                <p className="text-xs italic text-gray-600">{exp.role}</p>
+                            </div>
+                        </a>
                     );
 
                     return (
