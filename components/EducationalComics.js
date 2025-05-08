@@ -57,7 +57,7 @@ export default function EducationalComics() {
 
     return (
         <div id="educational-comics">
-            <div className="grid md:grid-cols-2 gap-4 mb-4">
+            <div className="grid md:grid-cols-2 gap-4 mb-2">
                 <h2 className="text-xl font-medium italic">Educational Comics</h2>
                 <p className={mainSmallDescriptionStyle}>
                     Turning complex ideas into playful, approachable visuals is a challenge that continues to inspire me. As a comic artist, that exploration takes shape through educational illustrations on technical topics. In my free time, I also volunteer as a math tutor for preschoolers at local schools in Palo Alto.
@@ -66,7 +66,7 @@ export default function EducationalComics() {
 
             <div>
                 {/* Top row: banner */}
-                <div className="relative mb-4">
+                <div className="relative mb-2">
                     <div className="relative h-48 w-full">
                         <Image src="/blog/thumbnail.png" alt="Educational Comics Collection" fill className="object-cover" />
                     </div>

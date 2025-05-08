@@ -61,7 +61,7 @@ export default function RDExperiences() {
 
     return (
         <div id="rd-experiences">
-            <div className="grid md:grid-cols-2 mb-4 gap-4">
+            <div className="grid md:grid-cols-2 gap-4 mb-2">
                 <h2 className="text-xl font-medium mb-2 italic">Research & Development Experiences</h2>
                 <p className={mainSmallDescriptionStyle}>With a background in traditional graphic design, I'm passionate about bridging research and product by crafting user-facing applications powered by cutting-edge technologies.</p>
             </div>
