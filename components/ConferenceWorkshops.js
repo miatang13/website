@@ -40,7 +40,7 @@ export default function ConferenceWorkshops() {
             <HoverInfo
                 tooltip={
                     <span>
-                        Thanks to the wonderful co-instructors and co-organizers who've made these workshops possible—bringing together like-minded, inspiring researchers at conferences has always been such a joy. Always up for new ideas, so feel free to reach out if you're cooking up something interesting 🍽️!
+                        Thanks to the wonderful co-instructors and co-organizers who've made these workshops possible. Always up for new ideas, so feel free to reach out if you're cooking up something interesting.
                     </span>
                 }
             > <h2 className='text-lg font-medium italic mb-2'>

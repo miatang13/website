@@ -45,64 +45,64 @@ export default function EducationalComics() {
         transition: { duration: 0.15, delay },
         viewport: { once: true, amount: 0.2 },
     });
+    const blogTopicCutoffNum = Object.keys(grpBlogs).length / 4;
+
+    // Flatten all blog entries into one array
+    const allBlogs = Object.values(grpBlogs).flat();
+    const blogsPerCol = Math.ceil(allBlogs.length / 4);
+    const columns = Array.from({ length: 4 }, (_, i) =>
+        allBlogs.slice(i * blogsPerCol, (i + 1) * blogsPerCol)
+    );
 
 
     return (
         <div id="educational-comics">
-            <div className="grid md:grid-cols-2 mb-4 gap-4">
+            <div className="grid md:grid-cols-2 gap-4 mb-4">
                 <h2 className="text-xl font-medium italic">Educational Comics</h2>
-
+                <p className={mainSmallDescriptionStyle}>
+                    Turning complex ideas into playful, approachable visuals is a challenge that continues to inspire me. As a comic artist, that exploration takes shape through educational illustrations on technical topics. In my free time, I also volunteer as a math tutor for preschoolers at local schools in Palo Alto.
+                </p>
             </div>
 
-
-            <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                    <p className={mainSmallDescriptionStyle}> Turning complex ideas into playful, approachable visuals is a challenge that continues to inspire me. As a comic artist, that exploration takes shape through educational illustrations on technical topics. In my free time, I also volunteer as a math tutor for preschoolers at local schools in Palo Alto.
-                    </p>
-                    <div className="relative h-64 w-full mb-2">
+            <div>
+                {/* Top row: banner */}
+                <div className="relative mb-4">
+                    <div className="relative h-48 w-full">
                         <Image src="/blog/thumbnail.png" alt="Educational Comics Collection" fill className="object-cover" />
                     </div>
-                    <span className="text-xs text-slate-600">*Click on individual topics for the specific set of comics. </span>
+                    <span className="text-xs text-slate-400 italic">*Click on individual topics for the specific set of comics. </span>
                 </div>
 
-
-                <div className="grid md:grid-cols-2">
-                    {Array.from({ length: 2 }, (_, col) => (
-                        <div key={col}>
-                            {Object.entries(grpBlogs)
-                                .slice(col * Math.ceil(Object.keys(grpBlogs).length / 2),
-                                    (col + 1) * Math.ceil(Object.keys(grpBlogs).length / 2))
-                                .map(([category, blogs]) => (
-                                    <ul key={category}>
-                                        {blogs.map(blog => (
-                                            (<motion.div
-                                                key={blog.id}
-                                                {...fadeInProps(blog.id * 0.1)}>
-                                                <li key={blog.title}>
-                                                    <HoverInfo tooltip={(
-                                                        <>
-                                                            <span className="mr-1 font-bold">Topics:</span>
-                                                            {blog.covered.map((covered, index) => (
-                                                                <span key={index} className="italic">
-                                                                    {index > 0 && ", "}
-                                                                    {covered}
-                                                                </span>
-                                                            ))}
-                                                        </>
-                                                    )}
-                                                    >
-                                                        <Link href={blog.page_path} className={blogTitleStyle} target='_blank' rel="noopener noreferrer">
-                                                            ↳ {blog.title}
-                                                        </Link>
-                                                    </HoverInfo>
-                                                </li>
-                                            </motion.div>)))}
-                                    </ul>
-                                ))}
-                        </div>
+                {/* Bottom row: topics in 4 columns */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {columns.map((colBlogs, colIdx) => (
+                        <ul key={colIdx}>
+                            {colBlogs.map(blog => (
+                                <motion.div key={blog.id} {...fadeInProps(blog.id * 0.1)}>
+                                    <li key={blog.title}>
+                                        <HoverInfo tooltip={(
+                                            <>
+                                                <span className="mr-1 font-bold">Topics:</span>
+                                                {blog.covered.map((covered, index) => (
+                                                    <span key={index} className="italic">
+                                                        {index > 0 && ", "}
+                                                        {covered}
+                                                    </span>
+                                                ))}
+                                            </>
+                                        )}>
+                                            <Link href={blog.page_path} className={blogTitleStyle} target="_blank" rel="noopener noreferrer">
+                                                ↳ {blog.title}
+                                            </Link>
+                                        </HoverInfo>
+                                    </li>
+                                </motion.div>
+                            ))}
+                        </ul>
                     ))}
                 </div>
+
             </div>
-        </div >
+        </div>
     );
 }
