@@ -46,16 +46,7 @@ export default function News() {
 
     return (
         <div>
-            <h2 className="text-lg font-medium italic mb-1">Recent News</h2>
-            {/* <div className="w-6/8 mx-auto mb-2">
-                <Image
-                    src="/assets/GCafe_Mia_Tang_sm.png"
-                    alt="News"
-                    width={400}
-                    height={300}
-                    className="rounded-lg mb-2"
-                />
-            </div> */}
+            <h2 className="text-lg font-black mb-1">Recent News</h2>
             <ul className="space-y-2 text-xs">
                 {newsItems.map((item, id) => (
                     <li key={id} className="text-gray-600">

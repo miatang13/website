@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { blogTitleStyle, sideColSubtext } from '@/constants/styles';
+import { blogTitleStyle, sectionTitleStyle, sideColSubtext } from '@/constants/styles';
 
 
 export default function CommunityEngagement() {
@@ -37,7 +37,7 @@ export default function CommunityEngagement() {
 
     return (
         <div>
-            <h2 className="text-lg font-medium italic mb-1">Community Engagement</h2>
+            <h2 className={sectionTitleStyle}>Community Engagement</h2>
             <p className={sideColSubtext}>In my side quests as an artist, I explore ways to connect people through visuals. </p>
 
             <div className="space-y-4 mt-2">

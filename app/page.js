@@ -11,6 +11,7 @@ import Teaching from '../components/Teaching';
 import CommunityEngagement from '../components/CommunityEngagement';
 import RDExperiences from '../components/RDExperiences';
 import EducationalComics from '../components/EducationalComics';
+import { sectionTitleStyle } from '@/constants/styles';
 
 export default function Home() {
   useEffect(() => {
@@ -41,7 +42,7 @@ export default function Home() {
                 <Bio />
               </motion.div>
               <motion.div {...fadeInProps(0.1)} className={main_section_style}>
-                <h2 className="text-xl font-medium mb-2 italic">Publications</h2>
+                <h2 className={sectionTitleStyle}>Publications</h2>
                 <Publications />
               </motion.div>
 

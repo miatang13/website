@@ -1,5 +1,5 @@
 // components/RDExperiences.js
-import { linkStyle, mainSmallDescriptionStyle } from '@/constants/styles';
+import { linkStyle, mainSmallDescriptionStyle, sectionTitleStyle } from '@/constants/styles';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import HoverInfo from './HoverInfo';
@@ -62,7 +62,7 @@ export default function RDExperiences() {
     return (
         <div id="rd-experiences">
             <div className="grid md:grid-cols-2 gap-4 mb-2">
-                <h2 className="text-xl font-medium mb-2 italic">Research & Development Experiences</h2>
+                <h2 className={sectionTitleStyle}>Research & Development Experiences</h2>
                 <p className={mainSmallDescriptionStyle}>With a background in traditional graphic design, I'm passionate about bridging research and product by crafting user-facing applications powered by cutting-edge technologies.</p>
             </div>
 
@@ -81,7 +81,7 @@ export default function RDExperiences() {
                                         className="object-cover"
                                     />
                                 </div>
-                                <p className="text-sm">{exp.company} </p>
+                                <p className="text-sm font-bold">{exp.company} </p>
                                 <p className="text-xs italic text-gray-600">{exp.role}</p>
                             </div>
                         </a>

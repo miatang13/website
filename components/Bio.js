@@ -27,7 +27,7 @@ export default function Bio() {
                         style={{ objectFit: "cover" }}
                     />
                 </div>
-                <h2 className='text-xl font-medium mb-1 text-center italic'>Mia Tang</h2>
+                <h2 className='text-xl font-black mb-1 text-center italic'>Mia Tang</h2>
                 <p className='text-xs text-gray-600 mb-2 text-center'>
                     Master's Student,
                     <br />

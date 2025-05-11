@@ -17,11 +17,11 @@ export default function Header() {
         <header className="py-3 lg:pt-6 border-b border-gray-200">
             <div className="flex justify-between items-center">
                 <Link href="/">
-                    <h1 className="text-xl font-serif italic font-medium text-gray-800">mia t.</h1>
+                    <h1 className="text-xl font-serif italic font-black text-gray-800">mia t.</h1>
                 </Link>
 
                 {/* Desktop Nav */}
-                <nav className="hidden md:flex space-x-6 text-sm">
+                <nav className="hidden md:flex space-x-6 text-sm italic">
                     <a href="#publications" onClick={(e) => handleSectionClick(e, 'publications')} className="text-gray-600 hover:text-gray-900">
                         publications
                     </a>
@@ -32,7 +32,7 @@ export default function Header() {
                         comics
                     </a>
                     <Link href="/MiaTangCV.pdf" className="text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">
-                        curriculum vitae
+                        curriculum vitae (april '25)
                     </Link>
                 </nav>
 

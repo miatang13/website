@@ -1,5 +1,5 @@
 // components/ConferenceWorkshops.js
-import { sideColSubtext } from "@/constants/styles";
+import { sectionTitleStyle, sideColSubtext } from "@/constants/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import HoverInfo from "./HoverInfo";
@@ -43,7 +43,7 @@ export default function ConferenceWorkshops() {
                         Thanks to the wonderful co-instructors and co-organizers who've made these workshops possible. Always up for new ideas, so feel free to reach out if you're cooking up something interesting.
                     </span>
                 }
-            > <h2 className='text-lg font-medium italic mb-2'>
+            > <h2 className={sectionTitleStyle}>
                     Conference Involvements
                 </h2>
             </HoverInfo>

@@ -1,7 +1,9 @@
+export const sectionTitleStyle = "text-lg font-black mb-1"
+
 export const linkStyle = "text-pink-500 hover:underline ";
 
 export const newLinkStyle = " underline decoration-dotted hover:text-pink-500 hover:decoration-pink-500 transition duration-200";
-export const publicationLinkStyle = "text-slate-500 underline";
+export const publicationLinkStyle = "text-slate-500 hover:underline";
 
 export const publicationAuthorStyle = "text-slate-400 hover:underline";
 export const publicationLinkMyselfStyle = "text-slate-800 bg-yellow-200 font-bold pointer-events-none";

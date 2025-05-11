@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useEffect, useState } from "react";
 import blogData from "@/constants/blogs.json";
 import Link from "next/link";
-import { blogTitleStyle, mainSmallDescriptionStyle } from '@/constants/styles';
+import { blogTitleStyle, mainSmallDescriptionStyle, sectionTitleStyle } from '@/constants/styles';
 import { motion } from 'framer-motion';
 import HoverInfo from './HoverInfo';
 export default function EducationalComics() {
@@ -58,7 +58,7 @@ export default function EducationalComics() {
     return (
         <div id="educational-comics">
             <div className="grid md:grid-cols-2 gap-4 mb-2">
-                <h2 className="text-xl font-medium italic">Educational Comics</h2>
+                <h2 className={sectionTitleStyle}>Educational Comics</h2>
                 <p className={mainSmallDescriptionStyle}>
                     Turning complex ideas into playful, approachable visuals is a challenge that continues to inspire me. As a comic artist, that exploration takes shape through educational illustrations on technical topics. In my free time, I also volunteer as a math tutor for preschoolers at local schools in Palo Alto.
                 </p>

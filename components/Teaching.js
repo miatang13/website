@@ -1,5 +1,5 @@
 // components/Teaching.js
-import { sideColSubtext } from "@/constants/styles";
+import { sectionTitleStyle, sideColSubtext } from "@/constants/styles";
 import HoverInfo from "./HoverInfo";
 import Image from "next/image";
 export default function Teaching() {
@@ -51,7 +51,7 @@ export default function Teaching() {
 
     return (
         <div>
-            <h2 className="text-lg font-medium italic mb-1">University Teaching</h2>
+            <h2 className={sectionTitleStyle}>University Teaching</h2>
 
             <div className="space-y-2 text-xs">
                 {teachingExperience.map((univ, idx) => (
