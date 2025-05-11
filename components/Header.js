@@ -32,7 +32,7 @@ export default function Header() {
                         comics
                     </a>
                     <Link href="/MiaTangCV.pdf" className="text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">
-                        curriculum vitae (april '25)
+                        curriculum vitae (may '25)
                     </Link>
                 </nav>
 
