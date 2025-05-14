@@ -41,17 +41,6 @@ export default function RDExperiences() {
         },
         {
             id: 4,
-            company: "CMU School of Design",
-            role: "Web Designer & Developer",
-            time: "January - August 2021",
-            imagePath: "/assets/SoD/thumbnail.png",
-            link: "https://design.cmu.edu/",
-            details: (
-                <span>I was incredibly fortunate to contribute to <i>CMU School of Design</i>'s rebrand and website redesign, working alongside some wonderful friends from our design studio. You can see our design system in person at CMU's Margaret Morrison Carnegie Hall or explore its digital form on the official website.</span>
-            )
-        },
-        {
-            id: 5,
             company: "Computational Creativity Lab (CCL)",
             role: "Research Assistant",
             time: "Sep 2021 - May 2022",
@@ -62,7 +51,7 @@ export default function RDExperiences() {
             )
         },
         {
-            id: 6,
+            id: 5,
             company: "Lunar Gala",
             role: "Co-Head of Web",
             time: "Sep 2021 - Mar 2022 ",
@@ -70,6 +59,17 @@ export default function RDExperiences() {
             link: "https://www.lunargala.org/",
             details: (
                 <span>I had the honor to be Co-Head of Web team for the 2022 <i>Lunar Gala</i>, which is an annual student-run fashion show in Pittsburgh. Working with talented designers and developers is always a wonderful experience. </span>
+            )
+        },
+        {
+            id: 6,
+            company: "CMU School of Design",
+            role: "Web Designer & Developer",
+            time: "January - August 2021",
+            imagePath: "/assets/SoD/thumbnail.png",
+            link: "https://design.cmu.edu/",
+            details: (
+                <span>I was incredibly fortunate to contribute to <i>CMU School of Design</i>'s rebrand and website redesign, working alongside some wonderful friends from our design studio. You can see our design system in person at CMU's Margaret Morrison Carnegie Hall or explore its digital form on the official website.</span>
             )
         },
         {
