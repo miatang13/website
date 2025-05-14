@@ -36,7 +36,7 @@ export default function RDExperiences() {
             imagePath: "/assets/logos/Jam3-16x9.png",
             link: "https://www.jam3.com/",
             details: (
-                <span>I had a wonderful time collaborating in a small team of designers and developer, contributing to developing a 3D interactive site where users take on the form of agents embodied by abstract geometric 3D shapes to enjoy music &#9835; together. </span>
+                <span>I had a wonderful time collaborating in a small team of designers and developer, contributing to developing a 3D interactive site where users take on the form of agents embodied by abstract geometric 3D shapes to enjoy music together. </span>
             )
         },
         {
@@ -48,6 +48,39 @@ export default function RDExperiences() {
             link: "https://design.cmu.edu/",
             details: (
                 <span>I was incredibly fortunate to contribute to <i>CMU School of Design</i>'s rebrand and website redesign, working alongside some wonderful friends from our design studio. You can see our design system in person at CMU's Margaret Morrison Carnegie Hall or explore its digital form on the official website.</span>
+            )
+        },
+        {
+            id: 5,
+            company: "Computational Creativity Lab (CCL)",
+            role: "Research Assistant",
+            time: "Sep 2021 - May 2022",
+            imagePath: "/assets/logos/CCL.png",
+            link: "https://computational-creativity.org/",
+            details: (
+                <span>I was fortunate to be advised by Prof. Kyuha Shim to design and develop data visualization web experiences in collaboration with the United States Census Bureau, presenting insights on food insecurity across the US. </span>
+            )
+        },
+        {
+            id: 6,
+            company: "Lunar Gala",
+            role: "Co-Head of Web",
+            time: "Sep 2021 - Mar 2022 ",
+            imagePath: "/assets/logos/LunarGala.png",
+            link: "https://www.lunargala.org/",
+            details: (
+                <span>I had the honor to be Co-Head of Web team for the 2022 <i>Lunar Gala</i>, which is an annual student-run fashion show in Pittsburgh. Working with talented designers and developers is always a wonderful experience. </span>
+            )
+        },
+        {
+            id: 7,
+            company: "IRIS",
+            role: "Frontend Engineer",
+            time: "Jan 2020 - May 2021",
+            imagePath: "/assets/logos/IrisRover.png",
+            link: "https://irislunarrover.space/",
+            details: (
+                <span>I was fortunate to be part of the <i>CMU Iris Lunar Rover</i> team, contributing to the control interfaces for the 2kg student-built rover which flew in space in 2024. </span>
             )
         }
     ];
