@@ -18,7 +18,7 @@ export default function News() {
             )
         },
         {
-            content: <span><b>Upcoming: </b>We are teaching a hands-on lab on generative systems at SIGGRAPH 2025. Details coming soon.</span>
+            content: <span><b>Upcoming: </b>We are teaching and organizing some fun workshops at SIGGRAPH this year. Details coming soon.</span>
         },
         {
             content: (
@@ -35,7 +35,7 @@ export default function News() {
             ),
         },
         {
-            content: <span><b>✓</b> I received the Stanford School of Engineering Fellowship as an incoming Ph.D. student. </span>
+            content: <span><b>✓</b> I received the Stanford School of Engineering Fellowship as an incoming Ph.D. student. ٩(^‿^)۶ 💛 </span>
         },
         {
             content: (
