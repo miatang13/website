@@ -15,7 +15,7 @@ export default function ConferenceWorkshops() {
         {
             id: 2,
             text: "Introduction to Generative Machine Learning",
-            venue: "SIGGRAPH '23, SIGGRAPH ASIA '23, SIGGRAPH '24",
+            venue: "SIGGRAPH '23, SIGGRAPH Asia '23, SIGGRAPH '24",
             notes_link: "https://dl.acm.org/doi/10.1145/3680532.3689591",
             type: "Course",
         },
