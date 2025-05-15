@@ -31,7 +31,7 @@ export default function Header() {
                     <motion.a
                         href="#publications"
                         onClick={(e) => handleSectionClick(e, 'publications')}
-                        {...fadeInProps(0.2)}
+                        {...fadeInProps(0.5)}
                         className="text-gray-600 hover:text-gray-900"
                     >
                         publications
@@ -39,7 +39,7 @@ export default function Header() {
                     <motion.a
                         href="#rd-experiences"
                         onClick={(e) => handleSectionClick(e, 'rd-experiences')}
-                        {...fadeInProps(0.3)}
+                        {...fadeInProps(0.7)}
                         className="text-gray-600 hover:text-gray-900"
                     >
                         r&d
@@ -47,12 +47,12 @@ export default function Header() {
                     <motion.a
                         href="#educational-comics"
                         onClick={(e) => handleSectionClick(e, 'educational-comics')}
-                        {...fadeInProps(0.4)}
+                        {...fadeInProps(0.9)}
                         className="text-gray-600 hover:text-gray-900"
                     >
                         comics
                     </motion.a>
-                    <motion.div {...fadeInProps(0.5)}>
+                    <motion.div {...fadeInProps(1.1)}>
                         <Link
                             href="/MiaTangCV.pdf"
                             className="text-gray-600 hover:text-gray-900"
