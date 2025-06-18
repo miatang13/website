@@ -49,14 +49,14 @@ export default function Bio() {
                             rel='noopener noreferrer'
                         >
                             Maneesh Agrawala
-                        </a>. I have also had the privilege of being part of the{" "}
+                        </a>. During my Master’s at Stanford, I have also had the privilege of being part of the{" "}
                         <a
                             href='https://svl.stanford.edu/'
                             className={linkStyle}
                             target='_blank'
                             rel='noopener noreferrer'
                         >
-                            Stanford Vision and Learning Lab (SVL)
+                            Stanford Vision and Learning Lab
                         </a>
                         . Previously, I earned my BCSA (Bachelor of Computer Science and
                         Arts) at Carnegie Mellon University, where I was grateful to be
