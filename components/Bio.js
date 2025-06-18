@@ -41,8 +41,7 @@ export default function Bio() {
             <div className='md:col-span-3'>
                 <div className='lg:mt-3'>
                     <p className='mb-3 lg:text-base text-sm'>
-                        I am an incoming CS Ph.D. + current Master's student at Stanford
-                        University. I have been fortunate to be advised by Professor{" "}
+                        I am an incoming CS Ph.D. student at Stanford University. I have been fortunate to work closely with Professor{" "}
                         <a
                             href='https://graphics.stanford.edu/~maneesh/'
                             className={linkStyle}
@@ -50,8 +49,7 @@ export default function Bio() {
                             rel='noopener noreferrer'
                         >
                             Maneesh Agrawala
-                        </a>
-                        . I have also had the privilege of working at the{" "}
+                        </a>. I have also had the privilege of being part of the{" "}
                         <a
                             href='https://svl.stanford.edu/'
                             className={linkStyle}

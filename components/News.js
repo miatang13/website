@@ -22,10 +22,10 @@ export default function News() {
         },
         {
             content: (
-                <span><b>Upcoming: </b>
-                    We are organizing a {" "}
+                <span><b>✓</b>{" "}
+                    We organized a {" "}
                     <a
-                        href="https://cveu.github.io/"
+                        href="https://cveu.github.io/event/cvpr2025.html"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={newLinkStyle}
