@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { linkStyle } from "@/constants/styles";
 import { motion } from 'framer-motion';
+import HoverInfo from "./HoverInfo";
 
 export default function Bio() {
     const fadeInProps = (delay = 0) => ({
@@ -40,7 +41,7 @@ export default function Bio() {
             {/* Bio information - 3 columns */}
             <div className='md:col-span-3'>
                 <div className='lg:mt-3'>
-                    <p className='mb-3 lg:text-base text-sm'>
+                    <span className='lg:text-base text-sm'>
                         I am an incoming CS Ph.D. student at Stanford University. I have been fortunate to work closely with Professor{" "}
                         <a
                             href='https://graphics.stanford.edu/~maneesh/'
@@ -58,8 +59,13 @@ export default function Bio() {
                         >
                             Stanford Vision and Learning Lab
                         </a>
-                        . Previously, I earned my BCSA (Bachelor of Computer Science and
-                        Arts) at Carnegie Mellon University, where I was grateful to be
+                        . Previously, I earned Bachelor of Computer Science and {" "}
+                        <><HoverInfo tooltip={
+                            <span>
+                                My arts concentration was in communications design at CMU’s School of Design—so I’ve always loved making things visual, from websites and brochures to brand systems and experimental interactive media.
+                            </span>
+                        }>Arts</HoverInfo></> {" "}
+                        at Carnegie Mellon University, where I was grateful to be
                         advised by Professor{" "}<a
                             href='https://www.cs.cmu.edu/~junyanz/'
                             className={linkStyle}
@@ -75,9 +81,9 @@ export default function Bio() {
                             rel='noopener noreferrer'
                         >Kyuha Shim
                         </a>  on computational design.
-                    </p>
+                    </span>
 
-                    <p className='mb-4 lg:text-base text-sm'>
+                    <p className='my-2 lg:text-base text-sm'>
                         My research explores the intersection of computer graphics, vision,
                         and AI, with a focus on developing{" "}
                         <strong>
