@@ -62,7 +62,7 @@ export default function Bio() {
                         . Previously, I earned Bachelor of Computer Science and {" "}
                         <><HoverInfo tooltip={
                             <span>
-                                My arts concentration was in communications design at CMU’s School of Design—so I’ve always loved making things visual, from websites and brochures to brand systems and experimental interactive media.
+                                My arts concentration was in communications design at CMU School of Design—so I’ve always loved making things visual, from websites and brochures to brand systems and experimental interactive media.
                             </span>
                         }>Arts</HoverInfo></> {" "}
                         at Carnegie Mellon University, where I was grateful to be
