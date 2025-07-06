@@ -31,8 +31,8 @@ export default function Publications() {
             imagePath: "/publication/inklayer.png",
             projectPage: "https://inklayer.github.io/",
             arxiv: "https://arxiv.org/abs/2502.09608",
-            // code: "#",
-            // dataset: "#",
+            code: "https://github.com/miatang13/InkLayer",
+            dataset: "https://www.inkscenes-dataset.com/",
         },
         {
             id: 2,
@@ -161,13 +161,14 @@ export default function Publications() {
                         <a href={pub.arxiv} className={publicationLinkStyle} target='_blank' rel='noopener noreferrer'>
                             arXiv
                         </a>{" "}
-                        /{" "}
-                        {pub.code ? (
-                            <a href={pub.code} className={publicationLinkStyle} target='_blank' rel='noopener noreferrer'>
-                                Code
-                            </a>
-                        ) : (
-                            <span className='text-gray-300'>Code (Coming Soon)</span>
+
+                        {pub.code && (
+                            <>
+                                /{" "}
+                                <a href={pub.code} className={publicationLinkStyle} target='_blank' rel='noopener noreferrer'>
+                                    Code
+                                </a>
+                            </>
                         )}
                         {pub.dataset && (
                             <>
