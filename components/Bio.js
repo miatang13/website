@@ -23,7 +23,7 @@ export default function Bio() {
                     <Image
                         src='/assets/personal/bio_stanford_sqr_sm.png'
                         alt='Mia Tang'
-                        className='rounded-full'
+                        className='rounded-full shadow-sm'
                         fill
                         style={{ objectFit: "cover" }}
                     />

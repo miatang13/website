@@ -5,6 +5,15 @@ import { useRef } from 'react';
 
 import Image from "next/image";
 import { publicationLinkStyle, publicationAuthorStyle, publicationLinkMyselfStyle } from "@/constants/styles";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faLink,
+    faFileAlt,
+    faCode,
+    faDatabase,
+    faPager,
+} from "@fortawesome/free-solid-svg-icons";
+
 
 export default function Publications() {
     const publications = [
@@ -96,6 +105,8 @@ export default function Publications() {
             demo: "https://modelverse.cs.cmu.edu/"
         },
     ];
+    const linkStyle = "text-xs text-gray-500 hover:text-black p-1 transition duration-200 flex items-center border-blue-50 hover:border-blue-100 rounded-lg shadow-xs hover:shadow-sm ";
+
 
     return publications.map((pub, index) => {
         const ref = useRef(null);
@@ -124,8 +135,10 @@ export default function Publications() {
 
                 {/* Publication details - 3 columns */}
                 <div className='md:col-span-3'>
-                    <p className='text-sm text-gray-600'>{pub.venue}</p>
-                    <h3 className='text-lg font-medium mb-2'>{pub.title}</h3>
+                    <p className='text-sm font-serif text-gray-600'>{pub.venue}</p>
+                    <h3 className='sm:text-lg font-serif font-semibold mt-1 mb-2 leading-snug'>{pub.title}</h3>
+
+
 
                     <p className='text-xs mb-2'>
                         {pub.authors.map((author, index) => (
@@ -138,53 +151,63 @@ export default function Publications() {
                                 >
                                     {author.name}
                                 </a>
-                                {index < pub.authors.length - 1 ? " / " : ""}
+                                <span className='text-gray-500'>
+                                    {index < pub.authors.length - 1 ? " / " : ""}
+                                </span>
                             </span>
                         ))}
                     </p>
 
-                    <div className='mt-2'>
-                        <p className='italic text-sm'>{pub.description}</p>
-                    </div>
+                    <p className='text-xs sm:text-sm text-gray-700 italic'>{pub.description}</p>
 
                     {/* Project Links */}
-                    <div className='mt-2 text-sm'>
-                        <a
-                            href={pub.projectPage}
-                            className={publicationLinkStyle}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                        >
-                            Project Page
-                        </a>{" "}
-                        /{" "}
-                        <a href={pub.arxiv} className={publicationLinkStyle} target='_blank' rel='noopener noreferrer'>
-                            arXiv
-                        </a>{" "}
-
+                    <p className="mt-2 flex flex-wrap gap-2">
+                        {pub.projectPage && (
+                            <a
+                                href={pub.projectPage}
+                                className={linkStyle}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FontAwesomeIcon icon={faPager} className="mr-1 text-gray-300" />
+                                Project Page
+                            </a>
+                        )}
+                        {pub.arxiv && (
+                            <a
+                                href={pub.arxiv}
+                                className={linkStyle}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FontAwesomeIcon icon={faFileAlt} className="mr-1 text-gray-300" />
+                                arXiv
+                            </a>
+                        )}
                         {pub.code && (
-                            <>
-                                /{" "}
-                                <a href={pub.code} className={publicationLinkStyle} target='_blank' rel='noopener noreferrer'>
-                                    Code
-                                </a>
-                            </>
+                            <a
+                                href={pub.code}
+                                className={linkStyle}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FontAwesomeIcon icon={faCode} className="mr-1 text-gray-300" />
+                                Code
+                            </a>
                         )}
                         {pub.dataset && (
-                            <>
-                                {" "}
-                                /{" "}
-                                <a
-                                    href={pub.dataset}
-                                    className={publicationLinkStyle}
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                >
-                                    Dataset
-                                </a>
-                            </>
+                            <a
+                                href={pub.dataset}
+                                className={linkStyle}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FontAwesomeIcon icon={faDatabase} className="mr-1 text-gray-300" />
+                                Dataset
+                            </a>
                         )}
-                    </div>
+                    </p>
+
                 </div>
             </motion.div>
         );

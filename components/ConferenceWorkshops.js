@@ -1,7 +1,7 @@
 // components/ConferenceWorkshops.js
 import { sectionTitleStyle, sideColSubtext } from "@/constants/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faFileAlt, faLink, faPager } from "@fortawesome/free-solid-svg-icons";
 import HoverInfo from "./HoverInfo";
 
 export default function ConferenceWorkshops() {
@@ -11,11 +11,12 @@ export default function ConferenceWorkshops() {
             text: "AI for Creative Visual Content Generation Editing and Understanding",
             venue: "CVPR '25",
             type: "Workshop",
+            website_link: "https://cveu.github.io/event/cvpr2025.html",
         },
         {
             id: 2,
             text: "Introduction to Generative Machine Learning",
-            venue: "SIGGRAPH '23, SIGGRAPH Asia '23, SIGGRAPH '24",
+            venue: "SIGGRAPH '23 & '24, SIGGRAPH Asia '23",
             notes_link: "https://dl.acm.org/doi/10.1145/3680532.3689591",
             type: "Course",
         },
@@ -25,12 +26,14 @@ export default function ConferenceWorkshops() {
             venue: "SIGGRAPH '24",
             notes_link: "https://dl.acm.org/doi/abs/10.1145/3664475.3664553",
             type: "Course",
+            website_link: "https://cveu.github.io/event/sig2024.html"
         },
         {
             id: 4,
             text: "The Future of Generative Visual Art",
             venue: "CVPR '24",
             type: "Workshop",
+            website_link: "https://cveu.github.io/event/cvpr2024.html",
         },
     ];
 
@@ -52,24 +55,38 @@ export default function ConferenceWorkshops() {
                 {conferences.map((item) => (
                     <li key={item.id} className='flex items-start flex flex-col'>
                         {/* <span className="text-gray-600 mr-2">•</span> */}
-                        <span>
+                        <p>
                             <b>
                                 {item.type}
-                                {item.notes_link && (
-                                    <span className='text-orange-400 hover:underline'>{" "}
-                                        [<FontAwesomeIcon icon={faLink} className='fa-fw' />{" "}
-                                        <a
-                                            href={item.notes_link}
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                        > Notes
-                                        </a>]{" "}
-                                    </span>
-                                )}
                                 :
                             </b>{" "}
                             {item.text} <span className={sideColSubtext}>({item.venue})</span>
-                        </span>
+                            {item.notes_link && (
+                                <a
+                                    href={item.notes_link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-xs ml-2 p-1 text-gray-400 rounded-md shadow-xs hover:shadow-sm hover:text-black transition duration-200 inline-flex items-center break-keep"
+                                >
+                                    <FontAwesomeIcon icon={faFileAlt} className="mr-1 text-gray-300" />
+                                    Notes
+                                </a>
+
+                            )}
+                            {item.website_link && (
+                                <a
+                                    href={item.website_link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-xs  ml-2 p-1 text-gray-400 rounded-md shadow-xs hover:shadow-sm hover:text-black transition duration-200 inline-flex items-center break-keep"
+                                >
+                                    <FontAwesomeIcon icon={faPager} className="mr-1 text-gray-300" />
+                                    Webpage
+                                </a>
+
+                            )}
+
+                        </p>
                     </li>
                 ))}
             </ul>
