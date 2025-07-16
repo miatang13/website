@@ -2,6 +2,10 @@ export const sectionTitleStyle = "text-lg font-black mb-1"
 
 export const linkStyle = "text-pink-500 hover:underline transition duration-200 hover:shadow-xs";
 
+
+export const linkStyleSubtle = "text-violet-500 hover:underline transition duration-200 hover:shadow-xs";
+
+
 export const newLinkStyle = " underline decoration-dotted hover:text-pink-500 hover:decoration-pink-500 transition duration-200";
 export const publicationLinkStyle = "text-gray-500 hover:underline transition duration-200 ";
 

@@ -26,7 +26,7 @@ export default function Home() {
     initial: { opacity: 0, y: 20 },
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 0.5, delay },
-    viewport: { once: true, amount: 0.2 }, // Trigger when 30% in view, only once
+    viewport: { once: true, amount: 0.15 }, // Trigger when 30% in view, only once
   });
 
   return (

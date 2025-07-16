@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { linkStyle } from "@/constants/styles";
+import { linkStyle, linkStyleSubtle } from "@/constants/styles";
 import { motion } from 'framer-motion';
 import HoverInfo from "./HoverInfo";
 
@@ -11,6 +11,13 @@ export default function Bio() {
         initial: { opacity: 0, scaleY: 0. },
         whileInView: { opacity: 1, scaleY: 1 },
         transition: { duration: 0.4, delay, ease: 'easeOut' },
+        viewport: { once: true, amount: 0.3 },
+    });
+
+    const fadeInPropsNoY = (delay = 0) => ({
+        initial: { opacity: 0, },
+        whileInView: { opacity: 1, },
+        transition: { duration: 0.8, delay, ease: 'easeOut' },
         viewport: { once: true, amount: 0.3 },
     });
 
@@ -92,7 +99,8 @@ export default function Bio() {
                         by aligning machine capabilities with natural creative processes.
                     </p>
 
-                    <div className='mt-4 text-sm'>
+
+                    <div className='mt-4 text-sm'> {/* Contact information */}
                         <motion.div
                             key={0}
                             {...fadeInProps(0 * 0.1)}>
@@ -131,9 +139,35 @@ export default function Bio() {
                                 <strong>Office:</strong> Stanford CoDa Building Room E368
                             </p>
                         </motion.div>
-                    </div>
+                    </div>{/* Contact information */}
+
+
+                    {/* Upcoming News */}
+                    <motion.div
+                        key={3}
+                        {...fadeInPropsNoY(5 * 0.1)}>
+                        <div className='mt-4 border-t border-gray-200 pt-3'>
+                            <h3 className='text-xs font-bold mb-2 text-gray-400'>August 2025 SIGGRAPH Updates</h3>
+                            <ul className='text-sm space-y-1 ml-4 text-gray-600'>
+                                <li className='relative'>
+                                    <span className='absolute -left-4 text-gray-400'>•</span>
+                                    We're organizing the workshop <a className={linkStyleSubtle} href="https://lines-and-minds.github.io/" target="_blank" rel="noopener noreferrer">Drawing & Sketching: Art, Psychology, and Computer Graphics</a> on Sunday, August 10th. Come explore the world of drawing with us, where we'll dive into how humans and machines can sketch, create, and collaborate together. ◡̈
+                                </li>
+                                <li className='relative'>
+                                    <span className='absolute -left-4 text-gray-400'>•</span>
+                                    We're teaching a hands-on lab course <a className={linkStyleSubtle} href="https://s2025.conference-schedule.org/presentation/?id=gensub_515&sess=sess297" target="_blank" rel="noopener noreferrer">Introduction To Generative Machine Learning</a> on Tuesday, August 12th. Join us for a fun, interactive introductory lesson to Generative AI models like Transformers, Diffusion, NeRFs and their application to Computer Graphics.
+                                </li>
+                                <li className='relative'>
+                                    <span className='absolute -left-4 text-gray-400'>•</span>
+                                    Our paper <a className={linkStyleSubtle} href="https://inklayer.github.io/" target="_blank" rel="noopener noreferrer">InkLayer</a> has been accepted to SIGGRAPH 2025 💜. Join our paper session on Wednesday, August 13th. Come see how InkLayer automatically turns your sketches into editable layers—making sketch editing  effortless!
+                                </li>
+                            </ul>
+                        </div>
+                    </motion.div>
+                    {/* Upcoming News */}
+
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
