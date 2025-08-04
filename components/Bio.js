@@ -37,7 +37,7 @@ export default function Bio() {
                 </div>
                 <h2 className='text-xl font-black mb-1 text-center italic'>Mia Tang</h2>
                 <p className='text-xs text-gray-600 mb-2 text-center'>
-                    Master's Student,
+                    Master's Student
                     <br />
                     Computer Science Department
                     <br />
