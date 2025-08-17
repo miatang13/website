@@ -28,7 +28,7 @@ export default function Publications() {
                 { name: "Chuan Yan", link: "https://nauhcnay.github.io/" },
                 {
                     name: "Lvmin Zhang",
-                    link: "https://lllyasviel.github.io/Style2PaintsResearch/lvmin",
+                    link: "https://lllyasviel.github.io/lvmin_zhang",
                 },
                 {
                     name: "Maneesh Agrawala",
