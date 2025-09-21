@@ -37,7 +37,7 @@ export default function Bio() {
                 </div>
                 <h2 className='text-xl font-black mb-1 text-center italic'>Mia Tang</h2>
                 <p className='text-xs text-gray-600 mb-2 text-center'>
-                    Master's Student
+                    Ph.D. Student
                     <br />
                     Computer Science Department
                     <br />
@@ -49,7 +49,7 @@ export default function Bio() {
             <div className='md:col-span-3'>
                 <div className='lg:mt-3'>
                     <span className='lg:text-base text-sm'>
-                        I am an incoming CS Ph.D. student at Stanford University. I have been fortunate to work closely with Professor{" "}
+                        I am a first-year CS Ph.D. student at Stanford University. I have been fortunate to work closely with Professor{" "}
                         <a
                             href='https://graphics.stanford.edu/~maneesh/'
                             className={linkStyle}
@@ -140,31 +140,6 @@ export default function Bio() {
                             </p>
                         </motion.div>
                     </div>{/* Contact information */}
-
-
-                    {/* Upcoming News */}
-                    <motion.div
-                        key={3}
-                        {...fadeInPropsNoY(5 * 0.1)}>
-                        <div className='mt-4 border-t border-gray-200 pt-3'>
-                            <h3 className='text-xs font-bold mb-2 text-gray-400'>August 2025 SIGGRAPH Updates</h3>
-                            <ul className='text-sm space-y-1 ml-4 text-gray-600'>
-                                <li className='relative'>
-                                    <span className='absolute -left-4 text-gray-400'>•</span>
-                                    We're organizing the workshop <a className={linkStyleSubtle} href="https://lines-and-minds.github.io/" target="_blank" rel="noopener noreferrer">Drawing & Sketching: Art, Psychology, and Computer Graphics</a> on Sunday, August 10th. Come explore the world of drawing with us, where we'll dive into how humans and machines can sketch, create, and collaborate together. ◡̈
-                                </li>
-                                <li className='relative'>
-                                    <span className='absolute -left-4 text-gray-400'>•</span>
-                                    We're teaching a hands-on lab course <a className={linkStyleSubtle} href="https://s2025.conference-schedule.org/presentation/?id=gensub_515&sess=sess297" target="_blank" rel="noopener noreferrer">Introduction To Generative Machine Learning</a> on Tuesday, August 12th. Join us for a fun, interactive introductory lesson to Generative AI models like Transformers, Diffusion, NeRFs and their application to Computer Graphics.
-                                </li>
-                                <li className='relative'>
-                                    <span className='absolute -left-4 text-gray-400'>•</span>
-                                    Our paper <a className={linkStyleSubtle} href="https://inklayer.github.io/" target="_blank" rel="noopener noreferrer">InkLayer</a> has been accepted to SIGGRAPH 2025 💜. Join our paper session on Wednesday, August 13th. Come see how InkLayer automatically turns your sketches into editable layers—making sketch editing  effortless!
-                                </li>
-                            </ul>
-                        </div>
-                    </motion.div>
-                    {/* Upcoming News */}
 
                 </div>
             </div>

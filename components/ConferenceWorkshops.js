@@ -7,6 +7,13 @@ import HoverInfo from "./HoverInfo";
 export default function ConferenceWorkshops() {
     const conferences = [
         {
+            id: 0,
+            text: "Drawing & Sketching: Art, Psychology, and Computer Graphics",
+            venue: "SIGGRAPH '25",
+            type: "Workshop",
+            website_link: "https://lines-and-minds.github.io/"
+        },
+        {
             id: 1,
             text: "AI for Creative Visual Content Generation Editing and Understanding",
             venue: "CVPR '25",
@@ -16,7 +23,7 @@ export default function ConferenceWorkshops() {
         {
             id: 2,
             text: "Introduction to Generative Machine Learning",
-            venue: "SIGGRAPH '23 & '24, SIGGRAPH Asia '23",
+            venue: "SIGGRAPH '23 & '24 & '25, SIGGRAPH Asia '23",
             notes_link: "https://dl.acm.org/doi/10.1145/3680532.3689591",
             type: "Course",
         },

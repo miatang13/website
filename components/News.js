@@ -5,22 +5,34 @@ import Image from "next/image";
 
 export default function News() {
     const newsItems = [
-        // {
-        //     content: (
-        //         <span><b>Upcoming: </b>
-        //             Our recent work on  <a
-        //                 href="https://inklayer.github.io/"
-        //                 target="_blank"
-        //                 rel="noopener noreferrer"
-        //                 className={newLinkStyle}
-        //             >sketch segmentation
-        //             </a>  has been accepted to SIGGRAPH 2025. See you in Vancouver!
-        //         </span>
-        //     )
-        // },
-        // {
-        //     content: <span><b>Upcoming: </b>We are teaching and organizing some fun workshops at SIGGRAPH this year. Details coming soon.</span>
-        // },
+        {
+            content: (
+                <span>We taught a {" "}
+                    <a
+                        href="https://s2025.conference-schedule.org/presentation/?id=gensub_515&sess=sess297"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={newLinkStyle}
+                    >SIGGRAPH Hands-on Lab Course
+                    </a> on generative AI.
+                </span>
+            ),
+            time: "August 2025"
+        },
+        {
+            content: (
+                <span>We organized a {" "}
+                    <a
+                        href="https://lines-and-minds.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={newLinkStyle}
+                    >SIGGRAPH Technical Workshop
+                    </a> on Art, Psychology, and Computer Graphics.
+                </span>
+            ),
+            time: "August 2025"
+        },
         {
             content: (
                 <span>We organized a {" "}
