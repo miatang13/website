@@ -94,9 +94,9 @@ export default function Bio() {
                         My research explores the intersection of computer graphics, vision,
                         and AI, with a focus on developing{" "}
                         <strong>
-                            interactive, controllable AI systems for visual expression
-                        </strong>{" "}
-                        by aligning machine capabilities with natural creative processes.
+                            interactive, controllable AI systems
+                        </strong>{" "}that align with natural human processes.
+                        I leverage generative models to enable broad audiences to meaningfully create, contribute, and solve real-world challenges.
                     </p>
 
 
