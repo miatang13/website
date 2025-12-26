@@ -37,7 +37,7 @@ export default function Publications() {
             ],
             description:
                 "Learn better manipulation policies from 👾 gamified remote teleoperation.",
-            imagePath: "/publication/RoboCade.png",
+            imagePath: "/publication/RoboCade-pipeline1.png",
             projectPage: "https://robocade.github.io/",
             arxiv: "https://arxiv.org/abs/2512.21235",
             // code: "https://github.com/miatang13/InkLayer",
