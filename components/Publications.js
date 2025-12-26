@@ -4,10 +4,9 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 import Image from "next/image";
-import { publicationLinkStyle, publicationAuthorStyle, publicationLinkMyselfStyle } from "@/constants/styles";
+import { publicationAuthorStyle, publicationLinkMyselfStyle } from "@/constants/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faLink,
     faFileAlt,
     faCode,
     faDatabase,
@@ -17,6 +16,33 @@ import {
 
 export default function Publications() {
     const publications = [
+        {
+            id: 0,
+            title:
+                "RoboCade: Gamifying Robot Data Collection",
+            venue: "arXiv Preprint",
+            authors: [
+                { name: "Suvir Mirchandani*", link: "https://suvirpmirchandani.com/" },
+                { name: "Mia Tang*", link: "/" },
+                { name: "Jiafei Duan", link: "https://duanjiafei.com/" },
+                { name: "Jubayer Ibn Hamid", link: "https://jubayer-ibn-hamid.github.io/" },
+                {
+                    name: "Michael Cho",
+                    link: "https://www.linkedin.com/in/michael-chung-yeung-cho/",
+                },
+                {
+                    name: "Dorsa Sadigh",
+                    link: "https://dorsa.fyi/",
+                },
+            ],
+            description:
+                "Learn better manipulation policies from gamified remote teleoperation",
+            imagePath: "/publication/RoboCade.png",
+            projectPage: "https://robocade.github.io/",
+            arxiv: "https://arxiv.org/abs/2512.21235",
+            // code: "https://github.com/miatang13/InkLayer",
+            // dataset: "https://www.inkscenes-dataset.com/",
+        },
         {
             id: 1,
             title:
