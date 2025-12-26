@@ -36,7 +36,7 @@ export default function Publications() {
                 },
             ],
             description:
-                "Learn better manipulation policies from gamified remote teleoperation",
+                "Learn better manipulation policies from 👾 gamified remote teleoperation.",
             imagePath: "/publication/RoboCade.png",
             projectPage: "https://robocade.github.io/",
             arxiv: "https://arxiv.org/abs/2512.21235",
