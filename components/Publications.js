@@ -47,7 +47,7 @@ export default function Publications() {
             id: 1,
             title:
                 "Instance Segmentation of Scene Sketches Using Natural Image Priors",
-            venue: "ACM SIGGRAPH 2025",
+            venue: "SIGGRAPH 2025",
             authors: [
                 { name: "Mia Tang", link: "/" },
                 { name: "Yael Vinker", link: "https://yael-vinker.github.io/website/" },
