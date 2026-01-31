@@ -59,7 +59,7 @@ export default function Header() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            curriculum vitae <span className="text-xs text-gray-400">(Oct. 23, 2025)</span>
+                            curriculum vitae <span className="text-xs text-gray-400">(Jan. 31 2026)</span>
                         </Link>
                     </motion.div>
                 </div>
