@@ -20,7 +20,7 @@ export default function Publications() {
             id: 0,
             title:
                 "RoboCade: Gamifying Robot Data Collection",
-            venue: "arXiv Preprint",
+            venue: "ICRA 2026",
             authors: [
                 { name: "Suvir Mirchandani*", link: "https://suvirpmirchandani.com/" },
                 { name: "Mia Tang*", link: "/" },
