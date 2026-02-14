@@ -26,11 +26,11 @@ export default function News() {
                         className={newLinkStyle}>Maneesh Agrawala</a>, <a href="https://tml.stanford.edu/people/karen-liu"  
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={newLinkStyle}>C. Karen Liu</a>, and  
+                        className={newLinkStyle}>C. Karen Liu</a>, and {" "} 
                        <a href="https://geometry.stanford.edu/"  
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={newLinkStyle}> Leonidas J. Guibas</a>.</span>
+                        className={newLinkStyle}>Leonidas J. Guibas</a>.</span>
             ),
             time: "September 2025"
         },
