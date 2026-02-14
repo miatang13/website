@@ -77,7 +77,7 @@ export default function News() {
             time: "June 2025"
         },
         {
-            content: <span>I received the Stanford School of Engineering Fellowship as an incoming Ph.D. student. ٩(^‿^)۶ 💛 </span>,
+            content: <span>I received the Stanford School of Engineering Fellowship as an incoming Ph.D. student. </span>,
             time: "April 2025"
         },
         // {

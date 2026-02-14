@@ -90,14 +90,16 @@ export default function Bio() {
                         </a>  on computational design.
                     </span>
 
-                    <p className='my-2 lg:text-base text-sm'>
+                    <div className='my-2'></div>
+
+                    <span className='lg:text-base text-sm '>
                         My research explores the intersection of computer graphics, vision,
                         and AI, with a focus on developing{" "}
                         <strong>
                             interactive, controllable AI systems
                         </strong>{" "}that align with natural human processes.
                         I leverage generative models to enable broad audiences to meaningfully create, contribute, and solve real-world challenges.
-                    </p>
+                    </span>
 
 
                     <div className='mt-4 text-sm'> {/* Contact information */}

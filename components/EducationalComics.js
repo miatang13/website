@@ -60,7 +60,7 @@ export default function EducationalComics() {
             <div className="grid md:grid-cols-2 gap-4 mb-2">
                 <h2 className={sectionTitleStyle}>Educational Comics</h2>
                 <p className={mainSmallDescriptionStyle}>
-                    Turning complex ideas into ✰ <i>playful, approachable visuals</i>✰ is a challenge that continues to inspire me. As a comic artist, that exploration takes shape through educational illustrations on technical topics. In my free time, I also volunteer as a math tutor for preschoolers at local schools in Palo Alto.
+                    Turning complex ideas into <i>playful, approachable visuals</i> is a challenge that continues to inspire me. As a comic artist, that exploration takes shape through educational illustrations on technical topics. In my free time, I also volunteer as a math tutor for preschoolers at local schools in Palo Alto.
                 </p>
             </div>
 
