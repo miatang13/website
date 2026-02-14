@@ -96,7 +96,7 @@ export default function RDExperiences() {
         <div id="rd-experiences">
             <div className="grid md:grid-cols-2 gap-4 mb-2">
                 <h2 className={sectionTitleStyle}>Research & Development Experiences</h2>
-                <p className={mainSmallDescriptionStyle}>With a background in traditional graphic design, I'm passionate about bridging research and product by crafting user-facing applications powered by cutting-edge technologies.</p>
+                <p className={mainSmallDescriptionStyle}>With a background in traditional graphic design, I'm passionate about bridging research and product. 𓂃✍︎</p>
             </div>
 
 
