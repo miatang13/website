@@ -28,7 +28,7 @@ export default function Bio() {
             <div className='col-span-1'>
                 <div className='relative h-42 w-42 my-4 lg:my-8 mx-auto'>
                     <Image
-                        src='/assets/personal/bio_stanford_sqr_sm.png'
+                        src='/assets/personal/bio_green_sqr.png'
                         alt='Mia Tang'
                         className='rounded-full shadow-sm'
                         fill
