@@ -11,7 +11,7 @@ export default function ConferenceWorkshops() {
             text: "Drawing & Sketching: Art, Psychology, and Computer Graphics",
             venue: "SIGGRAPH '25",
             type: "Workshop",
-            website_link: "https://lines-and-minds.github.io/"
+            website_link: "https://lines-and-minds.github.io/2025"
         },
         {
             id: 1,
