@@ -4,6 +4,20 @@ import { newLinkStyle } from "@/constants/styles";
 export default function News() {
     const newsItems = [
         {
+            content: (
+                <span>We are organizing a {" "}
+                    <a
+                        href="https://lines-and-minds.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={newLinkStyle}
+                    >SIGGRAPH Technical Workshop
+                    </a> on Visual Abstraction in Art, Psychology, and Computer Graphics. Come join us!
+                </span>
+            ),
+            time: "Upcoming July 2026"
+        },
+        {
 
             content: ( 
                 <span>Our recent work on <a
@@ -52,7 +66,7 @@ export default function News() {
             content: (
                 <span>We organized a {" "}
                     <a
-                        href="https://lines-and-minds.github.io/"
+                        href="https://lines-and-minds.github.io/2025"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={newLinkStyle}
