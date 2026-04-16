@@ -71,7 +71,7 @@ export default function News() {
                         rel="noopener noreferrer"
                         className={newLinkStyle}
                     >SIGGRAPH Technical Workshop
-                    </a> on Art, Psychology, and Computer Graphics.
+                    </a> on Drawing & Sketching in Art, Psychology, and Computer Graphics.
                 </span>
             ),
             time: "August 2025"
