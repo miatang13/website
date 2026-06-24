@@ -49,7 +49,7 @@ export default function Bio() {
             <div className='md:col-span-3'>
                 <div className='lg:mt-3'>
                     <span className='lg:text-base text-sm'>
-                        I am a first-year CS Ph.D. student at Stanford University. I have been fortunate to work closely with Professor{" "}
+                        I am a first-year CS Ph.D. student at Stanford University advised by Professor{" "}
                         <a
                             href='https://graphics.stanford.edu/~maneesh/'
                             className={linkStyle}
