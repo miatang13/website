@@ -18,6 +18,20 @@ export default function News() {
             time: "Upcoming July 2026"
         },
         {
+            content: (
+                <span>I'm giving a talk at {" "}
+                    <a
+                        href="https://cveu.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={newLinkStyle}
+                    >SIGGRAPH CVEU course
+                    </a> on Non-Photorealistic Rendering. Come join us!
+                </span>
+            ),
+            time: "Upcoming July 2026"
+        },
+        {
 
             content: ( 
                 <span>Our recent work on <a
