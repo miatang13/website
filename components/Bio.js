@@ -82,7 +82,7 @@ export default function Bio() {
                             Jun-Yan Zhu
                         </a> on generative systems and Professor{" "}
                         <a
-                            href='https://kyuhashim.com/'
+                            href='https://www.linkedin.com/in/qshim/'
                             className={linkStyle}
                             target='_blank'
                             rel='noopener noreferrer'
