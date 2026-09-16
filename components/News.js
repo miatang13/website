@@ -5,31 +5,31 @@ export default function News() {
     const newsItems = [
         {
             content: (
-                <span>We are organizing a {" "}
+                <span>We organized a {" "}
                     <a
                         href="https://lines-and-minds.github.io/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={newLinkStyle}
                     >SIGGRAPH Technical Workshop
-                    </a> on Visual Abstraction in Art, Psychology, and Computer Graphics. Come join us!
+                    </a> on Visual Abstraction in Art, Psychology, and Computer Graphics.
                 </span>
             ),
-            time: "Upcoming July 2026"
+            time: "July 2026"
         },
         {
             content: (
-                <span>I'm giving a talk at {" "}
+                <span>I gave a talk at {" "}
                     <a
-                        href="https://cveu.github.io/"
+                        href="https://cveu.github.io/event/sig2026.html"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={newLinkStyle}
                     >SIGGRAPH CVEU course
-                    </a> on Non-Photorealistic Rendering. Come join us!
+                    </a> on Non-Photorealistic Rendering. 
                 </span>
             ),
-            time: "Upcoming July 2026"
+            time: "July 2026"
         },
         {
 
@@ -76,38 +76,38 @@ export default function News() {
             ),
             time: "August 2025"
         },
-        {
-            content: (
-                <span>We organized a {" "}
-                    <a
-                        href="https://lines-and-minds.github.io/2025"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={newLinkStyle}
-                    >SIGGRAPH Technical Workshop
-                    </a> on Drawing & Sketching in Art, Psychology, and Computer Graphics.
-                </span>
-            ),
-            time: "August 2025"
-        },
-        {
-            content: (
-                <span>We organized a {" "}
-                    <a
-                        href="https://cveu.github.io/event/cvpr2025.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={newLinkStyle}
-                    >CVPR Workshop
-                    </a> on AI for Creative Visual Content Generation and Editing.
-                </span>
-            ),
-            time: "June 2025"
-        },
-        {
-            content: <span>I received the Stanford School of Engineering Fellowship as an incoming Ph.D. student. </span>,
-            time: "April 2025"
-        },
+        // {
+        //     content: (
+        //         <span>We organized a {" "}
+        //             <a
+        //                 href="https://lines-and-minds.github.io/2025"
+        //                 target="_blank"
+        //                 rel="noopener noreferrer"
+        //                 className={newLinkStyle}
+        //             >SIGGRAPH Technical Workshop
+        //             </a> on Drawing & Sketching in Art, Psychology, and Computer Graphics.
+        //         </span>
+        //     ),
+        //     time: "August 2025"
+        // },
+        // {
+        //     content: (
+        //         <span>We organized a {" "}
+        //             <a
+        //                 href="https://cveu.github.io/event/cvpr2025.html"
+        //                 target="_blank"
+        //                 rel="noopener noreferrer"
+        //                 className={newLinkStyle}
+        //             >CVPR Workshop
+        //             </a> on AI for Creative Visual Content Generation and Editing.
+        //         </span>
+        //     ),
+        //     time: "June 2025"
+        // },
+        // {
+        //     content: <span>I received the Stanford School of Engineering Fellowship as an incoming Ph.D. student. </span>,
+        //     time: "April 2025"
+        // },
         // {
         //     content: (
         //         <span> I am giving a talk at Stanford <em>Graphics Café</em> on 04/24. Come join us.</span>
