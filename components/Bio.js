@@ -59,7 +59,7 @@ export default function Bio() {
                             Maneesh Agrawala
                         </a>. 
                         
-{/*                         
+                       
                         During my Master's at Stanford, I have had the privilege of being part of the{" "}
                         <a
                             href='https://svl.stanford.edu/'
@@ -69,7 +69,7 @@ export default function Bio() {
                         >
                             Stanford Vision and Learning Lab
                         </a>
-                        .  */}
+                        .
                         
                         {" "}Previously, I earned my Bachelor of Computer Science and {" "}
                         <><HoverInfo tooltip={
