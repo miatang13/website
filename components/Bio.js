@@ -57,7 +57,10 @@ export default function Bio() {
                             rel='noopener noreferrer'
                         >
                             Maneesh Agrawala
-                        </a>. During my Master's at Stanford, I have had the privilege of being part of the{" "}
+                        </a>. 
+                        
+{/*                         
+                        During my Master's at Stanford, I have had the privilege of being part of the{" "}
                         <a
                             href='https://svl.stanford.edu/'
                             className={linkStyle}
@@ -66,7 +69,9 @@ export default function Bio() {
                         >
                             Stanford Vision and Learning Lab
                         </a>
-                        . Previously, I earned my Bachelor of Computer Science and {" "}
+                        .  */}
+                        
+                        {" "}Previously, I earned my Bachelor of Computer Science and {" "}
                         <><HoverInfo tooltip={
                             <span>
                                 My arts concentration was in communications design at CMU School of Design—so I’ve always loved making things visual, from websites and brochures to brand systems and experimental interactive media.
@@ -80,14 +85,16 @@ export default function Bio() {
                             rel='noopener noreferrer'
                         >
                             Jun-Yan Zhu
-                        </a> on generative systems and Professor{" "}
+                         </a>.
+                        
+                        {/*and Professor{" "}
                         <a
                             href='https://www.linkedin.com/in/qshim/'
                             className={linkStyle}
                             target='_blank'
                             rel='noopener noreferrer'
                         >Kyuha Shim
-                        </a>  on computational design.
+                        </a>  on computational design. */}
                     </span>
 
                     <div className='my-2'></div>
