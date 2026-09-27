@@ -51,7 +51,7 @@ export default function News() {
                 <span>Excited to start my Ph.D.! I am honored to rotate with Professors: <a href="https://graphics.stanford.edu/~maneesh/"  
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={newLinkStyle}>Maneesh Agrawala</a>, <a href="https://tml.stanford.edu/people/karen-liu"  
+                        className={newLinkStyle}>Maneesh Agrawala</a>, <a href="https://profiles.stanford.edu/c-karen-liu"  
                         target="_blank"
                         rel="noopener noreferrer"
                         className={newLinkStyle}>C. Karen Liu</a>, and {" "} 
