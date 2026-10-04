@@ -1,0 +1,21 @@
+{
+  "chairs": 105,
+  "checkpoints": {
+    "original": "checkpoints/superflex/ckpt.pt",
+    "continued": "checkpoints/chair_official_v1_baseline_epochwise/epoch_50.pt",
+    "finetuned": "checkpoints/chair_official_v1_original_parts_w01/epoch_50.pt"
+  },
+  "seed": 42,
+  "split": "val",
+  "mesh_resolution": 24,
+  "existence_threshold": 0.5,
+  "input_points": 4096,
+  "optimizer_steps": 0,
+  "metric_source": "../per_object_metrics.json",
+  "note": "Identical cached encoder samples; colors denote primitive slots, not semantic labels.",
+  "vendor_sha256": {
+    "build/three.core.js": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+    "build/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+    "examples/jsm/controls/OrbitControls.js": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "offline": true,
+  "chairs": 105,
+  "views": 420,
+  "checks": [
+    "rotation",
+    "linked cameras",
+    "independent cameras",
+    "input overlay",
+    "reset",
+    "all pages render",
+    "search",
+    "all 14 sort/reference combinations",
+    "responsive layout",
+    "single WebGL context"
+  ],
+  "page_errors": []
+}
