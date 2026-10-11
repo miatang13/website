@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "offline": true,
+  "chairs": 105,
+  "views": 525,
+  "checks": [
+    "rotation",
+    "linked cameras",
+    "independent cameras",
+    "input overlay",
+    "reset",
+    "all pages render",
+    "search",
+    "all 14 sort/reference combinations",
+    "responsive layout",
+    "single WebGL context",
+    "all-chair diagnostic completeness",
+    "inactive primitives",
+    "active-only / all-primitives modes",
+    "uniform translucent inactive material",
+    "assignment segmentation",
+    "dedicated GT segmentation beside raw input",
+    "per-part table and box highlights"
+  ],
+  "page_errors": []
+}
