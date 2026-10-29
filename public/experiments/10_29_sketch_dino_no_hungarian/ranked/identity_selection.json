@@ -1,0 +1,402 @@
+[
+  {
+    "model_id": "bae3e35109b939cfe7c7920f6a65a54d_view02",
+    "object_id": "bae3e35109b939cfe7c7920f6a65a54d",
+    "view": "02",
+    "group": "best",
+    "rank": 1,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/bae3e35109b939cfe7c7920f6a65a54d_view02.png",
+    "primitives": 6,
+    "iou": 0.7921478152275085
+  },
+  {
+    "model_id": "b2bfe0be6956fe34f51f77a6d7299806_view03",
+    "object_id": "b2bfe0be6956fe34f51f77a6d7299806",
+    "view": "03",
+    "group": "best",
+    "rank": 2,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b2bfe0be6956fe34f51f77a6d7299806_view03.png",
+    "primitives": 12,
+    "iou": 0.8692699670791626
+  },
+  {
+    "model_id": "b2bfe0be6956fe34f51f77a6d7299806_view00",
+    "object_id": "b2bfe0be6956fe34f51f77a6d7299806",
+    "view": "00",
+    "group": "best",
+    "rank": 3,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b2bfe0be6956fe34f51f77a6d7299806_view00.png",
+    "primitives": 12,
+    "iou": 0.8588235378265381
+  },
+  {
+    "model_id": "b3ced617a2923f674c9740802f05a1f4_view00",
+    "object_id": "b3ced617a2923f674c9740802f05a1f4",
+    "view": "00",
+    "group": "best",
+    "rank": 4,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b3ced617a2923f674c9740802f05a1f4_view00.png",
+    "primitives": 6,
+    "iou": 0.8240963816642761
+  },
+  {
+    "model_id": "b2bfe0be6956fe34f51f77a6d7299806_view01",
+    "object_id": "b2bfe0be6956fe34f51f77a6d7299806",
+    "view": "01",
+    "group": "best",
+    "rank": 5,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b2bfe0be6956fe34f51f77a6d7299806_view01.png",
+    "primitives": 12,
+    "iou": 0.8458904027938843
+  },
+  {
+    "model_id": "a7bc0f5b5d73df73f51f77a6d7299806_view02",
+    "object_id": "a7bc0f5b5d73df73f51f77a6d7299806",
+    "view": "02",
+    "group": "best",
+    "rank": 6,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7bc0f5b5d73df73f51f77a6d7299806_view02.png",
+    "primitives": 6,
+    "iou": 0.8108108043670654
+  },
+  {
+    "model_id": "a7bc0f5b5d73df73f51f77a6d7299806_view00",
+    "object_id": "a7bc0f5b5d73df73f51f77a6d7299806",
+    "view": "00",
+    "group": "best",
+    "rank": 7,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7bc0f5b5d73df73f51f77a6d7299806_view00.png",
+    "primitives": 6,
+    "iou": 0.7728285193443298
+  },
+  {
+    "model_id": "a7bc0f5b5d73df73f51f77a6d7299806_view01",
+    "object_id": "a7bc0f5b5d73df73f51f77a6d7299806",
+    "view": "01",
+    "group": "best",
+    "rank": 8,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7bc0f5b5d73df73f51f77a6d7299806_view01.png",
+    "primitives": 6,
+    "iou": 0.7688888907432556
+  },
+  {
+    "model_id": "a73a49fd2887a030f51f77a6d7299806_view03",
+    "object_id": "a73a49fd2887a030f51f77a6d7299806",
+    "view": "03",
+    "group": "best",
+    "rank": 9,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a73a49fd2887a030f51f77a6d7299806_view03.png",
+    "primitives": 4,
+    "iou": 0.7639939188957214
+  },
+  {
+    "model_id": "a73a49fd2887a030f51f77a6d7299806_view00",
+    "object_id": "a73a49fd2887a030f51f77a6d7299806",
+    "view": "00",
+    "group": "best",
+    "rank": 10,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a73a49fd2887a030f51f77a6d7299806_view00.png",
+    "primitives": 4,
+    "iou": 0.7600896954536438
+  },
+  {
+    "model_id": "a7bc0f5b5d73df73f51f77a6d7299806_view03",
+    "object_id": "a7bc0f5b5d73df73f51f77a6d7299806",
+    "view": "03",
+    "group": "best",
+    "rank": 11,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7bc0f5b5d73df73f51f77a6d7299806_view03.png",
+    "primitives": 6,
+    "iou": 0.807692289352417
+  },
+  {
+    "model_id": "a73a49fd2887a030f51f77a6d7299806_view01",
+    "object_id": "a73a49fd2887a030f51f77a6d7299806",
+    "view": "01",
+    "group": "best",
+    "rank": 12,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a73a49fd2887a030f51f77a6d7299806_view01.png",
+    "primitives": 4,
+    "iou": 0.7585693001747131
+  },
+  {
+    "model_id": "b2bfe0be6956fe34f51f77a6d7299806_view02",
+    "object_id": "b2bfe0be6956fe34f51f77a6d7299806",
+    "view": "02",
+    "group": "best",
+    "rank": 13,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b2bfe0be6956fe34f51f77a6d7299806_view02.png",
+    "primitives": 12,
+    "iou": 0.8614864945411682
+  },
+  {
+    "model_id": "b3ced617a2923f674c9740802f05a1f4_view02",
+    "object_id": "b3ced617a2923f674c9740802f05a1f4",
+    "view": "02",
+    "group": "best",
+    "rank": 14,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b3ced617a2923f674c9740802f05a1f4_view02.png",
+    "primitives": 6,
+    "iou": 0.8058823347091675
+  },
+  {
+    "model_id": "b11640431506c15489452a0032ea575_view00",
+    "object_id": "b11640431506c15489452a0032ea575",
+    "view": "00",
+    "group": "best",
+    "rank": 15,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b11640431506c15489452a0032ea575_view00.png",
+    "primitives": 5,
+    "iou": 0.7480106353759766
+  },
+  {
+    "model_id": "bae3e35109b939cfe7c7920f6a65a54d_view01",
+    "object_id": "bae3e35109b939cfe7c7920f6a65a54d",
+    "view": "01",
+    "group": "best",
+    "rank": 16,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/bae3e35109b939cfe7c7920f6a65a54d_view01.png",
+    "primitives": 6,
+    "iou": 0.7340182662010193
+  },
+  {
+    "model_id": "a73a49fd2887a030f51f77a6d7299806_view02",
+    "object_id": "a73a49fd2887a030f51f77a6d7299806",
+    "view": "02",
+    "group": "best",
+    "rank": 17,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a73a49fd2887a030f51f77a6d7299806_view02.png",
+    "primitives": 4,
+    "iou": 0.7397464513778687
+  },
+  {
+    "model_id": "b6a0afcc2ad2db2b490ad276cd2af3a4_view03",
+    "object_id": "b6a0afcc2ad2db2b490ad276cd2af3a4",
+    "view": "03",
+    "group": "best",
+    "rank": 18,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b6a0afcc2ad2db2b490ad276cd2af3a4_view03.png",
+    "primitives": 5,
+    "iou": 0.7807848453521729
+  },
+  {
+    "model_id": "b11640431506c15489452a0032ea575_view02",
+    "object_id": "b11640431506c15489452a0032ea575",
+    "view": "02",
+    "group": "best",
+    "rank": 19,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b11640431506c15489452a0032ea575_view02.png",
+    "primitives": 5,
+    "iou": 0.7646258473396301
+  },
+  {
+    "model_id": "b3ced617a2923f674c9740802f05a1f4_view01",
+    "object_id": "b3ced617a2923f674c9740802f05a1f4",
+    "view": "01",
+    "group": "best",
+    "rank": 20,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b3ced617a2923f674c9740802f05a1f4_view01.png",
+    "primitives": 6,
+    "iou": 0.7878788113594055
+  },
+  {
+    "model_id": "a63ceaceaaae4af9753496ba23f2183_view02",
+    "object_id": "a63ceaceaaae4af9753496ba23f2183",
+    "view": "02",
+    "group": "worst",
+    "rank": 1,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a63ceaceaaae4af9753496ba23f2183_view02.png",
+    "primitives": 4,
+    "iou": 0.0
+  },
+  {
+    "model_id": "a7b9f9e341c74b8d57ddce8e42aa6e90_view00",
+    "object_id": "a7b9f9e341c74b8d57ddce8e42aa6e90",
+    "view": "00",
+    "group": "worst",
+    "rank": 2,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7b9f9e341c74b8d57ddce8e42aa6e90_view00.png",
+    "primitives": 6,
+    "iou": 0.0
+  },
+  {
+    "model_id": "a7b9f9e341c74b8d57ddce8e42aa6e90_view03",
+    "object_id": "a7b9f9e341c74b8d57ddce8e42aa6e90",
+    "view": "03",
+    "group": "worst",
+    "rank": 3,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7b9f9e341c74b8d57ddce8e42aa6e90_view03.png",
+    "primitives": 7,
+    "iou": 0.0
+  },
+  {
+    "model_id": "a7e33746f41cd181e258d1c3e7302e7b_view00",
+    "object_id": "a7e33746f41cd181e258d1c3e7302e7b",
+    "view": "00",
+    "group": "worst",
+    "rank": 4,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7e33746f41cd181e258d1c3e7302e7b_view00.png",
+    "primitives": 11,
+    "iou": 0.007575757801532745
+  },
+  {
+    "model_id": "a7e33746f41cd181e258d1c3e7302e7b_view02",
+    "object_id": "a7e33746f41cd181e258d1c3e7302e7b",
+    "view": "02",
+    "group": "worst",
+    "rank": 5,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7e33746f41cd181e258d1c3e7302e7b_view02.png",
+    "primitives": 12,
+    "iou": 0.0
+  },
+  {
+    "model_id": "a7e33746f41cd181e258d1c3e7302e7b_view03",
+    "object_id": "a7e33746f41cd181e258d1c3e7302e7b",
+    "view": "03",
+    "group": "worst",
+    "rank": 6,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7e33746f41cd181e258d1c3e7302e7b_view03.png",
+    "primitives": 11,
+    "iou": 0.0
+  },
+  {
+    "model_id": "a7fc36d1b5d29280ad484915511ccff6_view03",
+    "object_id": "a7fc36d1b5d29280ad484915511ccff6",
+    "view": "03",
+    "group": "worst",
+    "rank": 7,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7fc36d1b5d29280ad484915511ccff6_view03.png",
+    "primitives": 9,
+    "iou": 0.0
+  },
+  {
+    "model_id": "ab62680f067bf94dd6a6b5838ef6b356_view01",
+    "object_id": "ab62680f067bf94dd6a6b5838ef6b356",
+    "view": "01",
+    "group": "worst",
+    "rank": 8,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/ab62680f067bf94dd6a6b5838ef6b356_view01.png",
+    "primitives": 7,
+    "iou": 0.0
+  },
+  {
+    "model_id": "ab62680f067bf94dd6a6b5838ef6b356_view02",
+    "object_id": "ab62680f067bf94dd6a6b5838ef6b356",
+    "view": "02",
+    "group": "worst",
+    "rank": 9,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/ab62680f067bf94dd6a6b5838ef6b356_view02.png",
+    "primitives": 7,
+    "iou": 0.0
+  },
+  {
+    "model_id": "af34090f13146fef15afaa91253fa857_view03",
+    "object_id": "af34090f13146fef15afaa91253fa857",
+    "view": "03",
+    "group": "worst",
+    "rank": 10,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/af34090f13146fef15afaa91253fa857_view03.png",
+    "primitives": 8,
+    "iou": 0.00671140942722559
+  },
+  {
+    "model_id": "b1f311d5fd262efcbc47c7f012e5fa27_view00",
+    "object_id": "b1f311d5fd262efcbc47c7f012e5fa27",
+    "view": "00",
+    "group": "worst",
+    "rank": 11,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b1f311d5fd262efcbc47c7f012e5fa27_view00.png",
+    "primitives": 8,
+    "iou": 0.0
+  },
+  {
+    "model_id": "b1f311d5fd262efcbc47c7f012e5fa27_view01",
+    "object_id": "b1f311d5fd262efcbc47c7f012e5fa27",
+    "view": "01",
+    "group": "worst",
+    "rank": 12,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b1f311d5fd262efcbc47c7f012e5fa27_view01.png",
+    "primitives": 8,
+    "iou": 0.0
+  },
+  {
+    "model_id": "b510aa817f9aa6795906036a9b83f8d5_view01",
+    "object_id": "b510aa817f9aa6795906036a9b83f8d5",
+    "view": "01",
+    "group": "worst",
+    "rank": 13,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b510aa817f9aa6795906036a9b83f8d5_view01.png",
+    "primitives": 8,
+    "iou": 0.0
+  },
+  {
+    "model_id": "b510aa817f9aa6795906036a9b83f8d5_view02",
+    "object_id": "b510aa817f9aa6795906036a9b83f8d5",
+    "view": "02",
+    "group": "worst",
+    "rank": 14,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b510aa817f9aa6795906036a9b83f8d5_view02.png",
+    "primitives": 9,
+    "iou": 0.0
+  },
+  {
+    "model_id": "b518d19f55a1e15f5d714c9d7df1c4ed_view01",
+    "object_id": "b518d19f55a1e15f5d714c9d7df1c4ed",
+    "view": "01",
+    "group": "worst",
+    "rank": 15,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b518d19f55a1e15f5d714c9d7df1c4ed_view01.png",
+    "primitives": 7,
+    "iou": 0.0
+  },
+  {
+    "model_id": "b81b9e3fe60a49bc55182f299fe41fdc_view02",
+    "object_id": "b81b9e3fe60a49bc55182f299fe41fdc",
+    "view": "02",
+    "group": "worst",
+    "rank": 16,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b81b9e3fe60a49bc55182f299fe41fdc_view02.png",
+    "primitives": 11,
+    "iou": 0.003968254197388887
+  },
+  {
+    "model_id": "b944154f00e7cf1fad484915511ccff6_view00",
+    "object_id": "b944154f00e7cf1fad484915511ccff6",
+    "view": "00",
+    "group": "worst",
+    "rank": 17,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b944154f00e7cf1fad484915511ccff6_view00.png",
+    "primitives": 9,
+    "iou": 0.0
+  },
+  {
+    "model_id": "b944154f00e7cf1fad484915511ccff6_view01",
+    "object_id": "b944154f00e7cf1fad484915511ccff6",
+    "view": "01",
+    "group": "worst",
+    "rank": 18,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b944154f00e7cf1fad484915511ccff6_view01.png",
+    "primitives": 7,
+    "iou": 0.0
+  },
+  {
+    "model_id": "b944154f00e7cf1fad484915511ccff6_view03",
+    "object_id": "b944154f00e7cf1fad484915511ccff6",
+    "view": "03",
+    "group": "worst",
+    "rank": 19,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b944154f00e7cf1fad484915511ccff6_view03.png",
+    "primitives": 9,
+    "iou": 0.0
+  },
+  {
+    "model_id": "b9a7bbf1e0b08853bed1bd9593e318c_view01",
+    "object_id": "b9a7bbf1e0b08853bed1bd9593e318c",
+    "view": "01",
+    "group": "worst",
+    "rank": 20,
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b9a7bbf1e0b08853bed1bd9593e318c_view01.png",
+    "primitives": 8,
+    "iou": 0.0
+  }
+]

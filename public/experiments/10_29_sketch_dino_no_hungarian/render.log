@@ -1,0 +1,455 @@
+12:40:52 | INFO: Data are loaded, start creating Blender stuff
+12:40:52 | INFO: Blender create Mesh node primitive_00
+12:40:52 | INFO: Blender create Mesh node primitive_01
+12:40:52 | INFO: Blender create Mesh node primitive_02
+12:40:52 | INFO: Blender create Mesh node primitive_04
+12:40:52 | INFO: Blender create Mesh node primitive_06
+12:40:52 | INFO: Blender create Mesh node primitive_07
+12:40:52 | INFO: Blender create Mesh node primitive_08
+12:40:52 | INFO: Blender create Mesh node primitive_10
+12:40:52 | INFO: Blender create Mesh node primitive_12
+12:40:52 | INFO: Blender create Mesh node primitive_13
+12:40:52 | INFO: Blender create Mesh node primitive_14
+12:40:52 | INFO: Blender create Mesh node primitive_15
+12:40:52 | INFO: glTF import finished in 0.05s
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:27:02)
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a7d178cd0dc051f25fceaa39a8353bde/frame_000.png'
+Time: 00:00.93 (Saving: 00:00.02)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a7d178cd0dc051f25fceaa39a8353bde/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a7d178cd0dc051f25fceaa39a8353bde/frame_002.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a7d178cd0dc051f25fceaa39a8353bde/frame_003.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+12:40:54 | INFO: Data are loaded, start creating Blender stuff
+12:40:54 | INFO: Blender create Mesh node primitive_00
+12:40:54 | INFO: Blender create Mesh node primitive_02
+12:40:54 | INFO: Blender create Mesh node primitive_06
+12:40:54 | INFO: Blender create Mesh node primitive_08
+12:40:54 | INFO: Blender create Mesh node primitive_13
+12:40:54 | INFO: Blender create Mesh node primitive_14
+12:40:54 | INFO: Blender create Mesh node primitive_15
+12:40:54 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b738a4aa965784abd86234e915108e6a/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b738a4aa965784abd86234e915108e6a/frame_001.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b738a4aa965784abd86234e915108e6a/frame_002.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b738a4aa965784abd86234e915108e6a/frame_003.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+12:40:54 | INFO: Data are loaded, start creating Blender stuff
+12:40:54 | INFO: Blender create Mesh node primitive_00
+12:40:54 | INFO: Blender create Mesh node primitive_02
+12:40:54 | INFO: Blender create Mesh node primitive_04
+12:40:54 | INFO: Blender create Mesh node primitive_06
+12:40:54 | INFO: Blender create Mesh node primitive_07
+12:40:54 | INFO: Blender create Mesh node primitive_08
+12:40:54 | INFO: Blender create Mesh node primitive_13
+12:40:54 | INFO: Blender create Mesh node primitive_14
+12:40:54 | INFO: Blender create Mesh node primitive_15
+12:40:54 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/ba33781b222ca9346e23a4fabd87b2c/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/ba33781b222ca9346e23a4fabd87b2c/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/ba33781b222ca9346e23a4fabd87b2c/frame_002.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/ba33781b222ca9346e23a4fabd87b2c/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:54 | INFO: Data are loaded, start creating Blender stuff
+12:40:54 | INFO: Blender create Mesh node primitive_00
+12:40:54 | INFO: Blender create Mesh node primitive_02
+12:40:54 | INFO: Blender create Mesh node primitive_06
+12:40:54 | INFO: Blender create Mesh node primitive_08
+12:40:54 | INFO: Blender create Mesh node primitive_13
+12:40:54 | INFO: Blender create Mesh node primitive_14
+12:40:54 | INFO: Blender create Mesh node primitive_15
+12:40:54 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b6843e186082096ebf80985a99195eb8/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b6843e186082096ebf80985a99195eb8/frame_001.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b6843e186082096ebf80985a99195eb8/frame_002.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b6843e186082096ebf80985a99195eb8/frame_003.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+12:40:54 | INFO: Data are loaded, start creating Blender stuff
+12:40:54 | INFO: Blender create Mesh node primitive_00
+12:40:54 | INFO: Blender create Mesh node primitive_02
+12:40:54 | INFO: Blender create Mesh node primitive_04
+12:40:54 | INFO: Blender create Mesh node primitive_06
+12:40:54 | INFO: Blender create Mesh node primitive_08
+12:40:54 | INFO: Blender create Mesh node primitive_13
+12:40:54 | INFO: Blender create Mesh node primitive_14
+12:40:54 | INFO: Blender create Mesh node primitive_15
+12:40:54 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b23cd3a93c8adbf56d33c8b6c0fec1f2/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b23cd3a93c8adbf56d33c8b6c0fec1f2/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b23cd3a93c8adbf56d33c8b6c0fec1f2/frame_002.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b23cd3a93c8adbf56d33c8b6c0fec1f2/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:54 | INFO: Data are loaded, start creating Blender stuff
+12:40:54 | INFO: Blender create Mesh node primitive_00
+12:40:54 | INFO: Blender create Mesh node primitive_02
+12:40:54 | INFO: Blender create Mesh node primitive_06
+12:40:54 | INFO: Blender create Mesh node primitive_08
+12:40:54 | INFO: Blender create Mesh node primitive_13
+12:40:54 | INFO: Blender create Mesh node primitive_15
+12:40:54 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b24ed89d85b74771216fff6094e6695c/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b24ed89d85b74771216fff6094e6695c/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b24ed89d85b74771216fff6094e6695c/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b24ed89d85b74771216fff6094e6695c/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:55 | INFO: Data are loaded, start creating Blender stuff
+12:40:55 | INFO: Blender create Mesh node primitive_00
+12:40:55 | INFO: Blender create Mesh node primitive_02
+12:40:55 | INFO: Blender create Mesh node primitive_04
+12:40:55 | INFO: Blender create Mesh node primitive_06
+12:40:55 | INFO: Blender create Mesh node primitive_07
+12:40:55 | INFO: Blender create Mesh node primitive_08
+12:40:55 | INFO: Blender create Mesh node primitive_13
+12:40:55 | INFO: Blender create Mesh node primitive_15
+12:40:55 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a7dbbe66942a7b7c40ef1c8b63a628f9/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a7dbbe66942a7b7c40ef1c8b63a628f9/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a7dbbe66942a7b7c40ef1c8b63a628f9/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a7dbbe66942a7b7c40ef1c8b63a628f9/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:55 | INFO: Data are loaded, start creating Blender stuff
+12:40:55 | INFO: Blender create Mesh node primitive_00
+12:40:55 | INFO: Blender create Mesh node primitive_02
+12:40:55 | INFO: Blender create Mesh node primitive_06
+12:40:55 | INFO: Blender create Mesh node primitive_08
+12:40:55 | INFO: Blender create Mesh node primitive_13
+12:40:55 | INFO: Blender create Mesh node primitive_15
+12:40:55 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b89cbb45476e94a5e65235d5580cc3e0/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b89cbb45476e94a5e65235d5580cc3e0/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b89cbb45476e94a5e65235d5580cc3e0/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b89cbb45476e94a5e65235d5580cc3e0/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:55 | INFO: Data are loaded, start creating Blender stuff
+12:40:55 | INFO: Blender create Mesh node primitive_00
+12:40:55 | INFO: Blender create Mesh node primitive_01
+12:40:55 | INFO: Blender create Mesh node primitive_02
+12:40:55 | INFO: Blender create Mesh node primitive_04
+12:40:55 | INFO: Blender create Mesh node primitive_06
+12:40:55 | INFO: Blender create Mesh node primitive_08
+12:40:55 | INFO: Blender create Mesh node primitive_13
+12:40:55 | INFO: Blender create Mesh node primitive_15
+12:40:55 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b6689fb8b784c570cc514b26ccc20774/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b6689fb8b784c570cc514b26ccc20774/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b6689fb8b784c570cc514b26ccc20774/frame_002.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b6689fb8b784c570cc514b26ccc20774/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:55 | INFO: Data are loaded, start creating Blender stuff
+12:40:55 | INFO: Blender create Mesh node primitive_00
+12:40:55 | INFO: Blender create Mesh node primitive_02
+12:40:55 | INFO: Blender create Mesh node primitive_04
+12:40:55 | INFO: Blender create Mesh node primitive_06
+12:40:55 | INFO: Blender create Mesh node primitive_08
+12:40:55 | INFO: Blender create Mesh node primitive_13
+12:40:55 | INFO: Blender create Mesh node primitive_14
+12:40:55 | INFO: Blender create Mesh node primitive_15
+12:40:55 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a67a09662c39430bc8687ff9b0b4e4ac/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a67a09662c39430bc8687ff9b0b4e4ac/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a67a09662c39430bc8687ff9b0b4e4ac/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a67a09662c39430bc8687ff9b0b4e4ac/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:55 | INFO: Data are loaded, start creating Blender stuff
+12:40:55 | INFO: Blender create Mesh node primitive_00
+12:40:55 | INFO: Blender create Mesh node primitive_01
+12:40:55 | INFO: Blender create Mesh node primitive_02
+12:40:55 | INFO: Blender create Mesh node primitive_06
+12:40:55 | INFO: Blender create Mesh node primitive_08
+12:40:55 | INFO: Blender create Mesh node primitive_13
+12:40:55 | INFO: Blender create Mesh node primitive_15
+12:40:55 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b51e2ec95cb6ae33999b33727fe6db14/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b51e2ec95cb6ae33999b33727fe6db14/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b51e2ec95cb6ae33999b33727fe6db14/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b51e2ec95cb6ae33999b33727fe6db14/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:56 | INFO: Data are loaded, start creating Blender stuff
+12:40:56 | INFO: Blender create Mesh node primitive_00
+12:40:56 | INFO: Blender create Mesh node primitive_02
+12:40:56 | INFO: Blender create Mesh node primitive_06
+12:40:56 | INFO: Blender create Mesh node primitive_08
+12:40:56 | INFO: Blender create Mesh node primitive_13
+12:40:56 | INFO: Blender create Mesh node primitive_15
+12:40:56 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b37c77a90ba66c92564339cd0fd02849/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b37c77a90ba66c92564339cd0fd02849/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.02)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b37c77a90ba66c92564339cd0fd02849/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b37c77a90ba66c92564339cd0fd02849/frame_003.png'
+Time: 00:00.03 (Saving: 00:00.01)
+
+12:40:56 | INFO: Data are loaded, start creating Blender stuff
+12:40:56 | INFO: Blender create Mesh node primitive_00
+12:40:56 | INFO: Blender create Mesh node primitive_01
+12:40:56 | INFO: Blender create Mesh node primitive_02
+12:40:56 | INFO: Blender create Mesh node primitive_03
+12:40:56 | INFO: Blender create Mesh node primitive_04
+12:40:56 | INFO: Blender create Mesh node primitive_06
+12:40:56 | INFO: Blender create Mesh node primitive_08
+12:40:56 | INFO: Blender create Mesh node primitive_13
+12:40:56 | INFO: Blender create Mesh node primitive_14
+12:40:56 | INFO: Blender create Mesh node primitive_15
+12:40:56 | INFO: glTF import finished in 0.03s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/acbcfebf917e708b2b5bf1f191733d75/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/acbcfebf917e708b2b5bf1f191733d75/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/acbcfebf917e708b2b5bf1f191733d75/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/acbcfebf917e708b2b5bf1f191733d75/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:56 | INFO: Data are loaded, start creating Blender stuff
+12:40:56 | INFO: Blender create Mesh node primitive_00
+12:40:56 | INFO: Blender create Mesh node primitive_05
+12:40:56 | INFO: Blender create Mesh node primitive_06
+12:40:56 | INFO: Blender create Mesh node primitive_08
+12:40:56 | INFO: Blender create Mesh node primitive_09
+12:40:56 | INFO: Blender create Mesh node primitive_13
+12:40:56 | INFO: Blender create Mesh node primitive_15
+12:40:56 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b559688f7af76ff5466127bf535bd761/frame_000.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b559688f7af76ff5466127bf535bd761/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b559688f7af76ff5466127bf535bd761/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b559688f7af76ff5466127bf535bd761/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:56 | INFO: Data are loaded, start creating Blender stuff
+12:40:56 | INFO: Blender create Mesh node primitive_00
+12:40:56 | INFO: Blender create Mesh node primitive_02
+12:40:56 | INFO: Blender create Mesh node primitive_03
+12:40:56 | INFO: Blender create Mesh node primitive_04
+12:40:56 | INFO: Blender create Mesh node primitive_06
+12:40:56 | INFO: Blender create Mesh node primitive_08
+12:40:56 | INFO: Blender create Mesh node primitive_13
+12:40:56 | INFO: Blender create Mesh node primitive_14
+12:40:56 | INFO: Blender create Mesh node primitive_15
+12:40:56 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b9a7bbf1e0b08853bed1bd9593e318c/frame_000.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b9a7bbf1e0b08853bed1bd9593e318c/frame_001.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b9a7bbf1e0b08853bed1bd9593e318c/frame_002.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b9a7bbf1e0b08853bed1bd9593e318c/frame_003.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+12:40:57 | INFO: Data are loaded, start creating Blender stuff
+12:40:57 | INFO: Blender create Mesh node primitive_00
+12:40:57 | INFO: Blender create Mesh node primitive_04
+12:40:57 | INFO: Blender create Mesh node primitive_08
+12:40:57 | INFO: Blender create Mesh node primitive_13
+12:40:57 | INFO: glTF import finished in 0.01s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/aa412e95e1f9c047d9b53420a5458c53/frame_000.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/aa412e95e1f9c047d9b53420a5458c53/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/aa412e95e1f9c047d9b53420a5458c53/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/aa412e95e1f9c047d9b53420a5458c53/frame_003.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+12:40:57 | INFO: Data are loaded, start creating Blender stuff
+12:40:57 | INFO: Blender create Mesh node primitive_00
+12:40:57 | INFO: Blender create Mesh node primitive_02
+12:40:57 | INFO: Blender create Mesh node primitive_04
+12:40:57 | INFO: Blender create Mesh node primitive_05
+12:40:57 | INFO: Blender create Mesh node primitive_06
+12:40:57 | INFO: Blender create Mesh node primitive_07
+12:40:57 | INFO: Blender create Mesh node primitive_08
+12:40:57 | INFO: Blender create Mesh node primitive_10
+12:40:57 | INFO: Blender create Mesh node primitive_13
+12:40:57 | INFO: Blender create Mesh node primitive_14
+12:40:57 | INFO: Blender create Mesh node primitive_15
+12:40:57 | INFO: glTF import finished in 0.03s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b1a30ad2706247b53c5f24f851caaab7/frame_000.png'
+Time: 00:00.06 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b1a30ad2706247b53c5f24f851caaab7/frame_001.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b1a30ad2706247b53c5f24f851caaab7/frame_002.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b1a30ad2706247b53c5f24f851caaab7/frame_003.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+12:40:57 | INFO: Data are loaded, start creating Blender stuff
+12:40:57 | INFO: Blender create Mesh node primitive_00
+12:40:57 | INFO: Blender create Mesh node primitive_07
+12:40:57 | INFO: Blender create Mesh node primitive_09
+12:40:57 | INFO: Blender create Mesh node primitive_12
+12:40:57 | INFO: Blender create Mesh node primitive_13
+12:40:57 | INFO: glTF import finished in 0.01s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a6e3c2cecd4b6b6203c870f1209d6b9/frame_000.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a6e3c2cecd4b6b6203c870f1209d6b9/frame_001.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a6e3c2cecd4b6b6203c870f1209d6b9/frame_002.png'
+Time: 00:00.04 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/a6e3c2cecd4b6b6203c870f1209d6b9/frame_003.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+12:40:57 | INFO: Data are loaded, start creating Blender stuff
+12:40:57 | INFO: Blender create Mesh node primitive_00
+12:40:57 | INFO: Blender create Mesh node primitive_01
+12:40:57 | INFO: Blender create Mesh node primitive_04
+12:40:57 | INFO: Blender create Mesh node primitive_05
+12:40:57 | INFO: Blender create Mesh node primitive_06
+12:40:57 | INFO: glTF import finished in 0.01s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b2c838917b9f0fb68a40e1421d6a3cbf/frame_000.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b2c838917b9f0fb68a40e1421d6a3cbf/frame_001.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b2c838917b9f0fb68a40e1421d6a3cbf/frame_002.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/b2c838917b9f0fb68a40e1421d6a3cbf/frame_003.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+12:40:57 | INFO: Data are loaded, start creating Blender stuff
+12:40:57 | INFO: Blender create Mesh node primitive_00
+12:40:58 | INFO: Blender create Mesh node primitive_02
+12:40:58 | INFO: Blender create Mesh node primitive_03
+12:40:58 | INFO: Blender create Mesh node primitive_04
+12:40:58 | INFO: Blender create Mesh node primitive_06
+12:40:58 | INFO: Blender create Mesh node primitive_08
+12:40:58 | INFO: Blender create Mesh node primitive_13
+12:40:58 | INFO: Blender create Mesh node primitive_14
+12:40:58 | INFO: Blender create Mesh node primitive_15
+12:40:58 | INFO: glTF import finished in 0.02s
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/bbe71bb58b7f8f74f51f77a6d7299806/frame_000.png'
+Time: 00:00.06 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/bbe71bb58b7f8f74f51f77a6d7299806/frame_001.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/bbe71bb58b7f8f74f51f77a6d7299806/frame_002.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Saved: 'outputs/dino_identity_gallery/frames/frames/identity/val/bbe71bb58b7f8f74f51f77a6d7299806/frame_003.png'
+Time: 00:00.05 (Saving: 00:00.01)
+
+Rendered turntable identity/val/a7d178cd0dc051f25fceaa39a8353bde -> outputs/dino_identity_gallery/frames/frames/identity/val/a7d178cd0dc051f25fceaa39a8353bde
+Rendered turntable identity/val/b738a4aa965784abd86234e915108e6a -> outputs/dino_identity_gallery/frames/frames/identity/val/b738a4aa965784abd86234e915108e6a
+Rendered turntable identity/val/ba33781b222ca9346e23a4fabd87b2c -> outputs/dino_identity_gallery/frames/frames/identity/val/ba33781b222ca9346e23a4fabd87b2c
+Rendered turntable identity/val/b6843e186082096ebf80985a99195eb8 -> outputs/dino_identity_gallery/frames/frames/identity/val/b6843e186082096ebf80985a99195eb8
+Rendered turntable identity/val/b23cd3a93c8adbf56d33c8b6c0fec1f2 -> outputs/dino_identity_gallery/frames/frames/identity/val/b23cd3a93c8adbf56d33c8b6c0fec1f2
+Rendered turntable identity/val/b24ed89d85b74771216fff6094e6695c -> outputs/dino_identity_gallery/frames/frames/identity/val/b24ed89d85b74771216fff6094e6695c
+Rendered turntable identity/val/a7dbbe66942a7b7c40ef1c8b63a628f9 -> outputs/dino_identity_gallery/frames/frames/identity/val/a7dbbe66942a7b7c40ef1c8b63a628f9
+Rendered turntable identity/val/b89cbb45476e94a5e65235d5580cc3e0 -> outputs/dino_identity_gallery/frames/frames/identity/val/b89cbb45476e94a5e65235d5580cc3e0
+Rendered turntable identity/val/b6689fb8b784c570cc514b26ccc20774 -> outputs/dino_identity_gallery/frames/frames/identity/val/b6689fb8b784c570cc514b26ccc20774
+Rendered turntable identity/val/a67a09662c39430bc8687ff9b0b4e4ac -> outputs/dino_identity_gallery/frames/frames/identity/val/a67a09662c39430bc8687ff9b0b4e4ac
+Rendered turntable identity/val/b51e2ec95cb6ae33999b33727fe6db14 -> outputs/dino_identity_gallery/frames/frames/identity/val/b51e2ec95cb6ae33999b33727fe6db14
+Rendered turntable identity/val/b37c77a90ba66c92564339cd0fd02849 -> outputs/dino_identity_gallery/frames/frames/identity/val/b37c77a90ba66c92564339cd0fd02849
+Rendered turntable identity/val/acbcfebf917e708b2b5bf1f191733d75 -> outputs/dino_identity_gallery/frames/frames/identity/val/acbcfebf917e708b2b5bf1f191733d75
+Rendered turntable identity/val/b559688f7af76ff5466127bf535bd761 -> outputs/dino_identity_gallery/frames/frames/identity/val/b559688f7af76ff5466127bf535bd761
+Rendered turntable identity/val/b9a7bbf1e0b08853bed1bd9593e318c -> outputs/dino_identity_gallery/frames/frames/identity/val/b9a7bbf1e0b08853bed1bd9593e318c
+Rendered turntable identity/val/aa412e95e1f9c047d9b53420a5458c53 -> outputs/dino_identity_gallery/frames/frames/identity/val/aa412e95e1f9c047d9b53420a5458c53
+Rendered turntable identity/val/b1a30ad2706247b53c5f24f851caaab7 -> outputs/dino_identity_gallery/frames/frames/identity/val/b1a30ad2706247b53c5f24f851caaab7
+Rendered turntable identity/val/a6e3c2cecd4b6b6203c870f1209d6b9 -> outputs/dino_identity_gallery/frames/frames/identity/val/a6e3c2cecd4b6b6203c870f1209d6b9
+Rendered turntable identity/val/b2c838917b9f0fb68a40e1421d6a3cbf -> outputs/dino_identity_gallery/frames/frames/identity/val/b2c838917b9f0fb68a40e1421d6a3cbf
+Rendered turntable identity/val/bbe71bb58b7f8f74f51f77a6d7299806 -> outputs/dino_identity_gallery/frames/frames/identity/val/bbe71bb58b7f8f74f51f77a6d7299806
+
+Blender quit

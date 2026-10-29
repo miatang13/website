@@ -1,0 +1,233 @@
+[
+  {
+    "sample": "a63ceaceaaae4af9753496ba23f2183_view02",
+    "group": "worst",
+    "rank": 1,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 214,
+    "pred_queries": 131,
+    "intersection": 0,
+    "union": 345
+  },
+  {
+    "sample": "a7b9f9e341c74b8d57ddce8e42aa6e90_view00",
+    "group": "worst",
+    "rank": 2,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 144,
+    "pred_queries": 138,
+    "intersection": 0,
+    "union": 282
+  },
+  {
+    "sample": "a7b9f9e341c74b8d57ddce8e42aa6e90_view03",
+    "group": "worst",
+    "rank": 3,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 144,
+    "pred_queries": 146,
+    "intersection": 0,
+    "union": 290
+  },
+  {
+    "sample": "a7e33746f41cd181e258d1c3e7302e7b_view00",
+    "group": "worst",
+    "rank": 4,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 61,
+    "pred_queries": 51,
+    "intersection": 0,
+    "union": 112
+  },
+  {
+    "sample": "a7e33746f41cd181e258d1c3e7302e7b_view02",
+    "group": "worst",
+    "rank": 5,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 61,
+    "pred_queries": 62,
+    "intersection": 0,
+    "union": 123
+  },
+  {
+    "sample": "a7e33746f41cd181e258d1c3e7302e7b_view03",
+    "group": "worst",
+    "rank": 6,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 61,
+    "pred_queries": 33,
+    "intersection": 0,
+    "union": 94
+  },
+  {
+    "sample": "a7fc36d1b5d29280ad484915511ccff6_view03",
+    "group": "worst",
+    "rank": 7,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 111,
+    "pred_queries": 97,
+    "intersection": 0,
+    "union": 208
+  },
+  {
+    "sample": "ab62680f067bf94dd6a6b5838ef6b356_view01",
+    "group": "worst",
+    "rank": 8,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 71,
+    "pred_queries": 69,
+    "intersection": 0,
+    "union": 140
+  },
+  {
+    "sample": "ab62680f067bf94dd6a6b5838ef6b356_view02",
+    "group": "worst",
+    "rank": 9,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 71,
+    "pred_queries": 95,
+    "intersection": 0,
+    "union": 166
+  },
+  {
+    "sample": "af34090f13146fef15afaa91253fa857_view03",
+    "group": "worst",
+    "rank": 10,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 148,
+    "pred_queries": 16,
+    "intersection": 0,
+    "union": 164
+  },
+  {
+    "sample": "b1f311d5fd262efcbc47c7f012e5fa27_view00",
+    "group": "worst",
+    "rank": 11,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 107,
+    "pred_queries": 86,
+    "intersection": 0,
+    "union": 193
+  },
+  {
+    "sample": "b1f311d5fd262efcbc47c7f012e5fa27_view01",
+    "group": "worst",
+    "rank": 12,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 107,
+    "pred_queries": 79,
+    "intersection": 0,
+    "union": 186
+  },
+  {
+    "sample": "b510aa817f9aa6795906036a9b83f8d5_view01",
+    "group": "worst",
+    "rank": 13,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 222,
+    "pred_queries": 122,
+    "intersection": 0,
+    "union": 344
+  },
+  {
+    "sample": "b510aa817f9aa6795906036a9b83f8d5_view02",
+    "group": "worst",
+    "rank": 14,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 222,
+    "pred_queries": 126,
+    "intersection": 0,
+    "union": 348
+  },
+  {
+    "sample": "b518d19f55a1e15f5d714c9d7df1c4ed_view01",
+    "group": "worst",
+    "rank": 15,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 218,
+    "pred_queries": 97,
+    "intersection": 0,
+    "union": 315
+  },
+  {
+    "sample": "b81b9e3fe60a49bc55182f299fe41fdc_view02",
+    "group": "worst",
+    "rank": 16,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 141,
+    "pred_queries": 180,
+    "intersection": 0,
+    "union": 321
+  },
+  {
+    "sample": "b944154f00e7cf1fad484915511ccff6_view00",
+    "group": "worst",
+    "rank": 17,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 87,
+    "pred_queries": 86,
+    "intersection": 0,
+    "union": 173
+  },
+  {
+    "sample": "b944154f00e7cf1fad484915511ccff6_view01",
+    "group": "worst",
+    "rank": 18,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 87,
+    "pred_queries": 115,
+    "intersection": 0,
+    "union": 202
+  },
+  {
+    "sample": "b944154f00e7cf1fad484915511ccff6_view03",
+    "group": "worst",
+    "rank": 19,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 87,
+    "pred_queries": 89,
+    "intersection": 0,
+    "union": 176
+  },
+  {
+    "sample": "b9a7bbf1e0b08853bed1bd9593e318c_view01",
+    "group": "worst",
+    "rank": 20,
+    "analytic_iou": 0.0,
+    "mesh_iou": 0.0,
+    "gt_queries": 114,
+    "pred_queries": 93,
+    "intersection": 0,
+    "union": 207
+  },
+  {
+    "sample": "bae3e35109b939cfe7c7920f6a65a54d_view02",
+    "group": "best",
+    "rank": 1,
+    "analytic_iou": 0.9032648205757141,
+    "mesh_iou": 0.9054545454545454,
+    "gt_queries": 779,
+    "pred_queries": 793,
+    "intersection": 747,
+    "union": 825
+  }
+]

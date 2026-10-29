@@ -1,0 +1,16 @@
+[
+  {
+    "sample": "a63ceaceaaae4af9753496ba23f2183_view02",
+    "queries": 262144,
+    "intersection": 216,
+    "union": 25226,
+    "iou": 0.008562594148893998
+  },
+  {
+    "sample": "a7b9f9e341c74b8d57ddce8e42aa6e90_view00",
+    "queries": 262144,
+    "intersection": 16,
+    "union": 16878,
+    "iou": 0.0009479796184382036
+  }
+]

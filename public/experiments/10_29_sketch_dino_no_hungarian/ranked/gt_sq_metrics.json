@@ -1,0 +1,162 @@
+{
+  "bae3e35109b939cfe7c7920f6a65a54d_view02": {
+    "primitives": 6,
+    "iou": 0.800936758518219
+  },
+  "b2bfe0be6956fe34f51f77a6d7299806_view03": {
+    "primitives": 11,
+    "iou": 0.8726968169212341
+  },
+  "b2bfe0be6956fe34f51f77a6d7299806_view00": {
+    "primitives": 11,
+    "iou": 0.8726968169212341
+  },
+  "b3ced617a2923f674c9740802f05a1f4_view00": {
+    "primitives": 6,
+    "iou": 0.8757539391517639
+  },
+  "b2bfe0be6956fe34f51f77a6d7299806_view01": {
+    "primitives": 11,
+    "iou": 0.8726968169212341
+  },
+  "a7bc0f5b5d73df73f51f77a6d7299806_view02": {
+    "primitives": 6,
+    "iou": 0.802173912525177
+  },
+  "a7bc0f5b5d73df73f51f77a6d7299806_view00": {
+    "primitives": 6,
+    "iou": 0.802173912525177
+  },
+  "a7bc0f5b5d73df73f51f77a6d7299806_view01": {
+    "primitives": 6,
+    "iou": 0.802173912525177
+  },
+  "a73a49fd2887a030f51f77a6d7299806_view03": {
+    "primitives": 4,
+    "iou": 0.7898715138435364
+  },
+  "a73a49fd2887a030f51f77a6d7299806_view00": {
+    "primitives": 4,
+    "iou": 0.7898715138435364
+  },
+  "a7bc0f5b5d73df73f51f77a6d7299806_view03": {
+    "primitives": 6,
+    "iou": 0.802173912525177
+  },
+  "a73a49fd2887a030f51f77a6d7299806_view01": {
+    "primitives": 4,
+    "iou": 0.7898715138435364
+  },
+  "b2bfe0be6956fe34f51f77a6d7299806_view02": {
+    "primitives": 11,
+    "iou": 0.8726968169212341
+  },
+  "b3ced617a2923f674c9740802f05a1f4_view02": {
+    "primitives": 6,
+    "iou": 0.8757539391517639
+  },
+  "b11640431506c15489452a0032ea575_view00": {
+    "primitives": 5,
+    "iou": 0.7531034350395203
+  },
+  "bae3e35109b939cfe7c7920f6a65a54d_view01": {
+    "primitives": 6,
+    "iou": 0.800936758518219
+  },
+  "a73a49fd2887a030f51f77a6d7299806_view02": {
+    "primitives": 4,
+    "iou": 0.7898715138435364
+  },
+  "b6a0afcc2ad2db2b490ad276cd2af3a4_view03": {
+    "primitives": 5,
+    "iou": 0.8425414562225342
+  },
+  "b11640431506c15489452a0032ea575_view02": {
+    "primitives": 5,
+    "iou": 0.7531034350395203
+  },
+  "b3ced617a2923f674c9740802f05a1f4_view01": {
+    "primitives": 6,
+    "iou": 0.8757539391517639
+  },
+  "a63ceaceaaae4af9753496ba23f2183_view02": {
+    "primitives": 6,
+    "iou": 0.7081544995307922
+  },
+  "a7b9f9e341c74b8d57ddce8e42aa6e90_view00": {
+    "primitives": 6,
+    "iou": 0.3295454680919647
+  },
+  "a7b9f9e341c74b8d57ddce8e42aa6e90_view03": {
+    "primitives": 6,
+    "iou": 0.3295454680919647
+  },
+  "a7e33746f41cd181e258d1c3e7302e7b_view00": {
+    "primitives": 11,
+    "iou": 0.6436781883239746
+  },
+  "a7e33746f41cd181e258d1c3e7302e7b_view02": {
+    "primitives": 11,
+    "iou": 0.6436781883239746
+  },
+  "a7e33746f41cd181e258d1c3e7302e7b_view03": {
+    "primitives": 11,
+    "iou": 0.6436781883239746
+  },
+  "a7fc36d1b5d29280ad484915511ccff6_view03": {
+    "primitives": 10,
+    "iou": 0.5037593841552734
+  },
+  "ab62680f067bf94dd6a6b5838ef6b356_view01": {
+    "primitives": 8,
+    "iou": 0.24705882370471954
+  },
+  "ab62680f067bf94dd6a6b5838ef6b356_view02": {
+    "primitives": 8,
+    "iou": 0.24705882370471954
+  },
+  "af34090f13146fef15afaa91253fa857_view03": {
+    "primitives": 9,
+    "iou": 0.5053191781044006
+  },
+  "b1f311d5fd262efcbc47c7f012e5fa27_view00": {
+    "primitives": 8,
+    "iou": 0.8130081295967102
+  },
+  "b1f311d5fd262efcbc47c7f012e5fa27_view01": {
+    "primitives": 8,
+    "iou": 0.8130081295967102
+  },
+  "b510aa817f9aa6795906036a9b83f8d5_view01": {
+    "primitives": 9,
+    "iou": 0.6926229596138
+  },
+  "b510aa817f9aa6795906036a9b83f8d5_view02": {
+    "primitives": 9,
+    "iou": 0.6926229596138
+  },
+  "b518d19f55a1e15f5d714c9d7df1c4ed_view01": {
+    "primitives": 8,
+    "iou": 0.6796875
+  },
+  "b81b9e3fe60a49bc55182f299fe41fdc_view02": {
+    "primitives": 14,
+    "iou": 0.290909081697464
+  },
+  "b944154f00e7cf1fad484915511ccff6_view00": {
+    "primitives": 9,
+    "iou": 0.3617021143436432
+  },
+  "b944154f00e7cf1fad484915511ccff6_view01": {
+    "primitives": 9,
+    "iou": 0.3617021143436432
+  },
+  "b944154f00e7cf1fad484915511ccff6_view03": {
+    "primitives": 9,
+    "iou": 0.3617021143436432
+  },
+  "b9a7bbf1e0b08853bed1bd9593e318c_view01": {
+    "primitives": 10,
+    "iou": 0.5555555820465088
+  }
+}

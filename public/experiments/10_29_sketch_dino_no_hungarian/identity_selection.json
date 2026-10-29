@@ -1,0 +1,182 @@
+[
+  {
+    "model_id": "a7d178cd0dc051f25fceaa39a8353bde",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/a7d178cd0dc051f25fceaa39a8353bde_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7d178cd0dc051f25fceaa39a8353bde_view00.png",
+    "primitives": 12,
+    "iou": 0.054421767592430115
+  },
+  {
+    "model_id": "b738a4aa965784abd86234e915108e6a",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b738a4aa965784abd86234e915108e6a_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b738a4aa965784abd86234e915108e6a_view00.png",
+    "primitives": 7,
+    "iou": 0.026128266006708145
+  },
+  {
+    "model_id": "ba33781b222ca9346e23a4fabd87b2c",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/ba33781b222ca9346e23a4fabd87b2c_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/ba33781b222ca9346e23a4fabd87b2c_view00.png",
+    "primitives": 9,
+    "iou": 0.299719899892807
+  },
+  {
+    "model_id": "b6843e186082096ebf80985a99195eb8",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b6843e186082096ebf80985a99195eb8_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b6843e186082096ebf80985a99195eb8_view00.png",
+    "primitives": 7,
+    "iou": 0.3079470098018646
+  },
+  {
+    "model_id": "b23cd3a93c8adbf56d33c8b6c0fec1f2",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b23cd3a93c8adbf56d33c8b6c0fec1f2_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b23cd3a93c8adbf56d33c8b6c0fec1f2_view00.png",
+    "primitives": 8,
+    "iou": 0.5917355418205261
+  },
+  {
+    "model_id": "b24ed89d85b74771216fff6094e6695c",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b24ed89d85b74771216fff6094e6695c_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b24ed89d85b74771216fff6094e6695c_view00.png",
+    "primitives": 6,
+    "iou": 0.2335483878850937
+  },
+  {
+    "model_id": "a7dbbe66942a7b7c40ef1c8b63a628f9",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/a7dbbe66942a7b7c40ef1c8b63a628f9_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a7dbbe66942a7b7c40ef1c8b63a628f9_view00.png",
+    "primitives": 8,
+    "iou": 0.16326530277729034
+  },
+  {
+    "model_id": "b89cbb45476e94a5e65235d5580cc3e0",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b89cbb45476e94a5e65235d5580cc3e0_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b89cbb45476e94a5e65235d5580cc3e0_view00.png",
+    "primitives": 6,
+    "iou": 0.6429378390312195
+  },
+  {
+    "model_id": "b6689fb8b784c570cc514b26ccc20774",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b6689fb8b784c570cc514b26ccc20774_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b6689fb8b784c570cc514b26ccc20774_view00.png",
+    "primitives": 8,
+    "iou": 0.13291139900684357
+  },
+  {
+    "model_id": "a67a09662c39430bc8687ff9b0b4e4ac",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/a67a09662c39430bc8687ff9b0b4e4ac_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a67a09662c39430bc8687ff9b0b4e4ac_view00.png",
+    "primitives": 8,
+    "iou": 0.2631579041481018
+  },
+  {
+    "model_id": "b51e2ec95cb6ae33999b33727fe6db14",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b51e2ec95cb6ae33999b33727fe6db14_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b51e2ec95cb6ae33999b33727fe6db14_view00.png",
+    "primitives": 7,
+    "iou": 0.7274881601333618
+  },
+  {
+    "model_id": "b37c77a90ba66c92564339cd0fd02849",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b37c77a90ba66c92564339cd0fd02849_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b37c77a90ba66c92564339cd0fd02849_view00.png",
+    "primitives": 6,
+    "iou": 0.2725274860858917
+  },
+  {
+    "model_id": "acbcfebf917e708b2b5bf1f191733d75",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/acbcfebf917e708b2b5bf1f191733d75_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/acbcfebf917e708b2b5bf1f191733d75_view00.png",
+    "primitives": 10,
+    "iou": 0.019354838877916336
+  },
+  {
+    "model_id": "b559688f7af76ff5466127bf535bd761",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b559688f7af76ff5466127bf535bd761_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b559688f7af76ff5466127bf535bd761_view00.png",
+    "primitives": 7,
+    "iou": 0.1688009351491928
+  },
+  {
+    "model_id": "b9a7bbf1e0b08853bed1bd9593e318c",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b9a7bbf1e0b08853bed1bd9593e318c_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b9a7bbf1e0b08853bed1bd9593e318c_view00.png",
+    "primitives": 9,
+    "iou": 0.021551724523305893
+  },
+  {
+    "model_id": "aa412e95e1f9c047d9b53420a5458c53",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/aa412e95e1f9c047d9b53420a5458c53_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/aa412e95e1f9c047d9b53420a5458c53_view00.png",
+    "primitives": 4,
+    "iou": 0.2532963156700134
+  },
+  {
+    "model_id": "b1a30ad2706247b53c5f24f851caaab7",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b1a30ad2706247b53c5f24f851caaab7_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b1a30ad2706247b53c5f24f851caaab7_view00.png",
+    "primitives": 11,
+    "iou": 0.01923076994717121
+  },
+  {
+    "model_id": "a6e3c2cecd4b6b6203c870f1209d6b9",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/a6e3c2cecd4b6b6203c870f1209d6b9_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/a6e3c2cecd4b6b6203c870f1209d6b9_view00.png",
+    "primitives": 5,
+    "iou": 0.14363884925842285
+  },
+  {
+    "model_id": "b2c838917b9f0fb68a40e1421d6a3cbf",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/b2c838917b9f0fb68a40e1421d6a3cbf_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/b2c838917b9f0fb68a40e1421d6a3cbf_view00.png",
+    "primitives": 5,
+    "iou": 0.41153082251548767
+  },
+  {
+    "model_id": "bbe71bb58b7f8f74f51f77a6d7299806",
+    "split": "val",
+    "output_kind": "identity",
+    "mesh_path": "/orion/u/miatang/superflexsketch/outputs/dino_identity_gallery/bbe71bb58b7f8f74f51f77a6d7299806_identity.glb",
+    "sketch_path": "/orion/u/miatang/superflexsketch/data/sketch_primitive/sketches/val/bbe71bb58b7f8f74f51f77a6d7299806_view00.png",
+    "primitives": 9,
+    "iou": 0.049504950642585754
+  }
+]
